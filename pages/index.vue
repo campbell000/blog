@@ -22,7 +22,10 @@
 <template>
   <div>
     <articleDisplay v-for="article of articles" :key="article.slug" :article="article" :inList="true"/>
+
+   <NuxtLink to="/posts" tag="a" style="cursor: pointer" class="">See More Posts Here</NuxtLink>
   </div>
+  
 </template>
 
 

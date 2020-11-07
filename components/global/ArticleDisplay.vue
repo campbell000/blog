@@ -30,10 +30,12 @@
 
 <template>
   <article>
-    <h1 class="">{{ article.title }}</h1>
-    <p>{{ article.summary }}</p>
-    <img :src="article.titleImage" :alt="article.titleImageAlt" />
-    <p>Written At: {{ formatDate(article.createdAt) }}</p>
+    <h1 class="">{{ inList ? 'Post: ' : '' }}{{ article.title }}</h1>
+    <div class="metadata">
+      <div class="summary">{{ article.summary }}</div>
+      <div class="writtenAt">Written At: {{ formatDate(article.createdAt) }}</div>
+    </div>
+    
     <p v-if="article.shouldShowUpdatedAt">Last updated: {{ formatDate(article.updatedAt) }}</p>
     <nav v-if="article.shouldShowTableOfContents">
       <h2>Contents</h2>
@@ -43,6 +45,10 @@
         </li>
       </ul>
     </nav>
+    <div class="imageContainer">
+      <img  class="titleImage" :src="article.titleImage" :alt="article.titleImageAlt" />
+    </div>
+    
     <nuxt-content :document="article" />
     <prev-next :prev="prev" :next="next" />
     <br v-if="inList"/>
@@ -52,16 +58,29 @@
 </template>
 
 <style>
+  .metadata {
+    color: #777777;
+    font-style: italic;
+  }
+
   h1 {
     font-weight: bold;
-    font-size: 50px;
+    font-size: 40px;
+    margin-bottom: 14px;
   }
   h2 {
     font-weight: bold;
-    font-size: 22px;
+    font-size: 24px;
   }
   nuxt-content p {
     margin-bottom: 20px;
+  }
+
+  .imageContainer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    text-align: center;
   }
 
 </style>
