@@ -1,15 +1,22 @@
 <script>
   export default {
-    async asyncData({ $content, params }) {
-      const article = await $content('articles', params.slug).fetch()
-
-      const [prev, next] = await $content('articles')
-        .only(['title', 'slug'])
-        .sortBy('createdAt', 'asc')
-        .surround(params.slug)
-        .fetch()
-
-      return { article, prev, next }
+    props: {
+      article: {
+        type: Object,
+        default: () => null
+      },
+      prev: {
+        type: Object,
+        default: () => null
+      },
+      next: {
+        type: Object,
+        default: () => null
+      },
+      inList: {
+        type: Boolean,
+        default: () => false
+      }
     },
     methods:{
       formatDate(dateStr) {
@@ -23,36 +30,37 @@
 
 <template>
   <article>
-    <h1>{{ article.title }}</h1>
+    <h1 class="">{{ article.title }}</h1>
     <p>{{ article.summary }}</p>
     <img :src="article.titleImage" :alt="article.titleImageAlt" />
     <p>Written At: {{ formatDate(article.createdAt) }}</p>
     <p v-if="article.shouldShowUpdatedAt">Last updated: {{ formatDate(article.updatedAt) }}</p>
-    <h2>Contents</h2>
     <nav v-if="article.shouldShowTableOfContents">
+      <h2>Contents</h2>
       <ul>
         <li v-for="link of article.toc" :key="link.id">
           <NuxtLink :to="`#${link.id}`">{{ link.text }}</NuxtLink>
         </li>
       </ul>
     </nav>
-    <br/>
     <nuxt-content :document="article" />
     <prev-next :prev="prev" :next="next" />
-
+    <br v-if="inList"/>
+    <v-divider v-if="inList"></v-divider>
+    <br v-if="inList"/>
   </article>
 </template>
 
 <style>
-  .nuxt-content h2 {
+  h1 {
     font-weight: bold;
-    font-size: 28px;
+    font-size: 50px;
   }
-  .nuxt-content h3 {
+  h2 {
     font-weight: bold;
     font-size: 22px;
   }
-  .nuxt-content p {
+  nuxt-content p {
     margin-bottom: 20px;
   }
 

@@ -2,12 +2,18 @@
   export default {
     async asyncData({ $content, params }) {
       const articles = await $content('articles', params.slug)
-        .only(['title', 'summary', 'titleImage', 'slug'])
-        .sortBy('createdAt', 'asc')
+        .sortBy('createdAt', 'desc')
+        .limit(5)
         .fetch()
-
+        
       return {
         articles
+      }
+    },
+    methods:{
+      formatDate(dateStr) {
+        const options = { year: 'numeric', month: 'long', day: 'numeric' }
+        return new Date(dateStr).toLocaleDateString('en', options)
       }
     }
   }
@@ -15,14 +21,13 @@
 
 <template>
   <div>
-    <h1>Blog Posts</h1>
-    <ul style='list-style: none'>
-      <li v-for="article of articles" :key="article.slug">
-          <div>
-            <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }"><h2>{{ article.title }}</h2></NuxtLink>
-            <p>{{ article.summary }}</p>
-          </div>
-      </li>
-    </ul>
+    <articleDisplay v-for="article of articles" :key="article.slug" :article="article" :inList="true"/>
   </div>
 </template>
+
+
+<style scoped>
+  article::after {
+    margin-bottom: 50px;
+  }
+</style>
