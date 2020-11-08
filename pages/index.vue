@@ -8,7 +8,7 @@
       
       const tags = await $content('tags', params.slug)
         .only(['name', 'description', 'img', 'slug'])
-        .sortBy('createdAt', 'asc')
+        .sortBy('createdAt', 'desc')
         .fetch()
       const articleTagMap = {};
       for (const article of articles) {

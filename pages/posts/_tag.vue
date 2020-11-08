@@ -13,7 +13,7 @@ export default {
     const tag = tt.length > 0 ? tt[0] : {}
     const articles = await $content('articles', params.slug)
       .where({ tags: { $contains: tag.name } })
-      .sortBy('createdAt', 'asc')
+      .sortBy('createdAt', 'desc')
       .fetch()
     return {
       articles,

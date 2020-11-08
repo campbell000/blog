@@ -33,7 +33,7 @@
 export default {
   data () {
     return {
-      title: 'Sometimes Meant'
+      title: 'Blog Title Goes Here'
     }
   }
 }
