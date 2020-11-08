@@ -5,10 +5,9 @@ titleImage: /v.png
 titleImageAlt: This should be v.png
 shouldShowTableOfContents: false
 shouldShowUpdatedAt: false
+tags: 
+  - Gaming
 ---
-
-# My first blog post
-
 Empower your NuxtJS application with `@nuxtjs/content` module: write in a `content/` directory and fetch your Markdown, JSON, YAML and CSV files through a MongoDB like API, acting as a **Git-based Headless CMS**.
 
 <info-box>

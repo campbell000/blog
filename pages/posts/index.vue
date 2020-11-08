@@ -1,0 +1,19 @@
+<script>
+  export default {
+    async asyncData({ $content, params }) {
+      const articles = await $content('articles', params.slug)
+        .only(['title', 'summary', 'createdAt', 'slug'])
+        .sortBy('createdAt', 'desc')
+        .fetch()
+      
+      const tags = await $content('tags').fetch()
+      return {
+        articles, tags
+      }
+    }
+  }
+</script>
+
+<template>
+  <PostList :articles="articles" :allTags="tags" />
+</template>

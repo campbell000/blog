@@ -1,10 +1,13 @@
 ---
 title: Sample Title
-summary: 'Sample summary of some stuff, this should be a maybe one or two lines long at maximum, maybe? I dunno.'
+summary: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book'
 titleImage: /v.png
 titleImageAlt: This should be v.png
 shouldShowTableOfContents: true
 shouldShowUpdatedAt: false
+tags: 
+  - How To
+  - Gaming
 ---
 
 # My first blog post

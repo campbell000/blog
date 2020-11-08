@@ -26,13 +26,6 @@
         <nuxt />
       </v-container>
     </v-main>
-    <v-footer
-      v-bind:absolute="true"
-      app
-      color="white"
-    >
-      <span>&copy; Alex Campbell {{ new Date().getFullYear() }}</span>
-    </v-footer>
   </v-app>
 </template>
 
@@ -46,7 +39,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 
 .titleContentContainer {
   width: 100%;
@@ -65,7 +58,8 @@ export default {
   color: #4a8183;
 }
 
-.selected.mainTitleClass {
+.selected.mainTitleClass,
+.mainTitleClass:hover {
   border-bottom: 2px solid #4a8183;
 }
 
@@ -73,12 +67,19 @@ export default {
   border-bottom: 2px solid transparent;
 }
 
-.selected.secondaryMenuClass {
-  border-bottom: 2px solid #392a32;
+.selected.secondaryMenuClass,
+.secondaryMenuClass:hover
+{
+  border-bottom: 2px solid #523a47;
 }
 
 .secondaryMenuClass {
   margin-left: 30px;
-  color: #392a32
+  color: #523a47;
+}
+
+.v-application code {
+  background-color: #daf7ea;
+  color: #437274;
 }
 </style>

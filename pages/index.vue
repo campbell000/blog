@@ -5,10 +5,21 @@
         .sortBy('createdAt', 'desc')
         .limit(5)
         .fetch()
-        
-      return {
-        articles
+      
+      const tags = await $content('tags', params.slug)
+        .only(['name', 'description', 'img', 'slug'])
+        .sortBy('createdAt', 'asc')
+        .fetch()
+      const articleTagMap = {};
+      for (const article of articles) {
+        const tagsList = await $content('tags')
+        .only(['name', 'slug'])
+        .where({ name: { $containsAny: article.tags } })
+        .fetch()
+        const tags = Object.assign({}, ...tagsList.map((s) => ({ [s.name]: s })))
+        articleTagMap[article.slug] = tags;
       }
+      return {articles, articleTagMap}
     },
     methods:{
       formatDate(dateStr) {
@@ -21,7 +32,7 @@
 
 <template>
   <div>
-    <articleDisplay v-for="article of articles" :key="article.slug" :article="article" :inList="true"/>
+    <articleDisplay v-for="article of articles" :key="article.slug" :tags="articleTagMap[article.slug]" :article="article" :inList="true"/>
 
    <NuxtLink to="/posts" tag="a" style="cursor: pointer" class="">See More Posts Here</NuxtLink>
   </div>

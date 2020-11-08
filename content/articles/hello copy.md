@@ -5,6 +5,9 @@ titleImage: /v.png
 titleImageAlt: This should be v.png
 shouldShowTableOfContents: false
 shouldShowUpdatedAt: false
+tags: 
+  - Gaming
+  - Life
 ---
 
 # My first blog post
