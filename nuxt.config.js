@@ -3,7 +3,11 @@ import colors from 'vuetify/es5/util/colors'
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
-  
+
+  router: {
+    base: '/blog/'
+  },
+
   static: {
     prefix: true
   },
@@ -63,17 +67,17 @@ export default {
       dark: false,
       themes: {
         dark: {
-          primary: colors.blue.darken2,
+          primary: "#7fc3b0",
           accent: colors.grey.darken3,
-          secondary: colors.amber.darken3,
+          secondary: "#997e8c",
           info: colors.teal.lighten1,
           warning: colors.amber.base,
           error: colors.deepOrange.accent4,
           success: colors.green.accent3
         },
         light: {
-          primary: '#1976D2',
-          secondary: '#424242',
+          primary: '#4a8183',
+          secondary: '#523a47',
           accent: '#82B1FF',
           error: '#FF5252',
           info: '#2196F3',

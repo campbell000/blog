@@ -79,7 +79,7 @@
 
   .writtenAt, .updatedAt {
     font-style: italic;
-    color: #777777;
+    color: #888888;
   }
 
   .articleTitle {
@@ -92,7 +92,7 @@
 
   .tags {
     font-style: italic;
-    color: #777777;
+    color: #888888;
   }
 
   .tag {
@@ -106,13 +106,12 @@
   }
 
   .metadata {
-    color: #777777;
+    color: #888888;
   }
 
   h1 {
     font-weight: bold;
     font-size: 36px;
-    
   }
  .nuxt-content h2 {
     margin-top: 20px;
@@ -141,9 +140,9 @@
   }
 
   .disclaimer {
-    font-size: 10px;
+    font-size: 12px;
     font-style: italic;
-    color: #777777;
+    color: #888888;
   }
 
   img.small,

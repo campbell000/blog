@@ -1,24 +1,27 @@
 <template>
   <v-app>
     <v-app-bar
-      color="#fffefb"
-      hide-on-scroll
+      dense
       app
     >
     
     <div class="titleContentContainer">
       <NuxtLink to="/" tag="span" style="cursor: pointer" class="mainTitleClass" 
-        :class="this.$nuxt.$route.path == '/' ? 'selected' : 'unselected'">
+        :class="[this.$nuxt.$route.path == '/' ? 'selected' : 'unselected',
+          this.$vuetify.theme.dark ? 'isDark' : '']">
         <v-toolbar-title v-text="title" />
       </NuxtLink>
             <NuxtLink to="/posts" tag="span" style="cursor: pointer" class="secondaryMenuClass"
-            :class="this.$nuxt.$route.path == '/posts' ? 'selected' : 'unselected'">
+            :class="[this.$nuxt.$route.path == '/posts' ? 'selected' : 'unselected',
+              this.$vuetify.theme.dark ? 'isDark' : '']">
         <v-toolbar-title v-text="'All Posts'" />
       </NuxtLink>
             <NuxtLink to="/about" tag="span" style="cursor: pointer" class="secondaryMenuClass"
-            :class="this.$nuxt.$route.path == '/about' ? 'selected' : 'unselected'">
+            :class="[this.$nuxt.$route.path == '/about' ? 'selected' : 'unselected',
+              this.$vuetify.theme.dark ? 'isDark' : '']">
         <v-toolbar-title v-text="'About'" />
       </NuxtLink>
+      <v-btn class='titleIcon' text icon @click="darkMode()"><v-icon>mdi-brightness-4</v-icon></v-btn>
     </div>
 
     </v-app-bar>
@@ -34,7 +37,13 @@
 export default {
   data () {
     return {
-      title: 'Never Meant'
+      title: 'Never Meant',
+      isDark: this.$vuetify.theme.dark
+    }
+  },
+  methods : {
+    darkMode() {
+      this.$vuetify.theme.dark = !this.$vuetify.theme.dark;
     }
   }
 }
@@ -64,19 +73,49 @@ export default {
   border-bottom: 2px solid #4a8183;
 }
 
+.mainTitleClass.isDark {
+  color: #7fc3b0;
+}
+
+.selected.mainTitleClass.isDark,
+.mainTitleClass.isDark:hover {
+  box-sizing: border-box;
+  border-bottom: 2px solid #7fc3b0;
+}
+
 .unselected {
+  box-sizing: border-box;
   border-bottom: 2px solid transparent;
 }
 
 .selected.secondaryMenuClass,
 .secondaryMenuClass:hover
 {
+  box-sizing: border-box;
   border-bottom: 2px solid #523a47;
 }
 
 .secondaryMenuClass {
-  margin-left: 30px;
+  margin-left: 15px;
   color: #523a47;
+}
+
+.selected.secondaryMenuClass.isDark,
+.secondaryMenuClass.isDark:hover
+{
+  border-bottom: 2px solid #997e8c;
+}
+
+.secondaryMenuClass.isDark {
+  color: #997e8c;
+}
+
+.titleIcon {
+height: 24px !important;
+margin-top: 4px;
+margin-left: 5px;
+
+  
 }
 
 .v-application code {
