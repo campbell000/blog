@@ -3,11 +3,7 @@ import colors from 'vuetify/es5/util/colors'
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
-
-  router: {
-    base: '/blog/'
-  },
-
+  
   static: {
     prefix: true
   },
