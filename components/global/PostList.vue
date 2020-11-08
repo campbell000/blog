@@ -48,7 +48,7 @@
   </div>
 </template>
 
-<style>
+<style scoped>
   div.tagContainer {
     padding-top: 7px;
     padding-bottom: 15px;

@@ -72,7 +72,7 @@
   </article>
 </template>
 
-<style>
+<style scoped>
   .titleBlock {
     margin-bottom: 14px;
   }
