@@ -111,15 +111,15 @@
 
   h1 {
     font-weight: bold;
-    font-size: 40px;
+    font-size: 36px;
     
   }
-  h2 {
+ .nuxt-content h2 {
     margin-top: 20px;
     font-weight: bold;
     font-size: 24px;
   }
-  nuxt-content p {
+  .nuxt-content p {
     margin-bottom: 20px;
   }
 
