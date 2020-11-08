@@ -8,10 +8,14 @@ export default {
     base: '/blog/'
   },
 
+  static: {
+    prefix: true
+  },
+
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    titleTemplate: 'Sometimes Meant',
-    title: 'Sometimes Meant',
+    titleTemplate: 'Never Meant',
+    title: 'Never Meant',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },

@@ -2,6 +2,7 @@
   <v-app>
     <v-app-bar
       color="#fffefb"
+      hide-on-scroll
       app
     >
     
@@ -33,7 +34,7 @@
 export default {
   data () {
     return {
-      title: 'Blog Title Goes Here'
+      title: 'Never Meant'
     }
   }
 }
@@ -45,12 +46,12 @@ export default {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  max-width: 1000px;
+  max-width: 700px;
   display: inherit;
 }
 
 .container:not(.ignoreMaxWidth) {
-    max-width: 900px;
+    max-width: 700px;
 }
 
 .mainTitleClass {

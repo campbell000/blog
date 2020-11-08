@@ -58,7 +58,7 @@
     <nav class="contentsContainer" v-if="article.shouldShowTableOfContents">
       <h2>Contents</h2>
       <ul>
-        <li v-for="link of article.toc" :key="link.id">
+        <li v-for="link of article.toc" :key="link.id" :class="link.depth == 2 ? 'tocLink' : 'tocInnerLink'">
           <NuxtLink :to="`#${link.id}`">{{ link.text }}</NuxtLink>
         </li>
       </ul>
@@ -72,7 +72,7 @@
   </article>
 </template>
 
-<style scoped>
+<style>
   .titleBlock {
     margin-bottom: 14px;
   }
@@ -130,17 +130,28 @@
     text-align: center;
   }
 
+  .tocInnerLink {
+    list-style: circle;
+    margin-left: 20px;
+  }
+
   .imageContainer > img {
     width: 100%;
     max-width: 100%;
+  }
+
+  .disclaimer {
+    font-size: 10px;
+    font-style: italic;
+    color: #777777;
   }
 
   img.small,
   .imageContainer > img.small {
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    max-width: 50%;
+    width: 35%;
+    max-width: 35%;
   }
 
   ul {
