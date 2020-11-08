@@ -147,4 +147,8 @@
     margin-bottom: 15px;
   }
 
+  article {
+    padding-bottom: 30px;
+  }
+
 </style>

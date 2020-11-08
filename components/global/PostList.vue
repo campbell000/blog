@@ -31,7 +31,7 @@
     <div class="tagContainer">
       Tags: <span v-for="currTag of allTags" :key="currTag.name">
         <v-btn v-if="selectedTag != null && currTag.slug == selectedTag.slug" nuxt :to="`/posts/${currTag.slug}`" 
-            class="ma-2" depressed small color="#437274">{{currTag.name}}</v-btn>
+            class="ma-2 pressedTag" depressed small color="#437274">{{currTag.name}}</v-btn>
         <v-btn v-if="selectedTag == null || currTag.slug != selectedTag.slug" nuxt :to="`/posts/${currTag.slug}`"
              class="ma-2" outlined small color="#437274">{{currTag.name}}</v-btn>
       </span>
@@ -48,13 +48,13 @@
   </div>
 </template>
 
-<style scoped>
+<style>
   div.tagContainer {
     padding-top: 7px;
     padding-bottom: 15px;
   }
 
-  .v-btn--depressed {
-      color: white;
+  .pressedTag {
+      color: white !important;
     }
 </style>
