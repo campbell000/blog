@@ -41,7 +41,8 @@
       <li v-for="article of articles" :key="article.slug">
           <div>
             <NuxtLink :to="{ name: 'slug', params: { slug: article.slug } }"><h2>{{ article.title }}</h2></NuxtLink>
-            <p>{{formatDate(article.createdAt)}} -- {{ article.summary }}</p>
+            <div class='postDate'>{{formatDate(article.createdAt)}}</div>
+            <div class="postSummary">{{ article.summary }}</div>
           </div>
       </li>
     </ul>
@@ -56,5 +57,10 @@
 
   .pressedTag {
       color: white !important;
-    }
+  }
+
+  .postDate {
+    font-style: italic;
+    color: #777777;
+  }
 </style>
