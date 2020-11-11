@@ -1,22 +1,44 @@
 <template>
   <v-app>
+    <v-navigation-drawer
+      v-model="drawer"
+      fixed
+      app
+    >
+      <v-list>
+        <v-list-item
+          v-for="(item, i) in items"
+          :key="i"
+          :to="item.to"
+          router
+          exact
+        >
+          <v-list-item-action>
+            <v-icon>{{ item.icon }}</v-icon>
+          </v-list-item-action>
+          <v-list-item-content>
+            <v-list-item-title v-text="item.title" />
+          </v-list-item-content>
+        </v-list-item>
+      </v-list>
+    </v-navigation-drawer>
     <v-app-bar
       dense
       app
     >
-    
+    <v-app-bar-nav-icon v-if="isMobile()" @click.stop="drawer = !drawer" />
     <div class="titleContentContainer">
       <NuxtLink to="/" tag="span" style="cursor: pointer" class="mainTitleClass" 
         :class="[this.$nuxt.$route.path == '/' ? 'selected' : 'unselected',
           this.$vuetify.theme.dark ? 'isDark' : '']">
         <v-toolbar-title v-text="title" />
       </NuxtLink>
-            <NuxtLink to="/posts" tag="span" style="cursor: pointer" class="secondaryMenuClass"
+      <NuxtLink v-if="!isMobile()" to="/posts" tag="span" style="cursor: pointer" class="secondaryMenuClass"
             :class="[this.$nuxt.$route.path == '/posts' ? 'selected' : 'unselected',
               this.$vuetify.theme.dark ? 'isDark' : '']">
         <v-toolbar-title v-text="'All Posts'" />
       </NuxtLink>
-            <NuxtLink to="/about" tag="span" style="cursor: pointer" class="secondaryMenuClass"
+      <NuxtLink v-if="!isMobile()" to="/about" tag="span" style="cursor: pointer" class="secondaryMenuClass"
             :class="[this.$nuxt.$route.path == '/about' ? 'selected' : 'unselected',
               this.$vuetify.theme.dark ? 'isDark' : '']">
         <v-toolbar-title v-text="'About'" />
@@ -29,13 +51,16 @@
         <nuxt />
       </v-container>
           <v-footer
-      absolute
       class="font-weight-medium"
     >
       <v-col
         cols="12"
       >
-        Questions or Comments? <a href="mailto:ac.simpledex@gmail.com">Let me know</a>
+      <a href="https://www.buymeacoffee.com/acsimpledex">
+        <img src="https://img.buymeacoffee.com/button-api/?text=Support this site&emoji=💻&slug=acsimpledex&button_colour=FF5F5F&font_colour=ffffff&font_family=Inter&outline_colour=000000&coffee_colour=FFDD00">
+      </a>
+      <br />
+      Questions or Comments? <a href="mailto:ac.simpledex@gmail.com">Let me know</a>
       </v-col>
     </v-footer>
     </v-main>
@@ -47,12 +72,30 @@ export default {
   data () {
     return {
       title: 'Never Meant',
-      isDark: this.$vuetify.theme.dark
+      isDark: this.$vuetify.theme.dark,
+      drawer: false,
+      items: [
+        {
+          title: 'Home',
+          to: '/'
+        },
+        {
+          title: 'All Posts',
+          to: '/posts'
+        },
+        {
+          title: 'About',
+          to: '/about'
+        }
+      ],
     }
   },
   methods : {
     darkMode() {
       this.$vuetify.theme.dark = !this.$vuetify.theme.dark;
+    },
+    isMobile() {
+      return this.$vuetify.breakpoint.xsOnly;
     }
   }
 }
@@ -122,7 +165,7 @@ export default {
 .titleIcon {
 height: 24px !important;
 margin-top: 4px;
-margin-left: 5px;
+margin-left: 15px;
 }
 
 :not(pre) > .v-application code {
