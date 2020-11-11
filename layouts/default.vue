@@ -178,6 +178,11 @@ pre.language-text.line-numbers {
   color: #437274;
 }
 
+html {
+  overflow-x: hidden;
+  width: 100%;
+}
+
 pre > code {
   padding-left: 0px !important;
 }
