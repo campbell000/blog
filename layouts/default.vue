@@ -3,6 +3,7 @@
     <v-navigation-drawer
       :clipped=true
       v-model="drawer"
+      :disable-resize-watcher="true"
       fixed
       app
     >
