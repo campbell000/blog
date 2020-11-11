@@ -108,11 +108,13 @@ export default {
   margin-left: auto;
   margin-right: auto;
   max-width: 700px;
+  overflow-x: hidden;
   display: inherit;
 }
 
 .container:not(.ignoreMaxWidth) {
     max-width: 700px;
+    overflow-x: hidden;
 }
 
 .mainTitleClass {

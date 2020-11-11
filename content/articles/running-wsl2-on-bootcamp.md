@@ -3,7 +3,7 @@ title: Running WSL2 on a Mac using Bootcamp
 summary: "Getting Microsoft's Windows Subsystem-For-Linux running in Bootcamp is somewhat straightforward, but there are a few gotchas. Read on for the how, and then after that for the why (mac is unix-based. Why not just use that?)"
 shouldShowTableOfContents: true
 shouldShowUpdatedAt: false
-titleImage: bootcampTitle.png
+titleImage: /bootcampTitle.png
 tags: 
   - How To
   - Programming
@@ -49,7 +49,7 @@ Virtual hard disk files must be uncompressed and unencrypted and must not be spa
 
 To fix this, you need to disable folder encryption and folder compression. You can do this by navigating to the folder in windows explorer (mine was at `C:\Users\myusername\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc`), right click on the folder, go the "General" tab, click on "Advanced" and make sure that both checkboxes are the bottom are unchecked.
 <div class="imageContainer">
-  <img class="medium" :src="'folder.PNG'" />
+  <img class="medium" :src="'/folder.PNG'" />
 </div>
 
 After doing this, you should be good to go!
