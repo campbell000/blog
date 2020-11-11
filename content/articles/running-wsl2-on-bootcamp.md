@@ -19,9 +19,9 @@ The brief TLDR is:
 
 ## Step-by-Step Instructions
 ### Enabling Virtualization
-**Disclaimer:** I've tried this on a 2015 16-inch MBP, and a 2017 13-inch MBP. If it doesn't work for you. Let me know.
+**Disclaimer:** I've tried this on a 2015 16-inch MBP, and a 2017 13-inch MBP. If it doesn't work for you, let me know.
 
-After installing WSL2, you may be greeted `with` the following error:
+After installing WSL2, you may be greeted `with` the following cryptic error:
 
 ```
 Installing, this may take a few minutes...
@@ -31,9 +31,9 @@ Error: 0x80370102 The virtual machine could not be started because a required fe
 Press any key to continue...
 ```
 
-You'll get this error when you mac hardware doesn't support CPU virtualization, which is odd because most macs made in the past 7 years support it. It turns out that this feature needs to be enabled, and can only be enabled on the MAC side. So you may run into this error, for example, if you've booted directly into windows. 
+You'll get this error when you mac hardware doesn't support CPU virtualization, which is odd because most macs made in the past 7 years or so support it. It turns out that this feature needs to be enabled by the BIOS, and can only be enabled on the MAC side. So you may run into this error, for example, if you've booted into windows from power-on.
 
-So boot into MacOS, open a terminal, and run `sysctl -a | grep machdep.cpu.features`. Ensure that you get a response from that command (You should see "VMX" in the response. That is the hardware feature you need).
+To fix this, boot into MacOS, open a terminal, and run `sysctl -a | grep machdep.cpu.features`. Ensure that you get a response from that command (You should see "VMX" in the response. That is the hardware feature you need). **The simple act of doing this turns this feature on.**
 
 Once you do that, you need to boot *directly* into windows by going to System Preferences > Startup Disk and boot into windows that way. **Do not simply reboot your machine and select windows at boot**. 
 
