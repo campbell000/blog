@@ -38,7 +38,7 @@
 
     </div>
     <ul style='list-style: none'>
-      <li v-for="article of articles" :key="article.slug">
+      <li class="articleListItem" v-for="article of articles" :key="article.slug">
           <div>
             <NuxtLink :to="{ name: 'slug', params: { slug: article.slug } }"><h2>{{ article.title }}</h2></NuxtLink>
             <div class='postDate'>{{formatDate(article.createdAt)}}</div>
@@ -62,5 +62,9 @@
   .postDate {
     font-style: italic;
     color: #777777;
+  }
+
+  .articleListItem {
+    margin-bottom: 30px;
   }
 </style>

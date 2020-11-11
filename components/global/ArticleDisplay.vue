@@ -34,7 +34,7 @@
 <template>
   <article>
     <div class="titleBlock" >
-      <h1 class="articleTitle">{{ inList ? 'Post: ' : '' }}{{ article.title }}</h1>
+      <h1 class="articleTitle">{{ inList ? '' : '' }}{{ article.title }}</h1>
       <div class="writtenAt">Written At: {{ formatDate(article.createdAt) }}</div>
       <div class="updatedAt" v-if="article.shouldShowUpdatedAt">Last updated: {{ formatDate(article.updatedAt) }}</div>
       <div class="tags">Tags:
@@ -51,7 +51,7 @@
       <div class="summary">{{ article.summary }}</div>
     </div>
 
-    <div v-if="article.titleImage != null" class="imageContainer">
+    <div v-if="article.titleImage != null" class="imageContainer titleImageContainer">
       <img  class="titleImage" :class="article.isSmallTitleImage ? 'small' : ''" :src="article.titleImage" :alt="article.titleImageAlt" />
     </div>
     
@@ -129,6 +129,10 @@
     text-align: center;
   }
 
+  .imageContainer.titleImageContainer {
+    padding-bottom: 0px;
+  }
+
   .tocInnerLink {
     list-style: circle;
     margin-left: 20px;
@@ -151,6 +155,14 @@
     margin-right: auto;
     width: 35%;
     max-width: 35%;
+  }
+
+    img.medium,
+  .imageContainer > img.medium {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 50%;
   }
 
   ul {

@@ -23,12 +23,21 @@
       </NuxtLink>
       <v-btn class='titleIcon' text icon @click="darkMode()"><v-icon>mdi-brightness-4</v-icon></v-btn>
     </div>
-
     </v-app-bar>
     <v-main>
       <v-container>
         <nuxt />
       </v-container>
+          <v-footer
+      absolute
+      class="font-weight-medium"
+    >
+      <v-col
+        cols="12"
+      >
+        Questions or Comments? <a href="mailto:ac.simpledex@gmail.com">Let me know</a>
+      </v-col>
+    </v-footer>
     </v-main>
   </v-app>
 </template>
@@ -96,7 +105,7 @@ export default {
 }
 
 .secondaryMenuClass {
-  margin-left: 15px;
+  margin-left: 30px;
   color: #523a47;
 }
 
@@ -114,12 +123,19 @@ export default {
 height: 24px !important;
 margin-top: 4px;
 margin-left: 5px;
-
-  
 }
 
-.v-application code {
+:not(pre) > .v-application code {
   background-color: #daf7ea;
   color: #437274;
+}
+
+pre.language-text.line-numbers {
+  background-color: #daf7ea;
+  color: #437274;
+}
+
+pre > code {
+  padding-left: 0px !important;
 }
 </style>
