@@ -52,18 +52,19 @@
       <v-container>
         <nuxt />
       </v-container>
-          <v-footer
+          <v-footer class="siteFooter font-weight-medium"
           absolute
-      class="font-weight-medium"
-    >
+          >
       <v-col
         cols="12"
       >
-      <a href="https://www.buymeacoffee.com/acsimpledex">
-        <img src="https://img.buymeacoffee.com/button-api/?text=Support this site&emoji=💻&slug=acsimpledex&button_colour=FF5F5F&font_colour=ffffff&font_family=Inter&outline_colour=000000&coffee_colour=FFDD00">
-      </a>
-      <br />
-      Questions or Comments? <a href="mailto:ac.simpledex@gmail.com">Let me know</a>
+      <div class="footerContent">
+        <a href="https://www.buymeacoffee.com/acsimpledex">
+          <img src="https://img.buymeacoffee.com/button-api/?text=Support this site&emoji=💻&slug=acsimpledex&button_colour=FF5F5F&font_colour=ffffff&font_family=Inter&outline_colour=000000&coffee_colour=FFDD00">
+        </a>
+        <br />
+        Questions or Comments? <a href="mailto:ac.simpledex@gmail.com">Let me know</a>
+      </div>
       </v-col>
     </v-footer>
     </v-main>
@@ -113,6 +114,12 @@ export default {
   max-width: 700px;
   overflow-x: hidden;
   display: inherit;
+}
+
+.footerContent {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px;
 }
 
 .container:not(.ignoreMaxWidth) {
