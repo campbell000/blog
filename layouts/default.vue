@@ -1,6 +1,7 @@
 <template>
   <v-app>
     <v-navigation-drawer
+      :clipped=true
       v-model="drawer"
       fixed
       app
@@ -51,6 +52,7 @@
         <nuxt />
       </v-container>
           <v-footer
+          absolute
       class="font-weight-medium"
     >
       <v-col

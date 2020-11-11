@@ -66,9 +66,10 @@
     
     <nuxt-content :document="article" />
     <prev-next :prev="prev" :next="next" />
-    <br v-if="inList"/>
+    <br/>
     <v-divider v-if="inList"></v-divider>
-    <br v-if="inList"/>
+    <br/>
+
   </article>
 </template>
 
