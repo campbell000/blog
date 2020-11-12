@@ -37,7 +37,7 @@
       </span>
 
     </div>
-    <ul style='list-style: none'>
+    <ul class="listContainer" style='list-style: none'>
       <li class="articleListItem" v-for="article of articles" :key="article.slug">
           <div>
             <NuxtLink :to="{ name: 'slug', params: { slug: article.slug } }"><h2>{{ article.title }}</h2></NuxtLink>
@@ -66,5 +66,9 @@
 
   .articleListItem {
     margin-bottom: 30px;
+  }
+  
+  .listContainer {
+    margin-bottom: 130px;
   }
 </style>
