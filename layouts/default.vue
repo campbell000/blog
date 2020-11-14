@@ -31,18 +31,18 @@
     <v-app-bar-nav-icon class="appBarIcon" @click.stop="drawer = !drawer" />
     <div class="titleContentContainer">
       <NuxtLink to="/" tag="span" style="cursor: pointer" class="mainTitleClass" 
-        :class="[this.$nuxt.$route.path == '/' ? 'selected' : 'unselected',
+        :class="[this.currentPath == '/' ? 'selected' : 'unselected',
           this.$vuetify.theme.dark ? 'isDark' : '']">
         <v-toolbar-title v-text="title" />
       </NuxtLink>
       <div class="nonMobileContent">
         <NuxtLink to="/posts" tag="span" style="cursor: pointer" class="secondaryMenuClass"
-            :class="[this.$nuxt.$route.path == '/posts' ? 'selected' : 'unselected',
+            :class="[this.currentPath.startsWith('/posts') ? 'selected' : 'unselected',
               this.$vuetify.theme.dark ? 'isDark' : '']">
         <v-toolbar-title v-text="'All Posts'" />
       </NuxtLink>
       <NuxtLink to="/about" tag="span" style="cursor: pointer" class="secondaryMenuClass"
-            :class="[this.$nuxt.$route.path == '/about' ? 'selected' : 'unselected',
+            :class="[this.currentPath.startsWith('/about') ? 'selected' : 'unselected',
               this.$vuetify.theme.dark ? 'isDark' : '']">
         <v-toolbar-title v-text="'About'" />
       </NuxtLink>
@@ -78,6 +78,7 @@
 export default {
   data () {
     return {
+      currentPath: this.$nuxt.$route.path,
       title: 'Never Meant',
       isDark: this.$vuetify.theme.dark,
       drawer: false,
@@ -95,6 +96,17 @@ export default {
           to: '/about'
         }
       ],
+    }
+  },
+
+  mounted() {
+    this.currentPath = this.$nuxt.$route.path;
+    console.log(this.currentPath);
+  },
+
+  watch:{
+    $route (to, from){
+        this.currentPath = to.path;
     }
   },
 
