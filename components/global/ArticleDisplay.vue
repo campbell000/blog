@@ -152,6 +152,7 @@
     font-size: 12px;
     font-style: italic;
     color: #888888;
+    line-height:0.5;
   }
 
   .titleImageCaption {
