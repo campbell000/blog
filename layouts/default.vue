@@ -3,7 +3,7 @@
     <v-navigation-drawer
       :clipped=true
       v-model="drawer"
-      :disable-resize-watcher="true"
+      temporary
       fixed
       app
     >
@@ -28,23 +28,26 @@
       dense
       app
     >
-    <v-app-bar-nav-icon v-if="isMobile()" @click.stop="drawer = !drawer" />
+    <v-app-bar-nav-icon class="appBarIcon" @click.stop="drawer = !drawer" />
     <div class="titleContentContainer">
       <NuxtLink to="/" tag="span" style="cursor: pointer" class="mainTitleClass" 
         :class="[this.$nuxt.$route.path == '/' ? 'selected' : 'unselected',
           this.$vuetify.theme.dark ? 'isDark' : '']">
         <v-toolbar-title v-text="title" />
       </NuxtLink>
-      <NuxtLink v-if="!isMobile()" to="/posts" tag="span" style="cursor: pointer" class="secondaryMenuClass"
+      <div class="nonMobileContent">
+        <NuxtLink to="/posts" tag="span" style="cursor: pointer" class="secondaryMenuClass"
             :class="[this.$nuxt.$route.path == '/posts' ? 'selected' : 'unselected',
               this.$vuetify.theme.dark ? 'isDark' : '']">
         <v-toolbar-title v-text="'All Posts'" />
       </NuxtLink>
-      <NuxtLink v-if="!isMobile()" to="/about" tag="span" style="cursor: pointer" class="secondaryMenuClass"
+      <NuxtLink to="/about" tag="span" style="cursor: pointer" class="secondaryMenuClass"
             :class="[this.$nuxt.$route.path == '/about' ? 'selected' : 'unselected',
               this.$vuetify.theme.dark ? 'isDark' : '']">
         <v-toolbar-title v-text="'About'" />
       </NuxtLink>
+      </div>
+
       <v-btn class='titleIcon' text icon @click="darkMode()"><v-icon>mdi-brightness-4</v-icon></v-btn>
     </div>
     </v-app-bar>
@@ -63,7 +66,7 @@
           <img src="https://img.buymeacoffee.com/button-api/?text=Support this site&emoji=💻&slug=acsimpledex&button_colour=FF5F5F&font_colour=ffffff&font_family=Inter&outline_colour=000000&coffee_colour=FFDD00">
         </a>
         <br />
-        Questions or Comments? <a href="mailto:ac.simpledex@gmail.com">Let me know</a>
+        Questions or Comments? <a href="mailto:ac.simpledex@gmail.com">Shoot me an email</a>, or <a href="https://github.com/campbell000/blog">create an issue!</a>
       </div>
       </v-col>
     </v-footer>
@@ -94,13 +97,11 @@ export default {
       ],
     }
   },
+
   methods : {
     darkMode() {
       this.$vuetify.theme.dark = !this.$vuetify.theme.dark;
     },
-    isMobile() {
-      return this.$vuetify.breakpoint.xsOnly;
-    }
   }
 }
 </script>
@@ -116,6 +117,31 @@ export default {
   display: inherit;
 }
 
+.nonMobileContent {
+  display: inherit;
+}
+
+@media(min-width: 501px) {
+  .nonMobileContent {
+    display: inherit;
+  }
+
+  .appBarIcon {
+    display: none;
+  }
+}
+
+@media(max-width: 500px) {
+  .nonMobileContent {
+    display: none;
+  }
+
+  .appBarIcon {
+    display:inherit;
+  }
+}
+
+
 .footerContent {
   margin-left: auto;
   margin-right: auto;
@@ -125,6 +151,18 @@ export default {
 .container:not(.ignoreMaxWidth) {
     max-width: 700px;
     overflow-x: hidden;
+}
+
+.appBarIcon {
+  margin-right: 5px;
+}
+
+.v-list-item__action {
+  margin-right: 0px !important;
+}
+
+.v-navigation-drawer {
+  width: 190px !important;
 }
 
 .mainTitleClass {
@@ -172,6 +210,10 @@ export default {
 
 .secondaryMenuClass.isDark {
   color: #997e8c;
+}
+
+a[href^="https://www.buymeacoffee.com/acsimpledex"] > img {
+  height: 41px;
 }
 
 .titleIcon {
