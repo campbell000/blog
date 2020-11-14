@@ -70,6 +70,9 @@
     <br/>
     <v-divider v-if="inList"></v-divider>
     <br/>
+    <br v-if="!inList" />
+    <br v-if="!inList" />
+    <br v-if="!inList" />
 
   </article>
 </template>
