@@ -15,7 +15,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'The Personal Website of Alex Campbell. Contains blog posts, reviews, technical guides, and other short-form essays.' },
+      { hid: 'description', name: 'description', content: 'Never Meant. Contains blog posts, reviews, technical guides, and other short-form essays.' },
       { hid: 'author', name: 'author', content: 'Alex Campbell' }
     ],
     link: [

@@ -52,7 +52,8 @@
     </div>
 
     <div v-if="article.titleImage != null" class="imageContainer titleImageContainer">
-      <img  class="titleImage" :class="article.isSmallTitleImage ? 'small' : ''" :src="article.titleImage" :alt="article.titleImageAlt" />
+      <img  class="titleImage" :class="article.isSmallTitleImage ? 'small' : (article.isMediumTitleImage ? 'medium' : '')" :src="article.titleImage" :alt="article.titleImageAlt" />
+      <span v-if='article.titleImageCaption != null' class="titleImageCaption" v-text="article.titleImageCaption"></span>
     </div>
     
     <nav class="contentsContainer" v-if="article.shouldShowTableOfContents">
@@ -150,6 +151,13 @@
     color: #888888;
   }
 
+  .titleImageCaption {
+    font-size: 16px;
+    font-style: italic;
+    color: #888888;
+    display: block;
+  }
+
   img.small,
   .imageContainer > img.small {
     margin-left: auto;
@@ -162,8 +170,16 @@
   .imageContainer > img.medium {
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    max-width: 50%;
+    width: 55%;
+    max-width: 55%;
+  }
+
+  img.medium,
+  .imageContainer.titleImageContainer > img.medium {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    max-width: 75%;
   }
 
   ul {
