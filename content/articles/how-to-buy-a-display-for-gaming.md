@@ -59,8 +59,13 @@ This marketing point is probably the most-talked-about, yet least-understood. It
 
 The object in motion is blurrier on the left because of the monitor's worse response time (33.3ms) than the monitor on the right (6.8ms). This metric is usually pretty easy to find in the advertising for a TV or monitor.
 
-### Input Latency
+### Input Latency (or "Input Lag")
 *This* is the time is takes for the display to respond to your mouse/controller\*. This is obviously most important in action-oriented games, but frankly, a display with poor input latency feels awful with just about any game: it even makes navigating through menus an absolute chore. <span class="disclaimer">\*technically, the latency is the time from when the display receives the image to when it shows the image, manifesting as controller lag</span>
+
+<div class="imageContainer">
+  <img class="" :src="'/inputLag.gif'" />
+  <span class="titleImageCaption">Note the delay between when the stick is tilted, and when the character actually moves. That's input lag. <a href="https://www.resetera.com/threads/resolutions-frame-rates-polygon-count-and-load-times-are-all-cool-but-can-we-please-address-input-delay.120575/page-3">Taken from Here</a></span>
+</div>
 
 Unfortunately, information about a display's input latency is difficult to find. Companies do everything they can to hide this information from consumers, and to make matters more confusing, input latency has very weak correlations to price: sometimes, very expensive displays will have high latency, while very cheap ones will be virtually lagless. Therefore, you'll have to rely on independent sources for this information. Fortunately, <a href="https://www.rtings.com/monitor/tests/inputs/input-lag">RTings publishes their input lag test results</a>, so you can check the input lag of the display you're interested in before you buy it.
 
@@ -141,7 +146,7 @@ Armed with the knowledge that I've imparted to you, below you'll find my recomme
 
 **If you see yourself gaming a lot on both console and PC:** buy a 1440p monitor with a high refresh rate, like 144hz. This is the sweetspot in terms of price/performance. 1440p offers clear benefits over 1080p, and isn't really that different from 4K. Plus, Xbox Series X supports native 1440p output, and will look great on a 1440p monitor (PS5 currently does not support 1440p, unfortunately). PC games also usually support framerates over 60FPS, so you'll see clear benefits from the higher refresh rate
 
-**If you are interested in gaming competitively (i.e. FPS games, fighting games, rhythm games, etc):** buy a 1440p monitor with a high refresh rate, like 144hz, and do your homework on RTings.com to find one with low input latency. Monitors usually have much lower input latency than a TV (at the cost of image quality), which is why I would not recommend a TV. I don't recommend a 4K monitor with a high refresh rate because those are *very, very* expensive.
+**If you are interested in gaming competitively (i.e. FPS games, fighting games, rhythm games, etc):** buy a 1440p monitor with a high refresh rate, like 144hz, and do your homework on RTings.com to find one with low input latency. If your budget is high, you'll be able to get an IPS monitor. If not, you may have to settle for a TN monitor. Monitors usually have much lower input latency than a TV (at the cost of image quality), which is why I would not recommend a TV. I don't recommend a 4K monitor with a high refresh rate because those are *very, very* expensive.
 
 ## Gotchas
 1. **Input latency is lowest when at native resolution and refresh rate**. This is because the monitor needs to do extra processing to convert the image to a non-native resolution or refresh-rate. So, for example, if you'll be playing a lot of Super Smash Bros Ultimate, you may want to consider a 1080p/60hz monitor, since that matches the Nintendo Switch's native output.
@@ -164,4 +169,4 @@ I understand that character models and textures keep increasing in complexity, w
 
 Regardless, overpromising and underdelivering is not a new trend in this space. I vaguely recall being promised 1080p/60FPS as far back as the 360/PS3 generation, so it's slightly hilarious, and a little frustrating, that both Microsoft and Sony are promising 4K/120FPS when they haven't been able to deliver anything NEAR that this generation.
 
-In short, keep your expectations low. Expect games to be rendered **up to** 4K/120hz, but for the majority of them to render far below that, for the majority of the time (save for a few first-party, big-budget titles). **Purchase your next display based on the fact that most games that you'll be playing will not be natively rendering at 4K/120FPS\***.<span class="disclaimer">*unless you game on PC and own a 3080/3090</span>
+In short, keep your expectations low. Expect games to be rendered **up to** 4K/120hz, but for the majority of them to render far below that for the majority of the time, save for a few first-party, big-budget titles\*.<span class="disclaimer">*unless you game on PC and own a 3080/3090</span>
