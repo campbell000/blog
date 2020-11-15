@@ -183,12 +183,12 @@
     max-width: 75%;
   }
 
-    img.large,
-  .imageContainer.titleImageContainer > img.large {
+    img.limitedMedium,
+  .imageContainer.titleImageContainer > img.limitedMedium {
     margin-left: auto;
     margin-right: auto;
-    width: 85%;
-    max-width: 85%;
+    width: 100%;
+    max-width: 500px;
   }
 
   ul {
