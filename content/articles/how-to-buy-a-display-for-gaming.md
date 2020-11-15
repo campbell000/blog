@@ -4,6 +4,7 @@ summary: "With the PS5/Xbox Series X coming out soon, you might be thinking abou
 shouldShowTableOfContents: true
 shouldShowUpdatedAt: false
 isMediumTitleImage: true
+createdAt: "2020-11-14T23:41:34.140Z"
 titleImage: /couple-tv.jpeg
 titleImageCaption: "\"God, the input lag on this TV is awful. I think I want a divorce.\""
 tags: 
@@ -11,6 +12,7 @@ tags:
   - Technology
   - Gaming
 ---
+
 
 ## No Time, Give Me The Quick Version
 - **If you aren't sure, then your current TV likely can't support 4K/120FPS content**
@@ -23,7 +25,7 @@ tags:
 ## Disclaimers
 Firstly, the difference between 60 frames-per-second (FPS) and 120 FPS may not be noticeable to you, nor will the jump in resolution from 1080p to 4K (*especially when most games aren't rendered in true 4K anyway, *). That's perfectly fine! But if you're the kind of person that *does* notice those kinds of things, or you just enjoy getting your technical hands dirty, then read on.
 
-Secondly, I want to shout out <a href="https://blurbusters.com/">Blur Busters</a> and <a href="https://www.rtings.com/">RTings</a>. I've sourced some of their images in this article, and in general, I've used their articles for my own edification and when buying my own gear.
+Secondly, I want to shout out <a href="https://www.rtings.com/">RTings</a>. I've sourced some of their images in this article, and in general, I've used their articles for my own edification and when buying my own gear.
 
 ## Essential concepts
 Before making any decision about what to purchase, it's important to understand the basic concepts of display technology so that you can make meaningul comparisons between displays on your own. The main concepts are covered in the subsections below:

@@ -46,7 +46,6 @@
       </div>
 
     </div>
-    
     <div class="metadata">
       <div class="summary">{{ article.summary }}</div>
     </div>
@@ -67,9 +66,7 @@
     
     <nuxt-content :document="article" />
     <prev-next :prev="prev" :next="next" />
-    <br/>
-    <v-divider v-if="inList"></v-divider>
-    <br/>
+    <br v-if="!inList" />
     <br v-if="!inList" />
     <br v-if="!inList" />
     <br v-if="!inList" />

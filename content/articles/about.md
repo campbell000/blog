@@ -3,6 +3,7 @@ title: About this Site
 summary: "How's it going? Thanks for stopping by. Below you'll find a meta blog post about this site, why it was created, how it was created, and what kind of content you'll expect to find."
 shouldShowTableOfContents: true
 shouldShowUpdatedAt: true
+createdAt: "2020-11-01T23:41:34.140Z"
 tags: 
   - Life
   - Misc

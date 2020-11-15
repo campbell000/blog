@@ -3,6 +3,7 @@ title: Running WSL2 on a Mac using Bootcamp
 summary: "Getting Microsoft's Windows Subsystem-For-Linux running in Bootcamp is somewhat straightforward, but there are a few gotchas. Read on for the how, and then after that for the why (mac is unix-based. Why not just use that?)"
 shouldShowTableOfContents: true
 shouldShowUpdatedAt: false
+createdAt: "2020-11-09T23:41:34.140Z"
 titleImage: /bootcampTitle.png
 tags: 
   - How To

@@ -3,7 +3,7 @@
     async asyncData({ $content, params }) {
       const articles = await $content('articles', params.slug)
         .sortBy('createdAt', 'desc')
-        .limit(5)
+        .limit(1)
         .fetch()
       
       const tags = await $content('tags', params.slug)
@@ -33,8 +33,13 @@
 <template>
   <div>
     <articleDisplay v-for="article of articles" :key="article.slug" :tags="articleTagMap[article.slug]" :article="article" :inList="true"/>
-
    <NuxtLink to="/posts" tag="a" style="cursor: pointer" class="">See More Posts Here</NuxtLink>
+   <br />
+   <br />
+   <br />
+   <br />
+   <br />
+   <br />
   </div>
   
 </template>

@@ -1,21 +1,25 @@
 <template>
-  <div class="flex justify-between">
-    <NuxtLink
-      v-if="prev"
-      :to="{ name: 'slug', params: { slug: prev.slug } }"
-      class="nextPrevLink previous">
-      Later Article: {{ prev.title }}
-    </NuxtLink>
-    <span v-else>&nbsp;</span>
-    <NuxtLink
-      v-if="next"
-      :to="{ name: 'slug', params: { slug: next.slug } }"
-      class="nextPrevLink next"
-    >
-      Earlier Article: {{ next.title }}
-    </NuxtLink>
-    <span v-else>&nbsp;</span>
-  </div>
+<v-container class="mb-2">
+  <v-row>
+    <v-col :lg="6" class="nextPrevLink next">
+      <NuxtLink
+        v-if="next"
+        :to="{ name: 'slug', params: { slug: next.slug } }"
+      >
+                  
+        Previous: {{ next.title }}
+      </NuxtLink>
+    </v-col>
+    <v-col :lg="6" class="nextPrevLink previous">
+      <NuxtLink
+        v-if="prev"
+        :to="{ name: 'slug', params: { slug: prev.slug } }"
+        >
+        Next: {{ prev.title }}
+      </NuxtLink>
+    </v-col>
+  </v-row>
+</v-container>
 </template>
 
 <script>
@@ -36,11 +40,9 @@
 <style scoped>
 
 .nextPrevLink.next {
-  float: left;
 }
 
 .nextPrevLink.previous {
-  float: right;
 }
 
 
