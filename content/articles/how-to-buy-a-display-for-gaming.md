@@ -28,7 +28,7 @@ Firstly, I recognize that this article is low-hanging fruit: there's a million s
 Secondly, I want to shout out <a href="https://www.rtings.com/">RTings</a>. I've sourced some of their images in this article, and in general, I've used their articles for my own edification and when buying my own gear. They are independently funded, so if you have the means, throw some support their way.
 
 ## Essential concepts
-Before making any decision about what to purchase, it's important to understand the basic concepts of display technology so that you can make meaningul comparisons between displays on your own. The main concepts are covered in the subsections below:
+Before making any decision about what to purchase, it's important to understand the basic concepts of display technology so that you can make meaningful comparisons between displays on your own. The main concepts are covered in the subsections below:
 
 ### Resolution
 Resolution refers to how many pixels are on the screen, often abbreviated to acronyms like "1080p", "4K", etc. Increasing the number of pixels on the screen allows you to discern more detail in any given image. See the chart below illustrating the difference in pixel count between the various resolution categories:
@@ -121,19 +121,29 @@ If you need a monitor, then you'll need to take note of the HDMI specification c
 
 Note that if you have a somewhat high budget, you can "brute-force" your way to an IPS display that has fast response times and good input latency, so I'd recommend an IPS panel if your budget allows for it. The best way to decide between these three is to simply go to a computer store and check out examples.
 
+## What Do I Do With This Information?
+With all of this information, you have a choice to make based on what matters to you (unless you have unlimited money, in which case you can buy a 4K/120FPS TV or Monitor and stop reading right now). You'll likely need to mix and match the following features based on your needs and what's important to you:
+- Higher Resolutions
+- Higher Refresh Rates
+- Better Response Times
+- Supported HDMI Versions 
+- Extra Features (i.e. additional inputs like DisplayPort, Roku, ~~Spyware~~ Virtual Assistants).
+
+You won't be able to maximize all of these features without spending a ton of cash, so read on for some recommendations.
+
 ## My Recommendations
 Armed with the knowledge that I've imparted to you, below you'll find my recommendations on what kind of display to purchase based on what your needs are:
 
-**If you know for a fact that you'll be consuming 4K/120FPS content:** purchase a monitor or TV with HDMI 2.1, and do your homework to ensure the specific model that your buying supports 4K/120FPS. Prices will be all over the place, TV or monitor, but they'll all be over $1000. PS5 and Xbox Series X *claim* that they'll support this kind of content, but I really don't see this happening, outside of a few games early on the console's lifespan (as a "woweee look at what this new console can do!" kind of feature).
+**If you know for a fact that you'll be consuming 4K/120FPS content:** purchase a 4K/120FPS monitor or TV with HDMI 2.1. Prices will be all over the place, TV or monitor, but they'll all be over $1000. PS5 and Xbox Series X *claim* that they'll support this kind of content, but I really don't see this happening, outside of a few games early on the console's lifespan (as a "woweee look at what this new console can do!" kind of feature).
 
-**If you're fine with 4K/60FPS content (i.e. you want content to look pretty):** purchase a monitor or TV that supports HDMI 2.0. This should be MOST TVs made within the past 3-4 year (i.e. TVs that support HDMI 2.0), so you may not need to purchase one at all if you already own a 4K TV). Prices for 4K monitors should be fairly reasonable, too. *This would be the most cost-effective choice for new PS5 / Xbox Series X owners*. 
+**If you're fine with 4K/60FPS content (i.e. you want content to look pretty):** purchase a 4K/60FPS monitor or TV that supports HDMI 2.0. This should be MOST TVs made within the past 3-4 years (i.e. TVs that support HDMI 2.0), so you may not need to purchase one at all if you already own a 4K TV). Prices for 4K monitors should be fairly reasonable, too. *This would be the most cost-effective choice for new PS5 / Xbox Series X owners*. 
 
 **If you want high refresh rates, and also do some PC Gaming (i.e. you want content to "feel" smooth):** buy a 1440p monitor with a high refresh rate (i.e. 120hz+). This is the sweetspot in terms of price/performance. 1440p offers clear benefits over 1080p, and isn't really that different from 4K. Plus, Xbox Series X supports native 1440p output, and will look great on a 1440p monitor (PS5 currently does not support 1440p, so it'll send a 1080p signal to your 1440p monitor, and then get upscaled, which will look sort of ugly).
 
-**If input latency (i.e. controller lag) is a major concern:** buy a high refresh-rate monitor. If you play a lot of competitive shooters, fighting games, or platformers (games that require quick, precise, reflex-based movements), I would highly recommend playing these games on a monitor: as stated above, monitors usually have much lower input latency than a TV (at the cost of image quality). You still need to do your homework regarding input latency (as refresh rate does is NOT the same thing as input lag, although there is a correlation), but a monitor is usually a safe bet over a TV.
+**If input latency (i.e. controller lag) is a major concern:** buy a high refresh-rate monitor (i.e. 144hz+). This would apply if you play a lot of competitive shooters, fighting games, or platformers (i.e. games that require quick, precise, reflex-based movements, so rhythm games, etc). Monitors usually have much lower input latency than a TV (at the cost of image quality). You still need to do your homework regarding input latency (as refresh rate does is NOT the same thing as input lag, although there is a correlation), but a monitor is still usually a safe bet over a TV.
 
 ## Gotchas
-1. **Input latencies are lowest when at native resolution and refresh rate**. If you intend to use a display at non-native settings (i.e. a Nintendo Switch on a 4K TV) expect higher input latency. For example, I bought a 1440p monitor that has an input latency reported at 8ms, but jumps to **33ms** when the content is 1080p. This was never advertised and never made clear to me. I only got confirmation when RTings tested the monitor and published their test results (otherwise, I never would have purchased the monitor!)
+1. **Input latencies are lowest when at native resolution and refresh rate**. If you intend to use a display at non-native settings (i.e. a Nintendo Switch on a 4K TV) expect higher input latency. For example, I bought a 1440p monitor that has an input latency reported at 8ms, but jumps to **33ms** when the content is 1080p. This was never advertised and never made clear to me. I only got confirmation when RTings tested the monitor and published their test results (otherwise, I never would have purchased the monitor!). So, you may need to base your decision on what kind of games you'll be playing. For example, if you'll be playing a lot of Super Smash Bros Ultimate, you may want to consider a 1080p/60hz monitor, since that matches the switch's native output (otherwise, input latency would increase).
 
 2. **Take notes of the manufacturer's warranty policy.** Buying a TV is pretty easy: you can usually go to a physical store, pick one out, and return it if something goes amiss. But when buying a gaming monitor, you may have to resort to buying one online. Therefore, when things go wrong (dead pixel, dead on arrival, etc), you may be stuck talking directly to the manufacturer. Certain companies (MSI, ASUS, Razer) are an absolute pain to deal with, and some have asinine warranty policies (i.e. ASUS believes that selling a monitor with 4 dead pixels is "acceptable", while I happen to think it's "illegal"). Therefore, make sure you know what you're getting into, and what your rights are as a consumer.
 
