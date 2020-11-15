@@ -63,7 +63,7 @@ The object in motion is blurrier on the left because of the monitor's worse resp
 *This* is the time is takes for the display to respond to your mouse/controller\*. This is obviously most important in action-oriented games, but frankly, a display with poor input latency feels awful with just about any game: it even makes navigating through menus an absolute chore. <span class="disclaimer">\*technically, the latency is the time from when the display receives the image to when it shows the image, manifesting as controller lag</span>
 
 <div class="imageContainer">
-  <img class="" :src="'/inputLag.gif'" />
+  <img class="medium" :src="'/inputLag.gif'" />
   <span class="titleImageCaption">Note the delay between when the stick is tilted, and when the character actually moves. That's input lag. <a href="https://www.resetera.com/threads/resolutions-frame-rates-polygon-count-and-load-times-are-all-cool-but-can-we-please-address-input-delay.120575/page-3">Taken from Here</a></span>
 </div>
 

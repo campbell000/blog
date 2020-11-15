@@ -183,6 +183,14 @@
     max-width: 75%;
   }
 
+    img.large,
+  .imageContainer.titleImageContainer > img.large {
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    max-width: 85%;
+  }
+
   ul {
     margin-bottom: 15px;
   }
