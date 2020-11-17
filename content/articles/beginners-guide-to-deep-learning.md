@@ -2,7 +2,7 @@
 title: A Beginner's Guide to Deep Learning (Part 1)
 summary: "Deep Learning is a vast, complex topic, but it has potentially life-changing applications and (if you're dedicated and passionate enough) many lucrative opportunities. If you have an interest in the field, but are unsure of where to begin, read on."
 shouldShowTableOfContents: true
-shouldShowUpdatedAt: true
+shouldShowUpdatedAt: false
 createdAt: "2020-11-16T23:41:34.140Z"
 tags: 
   - How To
@@ -95,14 +95,16 @@ Training a Neural Network Goes something like this, again simplified for brevity
 3. Transpose the data into the dimensions that fit your Neural Network Input Layer
 4. Feed it into the network and get the output
 5. Compare the output to what the answer SHOULD be
-6. Use "Backpropagation" to adjust the edge weights so that, the next time you see the same inputs, the output will be closer to the right answer.
+6. Use "Backpropagation" and a "Gradient Descent" algorithm to adjust the edge weights so that, the next time you see the same inputs, the output will be nudged a little closer to the right answer.
 
 <div class="imageContainer">
   <img class="" :src="'/nn_training.png'" />
     <span class="titleImageCaption">A simplified Neural Network Training Diagram</span>
 </div>
 
-I'm handwaving backpropagation for now, since it involves [a lot of advanced math](https://towardsdatascience.com/understanding-backpropagation-algorithm-7bb3aa2f95fd) which I don't think is super relevant for beginners looking to simply get their feet wet in this field. So simply know that it's a powerful mathematical technique to efficiently adjust the edge-weights of your Neural Network to get closer to the right answer. Think of it has a sophisticated, advanced version of guess-and-check.
+I'm handwaving backpropagation and gradient descent for now, since it involves [a lot of advanced math](https://towardsdatascience.com/understanding-backpropagation-algorithm-7bb3aa2f95fd) which I don't think is super relevant for beginners looking to simply get their feet wet in this field. So simply know that it's a powerful mathematical technique to efficiently adjust the edge-weights of your Neural Network to get closer to the right answer. Think of it has a sophisticated, advanced version of guess-and-check.
+
+But a lot of work, from a lot of people smarter than me, has been put into backpropagation and gradient descent so that, when your network produces a result that's *wrong*, your network's edge weights get updated a *little bit* towards the right answer. We don't want to drastically alter the edge weights' values: we don't want one single example to have a huge effect on the training (what if that single example is an outlier, like a weird looking cat?), but at the same time, we want the network to "learn" from its mistakes.
 
 After going the 6-step process above many, many times, your network will eventually start to converge on a set of "good-enough" edge weights that will work great for your training data set, and if done correctly, *should* work for data that it hasn't even seen before (which is the whole point of machine learning!).
 

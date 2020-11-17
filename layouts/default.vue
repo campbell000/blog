@@ -257,17 +257,26 @@ margin-left: 15px;
 
 :not(pre) > .v-application code {
   background-color: #daf7ea;
-  color: #437274;
+  color: #233d3e;
+  text-shadow: 0 0px white !important;
+}
+
+code {
+  text-shadow: 0 0px white !important;
 }
 
 pre.language-text.line-numbers {
   background-color: #daf7ea;
-  color: #437274;
+  color: #233d3e;
 }
 
 html {
   overflow-x: hidden;
   width: 100%;
+}
+
+.nuxt-content-highlight {
+  margin-bottom: 20px;
 }
 
 pre > code {
