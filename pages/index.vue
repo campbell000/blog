@@ -34,12 +34,6 @@
   <div>
     <articleDisplay v-for="article of articles" :key="article.slug" :tags="articleTagMap[article.slug]" :article="article" :inList="true"/>
    <NuxtLink to="/posts" tag="a" style="cursor: pointer" class="">See More Posts Here</NuxtLink>
-   <br />
-   <br />
-   <br />
-   <br />
-   <br />
-   <br />
   </div>
   
 </template>
