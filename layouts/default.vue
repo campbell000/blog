@@ -129,7 +129,7 @@ export default {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  max-width: 700px;
+  max-width: 650px;
   overflow-x: hidden;
   display: inherit;
 }
@@ -141,7 +141,7 @@ export default {
 .footerContent {
   margin-left: auto;
   margin-right: auto;
-  max-width: 700px;
+  max-width: 650px;
   width: 100%;
   font-size: 13px;
 }
@@ -182,7 +182,7 @@ export default {
 
 
 .container:not(.ignoreMaxWidth) {
-    max-width: 700px;
+    max-width: 650px;
     overflow-x: hidden;
 }
 
