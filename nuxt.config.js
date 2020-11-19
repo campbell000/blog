@@ -59,13 +59,19 @@ export default {
   // Vuetify module configuration (https://go.nuxtjs.dev/config-vuetify)
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
+    treeShake: true,
+    defaultAssets: {
+      font: {
+        family: 'Noto Sans JP'
+      }
+    },
     theme: {
       dark: false,
       themes: {
         dark: {
           primary: "#7fc3b0",
           accent: colors.grey.darken3,
-          secondary: "#997e8c",
+          secondary: "#ac8d9d",
           info: colors.teal.lighten1,
           warning: colors.amber.base,
           error: colors.deepOrange.accent4,
@@ -79,6 +85,7 @@ export default {
           info: '#2196F3',
           success: '#4CAF50',
           warning: '#FFC107',
+          opacity: 0.95
         }        
       }
     }

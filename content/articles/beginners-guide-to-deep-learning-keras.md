@@ -92,7 +92,7 @@ Via Keras and Tensorflow, we'll be constructing a Feed-Forward Neural Network wi
 
 <div class="imageContainer">
   <img class="" :src="'/nn-demo.png'" />
-    <span class="titleImageCaption">A diagram of what our neural network will look like</span>
+    <span class="titleImageCaption text--secondary">A diagram of what our neural network will look like</span>
 </div>
 
 Why are we building our network like this? Well, recall what our dataset looks like: we have 14 columns in our dataset: 13 of the columns tell us about the patient, while 1 of the columns tells us about the we want to know whether the patient has heart disease our not. Therefore, we have 13 "input variables", and one "output variable". Hence, 13 nodes in the input layer, and one node in the output layer.
@@ -147,7 +147,7 @@ You'll notice that, for the final layer, we have a one-node layer, with a *diffe
 
 <div class="imageContainer">
   <img class="limitedMedium" :src="'/sigmoid.png'" />
-    <span class="titleImageCaption">A Sigmoid function, identified by it's distinct "S" shape</span>
+    <span class="titleImageCaption text--secondary">A Sigmoid function, identified by it's distinct "S" shape</span>
 </div>
 
 This function constraints the output from 0 to 1, *which is exactly what we need for our binary classification task*. 

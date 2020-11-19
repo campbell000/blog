@@ -5,7 +5,7 @@
 <script>
 export default {
   async asyncData({ $content, params }) {
-    const tags = await $content('tags').fetch()
+    const tags = await $content('tags').sortBy('name').fetch()
     const tt = await $content('tags')
       .where({ slug: { $contains: params.tag } })
       .limit(1)

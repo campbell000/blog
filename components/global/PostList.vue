@@ -14,6 +14,11 @@
         default: () => null
       }
     },
+
+    mounted() {
+      document.getElementById("allButton").classList.remove('v-btn--active');
+    },
+
     methods:{
       formatDate(dateStr) {
         var date = new Date(dateStr);
@@ -21,7 +26,7 @@
         var m = date.getMonth() + 1; //Month from 0 to 11
         var y = date.getFullYear();
         return '' + y + '-' + (m<=9 ? '0' + m : m) + '-' + (d <= 9 ? '0' + d : d);
-      }
+      },
     }
   }
 </script>
@@ -29,13 +34,18 @@
 <template>
   <div>
     <div class="tagContainer">
-      Tags: <span v-for="currTag of allTags" :key="currTag.name">
-        <v-btn v-if="selectedTag != null && currTag.slug == selectedTag.slug" nuxt :to="`/posts/${currTag.slug}`" 
-            class="ma-2 pressedTag" depressed small color="primary">{{currTag.name}}</v-btn>
-        <v-btn v-if="selectedTag == null || currTag.slug != selectedTag.slug" nuxt :to="`/posts/${currTag.slug}`"
-             class="ma-2" outlined small color="primary">{{currTag.name}}</v-btn>
-      </span>
-
+      <v-row justify="start">
+        <v-btn id="allButton" v-if="selectedTag == null" nuxt :to="`/posts`" 
+              class="ma-2 pressedTag" depressed small color="primary" >All</v-btn>
+        <v-btn id="allButton" v-if="selectedTag != null" nuxt :to="`/posts`"
+              class="ma-2" outlined small color="primary" >All</v-btn>
+        <template v-for="currTag of allTags">
+          <v-btn v-if="selectedTag != null && currTag.slug == selectedTag.slug" nuxt :to="`/posts/${currTag.slug}`" 
+              class="ma-2 pressedTag" depressed small color="primary" :key="currTag.name">{{currTag.name}}</v-btn>
+          <v-btn v-if="selectedTag == null || currTag.slug != selectedTag.slug" nuxt :to="`/posts/${currTag.slug}`"
+              class="ma-2" outlined small color="primary" :key="currTag.name">{{currTag.name}}</v-btn>
+        </template>
+      </v-row>
     </div>
     <ul class="listContainer" style='list-style: none'>
       <li class="articleListItem" v-for="article of articles" :key="article.slug">

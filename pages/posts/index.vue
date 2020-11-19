@@ -6,7 +6,7 @@
         .sortBy('createdAt', 'desc')
         .fetch()
       
-      const tags = await $content('tags').fetch()
+      const tags = await $content('tags').sortBy('name').fetch()
       return {
         articles, tags
       }

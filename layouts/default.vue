@@ -78,7 +78,7 @@ export default {
       title: 'Never Meant',
       isDark: this.$vuetify.theme.dark,
       drawer: false,
-      isMobile: false,
+      isMobile: true,
       items: [
         {
           title: 'Home',
@@ -96,10 +96,16 @@ export default {
     }
   },
 
+  beforeDestroy () {
+    if (typeof window === 'undefined') return
+
+    window.removeEventListener('resize', this.onResize, { passive: true })
+  },
+
   mounted() {
     this.currentPath = this.$nuxt.$route.path;
-    this.onResize();
     window.addEventListener('resize', this.onResize, { passive: true })
+    this.onResize();
     if (window) {
       window.history.scrollRestoration = 'auto';
     }
@@ -124,12 +130,15 @@ export default {
 </script>
 
 <style>
+.v-application {
+  line-height:1.9 !important;
+}
 
 .titleContentContainer {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  max-width: 650px;
+  max-width: 700px;
   overflow-x: hidden;
   display: inherit;
 }
@@ -141,13 +150,11 @@ export default {
 .footerContent {
   margin-left: auto;
   margin-right: auto;
-  max-width: 650px;
+  max-width: 700px;
   width: 100%;
   font-size: 13px;
 }
 
-.siteFooter {
-}
 
 .footerContent > .row > .col {
   padding-left: 5px;
@@ -166,7 +173,7 @@ export default {
   }
 
   .appBarIcon {
-    display: none;
+    display: none !important;
   }
 }
 
@@ -182,7 +189,7 @@ export default {
 
 
 .container:not(.ignoreMaxWidth) {
-    max-width: 650px;
+    max-width: 700px;
     overflow-x: hidden;
 }
 
@@ -238,15 +245,15 @@ export default {
 .selected.secondaryMenuClass.isDark,
 .secondaryMenuClass.isDark:hover
 {
-  border-bottom: 2px solid #997e8c;
+  border-bottom: 2px solid #ac8d9d;
 }
 
 .secondaryMenuClass.isDark {
-  color: #997e8c;
+  color: #ac8d9d;
 }
 
 a[href^="https://www.buymeacoffee.com/acsimpledex"] > img {
-  height: 40px;
+  height: 41px;
 }
 
 .titleIcon {

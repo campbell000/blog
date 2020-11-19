@@ -20,7 +20,7 @@ So, the very fact that you're trying to figure out, exactly, what Deep Learning 
 
 <div class="imageContainer">
   <img class="limitedSmall" :src="'/MLdiagram.jpg'" />
-    <span class="titleImageCaption">Deep Learning shares many similarities to traditional machine learning, has its own unique traits. <a href="https://en.wikipedia.org/wiki/Machine_learning">Taken From Here</a></span>
+    <span class="titleImageCaption text--secondary">Deep Learning shares many similarities to traditional machine learning, has its own unique traits. <a href="https://en.wikipedia.org/wiki/Machine_learning">Taken From Here</a></span>
 </div>
 
 **So What's Different About Deep Learning?** These next paragraphs are a massive oversimplification, but to blithely summarize years worth of research, the biggest difference is that in traditional machine learning, you (meaning humans) would need to identify the important aspects, or "features" of an algorithm for the the machine to learn from by hand. 
@@ -33,7 +33,7 @@ For example, if you were to design a system to learn how to recognize images of 
 
 For this simple cat-based task, constructing such a list would be pretty time-consuming, but for non-trivial tasks like automated self-driving vehicle tasks, it would be impossible. But let's say we wanted to do it anyway for this cat-detecting task. The final list would stil be prone to error: how would we be able to distinguish cats from tigers? Dogs from Cats? Yellow Cats from Lions? The list goes on. For humans, this task of "feature engineering" is a very difficult one.
 
-** Deep Learning seeks to address this pain-point by being able to "auto-magically" determine which features of the image were important for recognizing cats**. It can even derive features that we, as humans, may not even think of that are useful in it's cat-detecting task. 
+**Deep Learning seeks to address this pain-point by being able to "auto-magically" determine which features of the image were important for recognizing cats**. It can even derive features that we, as humans, may not even think of that are useful in it's cat-detecting task. 
 
 How can it do this? It can perform something called "Feature Exaction" through the use of some clever algorithms and an important data structure called a "Neural Network",  which is explained in the next section. The end result is that, instead of humans having to decide how to pick apart the pixels of an image to determine if it's a cat, the raw image can be fed into the algorithm.
 
@@ -74,7 +74,7 @@ To understand how the model works, you need to understand a little bit of the ma
 
 <div class="imageContainer">
   <img class="limitedMedium" :src="'/sample_nn.png'" />
-    <span class="titleImageCaption">A very simple network. See below on how to compute the output</span>
+    <span class="titleImageCaption text--secondary">A very simple network. See below on how to compute the output</span>
 </div>
 
 Take the network above as an example. Let's say we have "3" as an input. To compute the output, here's what would happen:
@@ -101,7 +101,7 @@ Training a Neural Network Goes something like this, again simplified for brevity
 
 <div class="imageContainer">
   <img class="" :src="'/nn_training.png'" />
-    <span class="titleImageCaption">A simplified Neural Network Training Diagram</span>
+    <span class="titleImageCaption text--secondary">A simplified Neural Network Training Diagram</span>
 </div>
 
 I'm handwaving backpropagation and gradient descent for now, since it involves [a lot of advanced math](https://towardsdatascience.com/understanding-backpropagation-algorithm-7bb3aa2f95fd) which I don't think is super relevant for beginners looking to simply get their feet wet in this field. So simply know that it's a powerful mathematical technique to efficiently adjust the edge-weights of your Neural Network to get closer to the right answer. Think of it has a sophisticated, advanced version of guess-and-check.

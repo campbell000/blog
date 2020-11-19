@@ -2,28 +2,31 @@
   <article>
     <div class="titleBlock" >
       <h1 class="articleTitle">{{ inList ? '' : '' }}{{ article.title }}</h1>
-      <div class="writtenAt">Written At: {{ formatDate(article.createdAt) }}</div>
-      <div class="updatedAt" v-if="article.shouldShowUpdatedAt">Last updated: {{ formatDate(article.updatedAt) }}</div>
-      <div class="tags">Tags:
-        <span v-for="(tag, id) in article.tags" :key="id">
-          <NuxtLink class="tag linkTag" v-if="tags[tag] != null" :to="`/posts/${tags[tag].slug}`">{{tags[tag].name}}</NuxtLink>
-          <span v-if="tags[tag] == null" class="tag" v-text="tag"></span>
-          <span class="tagDivider" v-if="id < article.tags.length - 1"> | </span>
-        </span>
+      <div class="metadata text--secondary">
+        <div class="writtenAt">Written At: {{ formatDate(article.createdAt) }}</div>
+        <div class="updatedAty" v-if="article.shouldShowUpdatedAt">Last updated: {{ formatDate(article.updatedAt) }}</div>
+        <div class="tags">Tags:
+          <span v-for="(tag, id) in article.tags" :key="id">
+            <NuxtLink class="tag linkTag" v-if="tags[tag] != null" :to="`/posts/${tags[tag].slug}`">{{tags[tag].name}}</NuxtLink>
+            <span v-if="tags[tag] == null" class="tag" v-text="tag"></span>
+            <span class="tagDivider" v-if="id < article.tags.length - 1"> | </span>
+          </span>
+        </div>
       </div>
 
+
     </div>
-    <div class="metadata">
+    <div class="metadata text--secondary">
       <div class="summary">{{ article.summary }}</div>
     </div>
 
     <div v-if="article.titleImage != null" class="imageContainer titleImageContainer">
       <img  class="titleImage" :class="article.isSmallTitleImage ? 'small' : (article.isMediumTitleImage ? 'medium' : '')" :src="article.titleImage" :alt="article.titleImageAlt" />
-      <span v-if='article.titleImageCaption != null' class="titleImageCaption" v-text="article.titleImageCaption"></span>
+      <span v-if='article.titleImageCaption != null' class="titleImageCaption text--secondary" v-text="article.titleImageCaption"></span>
     </div>
     
     <nav class="contentsContainer" v-if="article.shouldShowTableOfContents">
-      <h2>Contents</h2>
+      <h2 class="contentsLabel">Contents</h2>
       <ul>
         <li v-for="link of article.toc" :key="link.id" :class="link.depth == 2 ? 'tocLink' : 'tocInnerLink'">
           <NuxtLink :to="`#${link.id}`">{{ link.text }}</NuxtLink>
@@ -119,9 +122,12 @@
     margin-bottom: 14px;
   }
 
+  .contentsLabel {
+    font-weight: 500;
+  }
+
   .writtenAt, .updatedAt {
     font-style: italic;
-    color: #888888;
   }
 
   .articleTitle {
@@ -134,7 +140,6 @@
 
   .tags {
     font-style: italic;
-    color: #888888;
   }
 
   .tag {
@@ -147,8 +152,8 @@
     margin-right: 1px;
   }
 
-  .metadata {
-    color: #888888;
+  .articleTitle {
+    line-height: 1.5 !important;
   }
 
   h1 {
@@ -156,9 +161,15 @@
     font-size: 36px;
   }
  .nuxt-content h2 {
-    margin-top: 20px;
-    font-weight: bold;
-    font-size: 24px;
+    margin-top: 40px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  .nuxt-content h3 {
+    font-weight: 500;
+    text-decoration: underline;
+    font-style: italic;
+    margin-bottom: 5px;
   }
   .nuxt-content p {
     margin-bottom: 20px;
@@ -189,15 +200,14 @@
   .disclaimer {
     font-size: 12px;
     font-style: italic;
-    color: #888888;
     line-height:0.5;
   }
 
   .titleImageCaption {
     font-size: 16px;
     font-style: italic;
-    color: #888888;
     display: block;
+    line-height:1.5;
   }
 
   img.small,
@@ -242,6 +252,10 @@
 
   ul {
     margin-bottom: 15px;
+  }
+
+  li > ul {
+    margin-bottom: 5px;
   }
 
   ol {
