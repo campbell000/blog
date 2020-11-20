@@ -61,8 +61,9 @@
           <v-row>
             <v-col cols="12">
 <a href="https://www.buymeacoffee.com/acsimpledex"><img src="https://img.buymeacoffee.com/button-api/?text=Support This Site&emoji=💻&slug=acsimpledex&button_colour=4a8183&font_colour=ffffff&font_family=Inter&outline_colour=ffffff&coffee_colour=FFDD00"></a>
-              <br />
+              <div class="questionsBlock">
               Questions? <span class="contactMe"><a href="mailto:ac.simpledex@gmail.com">Shoot me an email</a>, or <a href="https://github.com/campbell000/blog">create an issue!</a></span>
+              </div>
             </v-col>
           </v-row>
         </div>
@@ -131,7 +132,7 @@ export default {
 
 <style>
 .v-application {
-  line-height:1.9 !important;
+  line-height:1.8 !important;
 }
 
 .titleContentContainer {
@@ -144,7 +145,13 @@ export default {
 }
 
 .siteFooter {
+  padding-bottom: 1px !important;
+  padding-top: 2px !important;
   width: 100%;
+}
+
+.questionsBlock {
+  line-height: 1.3;
 }
 
 .footerContent {
@@ -253,7 +260,7 @@ export default {
 }
 
 a[href^="https://www.buymeacoffee.com/acsimpledex"] > img {
-  height: 41px;
+  height: 38px;
 }
 
 .titleIcon {

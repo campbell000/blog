@@ -6,8 +6,6 @@ shouldShowUpdatedAt: true
 createdAt: "2020-11-01T23:41:34.140Z"
 tags: 
   - Life
-  - Misc
-  - Gaming
   - Technology
   - Programming
   - Opinion
@@ -80,8 +78,7 @@ In a way, a blog is kind of like a cassette tape: both are mediums for content w
   </li>
 </ul>
 
-These tactics, plus many more, mean that groups and organizations with deep enough pockets and influence wield significant power on these content aggregation platforms. For example, take a look below at a screenshot I took of Reddit's "Top Post" as of 2020-11-19 12:49PM. It's literally just a thinly-veiled advertisement for a pizza chain:
-
+These tactics, plus many more, mean that groups and organizations with deep enough pockets and influence wield significant power on these content aggregation platforms. For example, take a look below at a screenshot I took of Reddit's "Top Post" as of November 19th 2020, around noon. It's literally just a thinly-veiled advertisement for a pizza chain:
 
 <div class="imageContainer">
   <img :src="'/ad.PNG'" />
@@ -101,6 +98,11 @@ When a handful of companies control how content and information get consumed (tw
 
 For someone like me, this is pretty sad: in real life, I'm a pretty closed off individual. Introverted, you could say. But like most other human beings on the planet, I want to engage in discourse. I want to discuss, debate, listen, and learn. And maybe laugh at a viral cat video or two. For people like me, the internet used to be a great place to do that. But unfortunately, I'm beginning to feel less comfortable, and less motivated, doing so on platforms like Facebook, Twitter, and Reddit that are designed to stamp out little, independent voices like my own. And for what? Pizza advertisements? NFL Games? 
 
+<div class="imageContainer">
+  <img :src="'/rain.PNG'" />
+    <span class="titleImageCaption text--secondary">Remember <a href="https://www.youtube.com/watch?v=EwTZ2xpQwpA&feature=emb_title" target="_blank">Choclate Rain</a>, back from 2011? What about <a target="_blank" href="https://www.youtube.com/watch?v=kfVsfOSbJY0">Friday?</a> Are genuine, viral phenomena like this even possible any more, when so much of Youtube's platform is dominated by big players?</span>
+</div>
+
 ### Taking my Blog and Going Home
 Therefore, instead of posting something to reddit, twitter, youtube, or facebook, and giving these big tech companies free content to monetize, analyze, and sell to advertisers, I want to start "selling" my own cassette tapes of tech content to take some power back. I want to start a shift back to the way the internet used to be, where smaller voices could actually reach people. Where content could simply exist on the internet without a monetary purpose, without a desire to collect your data, where content doesn't simply exist for advertisers to analyze and aggregate into a dystopian, consumerist black hole. Admittedly, I'm shouting into the void, but change can't start from nothing. For me, that change starts with this post.
 
@@ -108,9 +110,9 @@ Like musicians taking their music off Spotify and selling their physical music d
 
 **So, I'm starting a blog.** Ideally, it should be a video blogging platform, but that would take a ton of time to implement, and I'm not that smart. And as far as videos go, I'm not really funny or personable or creative with editing. And I stutter or stumble when I talk. So, a blog it is! 
 
-If my blog averages 0 views a month, it'll be disappointing, sure. I hope it reaches as many readers as possible. But even if it doesn't, then at least it'll at least be my content. [And I can't get banned for no reason if I own the platform](https://www.businessinsider.com/markiplier-youtube-fans-heist-lost-access-google-accounts-spamming-emotes-2019-11), and my overlords can't [suddenly decide to inject ads into my content and not pay me](https://www.socialmediatoday.com/news/youtube-will-start-inserting-ads-into-non-monetized-content-updates-rules/589310/). The only thing I rely on is GitHub Pages. But even if I need to move off of that, setting up my own server shouldn't be too hard.
+If my blog averages 0 views a month, it'll be disappointing, sure. I hope it reaches as many readers as possible. But even if it doesn't, then at least it'll at least be my content. [And I can't get banned for no reason if I own the platform](https://www.businessinsider.com/markiplier-youtube-fans-heist-lost-access-google-accounts-spamming-emotes-2019-11), and my overlords can't [suddenly decide to inject ads into my content and not pay me](https://www.socialmediatoday.com/news/youtube-will-start-inserting-ads-into-non-monetized-content-updates-rules/589310/). 
 
-Rest assured: nothing on this site is monetized. Nothing is tracking you, and I'm not here to sell anything. I don't accept sponsored blog posts, and I won't accept payments to write about something (although guest contributions might be accepted if our principals align). The only thing you'll see on this site is a donation link at the bottom, which will go to domain costs (and maybe some toys for my dog) and simply gives people a way to let me know that they support my content.
+Rest assured: nothing on this site is monetized. Nothing is tracking you, and I'm not here to sell anything. I don't accept sponsored blog posts, and I won't accept payments to write about something (although guest contributions might be accepted if our principals align). The only thing you'll see on this site is a donation link at the bottom, which will go to domain costs (and maybe some toys for my dog) and simply gives people a way to let me know that they support my content. I even took the time to dynamically shove the donate link to the very bottom of the screen if your screen is tiny; I know how annoying those bottom bars can be on mobile devices.
 
 ## How This Site Was Created
 This site was created with Nuxt.js, generated statically (using their "content" module) using nuxt-generate and hosted on GitHub pages. Miraculously, I managed to do it using the following tech stack:

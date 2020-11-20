@@ -11,6 +11,7 @@ tags:
   - How To
   - Technology
   - Gaming
+  - Opinion
 ---
 
 
