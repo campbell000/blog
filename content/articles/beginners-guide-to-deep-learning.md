@@ -14,7 +14,7 @@ tags:
 I'm not a PhD graduate. I don't develop self-driving software for a living. I'm just a programmer. But I *have* taken a few machine-learning courses. And I've also [written a self-teaching Super Smash Brothers Bot using Deep Learning](https://www.youtube.com/watch?v=0fLwrLrBcj8&t=95s). So I'm not an expert, and I'm approaching this topic from a practical persecptive, and not an academic one, but I think I have enough of an understanding to help complete beginners write their first Deep Learning program. If you find yourself intrigued by this post, I encourage you to do more in-depth research on your own!
 
 ## What is Deep Learning
-If you've stumbled upon the term, "Deep Learning", then congratulations! You're one step closer to disambiguating the difference between "Machine Learning" and "Deep Learning". The side-effect of technology permeating pop culture (i.e. self-driving cars, ~~spyware~~ virtual assistants, etc) is that the term "Machine Learning" tends to be used as a catch-all term for "the computer is acting smart, and I can't explain why".
+If you've stumbled upon the term, "Deep Learning", then congratulations! You're one step closer to disambiguating the difference between "Machine Learning" and "Deep Learning". The side-effect of technology permeating pop culture (i.e. self-driving cars, virtual assistants, etc) is that the term "Machine Learning" tends to be used as a catch-all term for "the computer is acting smart, and I can't explain why".
 
 So, the very fact that you're trying to figure out, exactly, what Deep Learning is means that you've detected some kind of fundamental difference. And there certainly is. Or rather, Deep Learning can be thought of as a subset of Machine Learning concepts.
 

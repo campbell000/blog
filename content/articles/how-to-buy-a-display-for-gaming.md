@@ -135,7 +135,7 @@ With all of this information, you have a choice to make based on what matters to
 - Better Response Times
 - Low Input Latency
 - Supported HDMI Versions
-- Extra Features (i.e. additional inputs like DisplayPort, Roku, ~~Spyware~~ Virtual Assistants).
+- Extra Features (i.e. additional inputs like DisplayPort, Roku, Spyware Virtual Assistants).
 
 You won't be able to maximize all of these features without spending a ton of cash, so read on for some general recommendations.
 
