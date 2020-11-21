@@ -1,5 +1,5 @@
 ---
-title: About this Site
+title: About This Site
 summary: "How's it going? Thanks for stopping by. Below you'll find a meta blog post about this site, why it was created, how it was created, and what kind of content you'll expect to find."
 shouldShowTableOfContents: true
 shouldShowUpdatedAt: true
@@ -12,8 +12,8 @@ tags:
   - Misc
 ---
 
-## About me
-I'm a profressional software developer with a variety of interests. I'm a jack-of-all trades, master-of-none. I don't have any particular specialty, and I don't excel in any particular area. But, I'm pretty stubborn, so I'm usually able to handle most tasks given to me.
+## About Me
+I'm a professional software developer with a variety of interests. I'm a jack-of-all trades, master-of-none. I don't have any particular specialty, and I don't excel in any particular area. But, I'm pretty stubborn, so I'm usually able to handle most tasks given to me.
 
 The coolest programming project [I've ever completed on my own is linked here](https://www.youtube.com/watch?v=0fLwrLrBcj8). It started as a failed Master's Degree project, but I continued working on it after my degree, and managed to find success.
 
