@@ -28,7 +28,7 @@ Lots of different things! Below are some examples:
 I'm the only contributor to this blog, but I wouldn't be opposed to guest contributions!
 
 ## Why This Blog Exists
-When I first started writing this "About" page, I began by indiscriminately dumping my pent-up frustrations about how **coporate, soulless, and lame** the mainstream internet has become. I soon realized that I had *a lot* more to say on the subject than I realized, so I moved it <NuxtLink to="/about">to its own separate post.</NuxtLink> 
+When I first started writing this "About" page, I began by indiscriminately dumping my pent-up frustrations about how **coporate, soulless, and lame** the mainstream internet has become. I soon realized that I had *a lot* more to say on the subject than I realized, so I moved it <NuxtLink to="/why-start-a-blog-in-2020">to its own separate post.</NuxtLink> 
 
 So, if you can't be bothered to read that post, then this short excerpt will do: *I want to start a shift back to the way the internet used to be, where smaller voices could actually reach people. Where content could simply exist on the internet without a monetary purpose, without a desire to collect your data, where content doesn't simply exist for advertisers to analyze and aggregate into a dystopian, consumerist black hole.*
 
