@@ -75,7 +75,8 @@ export default {
           info: colors.teal.lighten1,
           warning: colors.amber.base,
           error: colors.deepOrange.accent4,
-          success: colors.green.accent3
+          infoboxBackground: "#282828",
+          success: colors.green.accent3,
         },
         light: {
           primary: '#4a8183',
@@ -85,7 +86,7 @@ export default {
           info: '#2196F3',
           success: '#4CAF50',
           warning: '#FFC107',
-          opacity: 0.95
+          infoboxBackground: "#f4f4f4",
         }        
       }
     }
