@@ -9,6 +9,7 @@ tags:
   - Technology
   - Programming
   - Opinion
+  - Essay
 ---
 
 ## Why This Site was Created

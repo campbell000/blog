@@ -58,12 +58,12 @@
     </v-main>
     <v-footer :outlined="true" class="siteFooter font-weight-medium" :absolute="isMobile" app>
         <div class="footerContent">
-          <v-row>
-            <v-col cols="12">
-<a href="https://www.buymeacoffee.com/acsimpledex"><img src="https://img.buymeacoffee.com/button-api/?text=Support This Site&emoji=💻&slug=acsimpledex&button_colour=4a8183&font_colour=ffffff&font_family=Inter&outline_colour=ffffff&coffee_colour=FFDD00"></a>
-              <div class="questionsBlock">
-              Questions? <span class="contactMe"><a href="mailto:ac.simpledex@gmail.com">Shoot me an email</a>, or <a href="https://github.com/campbell000/blog">create an issue!</a></span>
-              </div>
+          <v-row  align="center">
+            <v-col cols="6">
+              Never Meant - {{ new Date().getFullYear() }}  
+            </v-col>
+            <v-col cols="6" style="text-align: right; width: 100%">
+<a href="https://www.buymeacoffee.com/acsimpledex"><img src="https://img.buymeacoffee.com/button-api/?text=Support Never Meant &emoji=💻&slug=acsimpledex&button_colour=4a8183&font_colour=ffffff&font_family=Inter&outline_colour=ffffff&coffee_colour=FFDD00"></a>
             </v-col>
           </v-row>
         </div>
@@ -124,7 +124,7 @@ export default {
     },
 
     onResize () {
-      this.isMobile = window.innerWidth < 600 ||  window.innerHeight < 700;
+      this.isMobile = window.innerWidth < 500 ||  window.innerHeight < 500;
     },
   }
 }
@@ -145,8 +145,6 @@ export default {
 }
 
 .siteFooter {
-  padding-bottom: 1px !important;
-  padding-top: 2px !important;
   width: 100%;
 }
 
@@ -260,6 +258,11 @@ export default {
 }
 
 a[href^="https://www.buymeacoffee.com/acsimpledex"] > img {
+  height: 38px;
+}
+
+a[href^="https://www.buymeacoffee.com/acsimpledex"] {
+  line-height: 0;
   height: 38px;
 }
 

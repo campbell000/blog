@@ -77,6 +77,7 @@ export default {
           error: colors.deepOrange.accent4,
           infoboxBackground: "#282828",
           success: colors.green.accent3,
+          infoBoxText: "#f0f0f0"
         },
         light: {
           primary: '#4a8183',
@@ -87,6 +88,7 @@ export default {
           success: '#4CAF50',
           warning: '#FFC107',
           infoboxBackground: "#f4f4f4",
+          infoBoxText: "#404040"
         }        
       }
     }

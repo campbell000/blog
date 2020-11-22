@@ -14,21 +14,23 @@
 </script>
 
 <template>
-  <v-sheet color="infoboxBackground" class="rounded-xl infoBoxText primary--text">
-    <div class="bigQuote left">“</div>
-    <slot name="info-box">default</slot>
-    <div class="bigQuote right">”</div>
+  <v-sheet color="infoboxBackground" class="rounded-xl infoBoxContainer infoBoxText--text">
+    <div class="bigQuote left primary--text">“</div>
+    <slot>default</slot>
+    <div class="bigQuote right primary--text">”</div>
     <div class="source">
-      -- <a :href="sourceLink" target="_blank">{{sourceName}}</a>
+      <a class="sourceLink" :href="sourceLink" target="_blank">{{sourceName}}</a>
     </div>
   </v-sheet>
 </template>
 
 <style scoped>
-  .infoBoxText {
+  .infoBoxContainer {
     padding: 30px;
+    padding-bottom: 10px;
     font-size: 20px;
     font-style: italic;
+    margin-bottom: 20px;
   }
 
   p {
@@ -37,7 +39,7 @@
   }
 
   .bigQuote {
-    font-size: 38px;
+    font-size: 35px;
     line-height:0;
     margin-right: -3px;
   }
@@ -54,5 +56,17 @@
 
   .source {
     text-align: right;
+    text-decoration: none;
+    line-height: 1.5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .sourceLink {
+    text-decoration: none;
+  }
+
+  .sourceLink:hover {
+    text-decoration: underline;
   }
 </style>

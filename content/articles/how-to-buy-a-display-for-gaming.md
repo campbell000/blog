@@ -14,7 +14,7 @@ tags:
   - Opinion
 ---
 
-
+https://wiki.evageeks.org/File:01_C300_eva01-plug.jpg
 ## No Time, Give Me The Quick Version
 - If you aren't sure, then your current TV likely can't support 4K/120FPS content
 - If you have a 4K TV made ~3 years old, then you're probably fine for 4K/60FPS.
