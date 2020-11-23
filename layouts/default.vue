@@ -59,10 +59,10 @@
     <v-footer :outlined="true" class="siteFooter font-weight-medium" :absolute="isMobile" app>
         <div class="footerContent">
           <v-row  align="center">
-            <v-col cols="6">
+            <v-col cols="4">
               Never Meant - {{ new Date().getFullYear() }}  
             </v-col>
-            <v-col cols="6" style="text-align: right; width: 100%">
+            <v-col cols="8" style="text-align: right; width: 100%">
 <a href="https://www.buymeacoffee.com/acsimpledex"><img src="https://img.buymeacoffee.com/button-api/?text=Support Never Meant &emoji=💻&slug=acsimpledex&button_colour=4a8183&font_colour=ffffff&font_family=Inter&outline_colour=ffffff&coffee_colour=FFDD00"></a>
             </v-col>
           </v-row>
