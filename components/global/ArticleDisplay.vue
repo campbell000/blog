@@ -187,6 +187,10 @@
     padding-bottom: 0px;
   }
 
+  .nuxt-content p + ul {
+    margin-top: -10px;
+  }
+
   .tocInnerLink {
     list-style: circle;
     margin-left: 20px;
