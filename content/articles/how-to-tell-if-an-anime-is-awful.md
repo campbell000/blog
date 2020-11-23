@@ -156,7 +156,10 @@ Despite being a misquote (the real quote is something slightly different), it ha
 
 Whether it's music, movies, paintings, and espeicially anime, when artists attempt to constantly bombard the audience with emotions, visuals, sounds, twists, and turns, audiences get overwhelmed and fatigued. Sights and sounds pass by so quickly that they're here and gone in an instant, unable to be appreciated by anyone.
 
-
+<div class="imageContainer">
+  <img class="" :src="'/akunohana.png'" />
+  <span class="titleImageCaption text--secondary">An amazing scene from Aku No Hana, and a prime example of "putting the horn down". It's a little long, but given everything that's happened up to this point, it's utterly cathartic, and well-deserved</span>
+</div>
 
 ## Bonus List: Things that Shouldn't Be Dealbreakers
 1. **CGI**: as if you didn't already know, anime is expensive. In that sense, I consider CGI as an enabler. It allows studios with smaller budgets to create things that they wouldn't normally be able to create with traditional hand-drawn animation. So just because something has janky CGI, doesn't necessarily mean that it's terrible (although I genuinely thought that Zombieland Saga was medicore).
