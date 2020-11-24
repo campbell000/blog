@@ -11,6 +11,10 @@
             <span v-if="tags[tag] == null" class="tag" v-text="tag"></span>
             <span class="tagDivider" v-if="id < article.tags.length - 1"> | </span>
           </span>
+          <div class="supportMe">
+            <a href="https://www.buymeacoffee.com/acsimpledex"><img src="https://img.buymeacoffee.com/button-api/?text=Support Never Meant &emoji=💻&slug=acsimpledex&button_colour=4a8183&font_colour=ffffff&font_family=Inter&outline_colour=ffffff&coffee_colour=FFDD00"></a>
+          </div>
+
         </div>
       </div>
 
@@ -146,6 +150,19 @@
   .tag {
     padding-left: 2px;
     padding-right: 2px;
+  }
+
+  a[href^="https://www.buymeacoffee.com/acsimpledex"] > img {
+  height: 43px;
+  }
+
+  a[href^="https://www.buymeacoffee.com/acsimpledex"] {
+    line-height: 0;
+    height: 43px;
+  }
+
+  .supportMe {
+    margin-top: 10px;
   }
 
   .tagDivider {

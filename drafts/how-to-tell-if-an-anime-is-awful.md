@@ -161,6 +161,8 @@ Whether it's music, movies, paintings, and espeicially anime, when artists attem
   <span class="titleImageCaption text--secondary">An amazing scene from Aku No Hana, and a prime example of "putting the horn down". It's a little long, but given everything that's happened up to this point, it's utterly cathartic, and well-deserved</span>
 </div>
 
+# EVERYTHING IS A COMEDY: YOU DONT HAVE TO COMMIT TO ANYTHING HERE
+
 ## Bonus List: Things that Shouldn't Be Dealbreakers
 1. **CGI**: as if you didn't already know, anime is expensive. In that sense, I consider CGI as an enabler. It allows studios with smaller budgets to create things that they wouldn't normally be able to create with traditional hand-drawn animation. So just because something has janky CGI, doesn't necessarily mean that it's terrible (although I genuinely thought that Zombieland Saga was medicore).
 2. **Fanservice**: despite what you might think based on what I've written above, I don't think fanservice is inherently bad. If it makes sense for the work in question, then I think it's fine. In other words, if it makes sense for the genre (i.e. haram, romance, etc), or if it makes in the narrative (main character gets seduced), or if it fits the aesthetic (i.e. Space Dandy), then I don't see any issue with it.

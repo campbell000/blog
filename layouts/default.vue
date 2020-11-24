@@ -24,12 +24,12 @@
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
-    <v-app-bar
+    <v-app-bar 
       dense
       app
     >
     <v-app-bar-nav-icon class="appBarIcon" @click.stop="drawer = !drawer" />
-    <div class="titleContentContainer">
+    <div class="titleContentContainer" :class="isWide ? 'ignoreMaxWidth' : ''">
       <NuxtLink to="/" tag="span" style="cursor: pointer" class="mainTitleClass" 
         :class="[this.currentPath == '/' ? 'selected' : 'unselected',
           this.$vuetify.theme.dark ? 'isDark' : '']">
@@ -49,21 +49,28 @@
       </div>
 
       <v-btn class='titleIcon' text icon @click="darkMode()"><v-icon>mdi-brightness-4</v-icon></v-btn>
+      <v-switch
+      class="wideSwitch"
+      v-model="isWide"
+      label="Wide"
+      color="primary"
+      value="primary"
+      hide-details
+    ></v-switch>
     </div>
     </v-app-bar>
     <v-main>
-      <v-container fluid>
+      <v-container fluid :class="isWide ? 'ignoreMaxWidth' : ''">
         <nuxt />
       </v-container>
     </v-main>
-    <v-footer :outlined="true" class="siteFooter font-weight-medium" :absolute="isMobile" app>
+    <v-footer :outlined="true" class="siteFooter font-weight-medium" :absolute="true" app>
         <div class="footerContent">
           <v-row  align="center">
             <v-col cols="4">
               Never Meant - {{ new Date().getFullYear() }}  
             </v-col>
             <v-col cols="8" style="text-align: right; width: 100%">
-<a href="https://www.buymeacoffee.com/acsimpledex"><img src="https://img.buymeacoffee.com/button-api/?text=Support Never Meant &emoji=💻&slug=acsimpledex&button_colour=4a8183&font_colour=ffffff&font_family=Inter&outline_colour=ffffff&coffee_colour=FFDD00"></a>
             </v-col>
           </v-row>
         </div>
@@ -80,6 +87,7 @@ export default {
       isDark: this.$vuetify.theme.dark,
       drawer: false,
       isMobile: true,
+      isWide: false,
       items: [
         {
           title: 'Home',
@@ -124,7 +132,7 @@ export default {
     },
 
     onResize () {
-      this.isMobile = window.innerWidth < 500 ||  window.innerHeight < 500;
+      this.isMobile = window.innerWidth < 600 ||  window.innerHeight < 600;
     },
   }
 }
@@ -160,6 +168,10 @@ export default {
   font-size: 13px;
 }
 
+.footerContent.ignoreMaxWidth {
+  max-width: 1600px;
+} 
+
 
 .footerContent > .row > .col {
   padding-left: 5px;
@@ -172,7 +184,7 @@ export default {
   display: inherit;
 }
 
-@media(min-width: 501px) {
+@media(min-width: 601px) {
   .nonMobileContent {
     display: inherit;
   }
@@ -182,7 +194,7 @@ export default {
   }
 }
 
-@media(max-width: 500px) {
+@media(max-width: 600px) {
   .nonMobileContent {
     display: none;
   }
@@ -195,6 +207,11 @@ export default {
 
 .container:not(.ignoreMaxWidth) {
     max-width: 700px;
+    overflow-x: hidden;
+}
+
+.container.ignoreMaxWidth {
+    max-width:1600px;
     overflow-x: hidden;
 }
 
@@ -257,19 +274,21 @@ export default {
   color: #ac8d9d;
 }
 
-a[href^="https://www.buymeacoffee.com/acsimpledex"] > img {
-  height: 38px;
-}
-
-a[href^="https://www.buymeacoffee.com/acsimpledex"] {
-  line-height: 0;
-  height: 38px;
-}
-
 .titleIcon {
 height: 24px !important;
-margin-top: 4px;
-margin-left: 15px;
+width: 36px !important;
+margin-top: 6px;
+margin-left: 25px;
+}
+
+.wideSwitch {
+  height: 24px !important;
+  margin-top: 6px !important;
+  margin-left: 27px;
+}
+
+.wideSwitch .v-input--selection-controls__ripple {
+  height: 0px !important;
 }
 
 :not(pre) > .v-application code {
