@@ -49,7 +49,7 @@
       </div>
 
       <v-btn class='titleIcon' text icon @click="darkMode()"><v-icon>mdi-brightness-4</v-icon></v-btn>
-      <v-switch
+      <v-switch v-if="showWide"
       class="wideSwitch"
       v-model="isWide"
       label="Wide"
@@ -88,6 +88,7 @@ export default {
       drawer: false,
       isMobile: true,
       isWide: false,
+      showWide: false,
       items: [
         {
           title: 'Home',
@@ -133,6 +134,7 @@ export default {
 
     onResize () {
       this.isMobile = window.innerWidth < 600 ||  window.innerHeight < 600;
+      this.showWide = window.innerWidth > 800;
     },
   }
 }
