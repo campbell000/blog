@@ -195,27 +195,33 @@ Therefore, if an anime's characters are constantly telling you how they feel and
 
 There's nothing worse than watching an anime, witnessing a *major, story-altering event go down*, and then tuning into the next epsisode only to find that *most of the anime's narrative dynamics haven't changed*.
 
-<div class="imageContainer">
-  <img class="" :src="'/dn.jpg'" />
-  <span class="titleImageCaption text--secondary">Remember when Death Note had the confidence to pull off killing L, a beloved main character? And then cowardly backtracked on that decision by replacing L with two inferior L's?</span>
-</div>
+Let me explain through an example: I sat down to watch an anime movie with my fiance, in which the movie ties in with an existing, currently-airing anime. At the near-end of the movie, the main character sacrifices their powers to save the world. *The main characters powers are central to the main plot of the show,* and upon realizing this, I thought to myself, "man, that is ballsy. That is going to have huge ramifications on the anime." I don't watch the anime in question, but I was legitimately intrigued at this creative decision. 
 
-Let me explain through an example: I sat down to watch an anime movie with my fiance, in which the movie ties in with an existing, currently-airing anime. At the climax of the movie, the main character sacrifices their powers to save the world, and I thought to myself, "man, that is ballsy. That is going to have huge ramifications on the anime." I don't watch the anime in question, but I was legitimately intrigued at this creative decision. 
+But to my disappointment, at the very end of the movie, he gets his powers back, and the rest of his crew forgets everything that happens, tying a neat little isolating bow around the events of the movie, ensuring that anime remains undisturbed by the dramatic events of the movie. And then I heaved a heavy sigh, and kept searching for some other anime to watch.
 
-But, to my disappointment, at the very end of the movie, he gets his powers back, and the rest of his crew forgets everything that happens, tying a neat little isolating bow around the events of the movie, ensuring that anime remains undisturbed by the dramatic events of the movie. And then I heaved a heavy sigh, and my negative perception of this anime was re-affirmed.
+In general, most anime shows try to establish or support one or more themes that resonate with human beings: loss, sacrifice, togetherness, family, kindness, revenge, etc. And at the climax of most of these stories, characters need to make decisions that greatly affect themselves or those around them. And it's those high-stakes decisions that make those moments impactful to the viewers. 
 
-In general, most stories set out to establish or support one or more themes that resonate with human beings: loss, sacrifice, togetherness, family, kindness, revenge, etc. And at the climax of most of these stories, characters need to make decisions that greatly affect themselves or those around them. And it's those high-stakes decisions that make those moments impactful to the viewers.
+I won't name too many examples because I'll end up spoiling things, but every mainstream movie or TV show involves at least one major, character-defining climactic decision: Luke Skywalker sparing Darth Vader. Goku sacrificing himself to defeat cell. *That* scene in Berserk. It's these scenes that, when the stakes are high, viewers are most invested. So it's important that, in these moments, the viewers' emotional investments are respected.
 
 <div class="imageContainer">
   <img class="" :src="'/ed.jpg'" />
   <span class="titleImageCaption text--secondary">Can you imagine how emotionally cheap it would have been if Ed left the Bebop, only to simply come back in a later epsiode?</span>
 </div>
 
-In the example pictured above, when Ed left the bebop, it was an emotionally powerful scene. And more importantly, *Ed didn't return*. The creator's stuck to their creative vision (for Bebop, it's about finding appreciating the present, and finding the strength to look onwards towards the future), and resisted the urge to retroactively cheapen the moment by either:
+In the example pictured above, when Ed left the bebop, it was an emotionally powerful scene. And more importantly, *Ed didn't return*. The creators respected the moment and respected the viewers' emotional investment by letting the emotions exist in their purest and rawest form.
 
-1. Bringing Ed back in a future episode
-2. Replacing Ed with a similar episode.
+Most importantly, the creator's stuck to their creative vision (for Bebop, it's about finding appreciating the present, and finding the strength to look onwards towards the future), and resisted the urge to retroactively cheapen the moment by either:
 
-So many anime shows fall into trap #2 above: they figuratively or literally kill a loved character, and fearing backlash from the fans (or simply trying to garner interest or goodwill from the fans), they try to replace them with a similar-but-different character.
+1. bringing Ed back in a future episode
+2. replacing Ed with a similar character.
 
-The most infamous example of this for me is Death Note. Most fans of the series can agree that Mello and Near were pale imitations of L, and that their introductions to the series were cowardice on the part of the show's directors. 
+So many anime shows fall into trap #2 above: they figuratively or literally kill a beloved character, and fearing backlash from the fans (or simply trying to garner interest or goodwill from the fans), they try to replace them with a similar-but-different character. Death Note's Mello and Near are, for me, the most infamous example of how poorly this can turn out.
+
+<div class="imageContainer">
+  <img class="" :src="'/dn.jpg'" />
+  <span class="titleImageCaption text--secondary">Remember when Death Note had the confidence to pull off killing L, a beloved main character? And then cowardly backtracked on that decision by replacing L with two inferior L's?</span>
+</div>
+
+To put it shortly and bluntly for those unfamiliar with Death Note, Mello and Near added very little to the dynamic of the show, aside from simply being replacements for L. More cynically, they simply served to pad out the anime's length, even though L's death would have made for a far more fitting ending.
+
+And again, following the theme of this entire post, these decisions are underpinned by pressures to make money. Making impactful, powerful narrative decisions like, for exmaple, killing a main character directly conflicts with anime studios' ability to make money because [much of their money is derived from character-based merchandising](https://aja.gr.jp/download/anime_ind_rpt2018_summary_en-2?wpdmdl=1407&refresh=5fba9768b7b7e1606063976). So even when they *do* kill a main character, they are pressured to replace them with a different character that fulfills a similar narrative purpose, which simply cheapens the entire decision in the first place.
