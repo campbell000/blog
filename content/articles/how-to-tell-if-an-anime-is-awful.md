@@ -192,10 +192,13 @@ Therefore, if an anime's characters are constantly telling you how they feel and
 **Recent Main offenders:**
 * None mentioned for spoiler reasons
 
-I sat down to watch an anime movie with my fiance, in which the movie ties in with an existing, currently-airing anime. At the climax of the movie, the main character sacrifices their powers to save the world, and I thought to myself, "man, that is ballsy. That is going to have huge ramifications on the anime." I don't watch the anime in question, but I was legitimately intrigued at this creative decision. 
+There's nothing worse than watching an anime, witnessing a *major, story-altering event go down*, and then tuning into the next epsisode only to find that *most of the anime's narrative dynamics haven't changed*.
+
+Let me explain through an example: I sat down to watch an anime movie with my fiance, in which the movie ties in with an existing, currently-airing anime. At the climax of the movie, the main character sacrifices their powers to save the world, and I thought to myself, "man, that is ballsy. That is going to have huge ramifications on the anime." I don't watch the anime in question, but I was legitimately intrigued at this creative decision. 
 
 But, to my disappointment, at the very end of the movie, he gets his powers back, and the rest of his crew forgets everything that happens, tying a neat little isolating bow around the events of the movie, ensuring that anime remains undisturbed by the dramatic events of the movie. And then I heaved a heavy sigh, and my negative perception of this anime was re-affirmed.
 
-In general, 
-
-
+<div class="imageContainer">
+  <img class="" :src="'/dn.jpg'" />
+  <span class="titleImageCaption text--secondary">Remember when Death Note had the confidence to pull off killing L, a beloved main character? And then cowardly backtracked on that decision by replacing L with two inferior L's?</span>
+</div>
