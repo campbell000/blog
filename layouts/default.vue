@@ -171,7 +171,7 @@ export default {
 }
 
 .footerContent.ignoreMaxWidth {
-  max-width: 1600px;
+  max-width: 1366px;
 } 
 
 
@@ -213,7 +213,7 @@ export default {
 }
 
 .container.ignoreMaxWidth {
-    max-width:1600px;
+    max-width:1366px;
     overflow-x: hidden;
 }
 

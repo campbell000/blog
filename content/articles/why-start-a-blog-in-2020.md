@@ -6,9 +6,7 @@ shouldShowUpdatedAt: true
 createdAt: "2020-11-01T23:41:34.140Z"
 tags: 
   - Life
-  - Technology
   - Programming
-  - Opinion
   - Essay
 ---
 

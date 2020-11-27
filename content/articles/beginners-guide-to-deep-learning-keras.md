@@ -6,7 +6,6 @@ shouldShowUpdatedAt: false
 createdAt: "2020-11-17T23:41:34.140Z"
 tags: 
   - How To
-  - Technology
   - Programming
 ---
 

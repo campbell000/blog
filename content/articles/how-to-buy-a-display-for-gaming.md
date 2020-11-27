@@ -9,9 +9,7 @@ titleImage: /couple-tv.jpeg
 titleImageCaption: "\"God, the input lag on this TV is awful. I think I want a divorce.\""
 tags: 
   - How To
-  - Technology
   - Gaming
-  - Opinion
 ---
 
 https://wiki.evageeks.org/File:01_C300_eva01-plug.jpg

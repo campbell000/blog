@@ -169,7 +169,7 @@ When you tell, and don't show, characters ring hollow. There's no weight behind 
   <span class="titleImageCaption text--secondary">My mental image of the the main characters from <a href="https://en.wikipedia.org/wiki/I_Want_to_Eat_Your_Pancreas">"I Want To Eat Your Pancreas"</a>. An absolutely awful anime that constantly explains its characters' motivations every 5 seconds, including a vomit-inducing 5-minute monologue at the film's conclusion</span>
 </div>
 
-But there's a reason why anime studios *tell* instead of *show*: **it's easier and cheaper to tell, rather than show**. Why bother animating an episode *showing* why a main character has difficulty trusting others? Instead, you can just dedicate 90 seconds to a flashback scene of still-frames, and have the character *tell* the audience why they have trust issues while sad music plays in the background. How emotional! Now, the character's trust issues make sense!
+But there's a reason why anime studios *tell* instead of *show*, and I don't think it's because anime writers are simpletons that can't grasp this basic rule: **it's easier and cheaper to tell, rather than show**. Why bother animating an episode *showing* why a main character has difficulty trusting others? Instead, you can just dedicate 90 seconds to a flashback scene of still-frames, and have the character *tell* the audience why they have trust issues while sad music plays in the background. How emotional! Now, the character's trust issues make sense!
 
 Showing is obviously harder to do: it requires more time and more skill: you need to make it clear to the viewers what you're trying to communicate without being obnoxiously overt about it. And more importantly, the consequences getting it wrong are dire: if viewers happen to miss what you're trying to show, they might react to major character plot points with statements like, "that seemed out-of-character for her", or "wow, I wouldn't have expected him to do that". 
 
@@ -188,29 +188,14 @@ Therefore, if an anime's characters are constantly telling you how they feel and
 
 **Remediation: Anime needs to have more faith in its viewers.** Its audience is growing up. If a show is marketed towards children, then explain everything and anything you need to. But for all other types of shows, give your audience and your narrative the respect it deserves. Take the time to write characters that we can believe in, instead of taking the easy way out by having them blurt out "This is my path!" every 5 seconds.
 
-### Not Knowing When to Shut Up
+### Inability to Commit to Major Narrative Decisions 
 **Recent Main offenders:**
-* Most recent Shonen anime
-* Most recent romance shows / comedies
+* None mentioned for spoiler reasons
 
-This one will take some explaining, so let me start with a metaphor. In jazz music, solos are often improvised (i.e. made up on the spot), and are sometimes of indeterminate length: no one tells you how long to play your solo for. You just kinda *feel it out*. Part of the skill of the soloist is knowing *exactly* how long your solo needs to be, for that specific vibe, for that specific moment in time. On one day, if [you're really feeling it](https://www.youtube.com/watch?v=hsdIRN6DJo8), it might be 30 seconds, but on another day, it might be only 15 seconds.
+I sat down to watch an anime movie with my fiance, in which the movie ties in with an existing, currently-airing anime. At the climax of the movie, the main character sacrifices their powers to save the world, and I thought to myself, "man, that is ballsy. That is going to have huge ramifications on the anime." I don't watch the anime in question, but I was legitimately intrigued at this creative decision. 
 
-I played the trumpet in my college's jazz ensemble. And one day, during rehearsal, someone mentioned a quote from Miles Davis, a famous Jazz Trumpet player, that went something like this: 
+But, to my disappointment, at the very end of the movie, he gets his powers back, and the rest of his crew forgets everything that happens, tying a neat little isolating bow around the events of the movie, ensuring that anime remains undisturbed by the dramatic events of the movie. And then I heaved a heavy sigh, and my negative perception of this anime was re-affirmed.
 
-<info-box :source-name="'Miles Davis (not really)'">
-You gotta know when to put the fucking horn down
-</info-box>
+In general, 
 
-Davis' ire was directed towards someone who soloing for far too long. And that quote (despite being a misquote, as I've later discovered), has stuck with me to this day because it can be applied to *many* different mediums of art. 
 
-There is, in my opinion, such a thing as *too much*.  Whether it's music, movies, paintings, and especially anime, when artists attempt to constantly bombard the audience with emotions, visuals, sounds, twists, and turns, audiences get overwhelmed and fatigued. Sights and sounds pass by so quickly that they're here and gone in an instant, unable to be appreciated by anyone.
-
-<div class="imageContainer">
-  <img class="" :src="'/akunohana.png'" />
-  <span class="titleImageCaption text--secondary">An amazing scene from Aku No Hana. A great example of "putting the horn down". It's long, but given everything that's happened up to this point, it's cathartic and well-deserved</span>
-</div>
-
-## Bonus List: Things that Shouldn't Be Dealbreakers
-1. **CGI**: as if you didn't already know, anime is expensive. In that sense, I consider CGI as an enabler. It allows studios with smaller budgets to create things that they wouldn't normally be able to create with traditional hand-drawn animation. So just because something has janky CGI, doesn't necessarily mean that it's terrible (although I genuinely thought that Zombieland Saga was medicore).
-2. **Fanservice**: despite what you might think based on what I've written above, I don't think fanservice is inherently bad. If it makes sense for the work in question, then I think it's fine. In other words, if it makes sense for the genre (i.e. haram, romance, etc), or if it makes in the narrative (main character gets seduced), or if it fits the aesthetic (i.e. Space Dandy), then I don't see any issue with it.
-3. **Cute Characters Doing Cute Things**: For me, personally, this is a cultural barrier that I can't seem to cross. I simply don't understand the appeal of a show about a group of cute characters doing nothing but futzing around, doing cute things, like starting a band, or participating in after-school clubs. But there's obviously a huge appeal to a lot of people. So I won't simply trash something that I don't understand.

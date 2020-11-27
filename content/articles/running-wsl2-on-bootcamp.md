@@ -8,8 +8,6 @@ titleImage: /bootcampTitle.png
 tags: 
   - How To
   - Programming
-  - Technology
-  - Programming
 ---
 
 ## Brief Summary
