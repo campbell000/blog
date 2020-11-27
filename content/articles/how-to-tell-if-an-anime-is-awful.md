@@ -17,6 +17,7 @@ tags:
 * If I critique your favorite anime, I'm not attacking you personally.
 * I'm not pining for "the good old days" of anime. I just want creative people to be allowed to take risks.
 * This isn't going to be a post about how anime is "toxic". There *are* certain aspects of it that make me uncomfortable, but as someone who's not japanese, I think [it's a little ignorant to call anime as a whole "insensitive" and "unacceptable" when I don't have any first hand experience of the cultural context](https://www.grandartsgazette.com/reviews/2020/1/30/anime-sucks-and-heres-why). There's a fine line between critique and claiming moral superiority :eyeroll:
+* <b>Light Spoilers for Cowboy Bebop and Death Note</b>
 
 ## Required Reading: Why Does a lot of Anime Suck?
 Nobody plans from the start to create something awful. Ignoring trolls and memes, I think that most failed artistic endeavors are due to unintentional failure. Whether it's a lack of skill, time, or money, there are *many* things that can go wrong. But it's my firm belief that, no matter what your credentials are, how much money you have, or how misguided you might be, everyone should be allowed to try to express themselves artistically.
@@ -194,11 +195,27 @@ Therefore, if an anime's characters are constantly telling you how they feel and
 
 There's nothing worse than watching an anime, witnessing a *major, story-altering event go down*, and then tuning into the next epsisode only to find that *most of the anime's narrative dynamics haven't changed*.
 
-Let me explain through an example: I sat down to watch an anime movie with my fiance, in which the movie ties in with an existing, currently-airing anime. At the climax of the movie, the main character sacrifices their powers to save the world, and I thought to myself, "man, that is ballsy. That is going to have huge ramifications on the anime." I don't watch the anime in question, but I was legitimately intrigued at this creative decision. 
-
-But, to my disappointment, at the very end of the movie, he gets his powers back, and the rest of his crew forgets everything that happens, tying a neat little isolating bow around the events of the movie, ensuring that anime remains undisturbed by the dramatic events of the movie. And then I heaved a heavy sigh, and my negative perception of this anime was re-affirmed.
-
 <div class="imageContainer">
   <img class="" :src="'/dn.jpg'" />
   <span class="titleImageCaption text--secondary">Remember when Death Note had the confidence to pull off killing L, a beloved main character? And then cowardly backtracked on that decision by replacing L with two inferior L's?</span>
 </div>
+
+Let me explain through an example: I sat down to watch an anime movie with my fiance, in which the movie ties in with an existing, currently-airing anime. At the climax of the movie, the main character sacrifices their powers to save the world, and I thought to myself, "man, that is ballsy. That is going to have huge ramifications on the anime." I don't watch the anime in question, but I was legitimately intrigued at this creative decision. 
+
+But, to my disappointment, at the very end of the movie, he gets his powers back, and the rest of his crew forgets everything that happens, tying a neat little isolating bow around the events of the movie, ensuring that anime remains undisturbed by the dramatic events of the movie. And then I heaved a heavy sigh, and my negative perception of this anime was re-affirmed.
+
+In general, most stories set out to establish or support one or more themes that resonate with human beings: loss, sacrifice, togetherness, family, kindness, revenge, etc. And at the climax of most of these stories, characters need to make decisions that greatly affect themselves or those around them. And it's those high-stakes decisions that make those moments impactful to the viewers.
+
+<div class="imageContainer">
+  <img class="" :src="'/ed.jpg'" />
+  <span class="titleImageCaption text--secondary">Can you imagine how emotionally cheap it would have been if Ed left the Bebop, only to simply come back in a later epsiode?</span>
+</div>
+
+In the example pictured above, when Ed left the bebop, it was an emotionally powerful scene. And more importantly, *Ed didn't return*. The creator's stuck to their creative vision (for Bebop, it's about finding appreciating the present, and finding the strength to look onwards towards the future), and resisted the urge to retroactively cheapen the moment by either:
+
+1. Bringing Ed back in a future episode
+2. Replacing Ed with a similar episode.
+
+So many anime shows fall into trap #2 above: they figuratively or literally kill a loved character, and fearing backlash from the fans (or simply trying to garner interest or goodwill from the fans), they try to replace them with a similar-but-different character.
+
+The most infamous example of this for me is Death Note. Most fans of the series can agree that Mello and Near were pale imitations of L, and that their introductions to the series were cowardice on the part of the show's directors. 
