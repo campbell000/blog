@@ -12,7 +12,7 @@
             <span class="tagDivider" v-if="id < article.tags.length - 1"> | </span>
           </span>
           <div class="supportMe">
-            <a href="https://www.buymeacoffee.com/acsimpledex"><img src="https://img.buymeacoffee.com/button-api/?text=Support This Site &emoji=💻&slug=acsimpledex&button_colour=4a8183&font_colour=ffffff&font_family=Inter&outline_colour=ffffff&coffee_colour=FFDD00"></a>
+            <a target="_blank" href="https://www.buymeacoffee.com/acsimpledex"><img src="https://img.buymeacoffee.com/button-api/?text=Support This Site &emoji=💻&slug=acsimpledex&button_colour=4a8183&font_colour=ffffff&font_family=Inter&outline_colour=ffffff&coffee_colour=FFDD00"></a>
           </div>
 
         </div>
@@ -41,6 +41,19 @@
     
     <nuxt-content :document="article" />
     <prev-next v-if="!inList" :prev="prev" :next="next" />
+    <br />
+    <v-divider/>
+    <br />
+    <h3>
+      <span class="commentHeader">Comments</span>
+      <v-tooltip top>
+      <template v-slot:activator="{ on, attrs }"><v-icon medium v-bind="attrs" v-on="on">mdi-information-outline</v-icon>
+      </template>
+      <span>Real Emails aren't required unless you<br /> want your name to be displayed</span>
+      </v-tooltip>
+    </h3>
+    <!-- Remarkbox - Your readers want to communicate with you -->
+    <div id="remarkbox-div"></div>
     <!--
     <br />
     <v-divider/>
@@ -61,12 +74,6 @@
 
 <script>
   export default {
-    data ({$axios}) {
-      return {
-        loading: false,
-        comment: {name: null, message: null},
-      }
-    },
     props: {
       article: {
         type: Object,
@@ -94,31 +101,45 @@
         const options = { year: 'numeric', month: 'long', day: 'numeric' }
         return new Date(dateStr).toLocaleDateString('en', options)
       },
-      submitComment() {
-      // Set a component data value for 'loading' to true, to be used in the UI
-      this.loading = true
-  	  // Axios supports the 'URLSearchParams' method for sending 'application/www-x-form-urlencoded' data
-      let formData = new URLSearchParams();
-
-      /* 'slug' is passed into the component as a prop.  Since the comments will
-      	  be viewed through a post, the post is passing in its own url slug--
-          something like 'my-new-post' or 'how-to-do-something'
-      */
-      formData.append('options[slug]', this.slug);
-
-      // From our form input bindings
-      formData.append('fields[name]', this.comment.name);
-      formData.append('fields[message]', this.comment.message);
-
-      // You will need to import axios for this-- or use your preferred library
-      this.$axios.post('https://api.staticman.net/v2/entry/sammcoe/samuelcoe.com/master/comments', formData).then((response) => {
-        this.loading = false;
-      }).catch((err) => {
-        console.log(err);
-        this.loading = false;
-      })
-    }
     },
+
+    mounted() {
+      var rb_owner_key = "cff0455b-317c-11eb-8ab2-040140774501";
+      var thread_uri = window.location.href;
+      if (thread_uri.endsWith("/")) {
+        thread_uri = thread_uri.substring(0, thread_uri.length - 1);
+      }
+      var thread_title = window.document.title;
+      var thread_fragment = window.location.hash;
+
+      // rb owner was here.
+      var rb_src = "https://my.remarkbox.com/embed" + 
+          "?rb_owner_key=" + rb_owner_key +
+          "&thread_title=" + encodeURI(thread_title) +
+          "&thread_uri=" + encodeURIComponent(thread_uri) + 
+          thread_fragment;
+
+      function create_remarkbox_iframe() {
+        var ifrm = document.createElement("iframe");
+        ifrm.setAttribute("id", "remarkbox-iframe");
+        ifrm.setAttribute("scrolling", "no");
+        ifrm.setAttribute("src", rb_src);
+        ifrm.setAttribute("frameborder", "0");
+        ifrm.setAttribute("tabindex", "0");
+        ifrm.setAttribute("title", "Remarkbox");
+        ifrm.style.width = "100%";
+        document.getElementById("remarkbox-div").appendChild(ifrm);
+      }
+      create_remarkbox_iframe();
+      iFrameResize(
+        {
+          checkOrigin: ["https://my.remarkbox.com"],
+          inPageLinks: true,
+          initCallback: function(e) {e.iFrameResizer.moveToAnchor(thread_fragment)}
+        },
+        document.getElementById("remarkbox-iframe")
+      );
+    }
   }
 </script>
 
@@ -193,6 +214,11 @@
     margin-bottom: 20px;
   }
 
+  .commentHeader {
+    vertical-align: middle;
+    padding-right: 5px;
+  }
+
   .imageContainer {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -238,6 +264,11 @@
     margin-right: auto;
     width: 35%;
     max-width: 35%;
+  }
+
+  img,
+  .imageContainer > img {
+    max-width: 700px;
   }
 
     img.medium,

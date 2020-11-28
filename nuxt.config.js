@@ -20,6 +20,11 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ],
+    script: [
+      {
+        src: "https://my.remarkbox.com/static/js/iframe-resizer/iframeResizer.min.js"
+      }
     ]
   },
 
