@@ -20,9 +20,20 @@ tags:
 * <b>Light Spoilers for Cowboy Bebop and Death Note</b>
 
 ## Required Reading: Why Does a lot of Anime Suck?
-Nobody plans from the start to create something awful. Ignoring trolls and memes, I think that most failed artistic endeavors are due to unintentional failure. Whether it's a lack of skill, time, or money, there are *many* things that can go wrong. But it's my firm belief that, no matter what your credentials are, how much money you have, or how misguided you might be, everyone should be allowed to try to express themselves artistically.
+Before I delve into *how* anime can be terrible, I want to first explain *why* lots of anime is terrible, and why it seems like there's more terrible anime *now* than ever. I want to do this because, on its own, a post simply identifying *how* to tell if an anime is awful serves no purpose: by doing so, I'd simply be upsetting creators and their fans. Sure, it's fun to play the role of high-brow critic every once in a while, but there's enough bloggers and vloggers out there already doing this.
 
-### Anime is Hard and Expensive
+Instead, I want to first give some context as to how we got to this point, and explain *why* anime creatives are consistently making the same mistakes that I outline in this post (spoiler: $$$). By spreading awareness, we as consumers can use our collective powers to drive the change in the industry that we want to see (i.e. better anime, less garbage).
+
+**So, why does it seem like anime sucks, especially recently?**
+
+Part of that can be attributed to [recency bias](https://en.wikipedia.org/wiki/Recency_bias): we only remember the good anime from 2, 5 or 10 years ago while we forget the garbage, so it's not actually true that anime has gotten worse. We simply don't remember the crap that we used to watch. Recency bias affects entertainment of all kinds, as you especially hear it with music: how many times have you heard the phrase, "they just don't make music like they used to"? Newsflash: they still do. In every genre you can think of. 
+
+
+Nostalgia also plays a huge factor, as well. No, Pokemon and Dragonball Z were not as good as you remember. So while you may not have fond memories of something like [Death Parade](https://en.wikipedia.org/wiki/Death_Parade), is it inferior to Yu Yu Hakusho? I'm not so sure.
+
+But unfortunately, I think there's more to the story than that. I actually think that the anime industry as a whole is going through a rough transitional period that's negatively affecting the quality of its output, and this can be explained in two parts.
+
+### Anime is Hard and Expensive, and It's Only Getting Worse
 **The primary reason why we end up with bad anime is because anime is very, very hard to make**. As the medium has evolved and technology has advanced, your average consumer has become very picky about their animation. They've probably seen movies like [Into the Spiderverse](https://www.youtube.com/watch?v=g4Hbz2jLxvQ), or maybe they've seen lovingly-crafted works like [Space Dandy](https://www.youtube.com/watch?v=Cxe15A-Vk28). Both are examples that raise the artistic bar and elevate their respective medium. But as the bar rises, so do consumers' expectations. 
 
 Unfortunately, your average anime fan probably doesn't know anything about about the difficulties of producing 24 minutes of fully-animated, fully voiced animation. As a result, when that same anime fan watches an [anime that looks like this](https://www.youtube.com/watch?v=qHPFD0-bXhE), they'll likely think, "wow, this is low budget trash!", and I think that's a little unfair (although seriously, that scene fails on a number of artistic and technical levels). 
@@ -61,7 +72,7 @@ The short answer is: they can't. They need to spend lots of money in order to ke
 
 In other words, in order to keep up with expectations and to remain competitive, Japanese animation studios can't simply fall back to their old ways of still-frame lip-flapping and stiff, choppy animation. In fact, as the quote above suggests, they need to spend much more money than they were previously spending.
 
-### The Bigger They Are, The Harder They Fall
+### Expensive Anime is Too Big to Fail
 Therefore, anime production studios have been feeling the pressure to spend more money to keep up with consumer expectations, as well as competition from global giants like netflix and amazon. But these decisions to spend more money don't simply exist in a vacuum. When anime becomes more expensive to make, it means that studios can't make as many shows. And when a studio can't make as many shows, it means that they have less tolerance for any one show to perform poorly. Consider the following examples:
 * Studio A produces 10 shows, and 2 flop
 * Studio B produces 5 shows, and 2 flop
