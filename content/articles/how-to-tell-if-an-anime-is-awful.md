@@ -82,7 +82,7 @@ This is terrible for the anime industry because **when a studio literally can't 
 This has had a drastic impact on the anime industry: I don't think it takes a university-funded research grant to deduce that, because of this, your average anime season now typically looks like:
 * Dozens of cheaply-produced light-novel adaptations
 * Romantic-comedy harems
-* Videogame / High-fantasy / "Isekai"
+* Videogame / High-fantasy / <a href="https://en.wikipedia.org/wiki/Isekai">Isekai</a>
 * Videogame / High-fantasy / "Isakai", but subverted for comedic effect
 * Cute girls doing cute things
 
