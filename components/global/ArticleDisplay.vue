@@ -107,7 +107,7 @@
       } else {
         this.passwordIsSatisfied = true;
       }
-      var rb_owner_key = "10e61e12-328c-11eb-8abd-040140774501";
+      var rb_owner_key = "af501970-328e-11eb-8abd-040140774501";
       var thread_uri = window.location.href;
       if (thread_uri.endsWith("/")) {
         thread_uri = thread_uri.substring(0, thread_uri.length - 1);
