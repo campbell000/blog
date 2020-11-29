@@ -14,11 +14,8 @@
           <div class="supportMe">
             <a target="_blank" href="https://www.buymeacoffee.com/acsimpledex"><img src="https://img.buymeacoffee.com/button-api/?text=Support This Site &emoji=💻&slug=acsimpledex&button_colour=4a8183&font_colour=ffffff&font_family=Inter&outline_colour=ffffff&coffee_colour=FFDD00"></a>
           </div>
-
         </div>
       </div>
-
-
     </div>
     <div class="metadata text--secondary">
       <div class="summary">{{ article.summary }}</div>
@@ -39,7 +36,8 @@
       </ul>
     </nav>
     
-    <nuxt-content :document="article" />
+    <nuxt-content v-if="passwordIsSatisfied" :document="article" />
+    <p v-if="!passwordIsSatisfied">Sorry, you need to enter the password correctly to view this article</p>
     <prev-next v-if="!inList" :prev="prev" :next="next" />
     <br />
     <v-divider/>
@@ -52,28 +50,27 @@
       <span>Real Emails aren't required unless you<br /> want your name to be displayed</span>
       </v-tooltip>
     </h3>
+    <p class="commentPolicy text--secondary">
+      Comment Policy: all opinions are welcome, even if you disagree with the author. Off topic comments are also allowed,
+      as long as they are loosely related to the topic of the post or to this website in general.
+      But any personal attacks on the author or other commenters will be deleted without warning.
+      Comments without any meaning whatsoever (i.e. trolling, spam, etc) will also be deleted without warning.
+
+      Have fun and be nice!
+
+    </p>
     <!-- Remarkbox - Your readers want to communicate with you -->
     <div id="remarkbox-div"></div>
-    <!--
-    <br />
-    <v-divider/>
-    <br />
-    <h3>Comments</h3>
-    <form @submit.prevent="'onSubmit'">
-      <v-text-field v-model="comment.name" type="text" required placeholder="Name" />
-      <v-textarea outlined v-model="comment.message" required placeholder="Add a Comment" />
-      <v-btn @click="submitComment()">Submit</v-btn>
-    </form>
-    <br />
-    <v-divider/>
-    -->
-    
-
   </article>
 </template>
 
 <script>
   export default {
+    data () {
+      return {
+        passwordIsSatisfied: false
+      }
+    },
     props: {
       article: {
         type: Object,
@@ -104,6 +101,12 @@
     },
 
     mounted() {
+      if (this.article.isPasswordProtected) {
+        var pass = prompt("Enter the password yo");
+        this.passwordIsSatisfied = pass == "bigbuttsowhat";
+      } else {
+        this.passwordIsSatisfied = true;
+      }
       var rb_owner_key = "cff0455b-317c-11eb-8ab2-040140774501";
       var thread_uri = window.location.href;
       if (thread_uri.endsWith("/")) {
@@ -130,15 +133,17 @@
         ifrm.style.width = "100%";
         document.getElementById("remarkbox-div").appendChild(ifrm);
       }
-      create_remarkbox_iframe();
-      iFrameResize(
-        {
-          checkOrigin: ["https://my.remarkbox.com"],
-          inPageLinks: true,
-          initCallback: function(e) {e.iFrameResizer.moveToAnchor(thread_fragment)}
-        },
-        document.getElementById("remarkbox-iframe")
-      );
+      if (this.passwordIsSatisfied) {
+        create_remarkbox_iframe();
+        iFrameResize(
+          {
+            checkOrigin: ["https://my.remarkbox.com"],
+            inPageLinks: true,
+            initCallback: function(e) {e.iFrameResizer.moveToAnchor(thread_fragment)}
+          },
+          document.getElementById("remarkbox-iframe")
+        );
+      }
     }
   }
 </script>
@@ -212,6 +217,11 @@
   }
   .nuxt-content p {
     margin-bottom: 20px;
+  }
+
+  .commentPolicy {
+    font-size: 12px;
+    font-style: italic;;
   }
 
   .commentHeader {

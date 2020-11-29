@@ -50,8 +50,19 @@
     <ul class="listContainer" style='list-style: none'>
       <li class="articleListItem" v-for="article of articles" :key="article.slug">
           <div>
-            <NuxtLink :to="{ name: 'slug', params: { slug: article.slug } }"><h2>{{ article.title }}</h2></NuxtLink>
-            <div class='postDate'>{{formatDate(article.createdAt)}}</div>
+            <NuxtLink :to="{ name: 'slug', params: { slug: article.slug } }">
+              <h2>{{ article.title }}</h2>
+            </NuxtLink>
+            <div class='postDate'>
+              <v-tooltip top>
+                <template v-slot:activator="{ on, attrs }">
+                  <v-icon  v-bind="attrs" v-on="on" v-if="article.isPasswordProtected">mdi-lock</v-icon>
+                </template>
+                <span>Article is password-protected. Will be available soon.</span>
+              </v-tooltip>
+              
+              {{formatDate(article.createdAt)}}
+            </div>
             <div class="postSummary">{{ article.summary }}</div>
           </div>
       </li>
@@ -80,5 +91,6 @@
   
   .listContainer {
     margin-bottom: 130px;
+    list-style-type: none;
   }
 </style>

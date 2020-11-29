@@ -2,6 +2,7 @@
   export default {
     async asyncData({ $content, params }) {
       const articles = await $content('articles', params.slug)
+        .where({ isPasswordProtected: { $ne: true } })
         .sortBy('createdAt', 'desc')
         .limit(1)
         .fetch()
