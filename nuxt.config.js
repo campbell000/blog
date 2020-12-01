@@ -85,7 +85,7 @@ export default {
           infoBoxText: "#f0f0f0"
         },
         light: {
-          primary: '#4a8183',
+          primary: '#46797b',
           secondary: '#523a47',
           accent: '#82B1FF',
           error: '#FF5252',

@@ -231,12 +231,12 @@ export default {
 
 .mainTitleClass {
   font-weight: bold;
-  color: #4a8183;
+  color: #46797b;
 }
 
 .selected.mainTitleClass,
 .mainTitleClass:hover {
-  border-bottom: 2px solid #4a8183;
+  border-bottom: 2px solid #46797b;
 }
 
 .mainTitleClass.isDark {
