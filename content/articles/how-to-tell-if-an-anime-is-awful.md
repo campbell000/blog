@@ -5,6 +5,7 @@ titleImage: /ante_up.jpg
 titleImageCaptionHTML: "Anime needs to <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=cDu-2h8ZDhI\">Ante Up</a>"
 shouldShowTableOfContents: true
 shouldShowUpdatedAt: false
+isPasswordProtected: true
 createdAt: "2020-11-27T23:41:34.140Z"
 tags: 
   - Essay
