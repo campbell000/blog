@@ -25,7 +25,7 @@ Instead, I want to first give some context as to how we got to this point, and e
 
 **So, let's begin with a question: why does it seem like anime has been declining in quality?**
 
-Part of it can be attributed to [recency bias](https://en.wikipedia.org/wiki/Recency_bias). Recency bias affects entertainment of all kinds, as you especially hear it with music. How many times have you heard the phrase, "they just don't make music like they used to"? Such statements pine for "the good old days" of music, and yet people that spout this kind of nonsense don't realize that there was just as much crap during those days as there is now. The crap simply fades from our collective memory, while the good music persists. The net result is that this creates the *illusion* that music was better back then, despite this not actually being the case. 
+Part of it can be attributed to [recency bias](https://en.wikipedia.org/wiki/Recency_bias). Recency bias affects entertainment of all kinds, as you especially hear it with music. How many times have you heard the phrase, "they just don't make music like they used to"? Such statements pine for "the good old days" of music, and yet people that spout this kind of nonsense don't realize that there was just as much crap during those days as there is now. The crap simply fades from our collective memory, while the good music persists. This creates the *illusion* that music was better back then, despite this illusion not being true. 
 
 In regards to anime, recency bias means we only remember the good anime from 2, 5 or 10 years ago while we forget the garbage. I think that recency bias plays a part in the collective sentiment that anime appears to be getting worse.
 
