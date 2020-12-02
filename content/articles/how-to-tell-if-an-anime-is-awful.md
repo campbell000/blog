@@ -25,22 +25,24 @@ Instead, I want to first give some context as to how we got to this point, and e
 
 **So, let's begin with a question: why does it seem like anime has been declining in quality?**
 
-Part of it can be attributed to [recency bias](https://en.wikipedia.org/wiki/Recency_bias): we only remember the good anime from 2, 5 or 10 years ago while we forget the garbage, so it's not actually true that anime has gotten worse. We simply don't remember the crap that we used to watch. Recency bias affects entertainment of all kinds, as you especially hear it with music. How many times have you heard the phrase, "they just don't make music like they used to"? Newsflash: they still do. In every genre you can think of. 
+Part of it can be attributed to [recency bias](https://en.wikipedia.org/wiki/Recency_bias). Recency bias affects entertainment of all kinds, as you especially hear it with music. How many times have you heard the phrase, "they just don't make music like they used to"? Such statements pine for "the good old days" of music, and yet people that spout this kind of nonsense don't realize that there was just as much crap during those days as there is now. The crap simply fades from our collective memory, while the good music persists. The net result is that this creates the *illusion* that music was better back then, despite this not actually being the case. 
 
-But unfortunately, I think there's more going on in the anime industry than most people realize. I actually think that the industry as a whole is going through a rough transitional period that's negatively affecting the quality of its output, and this can be explained in two parts.
+In regards to anime, recency bias means we only remember the good anime from 2, 5 or 10 years ago while we forget the garbage. I think that recency bias plays a part in the collective sentiment that anime appears to be getting worse.
+
+But unfortunately, I think there's more to the story than that: I actually *do* think that anime is getting worse. In fact, I think that there's more going on in the anime industry than most people realize. I'd argue that the anime industry as a whole is going through a rough transitional period, and I'm not sure if it'll it'll survive. It will continue as a business, sure, but as an artform? I have my doubts. My logic is explained in two parts, below.
 
 ### Anime is Hard and Expensive, and It's Only Getting Worse
 **The primary reason why we end up with bad anime is because anime is very, very hard to make**. As the medium has evolved and technology has advanced, your average consumer has become very picky about their animation. They've probably seen movies like [Into the Spiderverse](https://www.youtube.com/watch?v=g4Hbz2jLxvQ), or maybe they've seen lovingly-crafted works like [Space Dandy](https://www.youtube.com/watch?v=Cxe15A-Vk28). Both are examples that raise the artistic bar and elevate their respective mediums. But as the bar rises, so do consumers' expectations. 
 
 Unfortunately, your average anime fan probably doesn't know anything about about the difficulties of producing 24 minutes of fully-animated, fully voiced animation. As a result, when that same anime fan watches something like ZOMBIE LAND SAGA, they'll likely think, "Wow, this anime looks like crap!". Check out the video below to see for yourself how awful this anime looks during *it's climactic, final performance:*
 
-<youtube-link :width="560" :height="315" :src-link="'https://www.youtube-nocookie.com/embed/qHPFD0-bXhE'">
+<youtube-link :src-link="'https://www.youtube-nocookie.com/embed/qHPFD0-bXhE'">
 CGI is not the issue, here. Instead, take note of the garish, puke-ish color schemes, the bizarrely-variable framerates of the animation, and the lifeless cinematography.
 </youtube-link>
 
 To be honest, I'd have a hard time disagreeing with that average anime fan: aside from the first couple of episodes, Zombieland Saga looks absolutely terrible. With that said, I think that it's a little unfair to compare to compare your average, middle-of-the-road anime to something like Into the Spiderverse or Space Dandy since the later two probably had huge budgets, while your average anime is given a budget of around [2 million US dollars](https://www.animenewsnetwork.com/interest/2015-08-13/anime-insiders-share-how-much-producing-a-season-costs/.91536). We're comparing apples to diamond-encrusted oranges.
 
-I think it's especially unfair because, based on my understanding, japanese anime is one of the hardest kinds of of artwork to animate: since its inception, anime has [always been rooted in beautiful, artistic, and highly-detailed imagery](https://en.wikipedia.org/wiki/Anime#History), while animation itself was secondary. This is is quite different from the principals of western animation. Take a look at the comparison below:
+I think it's especially unfair because, based on my understanding, japanese anime is one of the hardest kinds of of artwork to animate: since its inception, japanese anime has [always been rooted in beautiful, artistic, and highly-detailed imagery](https://en.wikipedia.org/wiki/Anime#History). Take a look at the comparison below:
 
 <div class="imageContainer">
   <img class="" :src="'/wesjap.jpg'" />
@@ -49,13 +51,13 @@ I think it's especially unfair because, based on my understanding, japanese anim
 
 Notice how Naruto's design is much more detailed: his hands are drawn much more accurately, his clothes have shading and folds much more realistically, and to me, his design as a still frame is much more interesting to look at. 
 
-But the cost of such an interesting and detailed design is a design that's time-intensive to animate. To compensate for this, you'll often see:: 
+But the cost of such an interesting and detailed design is a design that's time-intensive to animate. To compensate for this, you'll often see: 
 - Stiff, one-or-two frames of animation
 - Still-frames with no animation, or with only pannings of the camera
 - Re-used animations and scenes from earlier episodes
 - Simple "lip-flapping" instead of proper phonetic lip-syncing to spoken dialog.
 
-Compare this to Timmy from "The Fairly Odd Parents", picutred on the right. Compared to Naruto, his design is outright amateurish at first glance. But as a result of that shows' simpler designs, its character animations are *much* more fluid and expressive than Naruto's. [Take a look at the shows frantic opening for reference](https://www.youtube.com/watch?v=no8vgXg_rlw), and notice how much smoother the animation is than your typical anime scene. In general, when designs are simpler, they're easier and cheaper to animate. 
+Now, take a look at Timmy's design from "The Fairly Odd Parents", picutred on the right. Compared to Naruto, his design is outright amateurish at first glance. But as a result of The Fairly Odd Parents' simpler designs, its character animations are *much* more fluid and expressive than Naruto's. [Take a look at the shows frantic opening for reference](https://www.youtube.com/watch?v=no8vgXg_rlw), and notice how much smoother the animation is than your typical anime scene. In general, when designs are simpler, they're easier and cheaper to animate. 
 
 This isn't a condemnation of japanese or western animation. Rather, this is just a frank analysis of how each type of animation chooses to deal with the reality of limited time and budgets. Western animation has handled this limitation via simplistic character designs that are easy to animate, while anime has done the opposite: appealing character designs with limited animation.
 
@@ -66,13 +68,13 @@ This isn't a condemnation of japanese or western animation. Rather, this is just
 
 **But as I've stated above, consumers are starting to tolerate the limited animation techniques of anime less and less.** As a result, this puts the anime industry between a rock and a hard place: how do anime creatives stay true to the roots of anime, which emphasizes detailed artwork and intricate designs, while keeping up with consumer expectations without spending a ton of money?
 
-The short answer is: they can't. They need to spend lots of money in order to keep up with consumer expectations. See the following excerpt from a report written by the Association of Japanese Animations (AJA):
+The short answer is: they can't. They *need* to spend lots of money in order to keep up with consumer expectations. See the following excerpt from a report written by the Association of Japanese Animations (AJA):
 
 <info-box :source-name="'Anime Industry Report 2018 Summary'" :source-link="'https://aja.gr.jp/download/anime_ind_rpt2018_summary_en-2?wpdmdl=1407&refresh=5fba9768b7b7e1606063976'">
 [T]here is a strong demand for higher quality of animations. It is also evidence of growing understanding for the situation. Yet some animation studios which fail to match the required quality may face the risk of failure if they are late to improve productivity...on the other hand, some say the production costs of certain works are pushed up due to the entry of new players, including domestic game companies, Netflix, Amazon and Chinese businesses.
 </info-box>
 
-In other words, in order to keep up with expectations and to remain competitive, Japanese animation studios can't simply fall back to their old ways of still-frame lip-flapping and stiff, choppy animation. In fact, as the quote above suggests, they need to spend much more money than they were previously spending.
+In other words, in order to keep up with expectations and to remain competitive, Japanese animation studios can't simply fall back to their old ways of still-frame lip-flapping. Instead, as the quote above suggests, they'll need to *increase* their spending simply to survive. Consumers will simply look elsewhere if the japanese anime industry can't keep up.
 
 ### Expensive Anime is Too Big to Fail, so No One Takes Risks Anymore
 Therefore, anime production studios have been feeling the pressure to spend more money to keep up with consumer expectations, as well as competition from global giants like netflix and amazon. But these decisions to spend more money don't simply exist in a vacuum. When anime becomes more expensive to make, it means that studios can't make as many shows. When a studio can't make as many shows, it means that they have less tolerance for any one show to perform poorly. Consider the following examples:
@@ -81,10 +83,10 @@ Therefore, anime production studios have been feeling the pressure to spend more
 
 Relative to studio A, studio B is in trouble because 40% of their shows have flopped, compared to A's 20%.
 
-This is terrible for the anime industry because **when a studio literally can't afford to risk failure, then they'll be pressured to make creative decisions that make them money, rather than serve the narrative interests of the anime that they're producing**. 
+This is terrible for the anime industry because **when a studio literally can't afford failure, then they'll be pressured to make creative decisions that make them money, rather than decisions that produce quality anime shows**. And no, these two outcomes are often not aligned (more on that in the following sections). 
 
-This has had a drastic impact on the anime industry: I don't think it takes a university-funded research grant to deduce that, because of this, your average anime season now typically looks like:
-* Dozens of cheaply-produced light-novel adaptations
+This has had a drastic impact on the anime industry. For proof, take a look at your average 2020 anime season:
+* Dozens of cheaply-produced <a href="https://en.wikipedia.org/wiki/Light_novel">light novel</a> adaptations
 * Romantic-comedy harems
 * Videogame / High-fantasy / <a href="https://en.wikipedia.org/wiki/Isekai">Isekai</a>
 * Videogame / High-fantasy / Isakai, but subverted for comedic effect
@@ -126,12 +128,11 @@ It's *also* no coincidence that these female characters usually satisfy most of 
   <span class="titleImageCaption text--secondary"><a href="https://en.wikipedia.org/wiki/Re:Zero_%E2%88%92_Starting_Life_in_Another_World">Re: Zero</a>, everyone. The waifu gang is all here. Pick a side, fight to death, and more importantly, buy as many figurines and body pillows as you can!</span>
 </div>
 
-One thing that's important to note is that the anime industry's "character-based merchandising" includes both physical AND digital sales. Physical sales cover the obvious revenue streams, such as [$100+ figurines of your favorite waifus](https://goodsmileshop.com/en/On-Sale-Now/Available-Now/Emilia/p/GSC_SCA_WD_00137?site=goodsmile-global&lang=en&utm_source=GSCPRODUCT&utm_medium=7076&utm_campaign=desktopsite) that cost $4 to make, posters, expensive blu-rays, explicit body-pillows. This has been the anime industry's bread-and-butter for a while, but it's old news at this point.
+One thing that's important to note is that the anime industry's "character-based merchandising" includes both physical AND digital sales. Physical sales cover the obvious revenue streams, such as [$100+ figurines of your favorite waifus](https://goodsmileshop.com/en/On-Sale-Now/Available-Now/Emilia/p/GSC_SCA_WD_00137?site=goodsmile-global&lang=en&utm_source=GSCPRODUCT&utm_medium=7076&utm_campaign=desktopsite) that cost $4 to make, posters, expensive blu-rays, explicit body-pillows. This has been the anime industry's bread-and-butter for decades.
 
 Perhaps more insidious is what's covered by the "digital" part of character-based merchandising: [Gacha Games](https://en.wikipedia.org/wiki/Gacha_game). For those unaware of what gacha games are, they're like "loot boxes", but instead of getting guns, skins, or abilities, you get anime characters. More to-the-point, you get anime waifus. 
 
-Players spend real money to gamble—yes, it's gambling, since there's a very high chance that the player will not get what they wanted—on a chance to score their favorite waifus. Since each dollar spent on each gambling attempt is almost pure profit, this monetization technique is *very lucrative*, and has cropped up in *many* japanese anime tie-in mobile games. The [Anime Industry's 2019 report](https://aja.gr.jp/download/anime-industry-report-2019-summary_) specifically mentions that gacha games may overtake physical merchandising revenue in the near future based on current trends.
-
+Players spend real money to gamble—yes, it's gambling, since there's a very high chance that the player will not get what they wanted—on a chance to score their favorite waifus. Since each dollar spent on each gambling attempt is almost pure profit, this monetization technique is *very lucrative*, and has cropped up in *many* japanese anime tie-in mobile games. The [Anime Industry's 2019 report](https://aja.gr.jp/download/anime-industry-report-2019-summary_) claims that, because gacha games have exploded in popularity, the revenue from these games may overtake physical merchandising revenue in the near future.
 
 The main takeaway is that, if these gacha games are exploitative enough, and they're tied to a popular-enough anime franchise with popular waifus, these games can make *absurd* amounts of money. [Fate/Grand Order, for example, has made over $4,000,000,000 to date](https://en.wikipedia.org/wiki/List_of_highest-grossing_mobile_games). 
 
@@ -140,7 +141,7 @@ The main takeaway is that, if these gacha games are exploitative enough, and the
   <span class="titleImageCaption text--secondary">A screenshot of a mobile game based off of the "Fate" anime series, in which you can pay real money for a CHANCE to acquire a digital character. Marvel at how the developers made this interface as bewildering as possible.</span>
 </div>
 
-There are insane dollar amounts at stake for these anime studios and the monetization of their female anime characters, so there's obviously intense pressure to cram as many lewd waifus in mainstream anime shows as possible. Honestly, from a purely-financial standpoint, anime studios would be foolish not to.
+In other words, there are insane dollar amounts on the line for these anime studios when they monetize their female characters. This leads to intense pressure to cram as many lewd waifus into mainstream anime shows as possible. Honestly, from a purely-financial standpoint, anime studios would be foolish not to.
 
 **But unfortunately, I don't think these anime studios realize, or care,  that there are negative consequences to stuffing your anime with tons of fanservice-y, bland waifus where they don't belong.**
 
@@ -188,7 +189,7 @@ But there's a reason why anime studios *tell* instead of *show*, and I don't thi
 
 Instead, I think the answer is simple: anime studios *tell* instead of *show* because **it's easier and cheaper to tell, rather than show**. Why bother animating an episode *showing* why a main character has difficulty trusting others? Instead, you can just dedicate 90 seconds to a flashback scene of still-frames, and have the character *tell* the audience why they have trust issues while sad music plays in the background. How emotional! Now, the character's trust issues make sense!
 
-This is compounded by the fact that anime studios want their show to reach the largest demographic possible: if their characters motivations are too hard to understand, then their show may not be popular with younger adults or teenagers. Therefore, to avoid artificially limiting their audience, they dumb down their shows' characters and their narratives as much as possible. 
+This is compounded by the fact that anime studios want their show to reach the largest demographic possible: if their characters motivations are too hard to understand, then their show may not be popular with younger adults or teenagers. Therefore, to avoid artificially limiting their audience, these anime studios dumb down their characters and narratives as much as possible. 
 
 Showing is obviously harder to do, as it requires more time and more skill. It needs to be made clear to the viewers what's trying to be said without being obnoxiously overt about it. And more importantly, the consequences getting it wrong are dire: if viewers happen to miss what you're trying to show, they might react to major character plot points with statements like, "that seemed out-of-character for her", or "wow, I wouldn't have expected him to do that". 
 
@@ -251,8 +252,8 @@ But when money wins, the audience loses. I know this for a fact because, as an a
 
 If you aren't familiar with Cowboy Bebop, pictured above, Ed was a secondary character, but still central to the main plot. Quirky and a little annoying, but most viewers grew to love her in the end. In an emotional, climatic near-end of the series, she ended up leaving the crew for good. Can you imagine how disgusting and cheap it would have felt if she were to return in a later episode? Or worse: *replaced* by a different character with a similar narrative purpose (i.e. quirky and unpredictable)?
 
-Thankfully, the show's creators stuck to their creative vision (for Bebop, it's about appreciating the present, and finding the strength to look onwards towards the future), and resisted the urge to short-sighted disrespect their viewers. 
+Thankfully, the show's creators stuck to their creative vision (for Bebop, it's about appreciating the present, and finding the strength to look onwards towards the future), and resisted the urge to carelessly disrespect their viewers. 
 
-Unfortunately, shows like Cowboy Bebop are uncommon. Do a quick google search for "anime shows were the main character actually dies", and you'll notice that quite a few people have noticed this trend, and have recognized how cowardly most anime shows are. I'm not arguing that anime shows need to kill characters to be worth anything, but I *am* arguing that if a show is going to commit to a major character event, then they need to stick the landing. They can't undo it or take a mulligan. They need to live with it, just like a real human being would. That's what storytelling is about: living with your choices, for better or worse. 
+Unfortunately, anime like Cowboy Bebop is uncommon. Do a quick google search for "anime shows were the main character actually dies", and you'll notice that quite a few people have noticed this trend, and have recognized how cowardly most anime shows are. I'm not arguing that anime shows need to kill characters to be worth anything, but I *am* arguing that if a show is going to commit to a major character event, then they need to stick the landing. They can't undo it or take a mulligan. They need to live with their choices, just like a real human being would. That's what stories are about: living with one's own choices, for better or worse. 
 
 Therefore, if you're watching a show, and you get the sense the show is too afraid make sort of sacrifices with any of its characters, or is quick to undo them, I'd argue that the show doesn't respect your emotional investment, and would rather you spend money on its smartphone gacha game than watch its anime show.
