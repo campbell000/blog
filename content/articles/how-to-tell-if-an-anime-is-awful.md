@@ -77,11 +77,7 @@ The short answer is: they can't. They *need* to spend lots of money in order to 
 In other words, in order to keep up with expectations and to remain competitive, Japanese animation studios can't simply fall back to their old ways of still-frame lip-flapping. Instead, as the quote above suggests, they'll need to *increase* their spending simply to survive. Consumers will simply look elsewhere if the japanese anime industry can't keep up.
 
 ### Expensive Anime is Too Big to Fail, so No One Takes Risks Anymore
-Therefore, anime production studios have been feeling the pressure to spend more money to keep up with consumer expectations, as well as competition from global giants like netflix and amazon. But these decisions to spend more money don't simply exist in a vacuum. When anime becomes more expensive to make, it means that studios can't make as many shows. When a studio can't make as many shows, it means that they have less tolerance for any one show to perform poorly. Consider the following examples:
-* Studio A produces 10 shows, and 2 flop
-* Studio B produces 5 shows, and 2 flop
-
-Relative to studio A, studio B is in trouble because 40% of their shows have flopped, compared to A's 20%.
+Therefore, anime production studios have been feeling the pressure to spend more money to keep up with consumer expectations, as well as competition from global giants like netflix and amazon. But these decisions to spend more money don't simply exist in a vacuum. When anime becomes more expensive to make, it means that studios can't make as many shows. When a studio can't make as many shows, it means that they have less tolerance for any one show to perform poorly. In other words, now more than ever, a single failure of a show can tank an entire studio.
 
 This is terrible for the anime industry because **when a studio literally can't afford failure, then they'll be pressured to make creative decisions that make them money, rather than decisions that produce quality anime shows**. And no, these two outcomes are often not aligned (more on that in the following sections). 
 
@@ -102,7 +98,7 @@ Since money-making has become an unfortunate necessity for many of these anime s
 So, how can you tell if an anime has fallen victim to the pressures of making money, and therefore isn't worth your time? Below, I'll outline three major "Red Flags" to watch out for. All of them, I argue, are implemented in major mainstream anime with the sole purpose of making money, and their mere presence in an anime significantly detracts from its quality. Upon detecting one of these red flags, I'd recommend that you spend your precious time on something else.
 
 ## Red Flag #1: Waifu Baiting
-For those that don't know, "waifu" is a term used to refer to a female character that one would consider to be "wife material" ("waifu" being a phonetically-japanese pronunciation of the word "wife"). Fans of anime like to debate and discuss which waifu of their favorite anime is "the best waifu", and these discussions can go on for days/months/years. I don't engage in these debates, but as an outsider, I consider them to be harmless fun. You may argue that it's female objectification, but [women engage in similar activities](http://www.dailytoreador.com/archives/twilight-objectifies-men/article_ec0aff2e-32da-516d-b826-da34c1e5be6c.html), and as long as we all recognize that real human beings should be treated with much more respect than these fictional characters, then I don't think it's an issue.
+For those that don't know, "waifu" is a term used to refer to a female character that one would consider to be "wife material" ("waifu" being a phonetically-japanese pronunciation of the word "wife"). Fans of anime like to debate and discuss which waifu of their favorite anime is "the best waifu", and these discussions can go on for days/months/years. I don't engage in these debates, but as an outsider, I consider them to be harmless fun. You may argue that it's female objectification, but [men are occasionally objectified, too](https://old.reddit.com/r/xxanime/comments/45c1zo/top_10_best_husbandos_by_japanese_viewers_on/). And in general, as long as we all recognize that real human beings should be treated with much more respect than these fictional characters, then I don't think it's too much of an issue. 
 
 Let's all be honest with ourselves, too: there's nothing wrong with admiring a character, male or female, from a fictional work.
 
@@ -111,7 +107,7 @@ Let's all be honest with ourselves, too: there's nothing wrong with admiring a c
   <span class="titleImageCaption text--secondary">Casca from Berserk is an awesome female character. Complex, interesting, and someone you want to root for, even when things go horribly wrong. And they do.</span>
 </div>
 
-But the anime industry has taken notice of this: they've taken stock of all of the merchandise being purchased of the fans' favorite waifus. They've seen the figurines, posters, and [body-pillows](https://en.wikipedia.org/wiki/Dakimakura) fly off store shelves, and have recognized how lucrative this market can be. [It's a fact](https://aja.gr.jp/download/anime-industry-report-2019-summary_?wpdmdl=1625&refresh=5fbac18932e071606074761) that character merchandising has always made up a significant portion of the industry's overall revenue, so it only makes financial sense for the anime industry to capitalize on this trend as fast and hard as they possibly can.
+The anime industry, however, has taken notice of this:  they've seen the figurines, posters, and [body-pillows](https://en.wikipedia.org/wiki/Dakimakura) fly off store shelves, and have recognized how passionate (and valuable) anime fans can be when it comes to their favorite anime waifus. [It's a fact](https://aja.gr.jp/download/anime-industry-report-2019-summary_?wpdmdl=1625&refresh=5fbac18932e071606074761) that character merchandising has always made up a significant portion of the industry's overall revenue, so it only makes financial sense for the anime industry to capitalize on this trend as fast and hard as they possibly can.
 
 Therefore, I don't think it's a coincidence there's been a significant uptick in the amount of shows that introduce an unnecessary amount of female characters that fit a a variety of different archetypes of waifu, such as:
 * the quiet, shy waifu
@@ -244,7 +240,6 @@ Therefore, even an anime *can* muster up the courage to do something interesting
 
 But when money wins, the audience loses. I know this for a fact because, as an audience member, I know what it feels like when *we win*.
 
-
 <div class="imageContainer">
   <img class="limitedMedium" :src="'/ed.jpg'" />
   <span class="titleImageCaption text--secondary">Ed leaving the Bebop was one of the most powerful scenes of Cowboy Bebop. Most importantly, she didn't return.</span>
@@ -257,3 +252,10 @@ Thankfully, the show's creators stuck to their creative vision (for Bebop, it's 
 Unfortunately, anime like Cowboy Bebop is uncommon. Do a quick google search for "anime shows were the main character actually dies", and you'll notice that quite a few people have noticed this trend, and have recognized how cowardly most anime shows are. I'm not arguing that anime shows need to kill characters to be worth anything, but I *am* arguing that if a show is going to commit to a major character event, then they need to stick the landing. They can't undo it or take a mulligan. They need to live with their choices, just like a real human being would. That's what stories are about: living with one's own choices, for better or worse. 
 
 Therefore, if you're watching a show, and you get the sense the show is too afraid make sort of sacrifices with any of its characters, or is quick to undo them, I'd argue that the show doesn't respect your emotional investment, and would rather you spend money on its smartphone gacha game than watch its anime show.
+
+## Summary
+Wow, this post ended up being a lot longer than I planned. If you managed to make it all the way through, then thanks for reading! I hope you enjoyed what I had to say. If you only skimmed it, then the main takeaway from my ramblings shouldn't be that I hate all popular anime, and that I only like old, classic anime.
+
+Instead, I simply want to see the anime industry revert back into a creative environment where people with awesome ideas are allowed to thrive. I *don't* want to see those kinds of people sequestered into a small cubicle, half-heatedly churning out [garbage they don't care about](https://www.cbr.com/uma-musume-horse-girl-weirdest-anime/) simply to keep a roof over their heads. As consumers of anime (and if you aren't, there's *tons* of great anime out there, so there's no better time to get into it than now), we have the power to make this happen by supporting the kinds of anime that we want to see (i.e. artistic, passionate endeavors), while ignoring the shows that we don't (soulless, pandering cash-grabs).
+
+Be the change that you want to see!
