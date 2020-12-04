@@ -42,14 +42,6 @@
     <br />
     <v-divider/>
     <br />
-    <h3>
-      <span class="commentHeader">Comments</span>
-      <v-tooltip top>
-      <template v-slot:activator="{ on, attrs }"><v-icon medium v-bind="attrs" v-on="on">mdi-information-outline</v-icon>
-      </template>
-      <span>Real Emails aren't required unless you<br /> want your name to be displayed</span>
-      </v-tooltip>
-    </h3>
     <p class="commentPolicy text--secondary">
       Comment Policy: all opinions are welcome, even if you disagree with the author. Off topic comments are also allowed,
       as long as they are loosely related to the topic of the post or to this website in general.
@@ -57,10 +49,12 @@
       Comments without any meaning whatsoever (i.e. trolling, spam, etc) will also be deleted without warning.
 
       Have fun and be nice!
-
+    </p>
+    <p class="commentPolicy text--secondary">
+      <a href="https://commentbox.io/privacy">Here's the privacy policy of the comment provider that I use</a>
     </p>
     <!-- Remarkbox - Your readers want to communicate with you -->
-    <div id="remarkbox-div"></div>
+    <div class="commentbox"></div>
   </article>
 </template>
 
@@ -68,6 +62,7 @@
   export default {
     data () {
       return {
+        commentBoxId: process.env.NODE_ENV == "development" ? "5674511043133440-proj" : "5701338281279488-proj",
         passwordIsSatisfied: false
       }
     },
@@ -107,44 +102,17 @@
       } else {
         this.passwordIsSatisfied = true;
       }
-      var rb_owner_key = "10e61e12-328c-11eb-8abd-040140774501";
       var thread_uri = window.location.href;
       if (thread_uri.endsWith("/")) {
         thread_uri = thread_uri.substring(0, thread_uri.length - 1);
       }
-      var thread_title = window.document.title;
-      var thread_fragment = window.location.hash;
 
       // rb owner was here.
-      var rb_src = "https://my.remarkbox.com/embed" + 
-          "?rb_owner_key=" + rb_owner_key +
-          "&thread_title=" + encodeURI(thread_title) +
-          "&thread_uri=" + encodeURIComponent(thread_uri) + 
-          thread_fragment;
-
-      function create_remarkbox_iframe() {
-        var ifrm = document.createElement("iframe");
-        ifrm.setAttribute("id", "remarkbox-iframe");
-        ifrm.setAttribute("scrolling", "no");
-        ifrm.setAttribute("src", rb_src);
-        ifrm.setAttribute("frameborder", "0");
-        ifrm.setAttribute("tabindex", "0");
-        ifrm.setAttribute("title", "Remarkbox");
-        ifrm.style.width = "100%";
-        document.getElementById("remarkbox-div").appendChild(ifrm);
-      }
-      if (this.passwordIsSatisfied) {
-        create_remarkbox_iframe();
-        iFrameResize(
-          {
-            checkOrigin: ["https://my.remarkbox.com"],
-            inPageLinks: true,
-            initCallback: function(e) {e.iFrameResizer.moveToAnchor(thread_fragment)}
-          },
-          document.getElementById("remarkbox-iframe")
-        );
-      }
-    }
+      commentBox(this.commentBoxId, {
+        className: 'commentbox',
+        backgroundColor: 'white'
+      });
+    },
   }
 </script>
 

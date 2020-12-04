@@ -11,7 +11,7 @@
 
 <template>
   <div class="wrapper">
-    <div :width="width" :height="height" class="vidContainer">
+    <div class="vidContainer">
       <iframe :src="srcLink" 
       frameborder="0" allow="accelerometer; encrypted-media; gyroscope;" allowfullscreen></iframe>
     </div>

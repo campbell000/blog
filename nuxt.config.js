@@ -23,7 +23,7 @@ export default {
     ],
     script: [
       {
-        src: "https://my.remarkbox.com/static/js/iframe-resizer/iframeResizer.min.js"
+        src: "https://unpkg.com/commentbox.io/dist/commentBox.min.js"
       }
     ]
   },
