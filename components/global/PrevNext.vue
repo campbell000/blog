@@ -1,5 +1,4 @@
 <template>
-<v-container class="mb-2">
   <v-row>
     <v-col :lg="6" class="nextPrevLink next">
             <NuxtLink
@@ -19,7 +18,6 @@
       </NuxtLink>
     </v-col>
   </v-row>
-</v-container>
 </template>
 
 <script>

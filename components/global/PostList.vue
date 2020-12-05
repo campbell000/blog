@@ -53,7 +53,7 @@
             <NuxtLink :to="{ name: 'slug', params: { slug: article.slug } }">
               <h2>{{ article.title }}</h2>
             </NuxtLink>
-            <div class='postDate'>
+            <div class='postDate text--secondary'>
               <v-tooltip top>
                 <template v-slot:activator="{ on, attrs }">
                   <v-icon  v-bind="attrs" v-on="on" v-if="article.isPasswordProtected">mdi-lock</v-icon>
@@ -80,9 +80,12 @@
       color: white !important;
   }
 
+  .postSummary {
+    font-size: 14px;
+  }
+
   .postDate {
     font-style: italic;
-    color: #777777;
   }
 
   .articleListItem {

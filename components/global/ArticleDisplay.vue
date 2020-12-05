@@ -1,7 +1,7 @@
 <template>
   <article>
     <div class="titleBlock" >
-      <h1 class="articleTitle">{{ inList ? '' : '' }}{{ article.title }}</h1>
+      <h1 class="articleTitle">{{ article.title }}</h1>
       <div class="metadata text--secondary">
         <div class="writtenAt">Written At: {{ formatDate(article.createdAt) }}</div>
         <div class="updatedAty" v-if="article.shouldShowUpdatedAt">Last updated: {{ formatDate(article.updatedAt) }}</div>
@@ -37,23 +37,25 @@
     </nav>
     
     <nuxt-content  :document="article" />
-    <prev-next v-if="!inList" :prev="prev" :next="next" />
+    <prev-next v-if="!isOnFrontPage" :prev="prev" :next="next" />
     <br />
     <v-divider/>
     <br />
-    <p class="commentPolicy text--secondary">
-      Comment Policy: all opinions are welcome, even if you disagree with the author. Off topic comments are also allowed,
-      as long as they are loosely related to the topic of the post or to this website in general.
-      But any personal attacks on the author or other commenters will be deleted without warning.
-      Comments without any meaning whatsoever (i.e. trolling, spam, etc) will also be deleted without warning.
+    <div v-if="!isOnFrontPage">
+      <p class="commentPolicy text--secondary">
+        Comment Policy: all opinions are welcome, even if you disagree with the author. Off topic comments are also allowed,
+        as long as they are loosely related to the topic of the post or to this website in general.
+        But any personal attacks on the author or other commenters will be deleted without warning.
+        Comments without any meaning whatsoever (i.e. trolling, spam, etc) will also be deleted without warning.
 
-      Have fun and be nice!
-    </p>
-    <p class="commentPolicy text--secondary">
-      <a href="https://commentbox.io/privacy">Here's the privacy policy of the comment provider that I use</a>
-    </p>
-    <!-- Remarkbox - Your readers want to communicate with you -->
-    <div class="commentbox"></div>
+        Have fun and be nice!
+      </p>
+      <p class="commentPolicy text--secondary">
+        <a href="https://commentbox.io/privacy">Here's the privacy policy of the comment provider that I use</a>
+      </p>
+      <!-- Remarkbox - Your readers want to communicate with you -->
+      <div  class="commentbox"></div>
+    </div>
   </article>
 </template>
 
@@ -82,7 +84,7 @@
         type: Object,
         default: () => null
       },
-      inList: {
+      isOnFrontPage: {
         type: Boolean,
         default: () => false
       },
@@ -106,11 +108,12 @@
         thread_uri = thread_uri.substring(0, thread_uri.length - 1);
       }
 
-      // rb owner was here.
-      commentBox(this.commentBoxId, {
-        className: 'commentbox',
-        backgroundColor: 'white'
-      });
+      if (!this.isOnFrontPage) {
+        commentBox(this.commentBoxId, {
+          className: 'commentbox',
+          backgroundColor: 'white'
+        });
+      }
     },
   }
 </script>
