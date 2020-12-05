@@ -36,8 +36,7 @@
       </ul>
     </nav>
     
-    <nuxt-content v-if="passwordIsSatisfied" :document="article" />
-    <p v-if="!passwordIsSatisfied">Sorry, you need to enter the password correctly to view this article</p>
+    <nuxt-content  :document="article" />
     <prev-next v-if="!inList" :prev="prev" :next="next" />
     <br />
     <v-divider/>
