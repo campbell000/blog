@@ -151,6 +151,7 @@ export default {
   margin-right: auto;
   max-width: 700px;
   overflow-x: hidden;
+  overflow-y: hidden;
   display: inherit;
 }
 

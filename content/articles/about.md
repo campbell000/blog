@@ -36,9 +36,14 @@ When I first started writing this "About" page, I began by indiscriminately dump
 If you don't want to read that post, then the short version is that these big content aggregation companies like reddit, facebook and twitter wield too much power over the internet: they're designed to stamp out smaller voices like my own, and amplify the large, big brand voices (like corporations, businesses, etc). This, obviously, makes the internet a lame and uninteresting place. By starting a blog (and maybe inspire other to do the same), I hope to decentralize some of that power, making the internet a better place. "Restoring its former glory", if you will.
 
 ## What Kind of Privacy Concerns Should I Have While Using Your Site?
-I've taken great care to ensure that this site is as minimally invasive as possible. There are no ads or trackers, and no social media integration of any kind.
+I've taken great care to ensure that this site is as minimally invasive as possible. There are no ads or trackers, and no social media integration of any kind. I use google fonts and occasionally embed youtube links, but that's about it.
 
-For the comment system, I use [Remarkbox](https://www.remarkbox.com/), which seems to share a similar ethos that I do (simple, no ads, etc). I've had personal correspondence with the developer of the platform and he seems like a nice guy, but this is my disclosure that I don't fully control the comments on this site.
+## How should I contact you if I have comments, questions or concerns?
+Each article has it's own comments section, and I moderate / review the comments pretty regularly. But if you want to contact me directly, you can email me directly at:
+```
+NSString* domain = @"@gmail.com"
+NSLog(@"ac.simpledex%@", domain);
+```
 
 ## Is This Site Monetized in Any Way?
 Nope. Nothing on this site is monetized, and content that I write about won't be sponsored or monetarily-supported in any way. The only thing you'll see on this site is a donation link at the top of each article, where you can make a one time or continuous donation, which will go to site costs (and maybe some toys for my dog). It also simply gives people a way to let me know that they support my content. 
