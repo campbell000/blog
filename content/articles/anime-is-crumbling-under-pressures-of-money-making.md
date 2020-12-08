@@ -99,7 +99,7 @@ These ideas were once novel and exciting, but now they're not. We see these kind
 
 This isn't because the anime industry has "lost its touch": I'm sure that there's just as many eager and creative people in the industry today as there was in the 80's, 90's and 2000's. In fact, I'm sure there are young adults that grew up the same anime that I did, and want nothing more than to pursue their dreams of making something special, money be damned.
 
-But for these anime studios, the cost of failure is much higher than it used to be. As a result, when producing a show, the anime industry has placed a much greater importance on making money. To be fair, this is not an indictment of the anime industry, bur rather, this is simply an observation of how dire the situation is for the industry. *Most of those anime studios need to prioritize making money with every single show they make in order for them to survive.*
+But for these anime studios, the cost of failure is much higher than it used to be. As a result, when producing a show, the anime industry has placed a much greater importance on making money. To be fair, this is not an indictment of the anime industry, bur rather, this is simply an observation of how dire the situation is for the industry. *Most of these anime studios need to prioritize making money with every single show they make in order for them to survive.*
 
 But when making money becomes the singular, enveloping focus of a once-artistic endeavor, that's when things start to go awry.
 
