@@ -22,7 +22,7 @@ tags:
 ## Disclaimers
 Firstly, I recognize that this article is low-hanging fruit: there's a million screeching Youtubers and mainstream media outlets like Vice and Polygon writing articles like this one. Their articles are chock full of amazon referral links ($$$ CHA-CHING $$$), and they usually rely on fear and ignorance of the audience to shill expensive and unnecessary upgrades.
 
-But, here's the thing: **they all get this shit wrong. Repeatedly and consistently**. So fear not: I'm not selling anything, here. Instead, I will be giving you the tools you need to make informed decisions, and then giving you short, concise recommendations based on specific use cases.
+But here's the thing: **they all get this shit wrong. Repeatedly and consistently**. So fear not: I'm not here to sell you anything. Instead, I will be giving you the tools you need to make informed decisions, and then give you short, concise recommendations based on specific use cases.
 
 Secondly, I want to shout out <a href="https://www.rtings.com/">RTings</a>. I've sourced some of their images in this article, and in general, I've used their articles for my own edification and when buying my own gear. They are independently funded, so if you have the means, throw some support their way.
 
