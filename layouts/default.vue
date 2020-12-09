@@ -214,7 +214,7 @@ export default {
 }
 
 .container.ignoreMaxWidth {
-    max-width:1366px;
+    max-width:900px;
     overflow-x: hidden;
 }
 

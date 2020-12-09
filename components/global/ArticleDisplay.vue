@@ -249,6 +249,7 @@
   img,
   .imageContainer > img {
     max-width: 700px;
+    
   }
 
     img.medium,

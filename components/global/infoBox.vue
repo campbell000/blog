@@ -26,7 +26,7 @@
 
 <style scoped>
   .infoBoxContainer {
-    padding: 30px;
+    padding: 40px;
     padding-bottom: 10px;
     font-size: 20px;
     font-style: italic;

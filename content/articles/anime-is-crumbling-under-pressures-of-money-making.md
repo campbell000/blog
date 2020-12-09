@@ -79,6 +79,8 @@ The short answer is: they can't. They *need* to spend lots of money in order to 
 
 In other words, in order to keep up with expectations and to remain competitive, Japanese animation studios can't simply fall back to their old ways of still-frame lip-flapping. Instead, as the quote above suggests, they'll need to *increase* their spending simply to survive. Consumers will simply look elsewhere if the japanese anime industry can't keep up.
 
+You may correctly point out that the industry [is making more revenue than ever before](https://aja.gr.jp/download/anime-industry-report-2019-summary_), but I'd argue that isn't necessarily a sign of good things to come. This is simply the anime industry keeping pace with [the upward trend of the the entertainment indsutry as a whole](https://www.statista.com/statistics/237749/value-of-the-global-entertainment-and-media-market/). With declining sales in home ownership, car sales, and other luxury goods (because people can't afford those things), that surplus money has to go *somewhere*. In fact, I'd argue that with the entertainment indsutry increasing in size, this puts even *more* pressure on the anime industry to improve their output, as there are even *more* competitors in their general sector (i.e. video games, mobile games, light novels, etc).
+
 What happens when studios refuse to [ante up](https://www.youtube.com/watch?v=cDu-2h8ZDhI) and increase spending to afford better artwork and animation? We get Zombieland Sagas, or [Ghost in the Shell reboots](https://www.cbr.com/ghost-in-the-shell-reboot-cg-animation/). In general, we these shows that are trying *desperately* to reign in their budgets, keep their characters nicely detailed as is expected in anime, but *also* with higher-quality, smoother animations. But as one might be able to see, these goals are contradictory: good animation costs money, and it's impossible to keep costs low without sacrificing either animation quality or animation details. CGI is one mechanism for achieving smoother animations without huge costs, but without skilled CGI artists (which cost money), bland backgrounds and lifeless (excuse the zombie pu) character designs are often the result.
 
 Many anime studios can't cope with these harsh realities of the modern consumer entertainment landscape, which is why many mainstream shows are often ugly mishmashes of handrawn animation with jarring, out-of-place CGI. These studios are *aware* that consumers want great animation *and* great anime-style visual artwork, but they simply can't make the financial logistics work to actuate these goals.
@@ -86,9 +88,14 @@ Many anime studios can't cope with these harsh realities of the modern consumer 
 ### Expensive Anime is Too Big to Fail, so No One Takes Risks Anymore
 There *are* anime studios that have the means to dump more money into artwork and animation, and when the decision is made to spend the necessary time and money to craft a truly great show, the results can be extraordinary. 
 
-But these decisions to spend more money don't simply exist in a vacuum. When anime becomes more expensive to make, it means that studios can't make as many shows. When a studio can't make as many shows, it means that they have less tolerance for any one show to perform poorly. In other words, now more than ever, a single failure of a show can financially *ruin* an entire studio.
+But these decisions to spend more money don't simply exist in a vacuum. When anime becomes more expensive to make, it means that anime studios have less tolerance for any one show to perform poorly. In other words, now more than ever, the single failure of a show can financially *ruin* an entire studio.
+
 
 This is terrible for the anime industry because **when a studio literally can't afford failure, then they'll be pressured to make creative decisions that make them money, rather than decisions that produce quality anime shows**. And no, these two outcomes are often not aligned (more on that in the following sections). 
+
+For their financial survival, this leads anime studios to make one of two decisions:
+1. Produce as many cheaply-made shows as possible. This increases the studio's tolerance for failure.
+2. Produce less shows, and ensure that each show is a massive hit.
 
 This has had a drastic impact on the anime industry. For proof, take a look at your average 2020 anime season:
 * Dozens of cheaply-produced <a href="https://en.wikipedia.org/wiki/Light_novel">light novel</a> adaptations
@@ -97,7 +104,7 @@ This has had a drastic impact on the anime industry. For proof, take a look at y
 * Videogame / High-fantasy / Isakai, but subverted for comedic effect
 * Cute girls doing cute things
 
-These ideas were once novel and exciting, but now they're not. We see these kinds of show every single anime season, with the same kinds of "safe" character archetypes, conventions, and plot beats. I'm not saying that these genres produce inherently bad anime, but I don't think one can argue with me that in 2020, these genres aren't exciting. Rather, they can be considered "safe". They aren't novel or unique, and they can probably grab a sizeable audience based on concept alone.
+I'm not saying that these genres produce inherently bad anime, but I don't think one can argue with me that in 2020, these genres aren't exciting. Rather, they can be considered "safe". They aren't novel or unique, and they can probably grab a sizeable audience based on concept alone.
 
 This isn't because the anime industry has "lost its touch": I'm sure that there's just as many eager and creative people in the industry today as there was in the 80's, 90's and 2000's. In fact, I'm sure there are young adults that grew up the same anime that I did, and want nothing more than to pursue their dreams of making something special, money be damned.
 
