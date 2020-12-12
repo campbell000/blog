@@ -136,7 +136,23 @@
   }
 
   .contentsContainer {
+    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
     margin-top: 15px;
+  }
+
+  .theme--light .contentsContainer {
+    background-color: #f7f7f7;
+    border: 0.5px solid #e0e0e0;
+  }
+
+  .theme--dark .contentsContainer {
+    background-color: #222;
+    border: 0.5px solid #2d2d2d;
   }
 
   .tags {

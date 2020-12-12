@@ -294,19 +294,42 @@ margin-left: 25px;
   height: 0px !important;
 }
 
-:not(pre) > .v-application code {
-  background-color: #daf7ea;
-  color: #233d3e;
+:not(pre) > code[class*="language-"], pre[class*="language-"] {
+  background: #f5f2f0;
+}
+
+.nuxt-content-highlight {
+  background: #f5f2f0;
+  border: 0.5px dotted silver;
+  border-radius: 10px;
+  font-size: 14px;
+  position: relative;
+}
+
+.nuxt-content-highlight > .filename {
+  font-weight: 500;
+  color: black;
+  height: 0px;
+  position: absolute;
+  right: 11px;
+  font-style: italic;
+  top: 5px;
+}
+
+.v-application pre > code {
+  background-color: transparent !important;
   text-shadow: 0 0px white !important;
+  font-size: 100%;
+  color: #111 !important;
+}
+
+:not(pre) code {
+  background-color: #daf7ea !important;
+  color: black !important;
 }
 
 code {
   text-shadow: 0 0px white !important;
-}
-
-pre.language-text.line-numbers {
-  background-color: #daf7ea;
-  color: #233d3e;
 }
 
 html {

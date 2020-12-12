@@ -23,18 +23,15 @@ I'm working in Ubuntu, so if you're working in Windows or Mac, and you want to f
 
 ### Install Python 3 and pip
 First, we need to install Python 3. We also need to install "pip" which is a package manager for python (something that installs other python modules). To do so, run
-```
+```bash
 sudo apt install python3 python3-pip
 ```
 
 ### Create a virtual python environment
 Next, we need to create a "virtual python environment". We do this so that we can install python dependencies on a per-project basis, and not disturb any system-wide python packages. In other words, when you install or remove python packages, it does so at a local level, so you can add/remove packages without worrying about messing anything up.
 
-To do so, run the following commands
-
-```
-# Upgrade Setup Tools
-
+To do so, run the following commands:
+```bash
 # Installs the venv module
 sudo apt install python3-venv
 
@@ -44,14 +41,14 @@ mkdir ~/.venv/dl-tutorial
 python3 -m venv ~/.venv/dl-tutorial
 ```
 
-Finally, if all went well run the following command: `source ~/.venv/dl-tutorial/bin/activate`. If you did everything right, you should see `(dl-tutorial)` pre-fixed in your terminal. If you didn't, repeat these steps again, or look up guides for creating python virtual.
+Finally, if all went well run, the following command: `source ~/.venv/dl-tutorial/bin/activate`. If you did everything right, you should see `(dl-tutorial)` pre-fixed in your terminal. If you didn't, repeat these steps again, or look up guides for creating python virtual.
 
 ** Note that you will have to run `source ~/.venv/dl-tutorial/bin/activate` every time you start a new shell session!** This "activates" your virtual python environment.
 
 ### Install Tensorflow, Keras, and All Dependencies
 Now that you have your python environment set up, run the following commands. I recommend running them one by one to ensure you don't get errors along the way.
 
-```
+```bash
 # Ensures that your virtual environment is activated
 source ~/.venv/dl-tutorial/bin/activate
 
@@ -100,7 +97,7 @@ In the statistics world, this is sometimes called a **binary classification prob
 
 Lets start with the following code, which loads the essential Keras imports, as well as the dataset itself.
 
-```
+```python [dl_tutorial_01.py]
 import numpy
 from numpy import loadtxt
 from keras.models import Sequential
@@ -110,28 +107,28 @@ dataset = loadtxt('heart.csv', delimiter=',', skiprows=1)
 ```
 
 We're loading the data into an array of arrays. To see what that looks like, let's print one row. Add the following line:
-```
+```python [dl_tutorial_01.py]
 print("Here is the first row of the heart.csv dataset:")
 print(dataset[0])
 ```
 
-To run what we have so far, run the following command: `python dl_tutorial_01.py`. You should see something like this (**aside from an error about not being able to load a dynamic library, which you can ignore for now**):
+To run what we have so far, run the following command: `python dl_tutorial_01.py`. You should see something like this (aside from an error about not being able to load a dynamic library, which you can ignore for now):
 
-```
+```text
 Here is the first row of the heart.csv dataset:
 [ 63.  1.  3.  145.  233.  1.  0.  150.  0.  2.3   0.  0.  1.  1. ]
 ```
 
 This should match the first row in the dataset. Next, we want to separate the 13 input variables (age, sex, heart rate, etc), and single output variable (1/0 for "do they have heart disease"). We can do this using the code below:
 
-```
+```python [dl_tutorial_01.py]
 x = dataset[:,0:13]
 y = dataset[:,13]
 ```
 
 Now that we have our dataset, it's time to build our Neural Network as described above
 
-```
+```python [dl_tutorial_01.py]
 model = Sequential()
 model.add(Dense(20, input_dim=13, activation='relu'))
 model.add(Dense(20, activation='relu'))
@@ -157,14 +154,14 @@ Also note the `optimizer='adam'`. This specifies the gradient descent algorithm 
 
 ### Training the model
 Now that we've built the model and specified *how* it should be trained, we can actually train the model by adding the code below:
-```
+```python [dl_tutorial_01.py]
 model.fit(x, y, epochs=150, batch_size=10)
 ```
 This should take around 10 seconds or so, depending upon the speed of our CPU. This command is saying to go through the entire dataset 150 times, using batches of 10 samples to train the network.
 
 Once it's done, congrats! We now have a (fake, toy) heart disease detector in python! Let's try it out on the first patient in the dataset, which we KNOW has "1" in the last column, indicating that they do. Add the following code and run it.
 
-```
+```python [dl_tutorial_01.py]
 prediction = model.predict(x[0:1])
 print("Prediction: "+str(prediction[0][0]))
 print("Ground Truth: "+str(y[0]))
@@ -177,18 +174,37 @@ Prediction: 0.9282936
 Ground Truth: 1.0
 ```
 
-You should see output concluding that our model is *pretty* confident that the first patient has heart disease. So what about for the entire dataset as a whole? Let's compute that now
+You should see output concluding that our model is *pretty* confident that the first patient has heart disease. So what about for the entire dataset as a whole? It would be far too time consuming to manually check out model's output against the every value in the dataset, so we'll automate this process in the next section.
 
 ### Evaluating the model
-To evaluate your entire model, add the code below and run your program
+To evaluate our model, we'll use one commonly-used metric, "accuracy", which simply compares how many times our model guesses the correct answer relative to the total number of guesses. This is a one-liner in Keras, but for your own understanding, this logic is illustrated in the pseudo-code below
+```python
+correct = 0
+for (sample in samples):
+  x = [sample][0]
+  y = [sample][1]
 
+  # if the model is 50% confident or more, consider it's output 1, otherwise consider its output 0
+  prediction = round(model.predict(x)) 
+
+  # If the model's output matches the label, then consider its prediction correct
+  if (prediction == y)
+    correct += 1
+  
+accuracy = correct / len(samples)
 ```
+
+Here's how easy Keras makes it:
+```python [dl_tutorial_01.py]
 _, accuracy = model.evaluate(x, y)
 print('Accuracy: %.2f' % (accuracy*100))
 ```
 
-Your should see an accuracy value somewhere around 80%. To recap, here's the full code you should have (with added comments):
-```
+Your should see an accuracy value somewhere around 80%. 
+
+### Recap
+If you've gotten this far, then you should have working code at this point! Here's the final copy of the code:
+```python [dl_tutorial_01.py]
 # Here, we're using Keras and Tensorflow to use feed-forward neural networks to predict heart disease, 
 # using the heart_disease.csv dataset.
 
@@ -227,6 +243,7 @@ At this point, you've installed Tensorflow, Keras, built and trained a Neural Ne
 - Loss functions
 - How to evaluate the correctness of your Neural Network (accuracy is simply one metric)
 - Improving the accuracy of your model
+- Using other metrics (other than accuracy) to evaluate your model
 - Training Vs Testing your model (we "evaluated" our model on data it's already seen before, which is really not what you should be doing. We only did so for simplicity).
 
 Hopefully I've given you enough to pique your interest in furthering your own research. As you can see, there's quite a bit of overlap between Deep Learning, machine learning, computer science, math, and statistics, so don't despair if it all seems a little overwhelming!
