@@ -43,7 +43,7 @@ In general, I found that there were two ways that WKWebView could fail, manifest
 1. The WebView rendering successfully, but IOS kills its WebContent process at some later point in time (i.e. after being backgrounded, or after returning into view after being invisible).
 2. The WebView never rendering at all.
 
-### The First Case
+### Killed After Being Rendered
 The first case, where the webview loads, but is then later killed, is the easy, frequent case. It can largely be attributed to IOS' aggressive memory management, and you can actually handle it pretty gracefully through the delegate callback `WKNavigationDelegate.webViewWebContentProcessDidTerminate`, which is documented [here](https://developer.apple.com/documentation/webkit/wknavigationdelegate/1455639-webviewwebcontentprocessdidtermi). I found that something simple like the following works pretty well (pseudo-code, don't copy and paste this):
 ```swift
   public init() {
@@ -64,7 +64,7 @@ The first case, where the webview loads, but is then later killed, is the easy, 
 ```
 When IOS terminates your webview, it invokes the delegate callback. When this happens, I found that calling `self.webview.reload()` was enough to restore it. To get even fancier, you can do things like restore the scroll position with `self.webview.scrollView.setContentOffset()`, but the general idea should remain the same.
 
-### The Second Case
+### Killed Before being Rendered
 The *second* case of the webview simply showing a white screen from the get-go, however, is MUCH more difficult to track down and handle. This was an issue that I dealt with on other apps that I had worked on in the past.
 
 The tricky part about this second case is that, unlike the first case, the `webViewWebContentProcessDidTerminate` delegate callback is usually NOT called. In addition, no other useful delegate callbacks are invoked either, such as memory warnings. Anecdotally, when I've encountered this issue, memory usage seemed fine, and I didn't see any crash reports or Jetsam Events in the device logs. This case would not happen very often: I would say that, on average, it would happen once for every 200 webview loads. And when I say "loads", I mean loading from a file on disk, so this rules out network failures.
