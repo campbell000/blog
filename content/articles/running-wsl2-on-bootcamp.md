@@ -14,7 +14,9 @@ tags:
 The brief TLDR is:
 - Boot into MacOS
 - Run `sysctl -a | grep machdep.cpu.features` to remind your mac that it can do things
+- Boot into Windows from System Preferences. DO NOT SIMPLY RESTART YOUR COMPUTER AND BOOT INTO WINDOWS
 - Disable decompression on the folder that contains your linux distribution.
+- If windows ever restarts, make sure to repeat this whole process again if you get errors booting up your WSL environment
 
 ## Step-by-Step Instructions
 ### Enabling Virtualization

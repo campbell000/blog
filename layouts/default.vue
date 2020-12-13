@@ -328,6 +328,14 @@ margin-left: 25px;
   color: black !important;
 }
 
+pre[class*="language-"] {
+  overflow-x: visible !important;
+}
+
+.nuxt-content-highlight {
+  overflow: auto;
+}
+
 code {
   text-shadow: 0 0px white !important;
 }
