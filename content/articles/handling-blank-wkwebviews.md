@@ -1,5 +1,5 @@
 ---
-title: The Case of the Disappearing WKWebview
+title: Handling Blank WKWebViews
 summary: "IOS's WKWebview is a massive improvement over the now-deprecated UIWebView, but I've noticed that they occasionally fail to render, seemingly at random times. Read on for how I've dealt with this issue, and what you can do about it."
 shouldShowTableOfContents: true
 shouldShowUpdatedAt: false
