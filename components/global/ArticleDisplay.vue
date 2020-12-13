@@ -43,12 +43,15 @@
     <br />
     <div v-if="!isOnFrontPage">
       <p class="commentPolicy text--secondary">
-        Comment Policy: all opinions are welcome, even if you disagree with the author. Off topic comments are also allowed,
-        as long as they are loosely related to the topic of the post or to this website in general.
+        Comment Policy: all opinions are welcome, even if you disagree with the author.
         But any personal attacks on the author or other commenters will be deleted without warning.
         Comments without any meaning whatsoever (i.e. trolling, spam, etc) will also be deleted without warning.
 
         Have fun and be nice!
+      </p>
+
+      <p class="commentPolicy text--secondary">
+        If comments aren't showing, try allowing cross-site website data in your browser. This is especially an issue with chrome on mobile.
       </p>
       <p class="commentPolicy text--secondary">
         <a href="https://commentbox.io/privacy">Here's the privacy policy of the comment provider that I use</a>
