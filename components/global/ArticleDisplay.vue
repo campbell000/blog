@@ -143,6 +143,7 @@
     padding-bottom: 10px;
     border-radius: 10px;
     margin-top: 15px;
+    margin-bottom:15px;
   }
 
   .theme--light .contentsContainer {
