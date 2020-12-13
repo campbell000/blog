@@ -2,7 +2,7 @@
 title: Running WSL2 on a Mac using Bootcamp
 summary: "Getting Microsoft's Windows Subsystem-For-Linux running in Bootcamp is somewhat straightforward, but there are a few gotchas. Read on for the how, and then after that for the why (mac is unix-based. Why not just use that?)"
 shouldShowTableOfContents: true
-shouldShowUpdatedAt: false
+shouldShowUpdatedAt: true
 createdAt: "2020-11-09T23:41:34.140Z"
 titleImage: /bootcampTitle.png
 tags: 
@@ -11,10 +11,10 @@ tags:
 ---
 
 ## Brief Summary
-The brief TLDR is:
+The brief TL;DR is:
 - Boot into MacOS
 - Run `sysctl -a | grep machdep.cpu.features` in the terminal to remind your mac that it can do things
-- Boot into Windows from System Preferences. DO NOT SIMPLY RESTART YOUR COMPUTER AND BOOT INTO WINDOWS
+- Boot into Windows from System Preferences. Do NOT simply restart and boot into windows by holding down "Option" from power on.
 - Disable decompression on the folder that contains your linux distribution.
 - If windows ever restarts, make sure to repeat this whole process again if you get errors booting up your WSL environment
 
