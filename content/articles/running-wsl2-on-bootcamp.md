@@ -13,7 +13,7 @@ tags:
 ## Brief Summary
 The brief TL;DR is:
 - Boot into MacOS
-- Run `sysctl -a | grep machdep.cpu.features` in the terminal to remind your mac that it can do things
+- Run `sysctl -a | grep machdep.cpu.features` in the terminal to remind your mac that it can do things. **This must be done every time your mac is powered on**.
 - Boot into Windows from System Preferences. Do NOT simply restart and boot into windows by holding down "Option" from power on.
 - Disable decompression on the folder that contains your linux distribution.
 - If windows ever restarts, make sure to repeat this whole process again if you get errors booting up your WSL environment
