@@ -308,6 +308,10 @@
     margin-bottom: 15px;
   }
 
+  li {
+    margin-bottom: 10px;
+  }
+
   li > ul {
     margin-bottom: 5px;
   }
