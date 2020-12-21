@@ -308,8 +308,8 @@
     margin-bottom: 15px;
   }
 
-  li {
-    margin-bottom: 10px;
+  .nuxt-content li {
+    margin-bottom: 15px;
   }
 
   li > ul {
