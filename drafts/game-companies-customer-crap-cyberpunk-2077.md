@@ -61,10 +61,20 @@ And while The Witcher 1 and The Witcher 2 may not have been as successful, those
 
 But on December 10th, 2020, CDPR learned a hard lesson: **customer trust is very difficult to earn, but very easy to lose**.
 
-For some reason, whoever is calling the shots over at CDPR must have slept through this class at whatever business school they went to, because this lesson is not new or difficult to understand. In addition, there are *many* prior examples of game companies going from beloved to hated, literally in the span of one game release: Bethesda (Fallout 76), Bioware (Mass Effect: Andromeda, or arguably, Mass Effect 3), Hello Games (No Man's Sky), Blizzard (the Diablo: Immortal Fiasco, or the Warcraft III fiasco), Bungie (Destiny). There were *many* case studies to learn from, but it seems as though CDPR failed to do the necessary literature review.
+For some reason, whoever is calling the shots over at CDPR must have slept through this class at whatever business school they went to, because this lesson is not new or difficult to understand. In addition, there are *many* prior examples of game companies going from beloved to hated, literally in the span of one game release: Bethesda (Fallout 76), Bioware (Mass Effect: Andromeda, or arguably, Mass Effect 3), Hello Games (No Man's Sky), Blizzard (the Diablo: Immortal Fiasco, or the Warcraft III fiasco), Bungie (Destiny). There are *many* case studies to learn from.
+
+<youtube-link :src-link="'https://www.youtube-nocookie.com/embed/kjyeCdd-dl8?controls=0'">
+The Internet Historian's video on Fallout 76 is a hilarious, but also depressingly-detailed account on everything that went wrong with the game. If you haven't already, give it a watch.
+</youtube-link>
+
+Gamers are passionate, excitable, fickle, and eager. They are quick to buy into hype, but they are also quick to write off a company completely when they've been burned. 
+
+And it seems that many are feeling burned by Cyberpunk's release, at least on consoles. And to be honest, I don't think anyone can argue that the release of Cyberpunk 2077 was an abuse of trust. Console gamers were promised an amazing, high-quality experience from an "honest", "passionate", "focused" developer that they could trust, but instead got a buggy, poorly-optimized, mess of a game. More importantly, they were deceived up until the launch date about the game's performance on consoles. If CDPR had been more upfront about the game's console-specific issues, or had delayed the console's release while launching on PC, things may had been different.
+
+Time will tell us if CDPR's brand image survives this ordeal, but the sentiment that I've gleaned from comments online tells me that fans will be much more discerning and critical of the company in the future. And there's no one that CDPR can blame but themselves. They've gone from good guy to bad guy in the span of a few weeks.
 
 ## Feel the Wrath of the Gamer
-With all of that said, why are companies like CDPR making the same mistakes that so many companies before them have made? Why have they thrown away their perceived "good guy" brand images so quickly and easily, when it's taken them years, or even decades, to cultivate?
+With all of that said, why are companies consistently making mistakes that betray the trust that their customers have given them? Why are they throwing away their perceived "good guy" brand images so quickly and easily, when it's taken many of them years, or even decades, to cultivate?
 
 One might argue that the correct answer is often the simplest: game companies simply don't care what gamers think, since outrage on the internet typically isn't representative of overall customer sentiment. Plus, people love to bitch and moan on the internet, but at the end of the day, they'll buy the latest AAA game like everyone else, right? Public outrage on the internet, in general, is typically short-lived, so I wouldn't blame game companies if they simply ignored it.
 
