@@ -53,7 +53,20 @@ CDPR, on the other hand, through sheer hard work and dedication to their craft (
 
 Therefore, CDPR and the release of Cyberpunk 2077 has made waves across the game industry not because "game company does scummy, anti-consumer thing" is newsworthy, but because CDPR had previously been perceived as "one of the good guys" among the faceless, soulless, and spineless EAs, Blizzards, and Ubisofts of the industry. If Cyberpunk 2077 were to be developed by EA, for example, most gamers would simply roll their eyes and cluck their tongues, chastising the young and naive for buying into the hype. But this was *CDPR*. They were *one of us*. I imagine that, for long time fans of the studio, Cyberpunk 2077's blunder felt like a deep betrayal from a long time friend.
 
-It was especially surprising for me to see CDPR betray its fans since they could have learned from the *many* game studios before them that have gone from beloved to hated in the span of one game release: Bethesda (Fallout 76), Bioware (Mass Effect: Andromeda, or arguably, Mass Effect 3), Hello Games (No Man's Sky), Blizzard (the Diablo: Immortal Fiasco, or the Warcraft III fiasco), Bungie (Destiny). The list could go on.
+So, why had CDPR been perceived as "one of the good guys" in the gaming industry?
+
+Perhaps owing to its humble beginnings as a small Polish studio, CD Projekt Red managed to cement itself in the minds of gamers as a passionate, focused, and honest game company. To be fair to CD Projekt Red, that may be true for the majority of people working at that company. I have not personally played any of the games from The Witcher series, but I *do* know from second-hand accounts that The Witcher 3 is an amazing game, it has enjoyed a plethora of content updates, and has been continuously supported by the company for many years, which is in stark contrast to many mainstream titles where the devs simply go dark after a few years until the playerbase dwindles into nothing. 
+
+And while The Witcher 1 and The Witcher 2 may not have been as successful, those that have played those games typically regard them as flawed-but-enjoyable experiences which exude passion and care. The mere fact that CDPR put out three entries in the series that took three games to find success is a testament of their dedication to the world and its characters that they've created.
+
+<div class="imageContainer">
+  <img class="" :src="'/witcher_sales.jpg'" />
+  <span class="titleImageCaption text--secondary">The measly sales of The Witcher 1 and 2 demonstrate CDPR's tenacity and dedication to their craft. A company like EA or Activision-Blizzard would simply give up when faced with a failure like that. Credit to <a href="https://www.dualshockers.com/witcher-sales-ps4-xbox-one-pc/">Dualshockers.</a></span>
+</div>
+
+But on December 10th, 2020, CDPR learned a hard lesson: **customer trust is very difficult to earn, but very easy to lose**.
+
+It was surprising for me to see CDPR forget this crucial fact, however, since they could have learned from the *many* game studios before them that have gone from beloved to hated in the span of one game release: Bethesda (Fallout 76), Bioware (Mass Effect: Andromeda, or arguably, Mass Effect 3), Hello Games (No Man's Sky), Blizzard (the Diablo: Immortal Fiasco, or the Warcraft III fiasco), Bungie (Destiny). The list could go on.
 
 ## Feel the Wrath of the Gamer
 With that said, why *are* companies like CDPR making the same mistakes that so many companies before them have made? Why have companies like Activision-Blizzard, Bungie, Bioware, and Bethesda thrown away their perceived "good guy" brand images so quickly and easily, when it's taken them years, or even decades, to cultivate?
