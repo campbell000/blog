@@ -13,8 +13,8 @@ tags:
 ## Brief Summary
 The brief TL;DR is:
 - Boot into MacOS
-- Run `sysctl -a | grep machdep.cpu.features` in the terminal to remind your mac that it can do things. **This must be done every time your mac is powered on**.
-- Boot into Windows from System Preferences. Do NOT simply restart and boot into windows by holding down "Option" from power on.
+- Run `sysctl -a | grep machdep.cpu.features` in the terminal to ensure your mac has virtualization.
+- Boot into Windows from System Preferences. **You MUST do it this way. You cannot power off and boot into Windows**.
 - Disable decompression on the folder that contains your linux distribution.
 - If windows ever restarts, make sure to repeat this whole process again if you get errors booting up your WSL environment
 
@@ -32,13 +32,13 @@ Error: 0x80370102 The virtual machine could not be started because a required fe
 Press any key to continue...
 ```
 
-You'll get this error when you mac hardware doesn't support CPU virtualization, which is odd because most macs made in the past 7 years or so support it. It turns out that this feature needs to be enabled by the BIOS, and can only be enabled on the MAC side. So you may run into this error, for example, if you've booted into windows from power-on.
+You'll get this error when you mac hardware doesn't support CPU virtualization, which is odd because most macs made in the past 7 years or so support it. It turns out that this feature needs to be enabled by the BIOS, and can only be enabled on the MacOS side. So you may run into this error, for example, if you've booted into windows from power-on.
 
-To fix this, boot into MacOS, open a terminal, and run `sysctl -a | grep machdep.cpu.features`. Ensure that you get a response from that command (You should see "VMX" in the response. That is the hardware feature you need). **The simple act of doing this turns this feature on.**
+To fix this, boot into MacOS, open a terminal, and run `sysctl -a | grep machdep.cpu.features`. Ensure that you get a response from that command (You should see "VMX" in the response. That is the hardware feature you need).
 
-Once you do that, you need to boot *directly* into windows by going to System Preferences > Startup Disk and boot into windows that way. **Do not simply reboot your machine and select windows at boot**. 
+Once you do that, you need to boot *directly* into windows by going to System Preferences > Startup Disk and boot into windows by selecting your Bootcamp partition.  By booting into Windows from MacOS, the virtualization feature that you need to use WSL2 will be enabled. **Do not simply reboot your machine and select windows at boot by holding down the option key.**
 
-**Also note that you'll need to re-do this step if you ever reboot windows!**. Thanks, Apple!
+**Note that if you restart windows, you may need to repeat this process over again (i.e. boot into MacOS, System Preferences > Boot Into Windows)**.
 
 ### Disable Compression
 You may ALSO get another cryptic error:
