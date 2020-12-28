@@ -45,7 +45,7 @@ I've taken great care to ensure that this site is as minimally invasive as possi
 Each article has it's own comments section, and I moderate / review the comments pretty regularly. But if you want to contact me directly, you can email me directly at:
 ```python
 domain = "gmail.com";
-print("ac.simpledex"+str(domain));
+print("ac.simpledex@"+str(domain));
 ```
 ## Is This Site Monetized in Any Way?
 Nope. Nothing on this site is monetized, and content that I write about won't be sponsored or monetarily-supported in any way. The only thing you'll see on this site is a donation link at the top of each article, where you can make a one time or continuous donation, which will go to site costs (and maybe some toys for my dog). It also simply gives people a way to let me know that they support my content. 
