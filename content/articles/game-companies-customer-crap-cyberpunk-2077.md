@@ -2,7 +2,7 @@
 title: "Game Companies: Stop Treating your Customers Like Crap"
 summary: "Game companies consistently make the mistake of taking their customers' passion and dedication for granted, and it often ends in disaster. This post examines a recent example, Cyberpunk 2077, and posits a theory as to WHY companies keep making this same mistake."
 titleImage: /cb2077.jpg
-titleImageCaption: "Zelda: Ocarina of time ran at a rock-solid 20 FPS. So...that 17 looks mighty low in 2020. Credits to digitalfoundary.net for the image"
+titleImageCaption: "Zelda: Ocarina of Time ran at a rock-solid 20 FPS. So...that 17 looks mighty low in 2020. Credits to digitalfoundary.net for the image"
 shouldShowTableOfContents: true
 shouldShowUpdatedAt: false
 createdAt: "2020-12-16T00:00:00.140Z"
@@ -12,7 +12,7 @@ tags:
 ---
 
 ## Disclaimers
-1. Do not direct any hatred at any employees of CDPR, or any of the other companies that I've mentioned in this post. 99% of the people that work at these companies likely just want to make good games,, and feel just as crushed as you do when games get released in half-broken states of disarray. 
+1. Do not direct any hatred at any employees of CDPR, or any of the other companies that I've mentioned in this post. 99% of the people that work at these companies likely just want to make good games, and feel just as crushed as you do when games get released in half-broken states of disarray. 
 
 2. With that said, going out of one's way to buy broken games because "you should feel sorry for the developers and support the industry" is simply perpetuating the problem and enabling these greedy companies (i.e. EA, Activision-Blizzard, etc) to continue exploiting their passionate developers, artists, designers, and customers.
 
@@ -58,7 +58,7 @@ The latest drama from CDPR and Cyberpunk 2077 was especially surprising to me si
 ## Feel the Wrath of the Gamer
 With that said, why *are* companies like CDPR making the same mistakes that so many companies before them have made? Why have companies like Activision-Blizzard, Bungie, Bioware, and Bethesda thrown away their perceived "good guy" brand images so quickly and easily, when it's taken them years, or even decades, to cultivate?
 
-Obviously, all of these decisions are driven by the need to make money. I get it: game companies need to make money to function and to produce the products that we enjoy. But why did CDPR need to deceive the public about Cyberpunk 2077? Why couldn't they heed the wise words of Shigeru Miyamoto and delay the game until it was good and ready? Why are these companies so flagrant about it?
+Obviously, all of these decisions are driven by the need to make money. I get it: game companies need to make money to function and to produce the products that we enjoy. But why did CDPR need to deceive the public about Cyberpunk 2077? Why couldn't they heed the wise words of Shigeru Miyamoto and delay the game until it was good and ready? In general, why are these companies so flagrant about treating their customers poorly?
 
 One might argue that the correct answer is often the simplest: game companies simply don't care what gamers think, and just want to make as much money as possible, public perception be damned. Gamer outrage is typically short-lived and typically isn't representative of overall customer sentiment, so I wouldn't blame game companies if they simply ignored it.
 
@@ -75,7 +75,7 @@ I don't have the data to prove it, but to be frank, EA could have made a *killin
 EA's decision, despite being a single example, suggests that companies *do* care what gamers think, and that negative sentiment *does* have a significant financial impact on game companies. Therefore, I'd argue that theres a different, more subtle reason why companies keep making mistakes that betray their passionate, dedicated fans.
 
 ## No One Understands Me
-Instead, I think that companies make these major consumer-hostile decisions, such as deceptively releasing broken games or making their games' online multiplayer designed around pay-to-win loot-box systems, to the detriment of their positive brand images because of a fundamental misunderstanding of a critical component of the game industry: the customer. Otherwise known as, "the gamer".
+Instead, I think that companies make consumer-hostile decisions to the detriment of their brand images because of a fundamental misunderstanding of a critical component of the game industry: the customer. In other words, "the gamer".
 
 How can these game companies not understand gamers? First, let me explain how gamers are different from your average consumer: while paradoxical at first glance, I argue that gamers are both undyingly loyal and incredibly fickle at the same time.
 
@@ -90,7 +90,7 @@ As a result, more than any other industry, the game industry's consumers (i.e. g
 
 But because gamers can be so personally and emotionally invested in a company and its products, this *also* means that, more than any other kind of customer, they tend to react much more emotionally when companies  betray them. While this can seem downright immature at first blush, consider it seriously for a second: many of these fans have spent countless hours participating in online forums, reading wikis, writing FAQs, participating in e-sports tournaments, or going to conventions. These fans have made these games or franchises core parts of their lives and their identities, and that's something that should be cherished and celebrated. Frankly, it's awesome and amazing that humans can come together and bond over something in this cruel, meaningless world of ours.
 
-But to cut corners and betray your consumers as a game company is to signal to these fans that their time, dedication, and passion doesn't matter. It's as if to say, "We know that you liked our previous games, but we don't care about that. We're simply going to exploit your passion and dedication so that you buy our new game, or spend lots of money on lootboxes to appease our shareholders". If you were one of these fans, wouldn't you feel, on some level, a little indignant and hurt? Wouldn't it feel like a figurative slap in the face? In that sense, it doesn't seem so immature or "entitled" to see gamers react so strongly when their favorite developer (i.e. CDPR) releases a broken game (i.e. Cyberpunk 2077).
+But to cut corners and betray your consumers as a game company is to signal to these fans that their time, dedication, and passion doesn't matter. It's as if to say, "We know that you liked our previous games, but we don't care about that. We're simply going to exploit your passion and dedication so that you buy our new game, or spend lots of money on lootboxes to appease our shareholders". If you were one of these fans, wouldn't you feel, on some level, a little indignant and hurt? Wouldn't it feel like a figurative slap in the face? In that sense, maybe it's a little misguided to call gamers "immature" or "entitled" when they react a little emotionally when their favorite developer (CDPR) deceptively releases a broken game (Cyberpunk 2077 on consoles).
 
 Therefore, it's especially important for game companies to know this crucial fact about their customers: gamers tend to have an especially-low tolerance for being mistreated. It also doesn't help that gaming isn't a necessity, so unlike cars or appliances, a jilted gamer can simply stop buying your products. Or worse: since gaming concepts aren't copyrightable, gamers can simply find a game that looks or plays similarly from another company.
 
