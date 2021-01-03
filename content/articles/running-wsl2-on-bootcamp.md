@@ -36,7 +36,14 @@ You'll get this error when you mac hardware doesn't support CPU virtualization, 
 
 To fix this, boot into MacOS, open a terminal, and run `sysctl -a | grep machdep.cpu.features`. Ensure that you get a response from that command (You should see "VMX" in the response. That is the hardware feature you need).
 
-Once you do that, you need to boot *directly* into windows by going to System Preferences > Startup Disk and boot into windows by selecting your Bootcamp partition.  By booting into Windows from MacOS, the virtualization feature that you need to use WSL2 will be enabled. **Do not simply reboot your machine and select windows at boot by holding down the option key.**
+Once you do that, you need to boot *directly* into windows by going to System Preferences > Startup Disk and boot into windows by selecting your Bootcamp partition. By booting into Windows directly from MacOS, the virtualization feature that you need for WSL2 will be enabled. 
+
+<div class="imageContainer">
+  <img class="" :src="'/bootcamp.jpg'" />
+  <span class="titleImageCaption text--secondary">Select your Bootcamp partition and click the "Restart" button.</span>
+</div>
+
+Note that this specific step of going to system preferences, and then to your Bootcamp partition, is absolutely required. **Do NOT simply reboot your machine and select your windows partition at boot!** If you do so, then it's possible that the virtualization feature you need won't be enabled in Windows.
 
 **Note that if you restart windows, you may need to repeat this process over again (i.e. boot into MacOS, System Preferences > Boot Into Windows)**.
 
@@ -56,6 +63,7 @@ C:\Users\myusername\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows
 Once you find it, right click on the folder, go the "General" tab, click on "Advanced" and make sure that both checkboxes are the bottom are unchecked.
 <div class="imageContainer">
   <img class="medium" :src="'/folder.PNG'" />
+    <span class="titleImageCaption text--secondary">Ensure that the two checkboxes inside of the red square are unchecked.</span>
 </div>
 
 After doing this, you should be good to go!
