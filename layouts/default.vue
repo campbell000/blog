@@ -352,4 +352,9 @@ html {
 pre > code {
   padding-left: 0px !important;
 }
+
+.v-application code, .v-application kbd {
+  font-weight: 400 !important;
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+}
 </style>
