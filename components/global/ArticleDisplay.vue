@@ -4,7 +4,7 @@
       <h1 class="articleTitle">{{ article.title }}</h1>
       <div class="metadata text--secondary">
         <div class="writtenAt">Written At: {{ formatDate(article.createdAt) }}</div>
-        <div class="updatedAty" v-if="article.shouldShowUpdatedAt">Last updated: {{ formatDate(article.updatedAt) }}</div>
+        <div class="updatedAt" v-if="article.shouldShowUpdatedAt">Last updated: {{ formatDate(article.updatedAt) }}</div>
         <div class="tags">Tags:
           <span v-for="(tag, id) in article.tags" :key="id">
             <NuxtLink class="tag linkTag" v-if="tags[tag] != null" :to="`/posts/${tags[tag].slug}`">{{tags[tag].name}}</NuxtLink>
