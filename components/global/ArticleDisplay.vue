@@ -227,7 +227,7 @@
   }
 
   .imageContainer.titleImageContainer {
-    padding-bottom: 0px;
+    padding-bottom: 30px;
   }
 
   .nuxt-content p + ul {
@@ -268,7 +268,7 @@
 
   img,
   .imageContainer > img {
-    max-width: 700px;
+    max-width: 670px;
     
   }
 
