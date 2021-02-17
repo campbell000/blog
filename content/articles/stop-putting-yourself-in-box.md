@@ -85,7 +85,7 @@ Instead, the actual self is a representation of who we are and what we want *at 
 
 <div class="imageContainer">
   <img class="" :src="'/triangle.jpg'" />
-  <span class="titleImageCaption text--secondary">Not dissimilar to <a href="https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs">Maslow's hierarchy of needs</a>, I'd argue that our instincts influence what we do and don't find enjoyable, which in turn influences how we want to channel our interests into something greater than what they are (i.e. being the best, changing the world, etc).</span>
+  <span class="titleImageCaption text--secondary">Not dissimilar to <a href="https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs">Maslow's hierarchy of needs</a>, I'd argue that our instincts influence what we find enjoyable, which in turn influences how we want to consciously channel our interests into something greater than what they are (i.e. being the best, changing the world, etc).</span>
 </div>
 
 ## Ideal Versus Actual
