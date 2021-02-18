@@ -68,9 +68,9 @@ And as outsiders, what do we see when we analyze the professionals, the masters,
 
 Don't these descriptors sound romantic? Shouldn't *everyone* want to be described in a such a way?
 
-Therefore, whether or not it truly reflects themselves, many people tend to force these preconceived notions upon themselves in order to more-closely match those that they admire so that they may *also* be great.
+Therefore, whether or not they're accurate, many people tend to force these preconceived notions upon themselves in order to mirror other "great" people. This can happen either consciously or subconsciously.
 
-But by doing so, they have put themselves in a "box" that neatly dictates who they should be and what they should be interested in. In other words, they have created for themselves an "idealized self".
+By doing so, they have put themselves in a "box" that neatly dictates who they should be and what they should be interested in. In other words, they have created for themselves an "idealized self".
 
 By "idealized self", I mean a perception of oneself that aligns with who we *want* to be. It's a compartmentalized aspect of our personality and consciousness that drives us to change who we are.
 
