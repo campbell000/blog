@@ -37,7 +37,7 @@ One final point: you may object to my critiques with "these games were good at t
 
 Let me set the stage: my fiance and I were absolutely *pumped* to play this game. It routinely ranks very highly on "Best Of Tales Series" lists such as [this one](https://www.thegamer.com/best-tales-games-ranked/), which claims that it's the 2nd best Tales game of all time. Having played other games on that list and loving them (warts included), my fiance and I were eager to get this Symphonic party started.
 
-Having said that, we knew that we'd have to temper our expectations. The game *is* over 15 years old: game design, art, and graphics and dramatically improved since 2004, so we tried to keep that in mind as we played.
+Having said that, we knew that we'd have to temper our expectations. The game *is* over 15 years old: game design, art, and graphics have dramatically improved since 2004, so we tried to keep that in mind as we played.
 
 But despite our best attempts to play the game as if we were starry-eyed preteens in the 2000's, drinking our [Caprisuns](https://parents.caprisun.com/) and slurping our [yogurt through a tube](https://www.yoplait.com/product-category/gogurt/), the game never clicked with us. It took about 20 hours for my fiance and I to realize that we were wishing this game would hurry up and get itself over with. We *did* finish the game after 40 hours or so (as Tales fans, we felt that it was our *duty*), but I almost wish we hadn't.
 
@@ -46,7 +46,7 @@ This isn't to say that the game is irredeemable. It has its strengths, such as:
 * The chemistry between the characters during cutscenes and random conversations ("skits" in Tales parlance).
 * An interesting narrative premise (in theory)
 
-But as a cohesive whole, the game is poorly designed, frustrating, and at times, disrespectful to the player. While I could spend a lot of time talking about the things I didn't like I'll narrow it down to one main critiques: **a linear experience with no hook**
+But as a cohesive whole, the game is poorly designed, frustrating, and at times, disrespectful to the player. While I could spend a lot of time talking about the things I didn't like I'll narrow it down to one main : **a linear experience with no hook**
 
 "Linear" RPGs, or ones that restrict exploration and player freedom, get a bad rap in Western circles. We're used to huge, open-ended RPGs that actively encourage exploring and getting diverted off the main path (Elder Scrolls, Fallout, etc). As a result, we tend to complain when RPGs restrict our freedom. JRPGs, on the other hand, tend to be more-guided experiences (although this is changing).
 
@@ -135,6 +135,10 @@ But again, the rest of the game was so entertaining that it didn't really matter
 Chopin's "Raindrop" is one of his real-life pieces that is featured in <i>Eternal Sonata</i>. It's a beautiful piece, and used to great effect.
 </youtube-link>
 
-Before I get ahead of myself and call *Eternal Sonata* a masterpiece, I'll leave at this: it's a game that deserves to be played *despite* its flaws. You may not appreciate its art and music as much as me, but you owe it to yourself to give it a shot if you're looking for something different.
+Before I get ahead of myself and call *Eternal Sonata* a masterpiece, I'll leave at this: it's a game that deserves to be played *despite* its flaws. You may not appreciate its art and music as much as I did, but you owe it to yourself to give it a shot if you're looking for something different.
 
 **My Rating:** 4 Creepy but Beautiful Anime Eyes out of 5.
+
+<accent-box>
+One final point: you may think that it's unfair to compare <i>Eternal Sonata's</i> presentation to <i>Symphonia's</i> when the former came out in 2007 while the latter came out in 2004. But recall that <i>Zelda: The Wind Waker</i> came out in <i>2002</i> as a launch title for the Gamecube, and its presentation is phenomenal, even in 2021. Therefore, I stand by all of my critiques.
+</accent-box>
