@@ -82,7 +82,7 @@ With a lack of any compelling hook, the game becomes a chore to play. This is a 
 
 **My Rating:** 2 Inferior Beings out of 5
 
-## Eternal Sonata: a Flawed, but Refreshing, Change of Tempo
+## *Eternal Sonata*: a Flawed, but Refreshing, Change of Tempo
 <div class="imageContainer imageUnderSection">
   <img :src="'/sonata.jpg'"/>
   <span class="titleImageCaption text--secondary">This game is far from perfect, but its presentation is absolutely beautiful at times.</span>
