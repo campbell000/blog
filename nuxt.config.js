@@ -34,6 +34,7 @@ export default {
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
+    { src: '~/plugins/vuetify.js', ssr: false }
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
@@ -67,13 +68,21 @@ export default {
     treeShake: true,
     defaultAssets: {
       font: {
-        family: 'Noto Sans JP'
+        family: 'Roboto'
       }
     },
     theme: {
       dark: false,
+      options: {
+        customProperties: true
+      },
       themes: {
+        options: {
+          customProperties: true
+        },
         dark: {
+          background: "#262626",
+          textColor: '#ddd',
           primary: "#7fc3b0",
           accent: colors.grey.darken3,
           secondary: "#ac8d9d",
@@ -82,10 +91,12 @@ export default {
           error: colors.deepOrange.accent4,
           infoboxBackground: "#282828",
           success: colors.green.accent3,
-          infoBoxText: "#f0f0f0"
+          infoBoxText: "#ddd",
+          infoBoxBorder: "#7fc3b0"
         },
         light: {
           primary: '#46797b',
+          textColor: '#262626',
           secondary: '#523a47',
           accent: '#82B1FF',
           error: '#FF5252',
@@ -93,7 +104,8 @@ export default {
           success: '#4CAF50',
           warning: '#FFC107',
           infoboxBackground: "#f4f4f4",
-          infoBoxText: "#404040"
+          infoBoxBorder: "#548e91",
+          infoBoxText: "#262626"
         }        
       }
     }

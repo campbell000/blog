@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app class="my-app">
     <v-navigation-drawer
       :clipped=true
       v-model="drawer"
@@ -141,6 +141,11 @@ export default {
 </script>
 
 <style>
+
+.my-app.v-application {
+    color: var(--v-textColor-base) !important;
+}
+
 .v-application {
   line-height:1.8 !important;
 }
@@ -149,7 +154,7 @@ export default {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  max-width: 670px;
+  max-width: 715px;
   overflow-x: hidden;
   overflow-y: hidden;
   display: inherit;
@@ -166,7 +171,7 @@ export default {
 .footerContent {
   margin-left: auto;
   margin-right: auto;
-  max-width: 670px;
+  max-width: 715px;
   width: 100%;
   font-size: 13px;
 }
@@ -209,7 +214,7 @@ export default {
 
 
 .container:not(.ignoreMaxWidth) {
-    max-width: 670px;
+    max-width: 715px;
     overflow-x: hidden;
 }
 
@@ -236,7 +241,9 @@ export default {
 }
 
 .selected.mainTitleClass,
-.mainTitleClass:hover {
+.mainTitleClass:hover,
+.selected.secondaryMenuClass,
+.secondaryMenuClass:hover {
   border-bottom: 2px solid #46797b;
 }
 
@@ -245,7 +252,9 @@ export default {
 }
 
 .selected.mainTitleClass.isDark,
-.mainTitleClass.isDark:hover {
+.mainTitleClass.isDark:hover,
+.selected.secondaryMenuClass.isDark,
+.secondaryMenuClass.isDark:hover {
   box-sizing: border-box;
   border-bottom: 2px solid #7fc3b0;
 }
@@ -255,26 +264,12 @@ export default {
   border-bottom: 2px solid transparent;
 }
 
-.selected.secondaryMenuClass,
-.secondaryMenuClass:hover
-{
-  box-sizing: border-box;
-  border-bottom: 2px solid #523a47;
-}
-
 .secondaryMenuClass {
   margin-left: 30px;
-  color: #523a47;
-}
-
-.selected.secondaryMenuClass.isDark,
-.secondaryMenuClass.isDark:hover
-{
-  border-bottom: 2px solid #ac8d9d;
 }
 
 .secondaryMenuClass.isDark {
-  color: #ac8d9d;
+  color: #eaeaea;
 }
 
 .titleIcon {
@@ -295,13 +290,13 @@ margin-left: 25px;
 }
 
 :not(pre) > code[class*="language-"], pre[class*="language-"] {
-  background: #f5f2f0;
+  background: #f7f7f7;
 }
 
 .nuxt-content-highlight {
-  background: #f5f2f0;
+  background: #f7f7f7;
   border: 0.5px dotted silver;
-  border-radius: 10px;
+  border-radius: 5px;
   font-size: 14px;
   position: relative;
 }
@@ -326,10 +321,6 @@ margin-left: 25px;
 :not(pre) code {
   background-color: #daf7ea !important;
   color: black !important;
-}
-
-pre[class*="language-"] {
-  overflow-x: visible !important;
 }
 
 .nuxt-content-highlight {

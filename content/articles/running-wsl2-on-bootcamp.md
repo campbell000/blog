@@ -55,11 +55,8 @@ The requested operation could not be completed due to a virtual disk system limi
 Virtual hard disk files must be uncompressed and unencrypted and must not be sparse.
 ```
 
-To fix this, you need to disable folder encryption and folder compression on the folder where your linux subsystem is installed. Mine was installed at:
+To fix this, you need to disable folder encryption and folder compression on the folder where your linux subsystem is installed. Mine was installed at: `C:\Users\myusername\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc`
 
-```
-C:\Users\myusername\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc
-``` 
 Once you find it, right click on the folder, go the "General" tab, click on "Advanced" and make sure that both checkboxes are the bottom are unchecked.
 <div class="imageContainer">
   <img class="medium" :src="'/folder.PNG'" />

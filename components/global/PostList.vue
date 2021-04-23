@@ -51,7 +51,7 @@
       <li class="articleListItem" v-for="article of articles" :key="article.slug">
           <div>
             <NuxtLink :to="{ name: 'slug', params: { slug: article.slug } }">
-              <h2>{{ article.title }}</h2>
+              <h2 class="postListArticleTitle" v-html="article.title"></h2>
             </NuxtLink>
             <div class='postDate text--secondary'>
               <v-tooltip top>
@@ -60,8 +60,7 @@
                 </template>
                 <span>Article is password-protected. Will be available soon.</span>
               </v-tooltip>
-              
-              {{formatDate(article.createdAt)}}
+              <div class="postListDate">{{formatDate(article.createdAt)}}</div>
             </div>
             <div class="postSummary">{{ article.summary }}</div>
           </div>
@@ -81,12 +80,19 @@
   }
 
   .postSummary {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .postDate {
     font-style: italic;
+    line-height: 1.5;
+    font-size: 16px;
   }
+
+  .postListArticleTitle {
+    padding-bottom: 0px;
+    line-height: 1.4;
+  }  
 
   .articleListItem {
     margin-bottom: 30px;

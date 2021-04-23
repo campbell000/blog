@@ -13,7 +13,7 @@ tags:
 ## About Me
 I'm a professional software developer with a variety of interests. I'm a jack-of-all trades, master-of-none. I don't have any particular specialty, and I don't excel in any particular area. But I'm pretty stubborn, so I'm usually able to handle most tasks given to me.
 
-The coolest programming project [I've ever completed on my own is linked here](https://www.youtube.com/watch?v=0fLwrLrBcj8). It started as a failed Master's Degree project, but I continued working on it after my degree, and managed to find success.
+The coolest programming project [I've ever completed on my own is linked here](https://www.youtube.com/watch?v=0fLwrLrBcj8). It started as a failed Master's Degree project, but managed to find success over the course of several re-writes (and a shiny new $400 GPU).
 
 ## Why "Never Meant"?
 Why not? Something things are never meant to be.
@@ -36,7 +36,9 @@ It exists because I simply enjoy writing about things that interest me. But the 
 
 When I first started writing this "About" page, I began by indiscriminately dumping my pent-up frustrations about how **coporate, soulless, and lame** the mainstream internet has become. I soon realized that I had *a lot* more to say on the subject than I realized, so I moved it <NuxtLink to="/why-start-a-blog-in-2020">to its own separate post.</NuxtLink> 
 
-If you don't want to read that post, then the short version is that these big content aggregation companies like reddit, facebook and twitter wield too much power over the internet: they're designed to stamp out smaller voices like my own, and amplify the large, big brand voices (like corporations, businesses, etc). This, obviously, makes the internet a lame and uninteresting place. By starting a blog (and maybe inspiring others to do the same), I hope to decentralize some of that power, making the internet a better place. "Restoring its former glory", if you will.
+If you don't want to read that post, then the short version is that these big content aggregation companies like reddit, facebook and twitter wield too much power over the internet: they're designed to stamp out smaller voices like my own, and amplify the large, big brand voices (like corporations, businesses, politicians, etc). These large, powerful voices taking control over the internet has a net negative effect on its utility and creativity. 
+
+Therefore, by starting a blog (and maybe inspiring others to do the same), I hope to decentralize some of that power, which will hopefully make the internet a better, more-accessible place for average people like myself.
 
 ## What Kind of Privacy Concerns Should I Have While Using Your Site?
 I've taken great care to ensure that this site is as minimally invasive as possible. There are no ads or trackers, and no social media integration of any kind. I use google fonts and occasionally embed youtube links, but that's about it.
@@ -48,7 +50,9 @@ domain = "gmail.com";
 print("ac.simpledex@"+str(domain));
 ```
 ## Is This Site Monetized in Any Way?
-Nope. Nothing on this site is monetized, and content that I write about won't be sponsored or monetarily-supported in any way. The only thing you'll see on this site is a donation link at the top of each article, where you can make a one time or continuous donation, which will go to site costs (and maybe some toys for my dog). It also simply gives people a way to let me know that they support my content. 
+No. There are no ads, referral links, analytics trackers, or anything else that might surreptitiously generate revenue for me without you, the user, knowing about it.
+
+In addition, none of this site's content will be sponsored or monetarily-supported in any way. The only thing you'll see on this site is a donation link at the top of each article, where you can make a one time or continuous donation, which will go to site costs (and maybe some toys for my dog). It also simply gives people a way to let me know that they support my content. 
 
 ## How This Site Was Created
 This site was created with Nuxt.js, generated statically (using their "content" module) using nuxt-generate and hosted on GitHub pages. Miraculously, I managed to do it using the following tech stack:

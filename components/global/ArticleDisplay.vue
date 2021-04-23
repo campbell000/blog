@@ -1,15 +1,18 @@
 <template>
   <article>
     <div class="titleBlock" >
-      <h1 class="articleTitle">{{ article.title }}</h1>
+      <h1 class="articleTitle" v-html="article.title"></h1>
       <div class="metadata text--secondary">
-        <div class="writtenAt">Written At: {{ formatDate(article.createdAt) }}</div>
-        <div class="updatedAt" v-if="article.shouldShowUpdatedAt">Last updated: {{ formatDate(article.updatedAt) }}</div>
-        <div class="tags">Tags:
+        <div class="dates">
+          <v-row align="center">
+            <v-col cols="6" class="writtenAt"><span v-if="article.shouldShowUpdatedAt">First Published: </span>{{ formatDate(article.createdAt) }}</v-col>
+            <v-col cols="6" class="updatedAt" v-if="article.shouldShowUpdatedAt">Last updated: {{ formatDate(article.updatedAt) }}</v-col>
+          </v-row>
+          Tags:
           <span v-for="(tag, id) in article.tags" :key="id">
             <NuxtLink class="tag linkTag" v-if="tags[tag] != null" :to="`/posts/${tags[tag].slug}`">{{tags[tag].name}}</NuxtLink>
             <span v-if="tags[tag] == null" class="tag" v-text="tag"></span>
-            <span class="tagDivider" v-if="id < article.tags.length - 1"> | </span>
+            <span class="tagDivider" v-if="id < article.tags.length - 1">   </span>
           </span>
           <div class="supportMe">
             <a target="_blank" href="https://www.buymeacoffee.com/acsimpledex"><img src="https://img.buymeacoffee.com/button-api/?text=Support This Site &emoji=💻&slug=acsimpledex&button_colour=4a8183&font_colour=ffffff&font_family=Inter&outline_colour=ffffff&coffee_colour=FFDD00"></a>
@@ -48,10 +51,6 @@
         Comments without any meaning whatsoever (i.e. trolling, spam, etc) will also be deleted without warning.
 
         Have fun and be nice!
-      </p>
-
-      <p class="commentPolicy text--secondary">
-        If comments aren't showing, try allowing cross-site website data in your browser. This is especially an issue with chrome on mobile.
       </p>
       <p class="commentPolicy text--secondary">
         <a href="https://commentbox.io/privacy">Here's the privacy policy of the comment provider that I use</a>
@@ -94,8 +93,13 @@
     },
     methods:{
       formatDate(dateStr) {
-        const options = { year: 'numeric', month: 'long', day: 'numeric' }
-        return new Date(dateStr).toLocaleDateString('en', options)
+        const date = new Date(dateStr);
+        let year = date.getFullYear();
+        let month = (1 + date.getMonth()).toString().padStart(2, '0');
+        let day = date.getDate().toString().padStart(2, '0');
+      
+        return year + '-' + month + '-' + day;
+
       },
     },
 
@@ -130,12 +134,33 @@
     font-weight: 500;
   }
 
-  .writtenAt, .updatedAt {
+  .dates {
+    font-size: 16px;
+    font-weight:300;
+    line-height: 1.45;
     font-style: italic;
+  }
+
+  .summary {
+    font-style: italic;
+  }
+
+  .updatedAt, .writtenAt {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+
+  .updatedAt {
+    text-align: right;
+    align-self: normal;
   }
 
   .articleTitle {
     margin-bottom: 0px;
+    margin-top: 10px;
+    line-height: 1.25;
+    font-weight: 700;
+    font-size: 36px;
   }
 
   .contentsContainer {
@@ -143,20 +168,17 @@
     padding-top: 30px;
     padding-bottom: 30px;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
     border-radius: 10px;
     margin-top: 15px;
     margin-bottom:15px;
+    border: 1px dotted #e0e0e0;
+    background-color: var(--v-infoboxBackground-base) !important;
+    border-color:var(--v-infoBoxBorder-base) !important;
   }
 
-  .theme--light .contentsContainer {
-    background-color: #f7f7f7;
-    border: 0.5px solid #e0e0e0;
-  }
-
-  .theme--dark .contentsContainer {
-    background-color: #222;
-    border: 0.5px solid #2d2d2d;
+  .imageUnderSection {
+    padding-top: 10px !important;
   }
 
   .tags {
@@ -186,10 +208,6 @@
     margin-right: 1px;
   }
 
-  .articleTitle {
-    line-height: 1.5 !important;
-  }
-
   h1 {
     font-weight: bold;
     font-size: 36px;
@@ -197,7 +215,6 @@
  .nuxt-content h2 {
     margin-top: 40px;
     font-weight: 500;
-    margin-bottom: 5px;
   }
   .nuxt-content h3 {
     font-weight: 500;
@@ -230,10 +247,6 @@
     padding-bottom: 30px;
   }
 
-  .nuxt-content p + ul {
-    margin-top: -10px;
-  }
-
   .tocInnerLink {
     list-style: circle;
     margin-left: 20px;
@@ -245,10 +258,16 @@
     background-color: white;
   }
 
-  .disclaimer {
+  .addendum {
+    font-size: 14px;
+    font-style: italic;
+    line-height:1.4;
+  }
+
+  .disclaimers {
     font-size: 12px;
     font-style: italic;
-    line-height:0.5;
+    line-height:1;
   }
 
   .titleImageCaption {
@@ -264,12 +283,6 @@
     margin-right: auto;
     width: 35%;
     max-width: 35%;
-  }
-
-  img,
-  .imageContainer > img {
-    max-width: 670px;
-    
   }
 
     img.medium,
@@ -305,11 +318,11 @@
   }
 
   ul {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
   }
 
   .nuxt-content li {
-    margin-bottom: 15px;
+    margin-bottom: 4px;
   }
 
   li > ul {

@@ -2,3 +2,14 @@
 //
 // The variables you want to modify
 $font-size-root: 17px;
+
+$material-light: (
+  'text': (
+    'primary': 'yellow'
+  )
+);
+$material-dark: (
+  'text': (
+    'primary': 'blue'
+  )
+);

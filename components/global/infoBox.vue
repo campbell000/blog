@@ -14,7 +14,7 @@
 </script>
 
 <template>
-  <v-sheet color="infoboxBackground" class="rounded-xl infoBoxContainer infoBoxText--text">
+  <v-sheet class="rounded infoBoxContainer infoBoxText--text">
     <div class="bigQuote left primary--text">“</div>
     <slot>default</slot>
     <div class="bigQuote right primary--text">”</div>
@@ -26,11 +26,16 @@
 
 <style scoped>
   .infoBoxContainer {
-    padding: 40px;
-    padding-bottom: 10px;
-    font-size: 20px;
+    padding: 25px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    font-size: 18px;
     font-style: italic;
     margin-bottom: 20px;
+    border-width: 1px;
+    border-style: dotted;
+    background-color: var(--v-infoboxBackground-base) !important;
+    border-color:var(--v-infoBoxBorder-base) !important;
   }
 
   p {
@@ -39,13 +44,14 @@
   }
 
   .bigQuote {
-    font-size: 35px;
+    font-size: 28px;
     line-height:0;
     margin-right: -3px;
   }
 
   .bigQuote.left {
     display: inline;
+    margin-left: -10px;
   }
 
   .bigQuote.right {
@@ -58,7 +64,7 @@
     text-align: right;
     text-decoration: none;
     line-height: 1.5;
-    padding-top: 10px;
+    padding-top: 5px;
     padding-bottom: 10px;
   }
 
