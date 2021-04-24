@@ -50,7 +50,7 @@ But as a cohesive whole, the game is massively flawed. It's tedious, frustrating
 
 <div class="imageContainer">
   <img :src="'/symph3.jpg'"/>
-  <span class="titleImageCaption text--secondary">When playing <i>Tales of Symphonia</i> expect lots and lots of awkward, boring dialog. Don't be fooled by the game's opening, either: roughly half of the game's dialog isn't voice-acted.</span>
+  <span class="titleImageCaption text--secondary">When playing <i>Tales of Symphonia</i>, expect lots and lots of awkward, boring dialog as you get shuttled from town to town. Don't be fooled by the game's opening, either: roughly half of the game's dialog isn't voice-acted.</span>
 </div>
 
 "Linear" RPGs, or ones that restrict exploration and player freedom, get a bad rap in Western circles. Many of us are used to huge, open-ended RPGs that actively encourage exploring and getting diverted off the main path (Elder Scrolls, Fallout, etc). As a result, we tend to complain when RPGs restrict our freedom. Whether its deserved or not, JRPGs are stereotyped as linear experiences, and some unfairly equate that to "JRPGs are bad".
