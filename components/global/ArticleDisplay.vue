@@ -215,6 +215,7 @@
  .nuxt-content h2 {
     margin-top: 40px;
     font-weight: 500;
+    line-height:1.5;
   }
   .nuxt-content h3 {
     font-weight: 500;
