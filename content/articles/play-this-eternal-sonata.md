@@ -160,7 +160,7 @@ Chopin's "Raindrop" is one of his real-life pieces that is featured in <i>Eterna
 
 I often judge a game's story by one simple metric: how much am I thinking about it in the days/weeks after I finish it? For *Symphonia*, not at all. For *Eternal Sonata*? At least a few days, if not a week or so. This metric speaks volumes about *Eternal Sonata's* success at creating a captivating, memorable experience.
 
-Before I get ahead of myself and call *Eternal Sonata* a masterpiece (it's not), I'll leave at this: it's a game that deserves to be played *despite* its flaws. You may not appreciate its art and music as much as I did, but if you have even a slight appreciation for the arts, then you owe it to yourself to give it a shot if you're looking for something different.
+Before I get ahead of myself and call *Eternal Sonata* a masterpiece (it's not), I'll leave it at this: it's a game that, despite it's flaws, succeeds at what it sets out to do. If you have even a slight appreciation for the art or music, then you owe it to yourself to give this game a chance. At the very least, if you've become bored with this decade's endless sea of looter-shooters and empty open-worlds (excluding *Breath of the Wild*, as that game is a masterpiece) and are looking for something different, I'd recommend *Eternal Sonata* as a pleasant palette cleanser.
 
 **My Rating:** 4 Creepy, yet Beautiful, Anime Eyes out of 5.
 

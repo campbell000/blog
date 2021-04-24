@@ -5,7 +5,7 @@
         v-if="prev"
         :to="{ name: 'slug', params: { slug: prev.slug } }"
         >
-        Earlier Post: {{ prev.title }}
+        Earlier Post: <span v-html="prev.title"></span>
       </NuxtLink>
     </v-col>
     <v-col :lg="6" class="nextPrevLink previous">
@@ -14,7 +14,7 @@
         :to="{ name: 'slug', params: { slug: next.slug } }"
       >
                   
-        Next Post: {{ next.title }}
+        Next Post: <span v-html="next.title"></span>
       </NuxtLink>
     </v-col>
   </v-row>

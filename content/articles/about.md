@@ -16,7 +16,7 @@ I'm a professional software developer with a variety of interests. I'm a jack-of
 The coolest programming project [I've ever completed on my own is linked here](https://www.youtube.com/watch?v=0fLwrLrBcj8). It started as a failed Master's Degree project, but managed to find success over the course of several re-writes (and a shiny new $400 GPU).
 
 ## Why "Never Meant"?
-Why not? Something things are never meant to be.
+Why not? Something things are [Never Meant](https://www.youtube.com/watch?v=_NfnXdXpjL0) to be.
 
 ## What Kind of Content Should I Expect on This Blog?
 Lots of different things! Below are some examples:
