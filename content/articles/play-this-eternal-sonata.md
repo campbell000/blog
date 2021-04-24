@@ -137,6 +137,12 @@ To be clear, the game's battle system *is* fun: I enjoyed unlocking new abilitie
 
 *Eternal Sonata*, on the other hand, forces you to sit through each enemy's turn, which can sometimes lead to waiting periods of over 30 seconds. This isn't a problem when the enemy encounter rate is manageable, but in dungeons, battles will probably start grating on the player's nerves. Therefore, like Symphonia, *Eternal Sonata* dungeons are inconvenient at best and a time-consuming chore at worst.
 
+<div class="imageContainer">
+  <img :src="'/sontata-battle.jpg'"/>
+  <span class="titleImageCaption text--secondary"><i>Eternal Sonata's</i> turn-based battle system is fun, but there's a lot of downtime to endure as enemies take their turns.</span>
+</div>
+
+
 Also like *Symphonia*, *Eternal Sonata's* dialog is a little wonky, and its script is also too "on-the-nose" (the opening cutscene flat-out asks the player "can we really distinguish between dreams and reality"). Lines that may have *read* fine in the script sound very stilted and unnatural when spoken out loud by voice actors that sometimes struggle to convey the appropriate tone.
 
 *Eternal Sonata* is also extremely linear, perhaps even more so than *Symphonia*. But unlike *Symphonia*, *Eternal Sonata* has a "hook": I was eager to power through dungeons so that I could experience more of the game's presentation: the Chopin history lessons, the game's landscapes and vistas, the entertaining cutscenes and animations, and the wonderful music were significant enough motivators for me to trudge through the game's weaker moments. Unlike *Symphonia*, which I begrudgingly finished and felt very little at the game's conclusion, I felt a *lot* of things by the time I finished *Eternal Sonata*. I felt a sense of relief, gratitude, hope, and even sadness. 
