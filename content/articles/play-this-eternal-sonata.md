@@ -48,6 +48,11 @@ This isn't to say that the game is irredeemable. It has its strengths, such as:
 
 But as a cohesive whole, the game is massively flawed. It's tedious, frustrating, and outright disrespectful to the player's time. While there are many issues with this game, I would summarize it as one main critique: **a linear experience with no hook.**
 
+<div class="imageContainer">
+  <img :src="'/symph3.jpg'"/>
+  <span class="titleImageCaption text--secondary">When playing <i>Tales of Symphonia</i> expect lots and lots of awkward, boring dialog. Don't be fooled by the game's opening, either: roughly half of the game's dialog isn't voice-acted.</span>
+</div>
+
 "Linear" RPGs, or ones that restrict exploration and player freedom, get a bad rap in Western circles. Many of us are used to huge, open-ended RPGs that actively encourage exploring and getting diverted off the main path (Elder Scrolls, Fallout, etc). As a result, we tend to complain when RPGs restrict our freedom. Whether its deserved or not, JRPGs are stereotyped as linear experiences, and some unfairly equate that to "JRPGs are bad".
 
 I'd argue that linearity isn't necessarily a bad thing: many great games use linearity to craft focused, memorable experiences for the player. Halo, Call of Duty, God of War, Uncharted, Final Fantasy, and Paper Mario are all of examples of single-player experiences that don't allow for much unguided exploration, and are undoubtedly some of the greatest games ever made.
