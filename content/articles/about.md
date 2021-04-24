@@ -28,6 +28,9 @@ Lots of different things! Below are some examples:
 
 I'm the only contributor to this blog, but I wouldn't be opposed to guest contributions!
 
+## How should I contact you if I have comments, questions, or concerns?
+Each article has it's own comments section, and I moderate / review the comments pretty regularly. But if you want to contact me directly, you can email me directly at: <a href="mailto:contactme@nevermeant.dev">contactme@nevermeant.dev</a>
+
 ## How Frequently Will This Site be Updated?
 Probably about once a week, as long as I'm the only contributor.
 
@@ -43,12 +46,6 @@ Therefore, by starting a blog (and maybe inspiring others to do the same), I hop
 ## What Kind of Privacy Concerns Should I Have While Using Your Site?
 I've taken great care to ensure that this site is as minimally invasive as possible. There are no ads or trackers, and no social media integration of any kind. I use google fonts and occasionally embed youtube links, but that's about it.
 
-## How should I contact you if I have comments, questions, or concerns?
-Each article has it's own comments section, and I moderate / review the comments pretty regularly. But if you want to contact me directly, you can email me directly at:
-```python
-domain = "gmail.com";
-print("ac.simpledex@"+str(domain));
-```
 ## Is This Site Monetized in Any Way?
 No. There are no ads, referral links, analytics trackers, or anything else that might surreptitiously generate revenue for me without you, the user, knowing about it.
 
@@ -62,8 +59,6 @@ This site was created with Nuxt.js, generated statically (using their "content" 
 
 I ran into a few problems with this setup (a few bootcamp-related issues, and then a few WSL2-related issues), but miraculously, this all seemed to work out. I'll write a tutorial later with a more in-depth explanation later, but I followed [this guide as the foundation](https://nuxtjs.org/blog/creating-blog-with-nuxt-content/). It'll be a shame when Apple takes away Bootcamp (when Apple giveth, they take away twice as much), but for now, I love the flexibility that their Intel-based Macs offer. RIP Intel.
 
-As for my feelings about Nuxt.js: it's *very* opinionated, meaning that it values convention over configuration, which I'm not a huge fan of. I like my code explicit and verbose, rather than implicit and magical. And like all other modern web development stacks, when things don't work, *they fail spectacularly*. Obtuse error messages that read like an ancient foreign language, stack traces a million lines long, etc. That may not really a fault of Nuxt.js, but rather its underlying technologies (webpack, babel, etc), but it still makes Nuxt.js a little unpleasant to debug.
+As for my feelings about Nuxt.js: it's a "convention-over-configuration" type of framework, which I'm not a huge fan of. I like my code explicit and verbose, rather than implicit and magical. And like all other modern web development stacks, when things don't work, *they fail spectacularly*. Obtuse error messages that read like an ancient foreign language, stack traces a million lines long, etc. That may not really a fault of Nuxt.js, but rather its underlying technologies (webpack, babel, etc). Still, debugging Nuxt.js is often an unpleasant experience.
 
 But when things work, *damn, do they work*. Nuxt.js got this blog up and running *very* quickly. In particular, its static site generation and content modules are *amazing*. And because it's statically generated, **it's fast as hell to load and use**. So overall, my opinion of Nuxt.js is positive, and I'm curious to see how it evolves over time.
-
-I also chose Vuetify for the Material Design theme library. I appreciate the work that its maintainers do, but for whatever reason, I have run into many, many issues along the way: build issues, style issues, buggy animations, documented features not quite working right, etc. My suspicion is that is probably works great with client side rendering. So just a word of caution if you decide to pick up Nuxt.js with Vuetify.
