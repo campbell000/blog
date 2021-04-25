@@ -110,10 +110,6 @@
       } else {
         this.passwordIsSatisfied = true;
       }
-      var thread_uri = window.location.href;
-      if (thread_uri.endsWith("/")) {
-        thread_uri = thread_uri.substring(0, thread_uri.length - 1);
-      }
 
       if (!this.isOnFrontPage) {
         commentBox(this.commentBoxId, {
