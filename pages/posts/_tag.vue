@@ -1,11 +1,12 @@
 <template>
-  <PostList :articles="articles" :selectedTag="tag" :allTags="tags" />
+  <PostList :articles="articles" :selectedTag="tag.name" :allTags="tags" />
 </template>
 
 <script>
 export default {
   async asyncData({ $content, params }) {
     const tags = await $content('tags').sortBy('name').fetch()
+    tags.unshift({slug: "", name: "All"});
     const tt = await $content('tags')
       .where({ slug: { $contains: params.tag } })
       .limit(1)

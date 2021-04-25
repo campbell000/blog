@@ -10,13 +10,27 @@
         default: () => null
       },
       selectedTag: {
-        type: Object,
+        type: String,
         default: () => null
       }
     },
 
     mounted() {
-      document.getElementById("allButton").classList.remove('v-btn--active');
+      // I HATE VUETIFY SO MUCH
+      document.getElementById("AllTag").classList.remove('primary--text');
+      document.getElementById("AllTag").classList.remove('v-chip--active');     
+      if (this.selectedTag == null) {
+        console.log("SETTING TO ALL");
+        this.selected = "All";
+      } else {
+        this.selected = this.selectedTag;
+      }
+    },
+
+    data() {  
+      return {
+        selected: null
+      };
     },
 
     methods:{
@@ -33,20 +47,14 @@
 
 <template>
   <div>
-    <div class="tagContainer">
-      <v-row justify="start">
-        <v-btn id="allButton" v-if="selectedTag == null" nuxt :to="`/posts`" 
-              class="ma-2 pressedTag" depressed small color="primary" >All</v-btn>
-        <v-btn id="allButton" v-if="selectedTag != null" nuxt :to="`/posts`"
-              class="ma-2" outlined small color="primary" >All</v-btn>
-        <template v-for="currTag of allTags">
-          <v-btn v-if="selectedTag != null && currTag.slug == selectedTag.slug" nuxt :to="`/posts/${currTag.slug}`" 
-              class="ma-2 pressedTag" depressed small color="primary" :key="currTag.name">{{currTag.name}}</v-btn>
-          <v-btn v-if="selectedTag == null || currTag.slug != selectedTag.slug" nuxt :to="`/posts/${currTag.slug}`"
-              class="ma-2" outlined small color="primary" :key="currTag.name">{{currTag.name}}</v-btn>
-        </template>
-      </v-row>
-    </div>
+    <v-chip-group class="tagContainer" :multiple="false"  v-model="selected" 
+    active-class="primary--text" column>
+      <template v-for="currTag of allTags">
+        <v-chip :id="currTag.name+'Tag'" :key="currTag.name" :value="currTag.name" nuxt :to="`/posts/${currTag.slug}`">
+          {{ currTag.name }}
+        </v-chip>
+      </template>
+    </v-chip-group>
     <ul class="listContainer" style='list-style: none'>
       <li class="articleListItem" v-for="article of articles" :key="article.slug">
           <div>
@@ -70,9 +78,8 @@
 </template>
 
 <style scoped>
-  div.tagContainer {
-    padding-top: 7px;
-    padding-bottom: 15px;
+  .tagContainer {
+    margin-bottom:10px;
   }
 
   .pressedTag {
@@ -101,5 +108,28 @@
   .listContainer {
     margin-bottom: 130px;
     list-style-type: none;
+    padding-left: 0px;
+  }
+
+  .tag {
+    margin-left: 0px !important;
+  }
+
+  .filterBy {
+    line-height: 1;
+    font-weight: 300;
+    font-style: italic;
+
+  }
+
+  .filterContainer {
+    padding: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: var(--v-infoboxBackground-base) !important;
+    border-color:var(--v-infoBoxBorder-base) !important;
+    margin-bottom: 15px;
   }
 </style>
