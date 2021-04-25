@@ -1,5 +1,5 @@
 <template>
-  <PostList :articles="articles" :allTags="tags" />
+  <PostList :articles="articles" :selectedTag="tag" :allTags="tags" />
 </template>
 
 <script>

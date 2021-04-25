@@ -9,6 +9,16 @@
         type: Array,
         default: () => null
       },
+      selectedTag: {
+        type: Object,
+        default: () => null
+      }
+    },
+
+    data() {
+      return {
+        selected: this.selectedTag
+      }
     },
 
     methods:{
@@ -27,9 +37,14 @@
   <div>
     <v-chip-group class="tagContainer" :multiple="false"
     active-class="primary--text" column>
-      <v-chip  :id="'AllTag'" nuxt link :to="`/posts/all`">
+    <!-- Set to active if there's no selected tag -->
+      <v-chip  :id="'AllTag'" nuxt link :to="`/posts/all`"
+       :class="selected == null ? 'primary--text v-chip--active' : ''">
         All
       </v-chip>
+      <!-- Vuetify does something funny with pre-selecting tags and nuxt links. I THINK it's looking at the 
+          current URL and pre-selecting the button that has the corresponding ":to" attribute. Therefore, we don't
+          need any v-models or state keeping. -->
       <template v-for="currTag of allTags">
         <v-chip :id="currTag.name+'Tag'" :key="currTag.name" :value="currTag.name" nuxt link :to="`/posts/${currTag.slug}`">
           {{ currTag.name }}
