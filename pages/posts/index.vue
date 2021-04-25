@@ -7,7 +7,6 @@
         .fetch()
       
       const tags = await $content('tags').sortBy('name').fetch();
-      tags.unshift({slug: "", name: "All"});
       return {
         articles, tags
       }

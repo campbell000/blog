@@ -9,28 +9,6 @@
         type: Array,
         default: () => null
       },
-      selectedTag: {
-        type: String,
-        default: () => null
-      }
-    },
-
-    mounted() {
-      // I HATE VUETIFY SO MUCH
-      document.getElementById("AllTag").classList.remove('primary--text');
-      document.getElementById("AllTag").classList.remove('v-chip--active');     
-      if (this.selectedTag == null) {
-        console.log("SETTING TO ALL");
-        this.selected = "All";
-      } else {
-        this.selected = this.selectedTag;
-      }
-    },
-
-    data() {  
-      return {
-        selected: null
-      };
     },
 
     methods:{
@@ -47,10 +25,13 @@
 
 <template>
   <div>
-    <v-chip-group class="tagContainer" :multiple="false"  v-model="selected" 
+    <v-chip-group class="tagContainer" :multiple="false"
     active-class="primary--text" column>
+      <v-chip  :id="'AllTag'" nuxt link :to="`/posts/all`">
+        All
+      </v-chip>
       <template v-for="currTag of allTags">
-        <v-chip :id="currTag.name+'Tag'" :key="currTag.name" :value="currTag.name" nuxt :to="`/posts/${currTag.slug}`">
+        <v-chip :id="currTag.name+'Tag'" :key="currTag.name" :value="currTag.name" nuxt link :to="`/posts/${currTag.slug}`">
           {{ currTag.name }}
         </v-chip>
       </template>
