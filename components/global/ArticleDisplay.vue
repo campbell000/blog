@@ -5,8 +5,8 @@
       <div class="metadata text--secondary">
         <div class="dates">
           <v-row align="center">
-            <v-col cols="6" class="writtenAt"><span v-if="article.shouldShowUpdatedAt">First Published: </span>{{ formatDate(article.createdAt) }}</v-col>
-            <v-col cols="6" class="updatedAt" v-if="article.shouldShowUpdatedAt">Last updated: {{ formatDate(article.updatedAt) }}</v-col>
+            <v-col cols="6" class="writtenAt"><span v-if="article.shouldShowUpdatedAt">Published: </span>{{ formatDate(article.createdAt) }}</v-col>
+            <v-col cols="6" class="updatedAt" v-if="article.shouldShowUpdatedAt">Updated: {{ formatDate(article.updatedAt) }}</v-col>
           </v-row>
           Tags:
           <span v-for="(tag, id) in article.tags" :key="id">
@@ -56,7 +56,7 @@
         <a href="https://commentbox.io/privacy">Here's the privacy policy of the comment provider that I use</a>
       </p>
       <!-- Remarkbox - Your readers want to communicate with you -->
-      <div  class="commentbox"></div>
+      <div id="comments" class="commentbox"></div>
     </div>
   </article>
 </template>

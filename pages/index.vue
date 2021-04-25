@@ -34,6 +34,9 @@
 <template>
   <div>
     <articleDisplay v-for="article of articles" :key="article.slug" :tags="articleTagMap[article.slug]" :article="article" :isOnFrontPage="true"/>
+    <NuxtLink :to="'/'+articles[0].slug+'#comments'" tag="a" style="cursor: pointer" class="">Click for Post Comments</NuxtLink>
+    <br/>
+    </br>
    <NuxtLink to="/posts" tag="a" style="cursor: pointer" class="">See More Posts Here</NuxtLink>
   </div>
   
