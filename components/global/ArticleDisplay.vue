@@ -1,18 +1,24 @@
 <template>
   <article>
-    <div class="titleBlock" >
+    <div class="titleBlock">
       <h1 class="articleTitle" v-html="article.title"></h1>
       <div class="metadata text--secondary">
         <div class="dates">
           <v-row align="center">
-            <v-col cols="6" class="writtenAt"><span v-if="article.shouldShowUpdatedAt">Published: </span>{{ formatDate(article.createdAt) }}</v-col>
-            <v-col cols="6" class="updatedAt" v-if="article.shouldShowUpdatedAt">Updated: {{ formatDate(article.updatedAt) }}</v-col>
+            <v-col cols="12" class="writtenAt">
+              <span v-if="article.shouldShowUpdatedAt">Published: </span>
+              <span>{{ formatDate(article.createdAt) }} </span>
+              <span v-if="article.shouldShowUpdatedAt">
+                <span class="dateDivider">|</span>
+                Updated: {{ formatDate(article.updatedAt) }}
+              </span>
+            </v-col>
           </v-row>
           Tags:
           <span v-for="(tag, id) in article.tags" :key="id">
             <NuxtLink class="tag linkTag" v-if="tags[tag] != null" :to="`/posts/${tags[tag].slug}`">{{tags[tag].name}}</NuxtLink>
             <span v-if="tags[tag] == null" class="tag" v-text="tag"></span>
-            <span class="tagDivider" v-if="id < article.tags.length - 1">   </span>
+            <span class="tagDivider" v-if="id < article.tags.length - 1">  </span>
           </span>
           <div class="supportMe">
             <a target="_blank" href="https://www.buymeacoffee.com/acsimpledex"><img src="https://img.buymeacoffee.com/button-api/?text=Support This Site &emoji=💻&slug=acsimpledex&button_colour=4a8183&font_colour=ffffff&font_family=Inter&outline_colour=ffffff&coffee_colour=FFDD00"></a>
@@ -46,14 +52,10 @@
     <br />
     <div v-if="!isOnFrontPage">
       <p class="commentPolicy text--secondary">
-        Comment Policy: all opinions are welcome, even if you disagree with the author.
-        But any personal attacks on the author or other commenters will be deleted without warning.
-        Comments without any meaning whatsoever (i.e. trolling, spam, etc) will also be deleted without warning.
-
-        Have fun and be nice!
+        Comment Policy: no flamewars or trolling. Just have fun and be nice!
       </p>
       <p class="commentPolicy text--secondary">
-        <a href="https://commentbox.io/privacy">Here's the privacy policy of the comment provider that I use</a>
+        <a href="https://commentbox.io/privacy">Comment Privacy Policy</a>
       </p>
       <!-- Remarkbox - Your readers want to communicate with you -->
       <div id="comments" class="commentbox"></div>
@@ -131,19 +133,19 @@
   }
 
   .dates {
-    font-size: 16px;
-    font-weight:300;
+    font-size: 15px;
+    font-weight: 400;
     line-height: 1.45;
     font-style: italic;
+  }
+  
+  .dateDivider {
+    padding-left: 8px;
+    padding-right: 8px;
   }
 
   .summary {
     font-style: italic;
-  }
-
-  .updatedAt, .writtenAt {
-    padding-top: 0px !important;
-    padding-bottom: 0px !important;
   }
 
   .updatedAt {
@@ -155,8 +157,9 @@
     margin-bottom: 0px;
     margin-top: 10px;
     line-height: 1.25;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 36px;
+    padding-bottom: 8px;
   }
 
   .contentsContainer {

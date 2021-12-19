@@ -12,16 +12,14 @@ tags:
 ---
 
 ## Disclaimers
-1. Do not direct any hatred at any employees of CDPR, or any of the other companies that I've mentioned in this post. 99% of the people that work at these companies likely just want to make good games, and feel just as crushed as you do when games get released in half-broken states of disarray. 
+1. Do not direct any hatred at any employees of CDPR, or any of the other companies that I've mentioned in this post. 99% of the people that work at these companies likely just want to make good games.
 
 2. With that said, going out of one's way to buy broken games because "you should feel sorry for the developers and support the industry" is simply perpetuating the problem and enabling these greedy companies (i.e. EA, Activision-Blizzard, etc) to continue exploiting their passionate developers, artists, designers, and customers.
 
 3. This post is not outrage bait for Cyberpunk 2077. Please read the entire post before dismissing it as such.
 
 ## The Context
-Ostensibly, this post is about Cyberpunk 2077: if you've been out of the gaming loop for the past couple of weeks, you may have missed that the game's launch since December 10th has been an *absolute mess* (on consoles, anyway). Additionally, the way that CD Projekt Red (henceforth CDPR), the game's developer, has handled its development and subsequent launch has disappointed and confused many people, especially those that had purchased and enjoyed The Witcher 3, the studio's last game.
-
-To my knowledge (I'm not a "game journo" so I don't have the inside scoopz), below is a rough timeline of important points and events concerning CDPR and the development of Cyperpunk 2077:
+If you've been out of the gaming loop for the past couple of weeks, you may have missed that Cyberpunk 2077\'s launch has been an *absolute mess* (on consoles, anyway). Below is my best attempt at a timeline of this game\'s truly horrible development and subsequent launch:
 
 - Riding high from the success of The Witcher 3, beloved developer CDPR bragged on multiple occasions that their hip game dev studio [doesn't force their employees to "crunch"](https://kotaku.com/cd-projekt-red-boss-again-promises-that-cyberpunk-devs-1835518344), which is a cutesy name for the cruel practice of forcing mandatory, grueling overtime on their employees. Unfortunately, such a practice is common in the gaming industry.
 - Cyberpunk 2077, being in development for [roughly 9 years](https://www.gfinityesports.com/article/8658/cyberpunk-2077-how-long-has-it-been-in-development-9-years), was set to release in August 2020, but then delayed to September, then to November.  The game was once again delayed to December, and in order to meet this deadline, [the studio went back on their word and forced their company into "crunch time"](https://www.rockpapershotgun.com/2020/09/30/cyberpunk-2077-devs-backtrack-on-no-mandatory-crunch-stance-report-claims/). Oops.

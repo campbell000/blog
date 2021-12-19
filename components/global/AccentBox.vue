@@ -9,6 +9,7 @@
   </v-sheet>
 </template>
 
+
 <style>
   .infoBoxContainer {
     padding: 10px;

@@ -26,7 +26,7 @@ I, on the other hand, had a weird curiosity for **Eternal Sonata**, a JRPG for t
 Interestingly, *both* of these games offer local co-op: a second player can control one of the party members during battle. So, as closet lovers of anime melodrama and cliched romances, what did we do? We played *both* of them, of course! What did we think of them? Read on to find out!
 
 <accent-box>
-One point before I begin: you may object to my critiques with "these games were good at the time! You can't judge them by 2021 standards!", but I disagree. I certainly <i>can</i> judge them by 2021 standards. Just watch me! My intent with this post is to help readers answer the question, "Is this game fun?" rather than "Was this game fun in the year 2004?"
+One point before I begin: you may object to my critiques with "these games were good at the time! You can't judge them by 2021 standards!", but I think that's missing the point. My intent with this post is to help readers answer the question, "Is this game fun?" rather than "Was this game fun in the year 2004?"
 </accent-box>
 
 ## *Tales of Symphonia*: Woefully Out of Tune
@@ -163,7 +163,3 @@ I often judge a game's story by one simple metric: how much am I thinking about 
 Before I get ahead of myself and call *Eternal Sonata* a masterpiece (it's not), I'll leave it at this: it's a game that, despite it's flaws, succeeds at what it sets out to do. If you have even a slight appreciation for the art or music, then you owe it to yourself to give this game a chance. At the very least, if you've become bored with this decade's endless sea of looter-shooters and empty open-worlds (excluding *Breath of the Wild*, as that game is a masterpiece) and are looking for something different, I'd recommend *Eternal Sonata* as a pleasant palette cleanser.
 
 **My Rating:** 4 Creepy, yet Beautiful, Anime Eyes out of 5.
-
-<accent-box>
-One final point: you may think that it's unfair to compare <i>Eternal Sonata's</i> presentation to <i>Symphonia's</i> when the former came out in 2007 while the latter came out in 2004. But recall that <i>Zelda: The Wind Waker</i> came out in <i>2002</i>, <i>Halo</i> came out in 2001, and <i>Grand Theft Auto: San Andreas</i> came out in 2004. Despite their age, all three of these games have presentations that hold up extremely well. Therefore, I stand by all of my critiques.
-</accent-box>

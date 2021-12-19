@@ -27,6 +27,7 @@
     <v-app-bar 
       dense
       app
+      elevation="3"
     >
     <v-app-bar-nav-icon class="appBarIcon" @click.stop="drawer = !drawer" />
     <div class="titleContentContainer" :class="isWide ? 'ignoreMaxWidth' : ''">
@@ -60,19 +61,13 @@
     </div>
     </v-app-bar>
     <v-main>
-      <v-container fluid :class="isWide ? 'ignoreMaxWidth' : ''">
+      <v-container fluid :class="isWide ? 'ignoreMaxWidth mainContainer' : 'mainContainer'">
         <nuxt />
       </v-container>
     </v-main>
     <v-footer :outlined="true" class="siteFooter font-weight-medium" :absolute="true" app>
         <div class="footerContent">
-          <v-row  align="center">
-            <v-col cols="4">
-              Never Meant - {{ new Date().getFullYear() }}  
-            </v-col>
-            <v-col cols="8" style="text-align: right; width: 100%">
-            </v-col>
-          </v-row>
+          Never Meant - {{ new Date().getFullYear() }}  
         </div>
     </v-footer>
   </v-app>
@@ -174,6 +169,7 @@ export default {
   max-width: 715px;
   width: 100%;
   font-size: 13px;
+  font-style: italic;
 }
 
 .footerContent.ignoreMaxWidth {
@@ -182,10 +178,7 @@ export default {
 
 
 .footerContent > .row > .col {
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 1px;
-  padding-bottom: 1px;
+
 }
 
 .nonMobileContent {
@@ -213,12 +206,12 @@ export default {
 }
 
 
-.container:not(.ignoreMaxWidth) {
+.container.mainContainer:not(.ignoreMaxWidth) {
     max-width: 715px;
     overflow-x: hidden;
 }
 
-.container.ignoreMaxWidth {
+.container.mainContainer.ignoreMaxWidth {
     max-width:1000px;
     overflow-x: hidden;
 }
