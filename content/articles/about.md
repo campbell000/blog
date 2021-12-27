@@ -16,7 +16,7 @@ I'm a professional software developer with a variety of interests. I'm a jack-of
 The coolest programming project [I've ever completed on my own is linked here](https://www.youtube.com/watch?v=0fLwrLrBcj8). It started as a failed Master's Degree project, but managed to find success over the course of several re-writes (and a shiny new $400 GPU).
 
 ## Why "Never Meant"?
-Why not? Something things are [Never Meant](https://www.youtube.com/watch?v=_NfnXdXpjL0) to be.
+Why not? Sometimes, things are [Never Meant](https://www.youtube.com/watch?v=_NfnXdXpjL0) to be.
 
 ## What Kind of Content Should I Expect on This Blog?
 Lots of different things! Below are some examples:
@@ -55,8 +55,6 @@ This site was created with Nuxt.js, generated statically (using their "content" 
 - Macbook running Bootcamp, running...
 - Windows with Windows Subsystem For Linux (WSL2) installed, running...
 - Ubuntu
-
-I ran into a few problems with this setup (a few bootcamp-related issues, and then a few WSL2-related issues), but miraculously, this all seemed to work out. I'll write a tutorial later with a more in-depth explanation later, but I followed [this guide as the foundation](https://nuxtjs.org/blog/creating-blog-with-nuxt-content/). It'll be a shame when Apple takes away Bootcamp (when Apple giveth, they take away twice as much), but for now, I love the flexibility that their Intel-based Macs offer. RIP Intel.
 
 As for my feelings about Nuxt.js: it's a "convention-over-configuration" type of framework, which I'm not a huge fan of. I like my code explicit and verbose, rather than implicit and magical. And like all other modern web development stacks, when things don't work, *they fail spectacularly*. Obtuse error messages that read like an ancient foreign language, stack traces a million lines long, etc. That may not really a fault of Nuxt.js, but rather its underlying technologies (webpack, babel, etc). Still, debugging Nuxt.js is often an unpleasant experience.
 

@@ -26,9 +26,6 @@
         </div>
       </div>
     </div>
-    <div class="metadata text--secondary">
-      <div class="summary">{{ article.summary }}</div>
-    </div>
 
     <div v-if="article.titleImage != null" class="imageContainer titleImageContainer">
       <img  class="titleImage" :class="article.isSmallTitleImage ? 'small' : (article.isMediumTitleImage ? 'medium' : '')" :src="article.titleImage" :alt="article.titleImageAlt" />
@@ -244,6 +241,7 @@
   }
 
   .imageContainer.titleImageContainer {
+    padding-top: 0px;
     padding-bottom: 30px;
   }
 

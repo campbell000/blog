@@ -3,7 +3,6 @@ title: How to Buy a TV or Monitor For Gaming
 summary: "With the PS5/Xbox Series X coming out soon, you might be thinking about buying a new TV or monitor. Unfortunately, display companies make the decision-making process as confusing as possible (likely on purpose). To combat the intentional misinformation, here's a guide that (should) make things a little clearer."
 shouldShowTableOfContents: true
 shouldShowUpdatedAt: false
-isMediumTitleImage: true
 createdAt: "2020-11-14T23:41:34.140Z"
 titleImage: /couple-tv.jpeg
 titleImageCaption: "\"God, the input lag on this TV is awful. I think I want a divorce.\""

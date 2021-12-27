@@ -31,18 +31,18 @@
     >
     <v-app-bar-nav-icon class="appBarIcon" @click.stop="drawer = !drawer" />
     <div class="titleContentContainer" :class="isWide ? 'ignoreMaxWidth' : ''">
-      <NuxtLink to="/" tag="span" style="cursor: pointer" class="mainTitleClass" 
+      <NuxtLink to="/" style="cursor: pointer" class="mainTitleClass" 
         :class="[this.currentPath == '/' ? 'selected' : 'unselected',
           this.$vuetify.theme.dark ? 'isDark' : '']">
         <v-toolbar-title v-text="title" />
       </NuxtLink>
       <div class="nonMobileContent">
-        <NuxtLink to="/posts" tag="span" style="cursor: pointer" class="secondaryMenuClass"
+        <NuxtLink to="/posts" style="cursor: pointer" class="secondaryMenuClass"
             :class="[this.currentPath.startsWith('/posts') ? 'selected' : 'unselected',
               this.$vuetify.theme.dark ? 'isDark' : '']">
         <v-toolbar-title v-text="'All Posts'" />
       </NuxtLink>
-      <NuxtLink to="/about" tag="span" style="cursor: pointer" class="secondaryMenuClass"
+      <NuxtLink to="/about" style="cursor: pointer" class="secondaryMenuClass"
             :class="[this.currentPath.startsWith('/about') ? 'selected' : 'unselected',
               this.$vuetify.theme.dark ? 'isDark' : '']">
         <v-toolbar-title v-text="'About'" />
@@ -231,6 +231,16 @@ export default {
 .mainTitleClass {
   font-weight: bold;
   color: #46797b;
+  text-decoration: none;
+}
+
+.secondaryMenuClass {
+    text-decoration: none;
+    color: rgba(0,0,0,.87) !important;
+}
+
+.secondaryMenuClass.isDark {
+  color: #eaeaea !important;
 }
 
 .selected.mainTitleClass,

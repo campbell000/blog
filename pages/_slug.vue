@@ -4,7 +4,7 @@
       const article = await $content('articles', params.slug).fetch()
       const tagsList = await $content('tags')
         .only(['name', 'slug'])
-        .where({ name: { $containsAny: article.tags } })
+        // this breaks things .where({ name: { $containsAny: article.tags } })
         .fetch()
       const tags = Object.assign({}, ...tagsList.map((s) => ({ [s.name]: s })))
       const [prev, next] = await $content('articles')
@@ -12,6 +12,8 @@
         .sortBy('createdAt', 'asc')
         .surround(params.slug)
         .fetch()
+
+      console.log(article.body);
 
       return { article, tags, prev, next }
     }

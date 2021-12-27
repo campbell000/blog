@@ -7,6 +7,7 @@ shouldShowTableOfContents: true
 shouldShowUpdatedAt: false
 createdAt: "2020-11-27T23:41:34.140Z"
 tags: 
+  - Anime
   - Essay
 ---
 
