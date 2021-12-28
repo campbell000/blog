@@ -87,12 +87,12 @@ My recommendation for readers would be to briefly glance over the bullet-point l
 ## The Ugly Stuff
 Aside from the issues mentioned above, it was around the 25-hour mark that my wide-eyed optimism turned into disdain. I'll refrain from going into the story-related events that cause this major shift, but both narratively and mechanically, the game takes a drastic turn for the worse once all of the magical power crystals are collected.
 
-Curiously, many of *Arise's* <a href="https://www.ign.com/articles/tales-of-arise-review">positive</a>-<a href="https://www.gamespot.com/reviews/tales-of-arise-review-wake-me-up-inside/1900-6417727/">online</a><a href="https://kotaku.com/tales-of-arise-the-kotaku-review-1847682321">reviews</a> don't mention this problematic shift at all. The obvious conclusion is that, [like always](https://www.denofgeek.com/games/days-gone-actor-sam-witwer-reviews-journalists-controversy/), these reviewers likely didn't bother to finish the game (for example, the <a href="https://kotaku.com/tales-of-arise-the-kotaku-review-1847682321">Kotaku.com</a> review outright admits this). As usual, big-budget videogame journalists failed to do their jobs and it's up to us regular folk to pick up their slack.
+Curiously, many of *Arise's* <a href="https://www.ign.com/articles/tales-of-arise-review">positive</a> <a href="https://www.gamespot.com/reviews/tales-of-arise-review-wake-me-up-inside/1900-6417727/">online</a> <a href="https://kotaku.com/tales-of-arise-the-kotaku-review-1847682321">reviews</a> don't mention any of the issues below at all. The obvious conclusion is that, [like always](https://www.denofgeek.com/games/days-gone-actor-sam-witwer-reviews-journalists-controversy/), these reviewers likely didn't bother to finish the game (for example, the <a href="https://kotaku.com/tales-of-arise-the-kotaku-review-1847682321">Kotaku.com</a> review outright admits this). As usual, it's up to us regular folk to pick up the slack from these "professional game journalists".
 
 So, what *exactly* goes wrong around the 25-hour mark? Read on to find out.
 
 ### Major Issue #1: Battle System Dissonance
-As mentioned above, *Arise's* battle system is heavily combo-centric: when you successfully land an attack on an enemy, it is briefly stunned, which allows for you to safely follow up with another attack. Experimenting with the different types of attacks (normal, Arte, grounded, aerial) rewards curious and dedicated players with higher damage output, increased XP gain, and better loot drops.
+As mentioned above, *Arise's* battle system is heavily combo-centric: when you successfully land an attack on an enemy, it is briefly stunned, which allows you to safely follow up with another attack. Experimenting with the different types of attacks (normal, Arte, grounded, aerial) rewards curious and dedicated players with higher damage output, increased XP gain, and better loot drops.
 
 To drive home that point, the game keeps a static combo counter on the screen to remind you of this, taunting you to drive that number as high as you can. Combos have always been a fun and rewarding part of *Tales* games, and *Arise* is no exception: the game clearly implies that combo'ing enemies is how this game is meant to be played and enjoyed.
 
@@ -127,9 +127,8 @@ A great cutscene that speaks volumes about Shionne without actually saying anyth
 But for those that would rather read text, consider a cutscene like the following:
 
 - Alphen and Shionne, the male and female lead protagonists, just got through a harrowing experience.
-- Tensions are high and they bicker for a little bit.
-- After some time and some talking, things simmer down a little bit.
-- Alphne momentarily turns his back to Shionne.
+- After some time and some self-reflection, the two open up to each other a bit.
+- Alphen momentarily turns his back to Shionne while telling her how much he cares about her.
 - With his back turned, Shionne longingly reaches out to touch him.
 - Right before Alphen turns around, Shionne quickly and reluctantly pulls her arm back towards herself with a despondent look on her face.
 
@@ -141,7 +140,7 @@ So, why bring this up? What's the problem with this game's script?
 
 The problem is that, after this cutscene, you get *bombarded* with repetitive, clinical explanations as to how Shionne feels and what Shionne is thinking. The game discards all of the subtlety and nuance portrayed in this cutscene and proceeds to tell you about Shionne over and over and over again. 
 
-Throughout the rest of the game, you'll hear "Shionne is struggling because she longs for human touch, but her thorns are keeping her away from others" 50 different times, from a bunch of different characters. It's mind-numbing and insulting, as it suggests that you, the viewer, weren't smart enough to pick this up yourself from the cutscene above. Instead, like a little schoolchild, the game beats you over the head with what it wants you to think and feel.
+Throughout the rest of the game, you'll hear "Shionne is struggling because she longs for human touch, but her thorns are keeping her away from others" 50 different times. It's mind-numbing and insulting, as it suggests that you, the viewer, weren't smart enough to pick this up yourself from the cutscene above. Instead, like a little schoolchild, the game beats you over the head with what it wants you to think and feel.
 
 <div class="imageContainer">
   <img :src="'/toa_skit.jpeg'"/>
@@ -157,9 +156,9 @@ Instead, characters ramble in stilted, forced monologues, as if they were speaki
 It's also especially disappointing because this is one thing that *Tales* games typically do well. In that respect, it really sucks to see *Arise* struggle to craft meaningful interactions between its characters.
 
 ### Major Issue #3: Disrespecting the Player's Time
-Given the points above (long, tedious boss battles and a bloated script), *Arise* never seems respectful of the fact that we all have a limited amount of time on this beautiful, broken planet of ours. It seems content to take 20-30 hours of actual game and stretch it to its absolute limits in order to make it 50-60 hours.
+Given the points above (long, tedious boss battles and a bloated script), *Arise* never seems respectful of the fact that we all have a limited amount of time on this beautiful, broken planet of ours. Instead, *Arise* takes 20-30 hours of actual content and stretches it to its absolute limits in order to make it 50-60 hours.
 
-Take its dungeons for example: *Tales* games typically have awful dungeons ([I've mentioned that in the past](https://nevermeant.dev/play-this-eternal-sonata)), but given *Arise's* promise of being an evolution of the series, I was hopeful it would turn things around. Instead, its dungeons are perhaps the worst that the series has ever had: they consist of nothing but narrow corridors, elevators, and room keys. The general pattern is: 
+Consider *Arise's* dungeons: *Tales* games typically have awful dungeons ([I've mentioned that in the past](https://nevermeant.dev/play-this-eternal-sonata)), but given *Arise's* promise of being an evolution of the series, I was hopeful it would turn things around. Instead, its dungeons are perhaps the worst in the series. They consist of nothing but narrow corridors, elevators, and room keys. The general pattern is: 
 
 - Enter onto a new floor.
 - Go all the way to the end, fighting hordes of respawning enemies.
@@ -181,12 +180,12 @@ Or how about the game's boss-based sidequests? Each one features minibosses that
 
 <div class="imageContainer">
   <img :src="'/toa_tower.jpeg'"/>
-  <span class="titleImageCaption text--secondary">A tower that consists solely of a spiraling staircase upwards to fight a boss. It takes literally over a minute to get to the top. The characters even comment on how long and boring of a climb it is. Does it count as irony when the tower is, in fact, really boring to climb up?</span>
+  <span class="titleImageCaption text--secondary">A tower which simply requires you to run up its spiraling staircase to get to the top. The characters even comment on how long and boring of a climb it is. Does it count as irony when the tower is, in fact, really boring to climb up?</span>
 </div>
 
-The game isn't even *hard*: it's simply a test of the player's patience and their will to continue in the face of monotony. Sure, you can crank the difficulty down a couple of notches and breeze through this game (something I was tempted to do), but that doesn't take away from the fact that this game is *filled* to the brim with repetition and filler. It's as if they had "Make Game 60+ hours long" as a hardline requirement from day 1 but failed to make the content to justify such a length.
+The game isn't even *hard*: it's simply a test of the player's patience and their will to continue in the face of monotony. Sure, you can crank the difficulty down a couple of notches and breeze through this game (something I was tempted to do), but that doesn't take away from the fact that this game is *filled* to the brim with repetition and filler. 
 
-Given its repetition, it's especially odd to see it cram about 30 minutes of story exposition at the last third of the game. *Arise* was perfectly content with taking its time during inconsequential dungeons and sidequests, but when the story takes a drastic turn, all of the sudden the game feels the need to simply plop the player down and hurriedly explain the game's true conflict. I won't spoil it here, but the Big Reveal *was* cool to learn about, but it was done in such a haphazard way that I wasn't affected by its enormity in the slightest. In all honesty, I was simply too worn out at that point to care. If I weren't a die-hard fan of the *Tales* series, I likely wouldn't have finished it.
+Given its repetition, it's especially odd to see it cram about 30 minutes of story exposition at the last third of the game. *Arise* was perfectly content with taking its sweet time with its grindy dungeons and inconsequential sidequests, but when the story takes a drastic turn, *Arise* stumbles over itself to hurriedly explain the game's true conflict. The game's big reveal *is* cool in theory, but it was presented in such a haphazard way that I wasn't affected by its enormity in the slightest. In all honesty, I was simply too worn out at that point to care.
 
 ## Summary
 For a game that strikes all the right notes in its opening hours, it's incredibly disappointing to see it stumble and sputter across the finish line. If I had to guess what went wrong, I'd assume that it's a combination of the following:
