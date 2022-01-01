@@ -180,9 +180,7 @@ Consider *Arise's* dungeons: *Tales* games typically have awful dungeons ([I've 
   <span class="titleImageCaption text--secondary">Every big square on this map contains multiple minibosses. There are about 10 floors in this dungeon. Excited yet?</span>
 </div>
 
-Especially egregious are the last two dungeons. For reasons unknown, the 2nd-to-last dungeon doesn't allow fast-traveling *at all*, which means that you have to walk *all the way back* through the way you came. Oh, and of course, the enemies have all respawned. 
-
-The last dungeon also doesn't allow fast travel until you've reached the very end. So if you die midway through this multi-hour dungeon, you'll have to start all over again. Did I mention this dungeon is multiple hours long?
+Especially egregious are the last two dungeons. For reasons unknown, the 2nd-to-last dungeon doesn't allow fast-traveling *at all*, which means that you have to walk *all the way back* through the way you came. Oh, and of course, the enemies have all respawned. The last dungeon also doesn't allow fast travel until you've reached the very end. So if you die midway through this multi-hour dungeon, you'll have to start all over again. Did I mention this dungeon is multiple hours long?
 
 Or how about the game's boss-based sidequests? Each one features minibosses that you've mostly seen before, except they've been supercharged with higher damage output and *much* more health. It's no exaggeration to say that these types of sidequests take over 10 minutes to complete (assuming that you beat it on your first try).
 
@@ -193,9 +191,17 @@ Or how about the game's boss-based sidequests? Each one features minibosses that
 
 The game isn't even *hard*: it's simply a test of the player's patience and their will to continue in the face of monotony. Sure, you can crank the difficulty down a couple of notches and breeze through this game (something I was tempted to do), but that doesn't take away from the fact that this game is *filled* to the brim with repetition and filler. 
 
-Given its repetition and bloat, it was frustrating to see it cram about 15 minutes of story exposition towards the end of the game in order to explain *Arise's* true conflict. *Arise* was perfectly content with taking its sweet time with its grindy dungeons and inconsequential sidequests, but when the story takes a drastic turn, *Arise* hurridly stumbles over itself to get things over with as quickly as possible.
+Given its repetition and bloat, however, it was very frustrating to see *Arise* scramble to tie up all of its loose ends in the final act of the game. The game was perfectly content to take its sweet time with its grindy dungeons and inconsequential sidequests, but when the story takes a drastic turn, *Arise* hurriedly stumbles over itself to get things over with as quickly as possible. For example:
 
-This is especially awful because, by the end of the game, you'll come to the realization that the payoff for the long, tedious hours that you've spent to finish the game simply isn't worth it. The game's final boss battle borders on nonsensical, and the game simply ends without any broader examination of the topics that it explored during its runtime (i.e. will these freed slaves *actually* function without a master? What will happen to Rena?). Instead, after beating the final boss, *Arise* seems content to throw a clichéd, fanservicey bone to the player and close it curtains for good.
+- the game's *true* major conflict is revealed via a minutes-long story exposition dump. 
+- a villain from many hours ago is revealed as the *true* final boss of the game, with no explanation as to how they survived or why they are so invested in thwarting our heros.
+- The boss fight ends as quickly as it begins, with little in the way of uniqueness or intrigue.
+
+And after you finish off the big bad guy for good, the game just...ends. Crumbs of a conclusion are scattered across the game's mid-credits montage, but nothing that I'd call "satisfying" or "rewarding".
+
+This is especially awful because, by the end of the game, you'll come to the realization that there *is no payoff* for the long hours you've put into this game. None of the questions that *Arise* raised during its runtime were ever fully answered or addressed: will the freed Dhanan slaves *actually* function without a master? What will happen to Rena and the ancient civilization that inhabited it? Can Dhana and Rena peacefully coexist? Will Law and Rinwell kiss (a far more interesting couple than Alphen and Shionne)?
+
+Instead, after beating the final boss, *Arise* seems content to throw a clichéd, fanservicey bone to the player and close it curtains for good.
 
 In summary, to call the game's ending "rushed" is an understatement, as it fails to reflect the extreme unevenness of the game's pacing: brisk at the beginning, sluggish and self-indulgent in the middle, and peckish and reclusive by the game's conclusion.
 
