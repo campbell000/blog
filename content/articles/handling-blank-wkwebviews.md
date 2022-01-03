@@ -175,7 +175,7 @@ If it's not clear, the difference between this snippet and the earlier one is th
 
 The end result of my solution is that, on the off chance that iOS kills my webviews and I actually get alerted about it, the view gets restored in a mostly-transparent fashion. When iOS kills my webview before I even get a chance to display it, this manifests to the user as a view that takes a little longer to load than normal. 
 
-This sucks, but honestly, users are used to this. As an iphone/safari user myself, pages randomly taking a long time to load is a daily occurrence for me. It's annoying and frustrating, and as a developer, you wish that there was a better alternative, but your users will get over it.
+This sucks, but honestly, users are used to this. As an iphone/safari user myself, pages randomly taking a long time to load is a daily occurrence for me. It's annoying and frustrating, and as a developer, you wish that there was a better alternative, but it is what it is.
 
 ## Summary
 Taken as a whole, this post isn't a dig at Apple (I'm sure it's the same, if not worse, for Android phones). It's just a reminder of how complicated these devices and their associated software can be, and the lengths that companies like Apple have gone to make programming for their devices as easy as possible. Want to display a web page in your app. Sure, it's three lines of code! Go crazy! It's commendable, but those abstractions, while appreciated, can be leaky at times. 
