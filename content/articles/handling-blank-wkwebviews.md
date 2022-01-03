@@ -124,9 +124,7 @@ So I decided to do something different: taking inspiration from [this snippet I 
     // TODO: There needs to be synchronization logic here: we don't want
     // webViewWebContentProcessDidTerminate firing twice!
     if (self.webview.title?.isEmpty) {
-       webViewWebContentProcessDidTerminate(_ webView: WKWebView) {
-         self.webViewWebContentProcessDidTerminate(self.webView);
-       }
+       self.webViewWebContentProcessDidTerminate(self.webView);
     }
   }
 
@@ -164,9 +162,7 @@ This WOULD have worked well, but there was one problem! While `webview.reload()`
 
   func checkForDeadWebViews() {
     if (self.webview.title?.isEmpty) {
-       webViewWebContentProcessDidTerminate(_ webView: WKWebView) {
-         self.webViewWebContentProcessDidTerminate(self.webView);
-       }
+       self.webViewWebContentProcessDidTerminate(self.webView);
     }
   }
 
