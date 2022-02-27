@@ -21,7 +21,7 @@
             <span class="tagDivider" v-if="id < article.tags.length - 1">  </span>
           </span>
           <div class="supportMe">
-            <a target="_blank" href="https://www.buymeacoffee.com/acsimpledex"><img src="https://img.buymeacoffee.com/button-api/?text=Buy%20Me%20A%20Coffee&slug=acsimpledex&button_colour=4a8183&font_colour=ffffff&font_family=Lato&outline_colour=ffffff&coffee_colour=FFDD00"></a>
+            <a target="_blank" href="https://www.buymeacoffee.com/acsimpledex"><img src="https://img.buymeacoffee.com/button-api/?text=Buy%20Me%20A%20Coffee &slug=acsimpledex&button_colour=4a8183&font_colour=ffffff&font_family=Lato&outline_colour=ffffff&coffee_colour=FFDD00"></a>
           </div>
         </div>
       </div>
