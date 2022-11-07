@@ -13,8 +13,6 @@
         .surround(params.slug)
         .fetch()
 
-      console.log(article.body);
-
       return { article, tags, prev, next }
     }
   }

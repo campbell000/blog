@@ -12,16 +12,16 @@ tags:
 ---
 
 ## No Time, Give Me The Quick Version
-- If you aren't sure, then your current TV likely can't support 4K/120FPS content
-- If you have a 4K TV made ~3 years old, then you're probably fine for 4K/60FPS.
-- Ifyou are a competitive gamer, buy a monitor (lower input lag)
+- If you aren't sure what your setup currently supports, then it likely can't support 4K/120FPS content.
+- If you have a 4K TV that's equal or less than 3 years old, then you're probably fine for 4K/60FPS.
+- If you're a competitive gamer, buy a monitor (lower input lag).
 - Use <a href="https://www.rtings.com/">RTings</a> to find a displays with your desired specs
-- Console games will likely not be rendered in true 4K/120hz, so keep your [FOMO](https://en.wikipedia.org/wiki/Fear_of_missing_out) in check.
+- Console games will likely not be rendered in true 4K/120hz for a *long* time, so keep your [FOMO](https://en.wikipedia.org/wiki/Fear_of_missing_out) in check.
 
 ## Disclaimers
-Firstly, I recognize that this article is low-hanging fruit: there's a million screeching Youtubers and mainstream media outlets like Vice and Polygon writing articles like this one. Their articles are chock full of amazon referral links ($$$ CHA-CHING $$$), and they usually rely on fear and ignorance of the audience to shill expensive and unnecessary upgrades.
+Firstly, I recognize that this article is low-hanging fruit: there's a million screeching Youtubers and media outlets (i.e. Vice, Polygon, IGN, etc) that are writing articles like this one. Their writeups are chock full of amazon referral links ($$$), and they rely on fear and ignorance of the audience to shill expensive and unnecessary upgrades.
 
-But here's the thing: **they all get this shit wrong. Repeatedly and consistently**. So fear not: I'm not here to sell you anything. Instead, I will be giving you the tools you need to make informed decisions, and then give you short, concise recommendations based on specific use cases.
+So fear not: I'm not here to sell you anything. Instead, I will be giving you the tools you need to make informed decisions, and then give you short, concise recommendations based on specific use cases.
 
 Secondly, I want to shout out <a href="https://www.rtings.com/">RTings</a>. I've sourced some of their images in this article, and in general, I've used their articles for my own edification and when buying my own gear. They are independently funded, so if you have the means, throw some support their way.
 
@@ -138,9 +138,9 @@ You won't be able to maximize all of these features without spending a ton of ca
 ## My Recommendations
 Armed with the knowledge that I've imparted to you, below you'll find my recommendations on what kind of display to purchase based on common use cases:
 
-**If you know for a fact that you'll be consuming 4K/120FPS content:** purchase a 4K/120FPS monitor or TV with HDMI 2.1. Prices will $1000+, TV or monitor. PS5 and Xbox Series X *claim* that they'll support this kind of content, but I really don't see this happening, outside of a few games early on the console's lifespan as a "woweee look at what this new console can do!" kind of feature. But at the very least, you'll be future-proofed. Not recommended unless you also own a powerful PC.
+**If you know for a fact that you'll be consuming 4K/120FPS content:** purchase a 4K/120FPS monitor or TV with HDMI 2.1. Prices will be around $1000+, regardless of whether you choose a TV or monitor. PS5 and Xbox Series X *claim* that they'll support this kind of content, but I really don't see this happening, outside of a few games early on the console's lifespan as a "woweee look at what this new console can do!" kind of feature. But at the very least, you'll be future-proofed. Not recommended unless you also own a powerful PC.
 
-**If you consider yourself a gamer (primarily console), but not an extreme one**: purchase a 4K/60FPS monitor or TV that supports HDMI 2.0. This should be MOST TVs made within the past 3-4 years, so you may not need to purchase one at all if you already own a 4K TV). Prices for 4K monitors should be fairly reasonable, too.
+**If you consider yourself a gamer (primarily console), but not an extreme one**: purchase a 4K/60FPS monitor or TV that supports HDMI 2.0. This should be MOST TVs made within the past 3-4 years, so you may not need to purchase one at all if you already own a 4K TV. Prices for 4K monitors should be fairly reasonable, too.
 
 **If you see yourself gaming a lot on both console and PC:** buy a 1440p monitor with a high refresh rate, like 144hz. This is the sweetspot in terms of price/performance. 1440p offers clear benefits over 1080p, and isn't really that different from 4K. Plus, Xbox Series X supports native 1440p output, and will look great on a 1440p monitor (PS5 currently does not support 1440p, unfortunately). PC games also usually support framerates over 60FPS, so you'll see clear benefits from the higher refresh rate
 

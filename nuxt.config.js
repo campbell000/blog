@@ -65,10 +65,11 @@ export default {
   // Vuetify module configuration (https://go.nuxtjs.dev/config-vuetify)
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
-    defaultAssets: {
-      font: {
-        family: 'Roboto'
-      }
+    treeShake: true,
+    head: {
+      link: [
+        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Karla|Roboto&display=swap' }
+      ]
     },
     theme: {
       dark: false,
@@ -91,9 +92,12 @@ export default {
           infoboxBackground: "#282828",
           success: colors.green.accent3,
           infoBoxText: "#ddd",
-          infoBoxBorder: "#7fc3b0"
+          infoBoxBorder: "#7fc3b0",
+          tooltipBackgroundColor: "#333",
+          tooltipTextHoverBackground: "#383838",
         },
         light: {
+          background: "#FFF",
           primary: '#46797b',
           textColor: '#262626',
           secondary: '#523a47',
@@ -104,7 +108,10 @@ export default {
           warning: '#FFC107',
           infoboxBackground: "#f4f4f4",
           infoBoxBorder: "#548e91",
-          infoBoxText: "#262626"
+          infoBoxText: "#262626",
+          tooltipColor: "#782ECC",
+          tooltipBackgroundColor: "#FFF",
+          tooltipTextHoverBackground: "#EEE",
         }        
       }
     }

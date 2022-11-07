@@ -39,7 +39,7 @@ Let me set the stage: my fiancée and I were absolutely *pumped* to play this ga
 
 Having said that, we also knew that we'd have to temper our expectations. The game *is* over 15 years old: game design, art, and graphics have dramatically improved since 2004. We wanted to give this game a fair chance, so we tried to keep its age in mind.
 
-But despite our best attempts to play the game as if we were [Caprisun drinking](https://parents.caprisun.com/), [yogurt yogurt slurping](https://www.yoplait.com/product-category/gogurt/) preteens in the 2000's, we both quickly realized that this game has *not* aged well. We tried powering through its painfully-slow start, its cringe-worthy voice acting, and its tedious dungeon design, but the game never improved. It took about 20 hours for my fiancée and I to realize that we were wishing for this game to hurry up and get itself over with. We *did* finish the game after 40 hours or so (as Tales fans, we felt that it was our *duty*), but I almost wish we hadn't.
+But despite our best attempts to play the game as if we were [Caprisun drinking](https://parents.caprisun.com/), [yogurt yogurt slurping](https://www.yoplait.com/product-category/gogurt/) preteens in the 2000's, we both quickly realized that this game has *not* aged well.
 
 This isn't to say that the game is irredeemable. It has its strengths, such as:
 * It's fast, fluid, and fun real-time battle system.
@@ -152,7 +152,7 @@ Also like *Symphonia*, *Eternal Sonata's* dialog is a little wonky, and its scri
 
 *Eternal Sonata* is also extremely linear, perhaps even more so than *Symphonia*. But unlike *Symphonia*, *Eternal Sonata* has a "hook": I was eager to power through dungeons so that I could experience more of the game's presentation: the Chopin history lessons, the game's landscapes and vistas, the entertaining cutscenes and animations, and the wonderful music were significant enough motivators for me to trudge through the game's weaker moments. Unlike *Symphonia*, which I begrudgingly finished and felt very little at the game's conclusion, I felt a *lot* of things by the time I finished *Eternal Sonata*. I felt a sense of relief, gratitude, hope, and even sadness. 
 
-I don't mean to say that I wish the game was longer: it was neither too short nor too long. Rather, my point is that the game expertly juxtaposes life, death, love, heartache, nostalgia, and pain with its story to complement the bittersweet tones of Chopin's music. To that end, this game succeeds in chronicling the life of Chopin, the brilliant Polish Composer, as well as Chopin, the young man who lived a tumultuous life and died too early. 
+I don't mean to say that I wish the game was longer: it was neither too short nor too long. Rather, my point is that the game expertly juxtaposes life, death, love, heartache, nostalgia, and pain with its story to complement the bittersweet tones of Chopin's music. To that end, this game succeeds in chronicling the life of Chopin, the brilliant Polish composer, as well as Chopin, the young man who lived a tumultuous life and died too early. 
 
 <youtube-link :src-link="'https://www.youtube-nocookie.com/embed/g8hYaMiiw3M'">
 Chopin's "Raindrop" is one of his real-life pieces that is featured in <i>Eternal Sonata</i>. It's a beautiful piece, and used to great effect.
@@ -160,6 +160,6 @@ Chopin's "Raindrop" is one of his real-life pieces that is featured in <i>Eterna
 
 I often judge a game's story by one simple metric: how much am I thinking about it in the days/weeks after I finish it? For *Symphonia*, not at all. For *Eternal Sonata*? At least a few days, if not a week or so. This metric speaks volumes about *Eternal Sonata's* success at creating a captivating, memorable experience.
 
-Before I get ahead of myself and call *Eternal Sonata* a masterpiece (it's not), I'll leave it at this: it's a game that, despite it's flaws, succeeds at what it sets out to do. If you have even a slight appreciation for the art or music, then you owe it to yourself to give this game a chance. At the very least, if you've become bored with this decade's endless sea of looter-shooters and empty open-worlds (excluding *Breath of the Wild*, as that game is a masterpiece) and are looking for something different, I'd recommend *Eternal Sonata* as a pleasant palette cleanser.
+Before I get ahead of myself and call *Eternal Sonata* a masterpiece (it's not), I'll leave it at this: it's a game that, despite it's flaws, succeeds at what it sets out to do. If you have even a slight appreciation for art and/or music, then you owe it to yourself to give this game a chance. At the very least, if you've become bored with this decade's endless sea of looter-shooters and empty open-worlds (excluding *Breath of the Wild*, as that game is a masterpiece) and are looking for something different, I'd recommend *Eternal Sonata* as a pleasant palette cleanser.
 
 **My Rating:** 4 Creepy, yet Beautiful, Anime Eyes out of 5.

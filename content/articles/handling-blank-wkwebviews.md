@@ -17,9 +17,9 @@ Many teams have had the displeasure of being forced to migrate from UIWebViews t
 There's something *very* different, however, about WKWebViews when compared to UIWebViews:
 **When you initialize a WKWebView, a process *outside* of your application's main process gets created.** 
 
-This external process manages the rendering of your the web content, and exists separate from your app's main process. You can actually see WKWebView's process when running your app in an XCode simulator: start your app, initialize a view that instantiates a WKWebView, and look in Activity Monitor for something with the name "WebContent" in it. You'll notice that, if you kill the process, your app's webview will turn blank (this is a great way to test your failure handling logic!).
+This external process manages the rendering of your web content, and exists separate from your app's main process. You can actually see WKWebView's process when running your app in an XCode simulator: start your app, initialize a view that instantiates a WKWebView, and look in Activity Monitor for something with the name "WebContent" in it. You'll notice that, if you kill the process, your app's webview will turn blank (this is a great way to test your failure handling logic!).
 
-That process's memory doesn't even count towards the memory that your app uses, so if your webview uses a lot of memory, your app won't necessarily get killed or receive a memory warning. iOS will simply kill the WebContent process, instead.
+That process's memory doesn't count towards the memory that your app uses, so if your webview uses a lot of memory, your app won't necessarily get killed or receive a memory warning. Instead, iOS will simply kill the WebContent process.
 
 On one hand, this is great because the death of a webview process doesn't necessarily mean the death of your entire app. But the downside is that, when problems occur with your WKWebView instances, your code will need to be able to gracefully handle these failure scenarios. Otherwise, when a WKWebView crashes, your users will often see an ugly, blank white screen.
 
@@ -28,16 +28,16 @@ On one hand, this is great because the death of a webview process doesn't necess
   <span class="titleImageCaption text--secondary">An iOS component that uses WKWebView in the center to display information. It has just crashed, which is why it's just a white rectangle. <a href="https://blog.embrace.io/bug-of-the-month-blank-webviews/">Taken From embrace.io</a></span>
 </div>
 
-Even if your iOS and HTML/JS code is [simple and clean](https://www.youtube.com/watch?v=UigzN-4JR14), there are certain scenarios that will prompt iOS to *kill your webview*. Unhelpfully, Apple doesn't document *why* iOS would ever kill WebContent processes, but from my own testing and reading posts from stackoverflow/github, I THINK it can happen under the following scenarios:
+Even if your iOS and HTML/JS code is [simple and clean](https://www.youtube.com/watch?v=UigzN-4JR14), there are certain scenarios that will prompt iOS to *kill your webview*. Unhelpfully, Apple doesn't document *why* iOS would ever kill WebContent processes, but from my own testing, I think happens under the following scenarios:
 - **Low system memory**: if a device is running low on memory, iOS may deem it necessary to kill your webview. Note that your app delegate's `applicationDidReceiveMemoryWarning()` function will NOT necessarily be called, since the webcontent process is seperate from your app's process.
 - **Your app has been backgrounded**: just like how your safari tabs sometimes get killed when you've left them alone for a while, your app's webviews will sometimes get killed as well if your app has been left in the background, *even if your app itself hasn't been killed*.
 - **Your webviews are not visible**: if you have a webview that's in a view controller, and that view controller is NOT on top of the view stack, iOS may deem it acceptable for killing. There's absolutely no documentation for this, but I have seen this happen many times in my own apps, especially when memory is low. iOS will prioritize the currently-displaying webview, while killing the ones not currently showing.
 
-One important note: when I mention memory problems as being a cause for iOS to kill webviews, I don't necessarily mean memory leaks. It could simply mean that your web pages are requesting too much memory, too quickly. Again, Apple doesn't mention any of this in their documentation. This is simply from what I've read, and also after having dedicated many hours to debugging this particular issue myself.
+One important note: when I mention memory problems as being a cause for iOS to kill webviews, I don't necessarily mean memory leaks. It could simply mean that your web pages are requesting too much memory, too quickly. Again, Apple doesn't mention any of this in their documentation. This is simply from what I've read and debugged.
 
-**Sounds scary, right?** If your primary interface for your app is a webview, and there's a possibility that your interface simply doesn't show up, should you be using WKWebViews at all? There are many [Github issues for WKWebView-based frameworks](https://github.com/Telerik-Verified-Plugins/WKWebView/issues/41) that reference this particular issue, it does seems like an all-too-common issue that many are struggling with.
+**Sounds scary, right?** Webviews randomly dying poses a major problem if the primary interface for your app is a webview. Interestingly, there are many [Github issues for WKWebView-based frameworks](https://github.com/Telerik-Verified-Plugins/WKWebView/issues/41) that reference this particular issue, so it certainly seems like an issue that many are struggling with.
 
-These issue threads don't have clear solutions, but they all boil down to the same sentiment: *"It's probably resource related. Manage your memory, both iOS and JS (if you control it), and be ready to handle failures as best as you can."*
+These issue threads don't have clear solutions, but they all boil down to the same sentiment: "It's probably resource related. Manage your memory, both iOS and JS (if you control it), and be ready to handle failures as best as you can."
 
 ## How WKWebViews Fail
 In general, I found that there were two ways that WKWebView could fail, manifesting as a blank white screen:
@@ -70,7 +70,7 @@ The *second* case of the webview simply showing a white screen from the get-go, 
 
 The tricky part about this second case is that, unlike the first case, the `webViewWebContentProcessDidTerminate` delegate callback is usually NOT called. In addition, no other useful delegate callbacks are invoked either, such as memory warnings. Anecdotally, when I've encountered this issue, memory usage seemed fine, and I didn't see any crash reports or Jetsam Events in the device logs. This case would not happen very often: I would say that, on average, it would happen once for every 200 webview loads. And when I say "loads", I mean loading from a file on disk, so this rules out network failures.
 
-In the past, I actually thought the issue was due to some peculiarity of the app I was working on at the time, rather than WKWebView itself. But just to make sure, I built a simple test app that loads a WKWebView using an HTML file on disk over and over again, and alerts if the contents of the view are blank after some amount of buffer time (i.e. 5 seconds).
+In the past, I used to think that the issue was due to some peculiarity of the app I was working on at the time, rather than WKWebView itself. But just to make sure, I built a simple test app that loads a WKWebView using an HTML file on disk over and over again, and alerts if the contents of the view are blank after some amount of buffer time (i.e. 5 seconds).
 
 Sure enough, every single time I ran this app, I'd get the alert that the webview didn't load. Sometimes it would take 2 hours to see the alert. Sometimes it would take 10 minutes. Once, it took 6 hours. But sure enough, out of about 6 runs, it happened all 6 times. 
 
@@ -178,6 +178,6 @@ The end result of my solution is that, on the off chance that iOS kills my webvi
 This sucks, but honestly, users are used to this. As an iphone/safari user myself, pages randomly taking a long time to load is a daily occurrence for me. It's annoying and frustrating, and as a developer, you wish that there was a better alternative, but it is what it is.
 
 ## Summary
-Taken as a whole, this post isn't a dig at Apple (I'm sure it's the same, if not worse, for Android phones). It's just a reminder of how complicated these devices and their associated software can be, and the lengths that companies like Apple have gone to make programming for their devices as easy as possible. Want to display a web page in your app. Sure, it's three lines of code! Go crazy! It's commendable, but those abstractions, while appreciated, can be leaky at times. 
+This post isn't a dig at Apple (I'm sure it's the same, if not worse, for Android phones). It's just a reminder of how complicated these devices and their associated software can be, and the lengths that companies like Apple have gone to make programming for their devices as easy as possible. Want to display a web page in your app. Sure, it's three lines of code! Go crazy! It's commendable, but those abstractions, while appreciated, can be leaky at times. 
 
 One final note: if anyone has any suggestions or improvements, *please* include them in the comments below. I'd love to hear about your experiences with WKWebView, and how you've dealt with these problems (or maybe you've *never* dealt with these problems, and I just write terrible code!)

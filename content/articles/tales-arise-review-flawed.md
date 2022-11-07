@@ -124,16 +124,17 @@ Worse still, after around 40 hours or so, the game's later zones contain almost 
 In summary, the game's fun and frantic battle system absolutely crumbles under the weight of these lengthy, monotonous miniboss/boss battles. It's quite a shame because, underneath the bloat and repetition, there is a great battle system in *Arise's* core. But the best battle system in the world can't redeem the utter tedium of this game's latter half, which is crawling with repetitive miniboss battles.
 
 ### Major Issue #2: a Bloated, Repetitive Script
-I think this next issue is best illustrated via an example. If you'd rather watch it, check out the vid below (it starts at 3:00. Watch it for 30 seconds; that's all you really need to understand my point):
+I think this next issue is best illustrated via an example. If you'd rather watch it, check out the vid below (Skip to 8:30. Watch it for 60 seconds; that's all you really need to understand my point):
 
-<youtube-link :src-link="'https://www.youtube-nocookie.com/embed/SVP96H_mQWk?start=180'">
+<youtube-link :src-link="'https://www.youtube-nocookie.com/embed/U7xKXb-oAlI?start=510'">
 A great cutscene that speaks volumes about Shionne without actually saying anything.
 </youtube-link>
 
 But for those that would rather read text, consider a cutscene like the following:
 
-- Alphen and Shionne, the male and female lead protagonists, just got through a harrowing experience.
-- After some time and some self-reflection, the two open up to each other a bit.
+- Alphen and Shionne, the male and female lead protagonists, just went through an intense experience, and Alphen is injured.
+- After some time to cool off, the two open up to each other a bit.
+- Shionne asks Alphen a pointed, emotional question
 - Alphen momentarily turns his back to Shionne while telling her how much he cares about her.
 - With his back turned, Shionne longingly reaches out to touch him.
 - Right before Alphen turns around, Shionne quickly and reluctantly pulls her arm back towards herself with a despondent look on her face.
@@ -219,4 +220,4 @@ To be clear, I'm a huge fan of the *Tales* series: there's nothing I want more t
 
 But on its own, *Arise* fails to live up to its "Triple A, Big Budget" premise. Here's hoping that *Tales of Arise 2: the Arise-ening* turns out a bit better than its predecessor.
 
-**Verdict: 2 Lengthy Speeches Out of 5**
+**Verdict: 2 Bloated Monologues Out of 5**

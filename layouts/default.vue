@@ -137,6 +137,19 @@ export default {
 
 <style>
 
+html {
+  background-color: var(--v-background-base);
+}
+
+.v-tooltip__content {
+    opacity: 1 !important;
+    background-color: var(--v-tooltipBackgroundColor-base) !important;
+    border: 1px solid var(--v-primary-base) !important;
+    color: var(--v-textColor-base) !important;
+    max-width: 500px !important;
+    border: 1px solid silver;
+}
+
 .my-app.v-application {
     color: var(--v-textColor-base) !important;
 }

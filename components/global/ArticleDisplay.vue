@@ -208,11 +208,13 @@
     font-weight: bold;
     font-size: 36px;
   }
- .nuxt-content h2 {
+  .nuxt-content h2{
     margin-top: 40px;
-    font-weight: 500;
+    font-weight: bold;
     line-height:1.5;
+    margin-bottom: 8px;
   }
+
   .nuxt-content h3 {
     font-weight: 500;
     text-decoration: underline;

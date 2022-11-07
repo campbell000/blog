@@ -9,15 +9,19 @@
         type: String,
         default: () => null
       },
+      quotes: {
+        type: Boolean,
+        default: () => true
+      }
     }
   }
 </script>
 
 <template>
   <v-sheet class="rounded infoBoxContainer infoBoxText--text">
-    <div class="bigQuote left primary--text">“</div>
+    <div v-if="quotes" class="bigQuote left primary--text">“</div>
     <slot>default</slot>
-    <div class="bigQuote right primary--text">”</div>
+    <div v-if="quotes" class="bigQuote right primary--text">”</div>
     <div class="source">
       <a class="sourceLink" :href="sourceLink" target="_blank">{{sourceName}}</a>
     </div>

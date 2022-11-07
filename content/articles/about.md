@@ -31,7 +31,7 @@ I'm the only contributor to this blog, but I wouldn't be opposed to guest contri
 Each article has it's own comments section, but if you want to contact me directly, you can email me directly at: <a href="mailto:contactme@nevermeant.dev">contactme@nevermeant.dev</a>
 
 ## How Frequently Will This Site be Updated?
-Probably about once a week, as long as I'm the only contributor.
+~~Probably about once a week.~~ When I think that I have something interesting to say.
 
 ## Why Does this Blog Exist?
 It exists because I simply enjoy writing about things that interest me. But the answer obviously doesn't end there. If it did, then why wouldn't I simply post to Facebook, or Reddit, or one of the other big information/content aggregation platforms?
@@ -46,9 +46,9 @@ Therefore, by starting a blog (and maybe inspiring others to do the same), I hop
 I've taken great care to ensure that this site is as minimally invasive as possible. There are no ads or trackers, and no social media integration of any kind. I use google fonts and occasionally embed youtube links, but that's about it.
 
 ## Is This Site Monetized in Any Way?
-No. There are no ads, referral links, analytics trackers, or anything else that might surreptitiously generate revenue for me without you, the user, knowing about it.
+No. There are no ads, referral links, analytics trackers, or anything else that might surreptitiously generate revenue for me without you, the user, knowing about it. I don't take bribes to write about products, people or concepts.
 
-In addition, none of this site's content will be sponsored or monetarily-supported in any way. The only thing you'll see on this site is a donation link at the top of each article, where you can make a one time or continuous donation, which will go to site costs (and maybe some toys for my dog). It also simply gives people a way to let me know that they support my content. 
+The only thing you'll see on this site is a donation link at the top of each article, where you can make a one time or continuous donation, which will go to site costs (and maybe some toys for my dog). It also simply gives people a way to let me know that they support my content. 
 
 ## How Was This Site Created?
 This site was created with Nuxt.js, generated statically (using their "content" module) using nuxt-generate and hosted on GitHub pages. Miraculously, I managed to do it using the following tech stack:
