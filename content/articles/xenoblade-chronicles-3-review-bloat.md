@@ -20,9 +20,9 @@ tags:
 ## Xenoblade Chronicles 3 Punctuates Nintendo's Venerated Series
 Almost 5 years after the relase of Xenoblade Chronicles 2, Xenoblade Chronicles 3 (henceforth referred to as "XC3") is finally here. While not quite a finale for the entire Xenoblade Chronicles Series, a director for the series [was quoted as saying](https://nintendoeverything.com/monolith-soft-shares-xenoblade-chronicles-3-message-another-tease-of-the-future/) that this game can be considered the end of the story that started with <text-with-tooltip :tooltip="'The events of Xenoblade 1 and 2 were kicked off by Klaus, a power-hungry scientist that activated a poorly-understood technological artifact that ended up splitting the universe in two.'">Klaus' experiment.</text-with-tooltip> In other words, "a stopping point". A resting place. A period in which the team and the fans can gather their thoughts, reflect on past experiences, and ponder where the series will go next. Xenoblade is not gone, but it's likely to go away for a while.
 
-So, as the ~conclusion~ "stopping point" for the beloved series, how does Xenoblade Chronicles 3 fare? 
+So, as ~the conclusion~ a "stopping point" for the beloved series, how does Xenoblade Chronicles 3 fare? 
 
-Interestingly, my opinion of this game eerily mirrors its premise: in Xenoblade Chronicles 3, two conflicting universes collide, leading to unstable paradoxes and conflict. Likewise, this game is full of ideas and concepts that both simultaneously enhance and detract from the overall experience. It's paradoxical, but not always in a good way.
+Coincidentally, my opinion of this game mirrors its premise: in Xenoblade Chronicles 3, two universes collide, leading to conflict and struggle. Likewise, this game is full of ideas and concepts that both simultaneously enhance and detract from the overall experience. It's paradoxical, but not always in a good way.
 
 Let me show you what I mean.
 
@@ -32,14 +32,13 @@ Let me show you what I mean.
   <span class="titleImageCaption text--secondary">XC3's dedication to its grim world and mature characters make the stakes feel real, rather than contrived.</span>
 </div>
 
-XC3 is heavily story-driven: I'd estimate that about 1/3 of your time with XC3 will be spent, reading, watching, and listening. And being the third game in a series, I feel that it's important to start this review by evaluating how XC3 delivers its story, and how it treats its own characters and universe.
+XC3 is heavily story-driven: I'd estimate that about 1/3 of my time with XC3 was spent, reading, watching, and listening. And being the third game in a series, I feel that it's important to start this review by evaluating how XC3 delivers its story, and how it treats its own characters and universe.
 
+Fortunately, Xenoblade Chronicles 3 wastes no time in immediately introducing the player to its main conflict: warring nations, Agnus and Keves, have been locked into a neverending war. The opening cutscene features Noah, the main character, narrating over scenes of devastation and death. Literally, in the first few minutes of the game, players witness the life get drained out of fallen soldiers as their rivals chant and cheer on the battlefield. <text-with-tooltip :tooltip="'Well, as grusome as it can possibly be for a T-rated game.'">It's a gruesome sight</text-with-tooltip>.
 
-Fortunately, Xenoblade Chronicles 3 wastes no time in immediately introducing the player to its main conflict: warring nations, Agnus and Keves, have been locked into what seems to be a neverending war. The opening cutscene has Noah, the main character, narrate over scenes of death and devestation. Literally, in the first few minutes of the game, players witness the life get drained out of fallen soldiers as their rivals chant and cheer on the battlefield. <text-with-tooltip :tooltip="'Well, as grusome as it can possibly be for a T-rated game.'">It's a gruesome sight</text-with-tooltip>. 
+We're also told that, in this twisted world, people only have 10 years to live. But it's unlikely that they'll live that long: all of Aionios' inhabitants are ordered to train and fight to the death, which is literally the only was that they're able to survive: killing the other faction replenishes the home faction's "Flame Clock". If that goes out, all humans in that faction will perish. So, as the game succinctly puts it, one must "live to fight, and fight to live", leading to never-ending cycles of violence.
 
-We're also told that, in this twisted world, people only have 10 years to live. But it's unlikely that they'll live that long: all of Aionios' inhabitants are ordered to train and fight to the death, which is literally the only was that they're able to survive: killing the other faction replenishes the home faction's "Flame Clock". If that goes out, all humans in that faction will perish. So, as the game succinctly puts it, one must "live to fight, and fight to live", leading to never-ending cycles of violence and death.
-
-XC3 smartly doles out bits of ambiguity for the player to chew on: why must the two nations fight? Why do corpses need to be "sent on" by Mio and Noah, each nation's respective "Offseer"? Who created this system of violence that revolves around war and Flame Clocks, and what purpose does it serve? It's all very grim, and the game excels in making players wonder *what it all means*.
+XC3 smartly doles out bits of ambiguity for the player to chew on over the course of its runtime: why must the two nations fight? Why do corpses need to be "sent on" by Mio and Noah, each nation's respective "Offseer"? Who created this system of violence that revolves around war and Flame Clocks, and what purpose does it serve? It's all very grim, but is also compelling enough for players to wonder *what it all means*.
 
 <div class="imageContainer">
   <img :src="'/xcmio.jpg'"/>
@@ -48,17 +47,35 @@ XC3 smartly doles out bits of ambiguity for the player to chew on: why must the 
 
 Much of what you'll discover about XC3 comes through the vocal performances of its main characters, and I'm happy to report these performances are (mostly) excellent. Each one of the game's six main characters have *excellent* English voiceovers. If I had to rank from best to worst, I'd say Noah and Eunie are at the top, and Mio is at the bottom, but none of their performances are bad, or even average. Side characters veer into "cringeworthy" territory, but their presence is small enough as to be mostly forgettable.
 
-Therefore, through its dedication to a mature tone, its excellent vocal performances, and its liberal use of cutscenes, XC3 succeeds in making its world and its characters compelling and earnest. While the game *does* occasionally offer respites from the doom-and-gloom with some levity and silliness, these moments don't feel out of place or tone-deaf. Instead, they lend humanity to the characters as they try to make light of a terrible existence. Throughout the game, the stakes remain consistently high, and it's refreshing to see Monolithsoft take itself a little more seriously.
+Therefore, through its mature tone, its excellent vocal performances, and its liberal use of cutscenes, XC3 succeeds in making its world compelling and and its characters earnest. While the game *does* occasionally offer respite from its heavy subject matter with some levity, these moments don't feel out of place or tone-deaf (<text-with-tooltip :tooltip="'It\'s certainly the only epic sci-fi narrative that I\'ve ever played that also features sexy robot maids, penis jokes, accidental boob touching, and ridiculously-revealing outfits for its main characters.'">unlike it's predecessor, Xenoblade Chronicles 2,</text-with-tooltip> which was one of the most tonally-dissonant games that I've ever played). 
+
+Instead, these moments lend humanity to the characters as they try to make light of a terrible existence. Throughout the game, the stakes remain consistently high, and it's refreshing to see Monolithsoft take itself a little more seriously.
 
 **This is important** because much of your enjoyment of this game will depend upon how invested you are in the game's world. There are a *lot* of cutscenes in this game, so it's vital for players to actually *want* to learn more about and resolve the game's main conflict. And in this respect, I feel that Monolithsoft was *very* successful.
 
-<info-box :quotes="false">
-As an aside, there's a cutscene around the 40 hour mark that is (in my opinion) the best, most heart-wrenching cutscene in the entire Xenoblade series. The motion-captured choreorgraphy, the music, the voice acting, the script; for about 20 minutes, Monolithsoft's efforts perfectly align to create a powerful and genuinely affecting moment that trascends its medium. The cutscene is a <b>massive</b> spoiler, but for those that want to know what I'm talking about, or don't mind spoilers, <a href="https://www.youtube.com/watch?v=XO9tmU3GVNs">here it is.</a>
-</info-box>
+## Bland Characters, Wonky and Indulgent Script, and Terribly Sluggish Pacing
+<div class="imageContainer imageUnderSection">
+  <img :src="'/xcconvo.jpg'"/>
+  <span class="titleImageCaption text--secondary">Contrary to what the game's trailers suggest, more than half of the game's dialog is delivered in static, voiceless textboxes like this.</span>
+</div>
 
-### But With Terrible Pacing, Wonky Localization, and Bland Characters
-Do I think the penis jokes or book touching is good? No
+That isn't to say the game's presentation isn't without issues. In fact, I'd argue that Xenoblade Chronicles 3 takes a few steps *back* in several aspects. Whether it's because Monolithsoft overcorrected from <text-with-tooltip :tooltip="'Rex? Naieve but brave. Pyra? Submissive. Mythra? Hot-headed. Zeke? Headstrong but noble. Xenoblade 2\'s characters had charm, but were incredibly one-dimensional to the point of being uninteresting'">Xenoblade Chroncles 2's problems</text-with-tooltip>, or because of time/budget/localization issues, I'm not sure. But unfortunately, while Xenoblade Chronicles 3's world building is strong, the game's other narrative elements are weak.
 
+Let's start with the game's main cast of characters: Noah, Mio, Lanz, Eunie, Sena, and Taion. In theory, these characters have a lot to offer in terms of narrative intrigue: they grapple with shortened lifespans, war, loss, inadequacy, and betrayal. From where these characters start, there's ample time and space for them to develop and grow. For example, I was eager to learn *why* Sena was so desperate for validation and acceptance, or how Mio would cope as her last days of life drew near. Mio's diary motif, in particular, was an interesting narrative device that allowed the player to peek inside her head.
+
+But in practice, the main cast in Xenoblade Chronicles 3 tends to be indistinguishable from one another (perhaps except Eunie, but not exceptionally so). In an effort to ground the characters in a little more maturity and add a little more depth, they've also been stripped of anything that makes them unique. XC3's characters rarely bicker, banter, or disagree (again, aside from occasionally Eunie). They never debate, and they never hold grudges. Aside from one bizarre moment where Mio unexplainably gets angry at Noah (and then is quickly resolved), there's no tension or drama between them.
+
+But...shouldn't there be? If multiple universes were on the brink of total annihilation, don't you think the game's protagonists might have different opinions on how to handle it? Don't you think that they'd get a little hot-headed at times? Don't you think feelings would get hurt, scars would be formed, and people would change? Sometimes for the better, and sometimes not?
+
+Xenoblade Chronicles 3's characters feel . Instead, most of the characters' interactions consist of giving mini-speeches about some newfound personal insight, or about the injustice of the world, with the other characters chiming in with similar sentiments.
+
+
+
+ During Xenoblade Chronicles 3's long monolouges (and there's a lot of them), they all finish each other's sentences. They all agree on the same battle tactics and plans. They all share the same opinions about. They never bicker, banter, or disagree.
+
+But in practice? It seems as though they overcorrected from Xenoblade Chronicles 2, where every character was whacky and obnoxiously one-note, and instead made each character indistinguishable from one another. The main cast in Xenoblade Chronicles 3 don't argue, debate, or problem solve.
+
+book jokes? Yes but no.
 
 ## The Graphics
 <div class="imageContainer imageUnderSection">
