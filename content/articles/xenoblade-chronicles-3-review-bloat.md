@@ -22,35 +22,48 @@ Almost 5 years after the relase of Xenoblade Chronicles 2, Xenoblade Chronicles 
 
 So, as ~the conclusion~ a "stopping point" for the beloved series, how does Xenoblade Chronicles 3 fare? 
 
-If you were to go buy the [general consensus online](https://www.metacritic.com/game/switch/xenoblade-chronicles-3), you'd think that the game was univesally acclaimed and nearly flawless. I'd agree that, at its best, Xenoblade Chronicles 3 is a transcendent experience that defies its medium.
+If you were to go buy the [general consensus online](https://www.metacritic.com/game/switch/xenoblade-chronicles-3), you'd think that the game was nearly flawless. To be fair, I'd agree that, at its best, Xenoblade Chronicles 3 is a transcendent experience that defies its medium. It's highs are incredibly high, and it's clear that a lot of love went into this game.
 
-But at it's worst, Xenoblade Chronicles 3 crumbles under its [62 hour playtime](https://howlongtobeat.com/game/103825), and that's excluding any sidequests, which add an extra 30-40 hours. There *are* flashes of brilliance, but they have been drowned out and forgotten about in my memory in place of its indulgant, redundant monolougues, its bland characters, and uneventful plot.
+But at it's worst, Xenoblade Chronicles 3 crumbles under its [62 hour playtime](https://howlongtobeat.com/game/103825), and that's excluding any sidequests, which add an extra 30-40 hours. There *are* flashes of brilliance, but there simply aren't enough of them to compensate for the absolute *slog* this game can be at times.
 
-Unfortunately, legitimate critiques of this game seem to have been drowned out (or worse, [silenced](https://old.reddit.com/r/NintendoSwitch/comments/we34zm/unpopular_opinion_xenoblade_chronicles_3_is/)). But make no mistake, there *are* valid critiques. So, while I want to give Monolithsoft credit for some of the amazing work that they've done, I want to speak a little more on behalf of those that correctly identified these critiques, but were overtaken by fanboy zealotry. 
+Unfortunately, legitimate critiques of this game seem to have been drowned out (or worse, [silenced](https://old.reddit.com/r/NintendoSwitch/comments/we34zm/unpopular_opinion_xenoblade_chronicles_3_is/)). But make no mistake, there *are* valid critiques. So, while I want to give Monolithsoft credit for some of the amazing work that they've done, I want to speak a little more on behalf of those that correctly identified these critiques, but were silenced by fanboy zealotry.
 
-Coincidentally, my opinion of this game mirrors its premise: in Xenoblade Chronicles 3, two universes collide, leading to conflict and struggle. Likewise, this game is full of ideas and concepts that both simultaneously enhance and detract from the overall experience. It's paradoxical, but not always in a good way.
+Let's start with the good stuff because—make no mistake—Xenoblde Chronicles 3 has a *lot* of good stuff.
 
-Let me show you what I mean.
+## Outstanding in Many Respects
+It goes without saying that <text-with-tooltip :tooltip="'While it\'s difficult to determine their exact contribution, Monolithsoft had a significant hand in Zelda: Breath of the Wild. I theorize that they were tapped for their expertise in open-world games, showcased excellently in Xenoblade Chronicles on the Wii.'">Monolithsoft's work on Nintendo's consoles is unparalleled</text-with-tooltip> (perhaps only secondary to Nintendo). In terms of performance, scope, complexity, and content, the Xenoblade Chronicles series has always been a cut above anything else: the environments in Xenoblade Chronicles 1 were unlike anything else on the Wii, and Xenoblade Chronicles 2 offered Nintendo Switch fans a glimpse into what Nintendo's new console was capable of, upping the ante from Xenoblade 1 in many aspects (graphics, scope, cutscenes, etc).
 
-NEW IDEA: TALK GOOD FIRST, THEN GET INTO BAD.
-GOOD GRAPHICS, GOOD WORLD BUILDING, GOOD voice acting. bad:
-- Insanely long
-- Bad characters
-- So what character had one scene? Prepare for the rest of the game to never address it
-- Sidequests by their nature do not progress character development because they're optional
-- Insanely telegraphed "twists" don't make up for a plot where nothing happens
-- And then a 6 minute exposition
-- Nothing really for the fans of Xenoblade series
+It's no surprise, then, that Xenoblade Chronicles 3 continues that trend.
 
-## A Mature Story with a Consistent Tone
+### A Stunning Technical Achievement
+<div class="imageContainer imageUnderSection">
+  <img :src="'/xc3vista.gif'"/>
+  <span class="titleImageCaption text--secondary">Xenoblade Chronicles 3 occasionally makes you forgot that you're playing a game on an mobile processor from 2017. This game's technical and artistic aspects are, at times, execeptional.</span>
+</div>
+
+Both artistically and technically, this game is leaps and bounds ahead of anything else on the Switch. For those that want proof, simply compare the gif above to this screenshot of  <a target="_blank" href="/pokemon.jpg">Pokemon Scarlet/Violet</a>. That comparison should speak for itself.
+
+The landscapes are vast, the character models are more expressive and detailed, <text-with-tooltip :tooltip="'Xenoblade Chronicles 2\'s lighting system gave characters an awful plastic-looking shine. Xenoblade 3\'s lighting system gives character models a much more realistic-looking glow.'">the lighting system is greatly improved</text-with-tooltip>, and there is a significant increase in the number of onscreen characters and enemies. More impressive is the fact that, despite all of these improvements, I noticed very little <text-with-tooltip :tooltip="'Pop-in and LOD culling involves either removing objects on screen, or using a lower-detailed version of that object, when the object is far from the player\'s view. With both approaches, the idea is that the player won\'t notice, thereby conserving computing power and memory for objects that the player can actually see.'">pop-in and LOD culling.</text-with-tooltip>
+
+All of these improvements aren't simply for the pixel-counters and the framerate snobs. Instead, through Monolithsoft's technical mastery of Nintendo's hardware, these improvements help the world of Aionios feel like a *real, living universe*. This is made evident simply by taking a look around: dozens of enemies wander the world, sometimes fighting amongst each other or scavenging for food. Waterfalls, mountains, and cliffs dot the horizon. The sun emits a ray of orange as its reflected across a far-distant mountaintops. 
+
+In short, Monolithsoft's hard work and attention to detail has resulted making Aionios feel like a world worth caring about.
+
+### A Mature, Consistent Narrative
 <div class="imageContainer imageUnderSection">
   <img :src="'/xcstory.jpg'"/>
   <span class="titleImageCaption text--secondary">XC3's dedication to its grim world and mature characters make the stakes feel real, rather than contrived.</span>
 </div>
 
-XC3 is heavily story-driven: I'd estimate that about 1/3 of my time with XC3 was spent, reading, watching, and listening. And being the third game in a series, I feel that it's important to start this review by evaluating how XC3 delivers its story, and how it treats its own characters and universe.
+Let's talk about Xenoblade Chronicles 2, this game's predecessor, for a second. Xenoblade Chronicles 2's critical reception was divisive in many respects, but one common criticism was that the game was "too anime". Even though <text-with-tooltip :tooltip="'It implies that anime is inherently childish and silly, which is simply not true. Yes, anime meant for children and teens can be silly and obnoxious, but anime exists for many demographics.'">I take issue with this phrase,</text-with-tooltip> I mostly agree with the sentiment: despite Xenoblade 2's attempts to establish a complex narrative that spans multiple games and universes, I'd argue that these attempts are undermined by the game's proclivity for [fanservice](https://gintendo-namer.squarespace.com/articles/2018/2/5/xenoblade-the-sjw-article), [penis jokes](https://www.youtube.com/watch?v=XMBRC1dHALY), [accidental boob touching](https://www.youtube.com/watch?v=kc-u936MOB4), and other kinds of generic anime silliness. This is made worse by a shoddy North American localization and some <text-with-tooltip :tooltip="'Alledgedly, the terrible performances are due to the voice actors and actresses being rushed, as well as being given little/no direction as to the appropriate tone for a scene. I can believe that.'">absolutely *terrible* voice acting performances</text-with-tooltip>.
 
-Fortunately, Xenoblade Chronicles 3 wastes no time in immediately introducing the player to its main conflict: warring nations, Agnus and Keves, have been locked into a neverending war. The opening cutscene features Noah, the main character, narrating over scenes of devastation and death. Literally, in the first few minutes of the game, players witness the life get drained out of fallen soldiers as their rivals chant and cheer on the battlefield. <text-with-tooltip :tooltip="'Well, as grusome as it can possibly be for a T-rated game.'">It's a gruesome sight</text-with-tooltip>.
+I'm not here to shame people for enjoying sexiness and silliness, but for a series like Xenoblade Chronicles, scenes like this are incongruous with the seriousness of the game's conflict. Is this an epic sci-fi novel, or smut?
+
+Xenoblade Chronicles 3, thankfully, swings the pendulum back towards Xenoblade 1's tone (and maybe even further): right out of the gate, it's story hits *hard*. The opening cutscene, for example, features Noah explaining the main conflict of the game as the camera pans over bloodshed and rotting corpses. Literally, in the first few minutes of the game, players witness the life get drained out of fallen soldiers as their rivals chant and cheer on the battlefield. <text-with-tooltip :tooltip="'Well, as grusome as it can possibly be for a T-rated game.'">It's a gruesome sight</text-with-tooltip>.
+
+It's equally refershing to 
+
+XC3 succeeds in making its world feel compelling and earnest. While the game *does* occasionally offer respite from its heavy subject matter with some levity, these moments don't feel out of place or tone-deaf (<text-with-tooltip :tooltip="'It\'s certainly the only epic sci-fi narrative that I\'ve ever played that also features sexy robot maids, penis jokes, accidental boob touching, and ridiculously-revealing outfits for its main characters.'">unlike it's predecessor, Xenoblade Chronicles 2,</text-with-tooltip> which was one of the most tonally-dissonant games that I've ever played). 
 
 We're also told that, in this twisted world, people only have 10 years to live. But it's unlikely that they'll live that long: all of Aionios' inhabitants are ordered to train and fight to the death, which is literally the only was that they're able to survive: killing the other faction replenishes the home faction's "Flame Clock". If that goes out, all humans in that faction will perish. So, as the game succinctly puts it, one must "live to fight, and fight to live", leading to never-ending cycles of violence.
 
@@ -322,6 +335,9 @@ So, naturally, Xenoblade Chronicles 3 sees Monolithsoft upping the ante in just 
 
 This is especially notable given this game's predecessor, Xenoblade Chronicles 2, which was criticized for being "too anime". Even though <text-with-tooltip :tooltip="'It implies that anime is inherently childish and silly, which is objectively untrue. Yes, anime meant for children and teens can be silly and obnoxious, but anime exists for many demographics.'">I take issue with this phrase,</text-with-tooltip> I understand and mostly agree with the sentiment: despite Xenoblade 2's attempts to establish a complex narrative, spanning multiple games and universes, these attempts are undermined by its proclivity for [fanservice](https://gintendo-namer.squarespace.com/articles/2018/2/5/xenoblade-the-sjw-article), [penis jokes](https://www.youtube.com/watch?v=XMBRC1dHALY), [accidental boob touching](https://www.youtube.com/watch?v=kc-u936MOB4), and other kinds of generic anime silliness. This is made worse by a terrible North American localization: many of the game's attempted jokes and humor fall flat due to the actors' stilted delivery and the game's unnatural-sounding script.
 
-I'm not here to blame and shame people for enjoying sexiness and silliness, but for a series like Xenoblade Chronicles, scenes like this create a tonal dissonance that makes me, the player, take things less seriously. Is this an epic sci-fi novel, or smut?
 
-Xenoblade Chronicles 3, thankfully, swings the pendulum back towards Xenoblade 1's tone (and maybe even further): while the game still gives off that uniquely-japanese levity at times, it never dimishes or distracts the player's investment into its world.
+
+<div class="imageContainer">
+  <img :src="'/xcneon.jpeg'"/>
+  <span class="titleImageCaption text--secondary">In an interesting artistic choice, Xenoblade Chronicles 3 makes sparing, but calculated, use of neon colors to make environments pop when they need to.</span>
+</div>
