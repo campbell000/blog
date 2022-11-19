@@ -61,7 +61,7 @@ It's not just the world of Aionios that has issues; each main character grapples
 
 <div class="imageContainer">
   <img :src="'/xc3sad.jpeg'"/>
-  <span class="titleImageCaption text--secondary">Xenoblade Chronicles 3 does a great job of making its characters' problems feel real and relatable. When they suffer, <i>you</i> suffer.</span>
+  <span class="titleImageCaption text--secondary">Xenoblade Chronicles 3 does a great job of making its characters' problems feel real and relatable. When they suffer, <i>you</i> suffer. WTF THIS IS TERRIBLE</span>
 </div>
 
 In general, unlike Xenoblade Chronicles 2, this game never fails to remind the player that there is *a lot* at stake. People will die. Futures will be cut short. People will suffer. Unless you, the player, do something about it.
