@@ -208,7 +208,7 @@ Instead, we're told to care about characters simply because they have long histo
 
 But for a game where nothing really happens, Xenoblade Chronicles 3 takes an unbearably long amount of time to get itself over with. At every turn, the game thwarts any kind of actual development of the story or its characters with meaningless dialog with side characters, much of which is not voiced and barely animated.
 
-I'm not exaggerating when I say that it takes about 30 hours for Xenoblade Chronicles 3 to have any narrative momentum, which is squandered quickly as the game piles on fetch quest after fetch quest. Sure, many of these quests are optional, but without them, the game's characters would feel even *more* hollow and lifeless.
+I'm not exaggerating when I say that it takes about 30 hours for Xenoblade Chronicles 3 to gain any narrative momentum, which is squandered quickly as the game piles on frivilous fetch quest after fetch quest. Sure, many of these quests are optional, but without them, the game's characters would feel even *more* hollow and lifeless, as they contain bits of pieces of additional characterization.
 
 For example, let's say that we need to talk to the Queen of Agnus. To do that, we need to build a boat. For that, we need to find talk to Samon. He needs us to help Myori, who needs us to fight some monsters and recover some materials.
 
