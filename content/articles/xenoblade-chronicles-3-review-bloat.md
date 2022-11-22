@@ -167,6 +167,10 @@ But frankly, some of the pre-rendered cutscenes in Xenoblade Chronicles 3 look a
 Rather than simple incompetence, I suspect that Monolilthsoft were stuck between a rock and a hard place: the Switch clearly can't handle some of the game's more-complex scenes, but at the same time, I'm sure that Monolithsoft had to aggressively compress these videos in order to fit all of them on a Switch cartridge. While I can sympathize with the difficulty of this problem, it doesn't change the fact that XC3's cutscenes can be distractingly ugly at times.
 
 ### Lifeless Characters
+
+STORY MATTERS BECAUSE ITS A STORY DRIVEN GAME
+
+
 As I said above, I appreciate Xenoblade Chronicles 3's commitment to a more mature narrative. It helps ground the game's otherwise-fantastical story. But in their dedication to a more serious tone, they've inadvertently sucked all personality from its characters. 
 
 This is an issue because **it's the characters, not the plot, that an audience latches on to**. As human beings, we are hardwired to care about other humans in real life: it's wonderful, but also a necessity for the survival of our species. 
