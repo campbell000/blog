@@ -167,39 +167,54 @@ But frankly, some of the pre-rendered cutscenes in Xenoblade Chronicles 3 look a
 Rather than simple incompetence, I suspect that Monolilthsoft were stuck between a rock and a hard place: the Switch clearly can't handle some of the game's more-complex scenes, but at the same time, I'm sure that Monolithsoft had to aggressively compress these videos in order to fit all of them on a Switch cartridge. While I can sympathize with the difficulty of this problem, it doesn't change the fact that XC3's cutscenes can be distractingly ugly at times.
 
 ### Lifeless Characters
+While the game's story has its own issues, I want to first dicuss Xenoblade Chronicles 3's characters. Why would I discuss its characters instead of its plot? Well, it's because **it's the characters, not the plot, that is typically the central element of a good story**. The most interesting premise in the world wouldn't be able to save a story with lifeless characters (i.e. the hundreds of Isekai anime). Inversely, some of the best games/shows of our generation have paper-thin plots, and are carried by their nuanced characters and deep understanding of human behavior (i.e. the works of Shinchiro Watanabe). As humans, we care about other humans in stories because we care about other humans, period.
 
-STORY MATTERS BECAUSE ITS A STORY DRIVEN GAME
+In that sense, the way that characters behave, talk, and progress is critically important in getting the audience invested in a given story. We want to see them struggle, but ultimately persevere, because that's what we hope for ourselves. When a likeable character triumphs, it's as if *we've* triumphed, too.
 
+Xenoblade Chronicles 3, unfortunately, fails its characters in the worst way possible: it's characters aren't annoying, and they aren't one-note anime cliches. They don't have silly catch-phrases, and they don't act in unbelievable or horrific ways. They aren't poorly-written, and their voice-acting performances are generally pretty good.
 
-As I said above, I appreciate Xenoblade Chronicles 3's commitment to a more mature narrative. It helps ground the game's otherwise-fantastical story. But in their dedication to a more serious tone, they've inadvertently sucked all personality from its characters. 
-
-This is an issue because **it's the characters, not the plot, that an audience latches on to**. As human beings, we are hardwired to care about other humans in real life: it's wonderful, but also a necessity for the survival of our species. 
-
-One unintended consequence of this biological fact is that our silly, primative brains tend to get caught up in caring about fictional humans in fictional stories. Humans simply love getting to know, and getting immersed in, the lives of fictional human characters. We want to see them struggle, but ultimately persevere, because that's what we hope for ourselves. When a likeable character triumphs, it's as if *we've* triumphed, too.
+No, Xenoblade Chronicles 3's fails because its main characters are some of the most robotic, lifeless, and uninteresting characters of any game that I've played in the past 10 years. The best way that I can describe them is **unbearably inoffensive**. It seems that, in an effort to make their characters "mature", they've also inadvertently removed anything about them that could be considered interesting or unique.
 
 <div class="imageContainer">
   <img :src="'/xcboring.jpg'"/>
   <span class="titleImageCaption text--secondary">The writing of Xenoblade Chronicles 3 continues this series' tradition of repeatedly violating the Golden Rule of story telling: <a href="https://self-publishingschool.com/show-dont-tell-writing/">Show, Don't Tell</a></span>
 </div>
 
-Xenoblade Chronicles 3 features an unusually large main cast, and the circumstances surrounding their lives are fraught with hardship and struggle. In that sense, armed with a wide canvas and a cast array of colors, I was optimistic that Monolithsoft would use these tools to craft compelling, relatable arcs for their characters.
+This is not, however, immediately apparent when you first start Xenoblade Chronicles 3. The game tricks you into thinking that its characters have depth by making each one of its characters a little "broken" in some way: Eunie has PTSD from a previous encounter with a villain. Taion lives with shame because he blames himself for the death of hus ~~crush~~ friend. Sena is desperate for acceptance and validation from her peers, and now she isn't really sure who she is any more. Mio is the "oldest" of the bunch, with only a few more months to live. 
 
-For example: 
-- Sena has always been desperate for validation and acceptance from others. What sort of experiences could have shaped her to be this way?
-- Mio's impending 10-year death seems to have cast a long shadow over her every waking thought. How can she possibly cope with such a fate?
-- Eunie's past haunts her, sometimes literally freezing her in her tracks. Will she ever find the strength to move past it?
+But aside from passable-to-pleasant character interactions in the game's first 8 hours, Xenoblade Chronicles 3's starts to forget that its characters are *human*: instead, Xenoblade Chronicles 3 treats its characters not as human beings, but as "plot-getters". The game devotes ample time for the characters to *tell* us about the plot, for them to *tell us* what they're thinking, for them to *tell us* how to feel about a person, place, or new development. But it never lets the characters' actions speak for themselves.
 
-But if you're hoping that Xenoblade Chronicles 3 handles these questions with thoughtfulness and subtly, well, you're going to be disappointed. 
+For example, the characters *tell us* that "Mio" is troubled about her impending expiration date, but we never see that fear play out. The characters *tell us* about Taion's guilt, but it never factors into his decision making (aside from in a skippable side quest). The characters *tell us* that Lanz is torn up about a betrayal from one of his long-time friends, but this never affects his behavior or his attitude towards his other friends. 
 
-Instead, in true JRPG fashion, these characters spend a *lot* of time talking about their issues, and they ensure that they repeat themselves dozens of times in case the player missed any of the nuance. Sure, as I've mentioned above, some of these scenes are done well. But they certainly lose their luster when the characters riff on exactly the same dialog 10 times after the fact.
+In general, the characters claim to have unique personalities, but they simply *don't*. They rarely bicker, banter, or argue. They never debate, and they never disagree. They always assume the best intentions, and they never hold grudges. Aside from one bizarre moment where Mio unexplainably gets angry at Noah (and then quickly forgives him), there's no tension or drama between them to speak of. 
+
+But...shouldn't there be? If multiple universes were on the brink of total annihilation, and the world's citizens are forced into constant servitude, don't you think the game's protagonists might have different opinions on how to handle this? Don't you think that they'd get a little hot-headed at times? Don't you think that tensions would rise, feelings would get hurt, and emotional scars would be formed? 
+
+Monolithsoft doesn't seem to think so. Instead, Xenoblade Chronicles 3 is content to *tell* you how their long journey has changed and <text-with-tooltip :tooltip="'And yes, in true anime fashion, each character took turns in telling the main villain what they\'ve learned throughout their journey. I literally cringed.'">matured them by the end of the game</text-with-tooltip>, rather than demonstrate this to the player. 
+
+So, what did I feel for the game's main cast as the end credits began to roll? Honestly, not much. The game's characters, and particularly Noah and Mio, didn't feel like real people that I could relate to. So when they persevered, I felt nothing.  
+
+Also, take note that I haven't mentioned any other non-main character from Xenoblade Chronicles 3. This is because they are disposable and immaterial to the story, in both a literal sense *and* a figurative sense, since most the game's "Hero" characters are optional. I can't think of a single character, aside from maybe Ashera or Manana/Riku, that I had even a passing interest in. It doesn't help that the voice acting for these side characters ranges from passable at best, and sleep-inducing at worst.
+
+In all honesty, I am *just barely* able to restrain myself from saying that I preferred Xenoblade Chronicles 2's obnoxious cast of characters this crew. Sure, those characters suffered from terrible writing and one-dimensionality, *but at least they were fun*.
+
+Before you don your pitchforks and prepare to roast me in the comments, *yes*, there are occasional sparks of life in Xenoblade Chronicles 3's characters, and those sparks sometimes shine *very* brightly. The "jail" cutscene, in particular, is one of the most heart-wrenching, masterfully-crafted cutscenes in the entire franchise. There's also a <text-with-tooltip :tooltip="'It\'s the scene where Taion notices that Eunie\'s hands are shaking'">touching scene</text-with-tooltip> between Taion and Eunie that lends an empathetic, humanly quality to these characters, if just for a brief moment. And finally, yes, Eunie can be a hoot.
+
+But when the player will likely spend 80-100 hours with these characters, an hour or two of interesting character dynamics isn't nearly enough to convince anyone that these Noah, Mio, Eunie, Lanz, or Taion have any real depth, which brings me to my next point.
+
+### A Bloated, Uneventful, and Predictable Story
+
+Instead, in true JRPG/anime fashion, these characters endlessly riff on these issues without any substance of nuance. The characters each take their turns in delivering 3-5 speeches abou
+
+
+repeatedly talking about their issues, spelling out what they think and how they feel at every moment (just in case the player missed any of the nuance)
 
 Then, again in true JRPG fashion, absolutely nothing happens that concerns this character until they have to face their fear head-on. Only then do they... muster up the courage to deliver a rousing 3-minute speech in front of the rest of the heros (and sometimes the villains!) about how they've chosen a "new path", and how they've learned so much from all the people that they've met.
 
-I'm not lying when I say that I laughed out loud during Eunie's "big moment". Just when I thought this game had the cajones to actually let their characters fail for once, Eunie was going to succumb to hear greatest fear, only for her to miraculously get over her PTSD at the last second. It felt childish, cheap, and unearned.
+I'm not lying when I say that I laughed out loud during Eunie's "big moment". Just when I thought this game had the cajones to actually let these characters fail for once, Eunie miraculously pulls through and puts her past behind her. It comes out of nowehere, and felt childish, cheap, and unearned.
 
 I'm not expecting Shakespeare, here. But for all the ways that Xenoblade Chronicles 3 manages to restrain itself from falling victim to the same tired anime/JRPG tropes, it misses the big one: it tells us, instead of showing us, about its characters.
 
-So, what did I feel for the game's main cast as the end credits began to roll? Honestly, not much. The game's characters, and particularly Noah and Mio, didn't feel like real people that I could relate to. So when they persevered, I felt nothing.  
 
 This is symptomatic of a large problem with Xenoblade Chronicles 3's characters: in an effort to ground the characters in a little more maturity and add a little more depth, they've also been stripped of anything that makes them unique or interesting: every one of the main characters are mature, level-headed, mostly-agreeable, and vaguely troubled about their past. Sure, Lanz is ostensibly the "hot-head" of the group (i.e. Reyn from XC1), but in practice, he's just as grounded and wise as Noah, Mio, or Taion. Likewise, Taion is clearly the "brainiac" of the group, but the game meekly gives the character a cutscene or two demonstrating his planning abilities. Otherwise? He's just like the rest of them: intelligent, introspective, and a little broken. 
 
