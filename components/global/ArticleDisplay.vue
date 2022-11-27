@@ -270,6 +270,13 @@
     line-height:1;
   }
 
+  .imageContainer .text--secondary {
+    font-size: 16px;
+    font-style: italic;
+    display: block;
+    line-height:1.5;
+  }
+
   .titleImageCaption {
     font-size: 16px;
     font-style: italic;

@@ -24,7 +24,7 @@ So, as ~the conclusion~ a "stopping point" for this beloved JRPG series, how doe
 
 Given that Xenoblade Chronicles 3 takes a minimum of [62 hours to beat](https://howlongtobeat.com/game/103825), which doesn't include the 30-40 hours of additional content, there's no way that I'd be able to answer that question in a two-page essay. And since [game reviewers don't need to finish games anymore](https://twitter.com/raveofravendale/status/1496533451096440838?lang=en), a long-form review of this game <text-with-tooltip :tooltip="'No, I don\'t think game reviewers need to kill themselves to complete game in 24 hours to review it. But wouldn\'t you raise an eyebrow if I told you that I read through 65% of George Orwell\'s novel 1984, and flatly told you that it sucks?'">doesn't seem to exist.</text-with-tooltip>
 
-So, much like Xenoblade Chronicles 3 itself, I'm going to take *way too long* to explain to you what I think and how I feel. Xenoblade Chronicles 3 is certainly a ride, but not necessarily fun from start to finish.
+So, much like Xenoblade Chronicles 3 itself, I'm going to take *way too long* to explain to you what I think and how I feel. I suppose I could consider this long review as revenge for the time I wasted playing Xenoblde Chronicles 3. This game is certainly a ride, but it's not necessarily a fun one from start to finish.
 
 Let's get started.
 
@@ -36,12 +36,12 @@ It's no surprise, then, that Xenoblade Chronicles 3 continues that trend.
 ### A Stunning Technical Achievement
 <div class="imageContainer imageUnderSection">
   <img :src="'/xc3gif.JPG'"/>
-  <span class="titleImageCaption text--secondary">Xenoblade Chronicles 3 occasionally makes you forgot that you're playing a game on an mobile processor from 2017. This game's technical and artistic aspects are, at times, execeptional.</span>
+  <span class="text--secondary">Xenoblade Chronicles 3 occasionally makes you forgot that you're playing a game on an mobile processor from 2017. This game's technical and artistic aspects are, at times, execeptional.</span>
 </div>
 
 Both artistically and technically, this game is leaps and bounds ahead of anything else on the Switch. Simply compare the screenshot above to this screenshot of  <a target="_blank" href="/pokemon.jpg">Pokemon Scarlet and Violet</a>. That comparison should speak for itself.
 
-The landscapes are vast, the character models are detailed and expressive, <text-with-tooltip :tooltip="'Xenoblade Chronicles 2\'s lighting system gave characters an awful plastic-looking shine. Xenoblade 3\'s lighting system gives character models a much more realistic-looking glow.'">the lighting system is greatly improved</text-with-tooltip>, and there is a significant increase in the number of onscreen characters and enemies. More impressive is the fact that, despite all of these improvements, I noticed very little <text-with-tooltip :tooltip="'Pop-in and LOD culling involves either removing objects on screen, or using a lower-detailed version of that object, when the object is far from the player\'s view. With both approaches, the idea is that the player won\'t notice, thereby conserving computing power and memory for objects that the player can actually see.'">pop-in and LOD culling</text-with-tooltip> that many games nowadays tend to use and abuse.
+The landscapes are vast, the character models are detailed and expressive, <text-with-tooltip :tooltip="'Xenoblade Chronicles 2\'s lighting system gave characters an awful plastic-looking shine. Xenoblade 3\'s lighting system gives character models a much more realistic-looking glow.'">the lighting system is greatly improved</text-with-tooltip>, and there is a significant increase in the number of onscreen characters and enemies. More impressive is the fact that, despite all of these improvements, I noticed very little <text-with-tooltip :tooltip="'LOD (level-of-detail) culling involves using a lower-detailed version of that object when the object is far from the player\'s view. The idea is that the player won\'t notice, thereby conserving computing power for objects that the player can actually see.'">pop-in and LOD culling</text-with-tooltip> that many games nowadays tend to use and abuse.
 
 <div class="imageContainer">
   <img :src="'/xcneon.jpeg'"/>
@@ -58,7 +58,7 @@ This is important because exploration is a large part of Xenoblade Chronicles 3'
   <span class="titleImageCaption text--secondary">XC3's dedication to its grim world and mature characters make the stakes feel real, rather than contrived.</span>
 </div>
 
-Let's talk about Xenoblade Chronicles 2, this game's predecessor, for a second. Xenoblade Chronicles 2's critical reception was divisive in many respects, but one common criticism was that the game was "too anime". Even though <text-with-tooltip :tooltip="'It implies that anime is inherently childish and silly, which is simply not true. Yes, anime meant for children and teens can be silly and obnoxious, but anime exists for many demographics. There are houndreds of anime shows that are thoughtful, mature, and nuanced.'">I take issue with this phrase,</text-with-tooltip> I mostly agree with the sentiment: despite Xenoblade 2's attempts to establish a complex narrative that spans multiple universes, its efforts are undermined by the game's proclivity for [fanservice](https://gintendo-namer.squarespace.com/articles/2018/2/5/xenoblade-the-sjw-article), [penis jokes](https://www.youtube.com/watch?v=XMBRC1dHALY), [accidental boob touching](https://www.youtube.com/watch?v=kc-u936MOB4), and [ridiculoud-looking outfits](https://static.wikia.nocookie.net/xenoblade/images/6/64/XC2_Pyra_artwork.png/revision/latest/scale-to-width-down/1000?cb=20171110014440). This is made worse by a shoddy North American localization and some <text-with-tooltip :tooltip="'Alledgedly, the terrible performances are due to the voice actors and actresses being rushed, as well as being given little/no direction as to the appropriate tone for a scene. I can believe that.'">absolutely *terrible* voice acting performances</text-with-tooltip>, which ensures that any attempts at humor land with a thud.
+Let's talk about Xenoblade Chronicles 2, this game's predecessor, for a second. Xenoblade Chronicles 2's critical reception was divisive in many respects, but one common criticism was that the game was "too anime". Even though <text-with-tooltip :tooltip="'It implies that anime is inherently childish and silly. Yes, anime meant for children and teens can be silly and obnoxious, but anime exists for many demographics. There are houndreds of anime shows that are thoughtful, mature, and nuanced.'">I take issue with this phrase,</text-with-tooltip> I mostly agree with the sentiment: despite Xenoblade 2's attempts to establish a complex narrative that spans multiple universes, its efforts are undermined by the game's proclivity for [fanservice](https://gintendo-namer.squarespace.com/articles/2018/2/5/xenoblade-the-sjw-article), [penis jokes](https://www.youtube.com/watch?v=XMBRC1dHALY), [accidental boob touching](https://www.youtube.com/watch?v=kc-u936MOB4), and [ridiculoud-looking outfits](https://static.wikia.nocookie.net/xenoblade/images/6/64/XC2_Pyra_artwork.png/revision/latest/scale-to-width-down/1000?cb=20171110014440). This is made worse by a shoddy North American localization and some <text-with-tooltip :tooltip="'Alledgedly, the terrible performances are due to the voice actors and actresses being rushed, as well as being given little/no direction as to the appropriate tone for a scene. I can believe that.'">absolutely *terrible* voice acting performances</text-with-tooltip>, which ensures that any attempts at humor land with a thud.
 
 I'm not here to shame people for enjoying sexiness and silliness, but for a series like Xenoblade Chronicles, scenes like this are incongruous with the seriousness of the game's conflict. Is this an epic sci-fi novel, or a harem-style romantic comedy?
 
@@ -108,16 +108,21 @@ But after about 20 hours, something awesome happened: the mental burden of Xenob
 
 What do I mean by this? Well, to give you some examples: want to turn Eunie, one of the game's default healers, into a critical-hit landing powerhouse? How about a tank that is frail but impossible to hit? Or maybe you'd rather put her in a support role that has insane synergies with one of your other attackers?
 
-In Xenoblade Chronicles 3, not only is this possible, but it's actively *encouraged*. The game rewards (and explicitly recommends) you to constantly change your characters' classes, and by doing so, they'll permanently learn skills and abilities from other classes. For example, if you change Lanz, the game's tank, to a healer class, they'll learn a healing skill that they can use *no matter what class you assign them*. Put simply, it's *fun and incredibly rewarding* to see how one character (say, a healer) might benefit from donning a different hat (say, an attacker's). Maybe they'll learn a skill that helps their healing artes have less cooldown, or maybe they'll learn a skill that can reduce agro?
-
 <div class="imageContainer">
-  <img :src="'/xc3fusion.jpg'"/>
-  <span class="titleImageCaption text--secondary">Xenoblade Chronicles 3's "Fusion Art" system opens the door for endless experimentation with each character's arts. It's a little overwhelming, but incredibly satisfying when you land on that perfect combination.</span>
+  <img :src="'/xc3class.jpeg'"/>
+  <span class="text--secondary">Changing classes is a great way to alleviate some of the tedium of using the same skills and abilities over and over. Plus, it allows characters to learn skills that they wouldn't otherwise be able to use.</span>
 </div>
+
+In Xenoblade Chronicles 3, not only is this possible, but it's actively *encouraged*. The game rewards (and explicitly recommends) you to constantly change your characters' classes, and by doing so, they'll permanently learn skills and abilities from other classes. For example, if you change Lanz, the game's tank, to a healer class, they'll learn a healing skill that they can use *no matter what class you assign them*. Put simply, it's *fun and incredibly rewarding* to see how one character (say, a healer) might benefit from donning a different hat (say, an attacker's). Maybe they'll learn a skill that helps their healing artes have less cooldown, or maybe they'll learn a skill that can reduce agro?
 
 One other notable feature is what the game calls "Fusion Artes". This mechanic allows players to perform two artes at once, and when doing so, any secondary effects of these artes are combined and amplified. 
 
 For example, say you have an <text-with-tooltip :tooltip="'Area-Of-Effect. In other words, the attack hits all enemies in an area'">AOE</text-with-tooltip> arte, and an art that puts enemies to sleep. If you combine these two artes, the result would put *all enemies in the surrounding area to sleep*. 
+
+<div class="imageContainer">
+  <img :src="'/xc3fusion.jpg'"/>
+  <span class="titleImageCaption text--secondary">Xenoblade Chronicles 3's "Fusion Art" system opens the door for endless experimentation with each character's arts. While it can be a little overwhelming at first, it's incredibly satisfying to stumble on that perfect combination.</span>
+</div>
 
 The art fusions possibilities are endless. Want a fusion art that both <text-with-tooltip :tooltip="'RPG-speak for an attack that ignores any damage reduction incurred from an enemy\'s defenses'">pierces</text-with-tooltip> and crits? Or how about a fusion art that can buff your team and debuff an enemy at the same time? What about a fusion art that heals *twice*? All of these combinations are fair game. 
 
@@ -130,79 +135,122 @@ If you couldn't tell by now, there's is a *lot* to love about Xenoblade Chronicl
 
 Just note that I don't derive pleasure from criticizing this game, and I'm not being contrarian for contrarian's sake. Rather, my hope is that this next section will start a discussion on some of the things that future Xenoblade games could improve.
 
-### Graphically Overambitious
-I stand by what I said before about Xenoblade's technical merits: Monolithsoft has succeeded in creating an open world that is both marvelous to look at and compelling to explore. But unfortunately, it seems like Monolithsoft needed to make significant compromises to make this happen.
-
-<div class="imageContainer">
-  <img :src="'/xcblurry.jpg'"/>
-  <span class="titleImageCaption text--secondary">At best, Xenoblade's image quality is "soft", but inoffensive. At worst, the game has a serious legibility problem.</span>
-</div>
-
-Like most Switch games, [XC3 employs a technique called "dynamic resolution"](https://www.eurogamer.net/digitalfoundry-2022-xenoblade-chronicles-3-nintendo-switch-tech-review), which is designed to make intelligent resolution/framerate tradeoffs: when scenes are static, resolution is high, and when scenes are filled with characters and effects, resolution is sacrificed to keep framerates stable. In theory, this is best-of-both-worlds solution: image quality is good when it needs to be, and framerates are stable when they needs to be. The Splatoon series, for example, owes its rock-solid 60 frames-per-second to an aggresive dynamic resolution strategy. 
-
-But for XC3, however, this framerate/resolution trdaeoff is neither appealing or effective. Instead, Xenoblade 3 seems to buckle under the weight of its own ambitions: image quality is rarely crisp, and gets even *worse* during battles. I'm not typically a resolution snob, but in many instances during battle, the game's poor image quality made it difficult to make sense out of all of the characters, lines, circles, and effects.
-
-I'm not lying when I say that it would typically take me a few seconds to orient myself at the beginning of a battle or when switching characters due to how poor the game's image quality can be. Losing track of enemies and teammates, especially during multi-enemy fights, was a common occurance, and I can't help but wonder if battles would be more legible if image quality was improved.
-
-<div class="imageContainer imageUnderSection">
-  <img :src="'/xc3battle.jpg'"/>
-  <span class="titleImageCaption text--secondary">XC3's battle system has a legibility problem: XC3's poor image quality and low resolution makes it difficult to make sense of hectic battles. I learned to deal with it, but it never stopped being a frustrating. Switch Pro, when?</span>
-</div>
-
-Despite the hit to image quality, dynamic resolution doesn't seem to be enough to keep the framerate stable. Simply walking around some of the more-densely populated areas incurs a notable stutter. Ribbi Flats is one example of an area that *never* seemed to run smoothly for me, constantly hitching and stuttering. Worse still, XC3 actually *slows down* when the framerate drops, making it difficult to get the timing right on certain attacks.
-
-Again, these complaints aren't coming from a place of snobbery. Rather, Xenoblade's image and performance problems disrupt gameplay, which I consider to be one of the worst cardinal sins that a game developer can commit.
-
-One final note: it's apparent that the Switch couldn't handle rendering some of XC3's cutscenes in realtime, which forced Monolithsoft to <text-with-tooltip :tooltip="'In other words, record scenes on powerful development hardware so that framerates are stable, save it to a video file, and have the Switch simply play that video'">pre-render</text-with-tooltip> them. 
-
-Pre-rendered cutscenes aren't inherently bad, however. They allows the developers to think big in terms of scale, and when done well, the player won't even notice (i.e. Final Fantasy VII Remake).
-
-But frankly, some of the pre-rendered cutscenes in Xenoblade Chronicles 3 look absolutely **terrible**: it's as if Monolithsoft used badly-compressed, low-resolution Youtube videos in their own game! From the game's opening moments to its dramatic climax, most of this game's cinematic setpieces are riddled with [compression artifacts](https://en.wikipedia.org/wiki/Compression_artifact) and bizarre [color banding](https://en.wikipedia.org/wiki/Colour_banding).
-
-<div class="imageContainer">
-  <img :src="'/xcblur.png'"/>
-  <span class="titleImageCaption text--secondary">Again, take note of the artifacting and color banding in the white light. This is actually how it looks in-game.</span>
-</div>
-
-Rather than simple incompetence, I suspect that Monolilthsoft were stuck between a rock and a hard place: the Switch clearly can't handle some of the game's more-complex scenes, but at the same time, I'm sure that Monolithsoft had to aggressively compress these videos in order to fit all of them on a Switch cartridge. While I can sympathize with the difficulty of this problem, it doesn't change the fact that XC3's cutscenes can be distractingly ugly at times.
-
 ### Lifeless Characters
-While the game's story has its own issues, I want to first dicuss Xenoblade Chronicles 3's characters. Why would I discuss its characters instead of its plot? Well, it's because **it's the characters, not the plot, that is typically the central element of a good story**. The most interesting premise in the world wouldn't be able to save a story with lifeless characters (i.e. the hundreds of Isekai anime). Inversely, some of the best games/shows of our generation have paper-thin plots, and are carried by their nuanced characters and deep understanding of human behavior (i.e. the works of Shinchiro Watanabe). As humans, we care about other humans in stories because we care about other humans, period.
+The first thing I want to discuss is this game's characters. Why would I want to discuss its characters first instead of its plot? Well, it's because **it's the characters, not the plot, that is typically the central element of a good story**. The most interesting premise in the world wouldn't be able to save a story with lifeless characters (i.e. the hundreds of Isekai anime). Inversely, some of the best games/shows of our generation have paper-thin plots, and are carried by their likeable characters and deep understanding of human behavior (i.e. the works of Shinchiro Watanabe). 
 
-In that sense, the way that characters behave, talk, and progress is critically important in getting the audience invested in a given story. We want to see them struggle, but ultimately persevere, because that's what we hope for ourselves. When a likeable character triumphs, it's as if *we've* triumphed, too.
+While this topic deserves a separate essay, I'll spare you the details and leave you with a brilliantly-concise quote on the importance of characters in a story:
+
+<info-box :source-name="'NY Book Editors: 5 Important Characters to Have in Every Story'" :source-link="'https://nybookeditors.com/2018/01/5-important-characters-to-have-in-every-story/#:~:text=Characters%20serve%20as%20the%20driving,your%20characters%20view%20their%20environment.'">Your characters create and push your plot forward. Readers can experience the world that you’ve created through your characters, both from the way that your characters interact with their environment and the way that your characters view their environment. Finally, your characters illustrate and personify the theme of your story. No story would be a story without characters to define it.</info-box>
+
+In that sense, the way that characters behave and develop is critically important in getting the audience invested in a story. They must be both realistic yet interesting, unique yet relatable. When a likeable character falls, we feel pain. When a likeable character triumphs, it's as if *we've* triumphed, too.
 
 Xenoblade Chronicles 3, unfortunately, fails its characters in the worst way possible: it's characters aren't annoying, and they aren't one-note anime cliches. They don't have silly catch-phrases, and they don't act in unbelievable or horrific ways. They aren't poorly-written, and their voice-acting performances are generally pretty good.
 
-No, Xenoblade Chronicles 3's fails because its main characters are some of the most robotic, lifeless, and uninteresting characters of any game that I've played in the past 10 years. The best way that I can describe them is **unbearably inoffensive**. It seems that, in an effort to make their characters "mature", they've also inadvertently removed anything about them that could be considered interesting or unique.
+No, Xenoblade Chronicles 3's fails because its main characters are some of the most robotic, lifeless, and uninteresting characters of any game that I've played in the past 10 years. The best way that I can describe them is **unbearably inoffensive**.
 
 <div class="imageContainer">
   <img :src="'/xcboring.jpg'"/>
-  <span class="titleImageCaption text--secondary">The writing of Xenoblade Chronicles 3 continues this series' tradition of repeatedly violating the Golden Rule of story telling: <a href="https://self-publishingschool.com/show-dont-tell-writing/">Show, Don't Tell</a></span>
+  <span class="titleImageCaption text--secondary">Like many JRPGs, Xenoblade Chronicles 3 doesn't seem to understand the concept of <a href="https://self-publishingschool.com/show-dont-tell-writing/">Show, Don't Tell</a></span>
 </div>
 
-This is not, however, immediately apparent when you first start Xenoblade Chronicles 3. The game tricks you into thinking that its characters have depth by making each one of its characters a little "broken" in some way: Eunie has PTSD from a previous encounter with a villain. Taion lives with shame because he blames himself for the death of hus ~~crush~~ friend. Sena is desperate for acceptance and validation from her peers, and now she isn't really sure who she is any more. Mio is the "oldest" of the bunch, with only a few more months to live. 
+This is not, however, immediately apparent in the opening hours of Xenoblade Chronicles 3. There are several charming cutscenes in the first 5 hours that show the colorful sides of the game's main cast. In addition, the game tricks you into thinking that its characters have depth by making each one of its characters a little "broken" in some way: Eunie has PTSD from a previous encounter with a villain. Taion lives with shame because he blames himself for the death of his ~~crush~~ friend. Sena's desperation for acceptance from her peers has made her lose her sense of self. Mio, being the "oldest" of the group, grapples with her impending expiration date. 
 
-But aside from passable-to-pleasant character interactions in the game's first 8 hours, Xenoblade Chronicles 3's starts to forget that its characters are *human*: instead, Xenoblade Chronicles 3 treats its characters not as human beings, but as "plot-getters". The game devotes ample time for the characters to *tell* us about the plot, for them to *tell us* what they're thinking, for them to *tell us* how to feel about a person, place, or new development. But it never lets the characters' actions speak for themselves.
+Xenoblade Chronicles 3 certainly plants the seeds for compelling character arcs, but unfortunately, we don't get to see the process by which these seeds blossom. Instead (to continue this silly metaphor), the game is content to let us stare at these seeds for 80 hours, all the while telling its players "these seeds sure are growing! Isn't this interesting?".
 
-For example, the characters *tell us* that "Mio" is troubled about her impending expiration date, but we never see that fear play out. The characters *tell us* about Taion's guilt, but it never factors into his decision making (aside from in a skippable side quest). The characters *tell us* that Lanz is torn up about a betrayal from one of his long-time friends, but this never affects his behavior or his attitude towards his other friends. 
+For example, the characters *tell us* that "Mio" is troubled about her impending 10-year death, but we never see that fear play out. The characters *tell us* about Taion's guilt, but it never factors into his decision making (aside from in an entirely-optional side quest). The characters *tell us* that Lanz is torn up over a betrayal from one of his long-time friends, but this never affects his behavior or his attitude towards his other friends.
 
-In general, the characters claim to have unique personalities, but they simply *don't*. They rarely bicker, banter, or argue. They never debate, and they never disagree. They always assume the best intentions, and they never hold grudges. Aside from one bizarre moment where Mio unexplainably gets angry at Noah (and then quickly forgives him), there's no tension or drama between them to speak of. 
+<div class="imageContainer">
+  <img :src="'/xcconvo.jpg'"/>
+  <span class="text--secondary">It may not be apparent at first, but most of the game's dialog is delivered via unvoiced, awkwardly-animated scenes filled with text boxes.</span>
+</div>
 
-But...shouldn't there be? If multiple universes were on the brink of total annihilation, and the world's citizens are forced into constant servitude, don't you think the game's protagonists might have different opinions on how to handle this? Don't you think that they'd get a little hot-headed at times? Don't you think that tensions would rise, feelings would get hurt, and emotional scars would be formed? 
+So, when these characters repeatedly claim that they've "changed" at the game's conclusion, these proclamations ring hollow because the game hasn't given its audience any reason to believe it. In reality, they haven't changed one bit, which makes the characters seem less like humans, and more like plot devices.
+
+In addition to lacking any sort of believable character development, Xenoblade Chronicles 3's characters don't *behave* like humans, either: they never debate, and they never disagree. They always assume the best intentions, and they never hold grudges. Aside from one bizarre moment where Mio unexplainably gets angry at Noah (and then quickly forgives him), there's no tension or drama between them to speak of. 
+
+But...shouldn't there be? If multiple universes were on the brink of total annihilation, and the world's citizens were forced into constant servitude, don't you think the game's protagonists might have different opinions on how to handle this? Don't you think that they'd get a little hot-headed at times? Don't you think that tensions would rise, feelings would get hurt, and emotional scars would be formed? 
 
 Monolithsoft doesn't seem to think so. Instead, Xenoblade Chronicles 3 is content to *tell* you how their long journey has changed and <text-with-tooltip :tooltip="'And yes, in true anime fashion, each character took turns in telling the main villain what they\'ve learned throughout their journey. I literally cringed.'">matured them by the end of the game</text-with-tooltip>, rather than demonstrate this to the player. 
 
+This is exacerbated by a wonky, uneven localization: at times, characters don't even properly respond to direct questions, and non-sequitors are frequent throughout the game's script. At times, the game's dialog seems AI-generated, rather than written by actual humans.
+
+<div class="imageContainer">
+  <img :src="'/xcflute.jpg'"/>
+  <span class="text--secondary">Xenoblade Chronicles 3 fumbles this moment with robotic dialog and lifeless character interactions.</span>
+</div>
+
 So, what did I feel for the game's main cast as the end credits began to roll? Honestly, not much. The game's characters, and particularly Noah and Mio, didn't feel like real people that I could relate to. So when they persevered, I felt nothing.  
 
-Also, take note that I haven't mentioned any other non-main character from Xenoblade Chronicles 3. This is because they are disposable and immaterial to the story, in both a literal sense *and* a figurative sense, since most the game's "Hero" characters are optional. I can't think of a single character, aside from maybe Ashera or Manana/Riku, that I had even a passing interest in. It doesn't help that the voice acting for these side characters ranges from passable at best, and sleep-inducing at worst.
+In all honesty, I'm *just barely* able to restrain myself from saying that I preferred Xenoblade Chronicles 2's obnoxious cast of characters to this crew. Sure, those characters suffered from terrible writing and one-dimensionality, *but at least they were fun*.
 
-In all honesty, I am *just barely* able to restrain myself from saying that I preferred Xenoblade Chronicles 2's obnoxious cast of characters this crew. Sure, those characters suffered from terrible writing and one-dimensionality, *but at least they were fun*.
+Also, take note that I haven't even touched on the "Hero" characters. This is because they are completely immaterial to the story, in both a literal sense *and* a figurative sense, since most them are optional. I can't think of a single Hero, aside from maybe Ashera or Manana/Riku, that I had even a passing interest in. It doesn't help that the voice acting for these side characters ranges from passable at best, and cringe-inducing at worst.
+
+<div class="imageContainer">
+  <img :src="'/xc3isurd.jpeg'"/>
+  <span class="text--secondary">Isurd wins the award for least interesting character in the game. It doesn't help that his voice actor sounds as if he's falling asleep mid line.</span>
+</div>
 
 Before you don your pitchforks and prepare to roast me in the comments, *yes*, there are occasional sparks of life in Xenoblade Chronicles 3's characters, and those sparks sometimes shine *very* brightly. The "jail" cutscene, in particular, is one of the most heart-wrenching, masterfully-crafted cutscenes in the entire franchise. There's also a <text-with-tooltip :tooltip="'It\'s the scene where Taion notices that Eunie\'s hands are shaking'">touching scene</text-with-tooltip> between Taion and Eunie that lends an empathetic, humanly quality to these characters, if just for a brief moment. And finally, yes, Eunie can be a hoot.
 
-But when the player will likely spend 80-100 hours with these characters, an hour or two of interesting character dynamics isn't nearly enough to convince anyone that these Noah, Mio, Eunie, Lanz, or Taion have any real depth, which brings me to my next point.
+But when the player will likely spend 80-100 hours with these characters, an hour or two of interesting character-driven material isn't nearly enough to convince anyone that Noah, Mio, Eunie, Lanz, or Taion have any real depth, which brings me to my next point.
 
-### A Bloated, Uneventful, and Predictable Story
+### A Bloated, Uneventful Gameplay Loop
+It's tough out there for game developers: if a game's playtime is a reasonable length (i.e. 8-20 hours), there's a sizable portion of gamers out there that will screech that it's "not worth it", despite readily spending $60 on other, shorter activities (movies, going out to eat, lootboxes, etc).
+
+This is likely because of the success of bar-raising open-world masterpieces like Red Dead Redemption and Zelda: Breath of the Wild: packed with an extensive amount of compelling content, gamers have started to see these kinds of games as the rule, rather than the exception.
+
+But with shrinking budgets and an inadequate amount of time to create games, developers have been forced to get creative in order to comply with the loudest demands from the loudest minority of fans. Filled to the brim with meaningless fetch quests, unvoiced throwaway dialog, obtuse and complicated objectives, and intentional boss-difficulty spikes, games are definitely *longer*, but to the detriment of their quality. It's one of the worst <text-with-tooltip :tooltip="'Among other poxes like live-service games, microtransaction-driven progression systems, and the fruitless pursuit of photo-realism at the expense of fun.'"> plagues that have afflicted modern gaming </text-with-tooltip>, and the sooner that this trend dies, the better.
+
+<div class="imageContainer">
+  <img :src="'/zelda.jpeg'"/>
+  <span class="text--secondary">Xenoblade Chronicles 3 doesn't come close to matching the wonder and excitement of Zelda: Breath the Wild's open world.</span>
+</div>
+
+Unfortunately, I'm sad to report that Xenoblade Chronicles 3 has fallen victim to this game-development disease. It's game plays as if 20-30 hours of actual content was stretched out to reach 60-80 hours. Every element of Xenoblade Chronicles 3's gameplay loop takes about 2-3 times longer than it should, which destroys the pacing of the narrative and the characterization of the game's main cast.
+
+Let's start with the game's open-world. Split up into about a dozen large zones connected by loading screens, the world of Aionios is certainly vast. The developers claim that Xenoblade Chronicles 3 is [5 times the size of Xenoblade Chronicles 2](https://screenrant.com/xenoblade-chronices-3-map-size-comparison-bigger-xbc2/#:~:text=On%20Switch%2C%20the%20first%20two,is%20listed%20at%20around%2015GB.), and while I think that's somewhat of an exaggeration, it definitely seems bigger than its predecessor.
+
+The problem is that, unlike games like Zelda, or even previous Xenoblade games, Xenoblade Chronicles 3's world is devoid of content. Sure, the game's minimap is covered with icons, poking and prodding the player to explore the game's world, so I guess I can't technically say that there's "nothing to do". But I *can* say that, once the novelty of a new Xenoblade game wears off, the world of Aionios becomes an absolute slog to traverse.
+
+This is partially because, unlike past games, almost everything you can find in the world of Aionios is marked on the map (even if you haven't been there), removing the mystery and wonder of exploration. So, when the minimap is empty, players know that there's nothing else to find. Sure, one could argue that this is a time-saving mechanic, but I'd argue that by removing the need to explore, you remove a core component of the game's gameplay loop.
+
+The other reason is that, aside from Hero quests (which, again, are already marked and are usually time-wasting slogs), *there is nothing to find*. In the 100 hours that I spent with Xenoblade Chronicles 3, I think that 99% of what I found when I treked off the main path consisted of the game's worthless "item containers". 
+
+These containers typically contain <text-with-tooltip :tooltip="'Because of course this game has a crafting component. Introduced in 2015, found in section A, subsection B of the US Bill of Rights, all games must have crafting systems, regardless of whether the system is fun.'">crafting materials</text-with-tooltip>, gemstones, and gold, each one completely useless in its own way:
+- the requirements for crafting are so random and arbitrary that the chances of actually getting something useful is incredibly slim.
+- The amount of Gemstones that a player need is actually capped to the couple hundreds. I reached the max amount after about 30 hours, and auto-sold almost every single gemstone I got.
+- Gold is only used to buy accessories, and in my playthrough, the accessories on sale have *never* been better than what I currently had equipped. Gold is so useless that it makes me think that Monolithsoft left this particular system unfinished.
+
+I'm not exaggerating when I say that there was only a *single* time that I found something useful when exploring: a unique accessory. And sure enough, after some research, there's only [7 of these special containers in the entire game](https://xenoblade.fandom.com/wiki/Container).
+
+So, when everything is marked on the map, and 99% of what a player will find is disposable at best, there really isn't a compelling reason to spend the time exploring Aionios, *especially* when parts of the game's world looks like this:
+
+<div class="imageContainer">
+  <img :src="'/xclong.jpg'"/>
+  <span class="text--secondary">This long hallway actually branches out into 3 seperate path.</span>
+</div>
+
+Take a look at the screenshot above. To reach the ship docked at the harbor, it literally takes about 4 minutes of non-stop running. And on the way, there is literally nothing of interest, aside from NPCs offering disposable dialog.
+
+And, really, when it comes down to it, it doesn't make much sense to explore because much of the game is literally locked off (as in, the game won't let you) until the 6th chapter (i.e. 40 hours). And any area that you DO happen to discover is usually conspicuously empty: it'll be used for an sidequest later in the story, which is little consolation when you've spent 10 minutes to find an empty room. The fact remains that Xenoblade Chronicles 3 rarely gives the player a worthwhile incentive to explore, and at times, it thawrts any attempt to do so.
+
+Worse, however, than the game's empty hallways is its propensity to litter your path with hoardes of unavoidable enemies, which leads me to my next point: the game's battles can drag on for *way too long*. 
+
+I stand by my previous praise for the game's battle system, but unfortunately, the game's latter half is a test not of skill, but of *patience*. Boss battles can take upwards of 15-20 minutes, and at a certain point, Chain Attacks become the only way to deal any significant amount of damange. The problem with that is that Chain Attacks literally take about 3 minutes, and most bosses will require about 2-3 of them. This adds *another** 5-10 minutes to each battle.
+
+And when you'll often encounter 2-3 boss-type enemies while traversing from point A to point B, battles become something that I imagine most players will want to avoid after about 20-30 hours.
+
+I could go on and on about how tedious this game becomes, but briefly:
+- Activing sidequests require players to listen to NPCs chat. These special text bubbles appear randomly, making it time-consuming to actually *acquire* quests
+- Many sidequests span multiple zones, which means multiple minute-long loading sequences to finish a 10 minute quest.
+- Almost half of this game's quests, main quest or otherwise, are fetch quests, exacerbated by the points above. Much of the player's time will simply be spent walking between areas that you've already visited.
+- Much of the game is interrupted by its voiceless textbox cutscenes, which provide very little in terms of story or immersion.
+
+So, to sum things up: when the game isn't fun or rewarding to explore, and when the battles become something players eventually avoid, what's left?
+
+
+ every single tough-to-find area of Aionios contains a measly item container that spews out useless rewards, such as gemstones or gold (which is completely useless in Xenoblade Chronicles 3).
+
 
 Instead, in true JRPG/anime fashion, these characters endlessly riff on these issues without any substance of nuance. The characters each take their turns in delivering 3-5 speeches abou
 
@@ -270,3 +318,39 @@ RESPECT TIME
 But in Zelda's case, this is mitigated by a tight, fulfilling gameplay loop of fighting, exploring, and planning. Zelda's narrative doesn't overstay its welcome. For better or worse, Zelda doesn't force you to pay attention to the story, as it has other, more appealing aspects. 
 
 Xenoblade Chronicles 3, however, isn't nearly as fortunate in that regard:
+
+### Graphically Overambitious
+I stand by what I said before about Xenoblade's technical merits: Monolithsoft has succeeded in creating an open world that is both marvelous to look at and compelling to explore. But unfortunately, it seems like Monolithsoft needed to make significant compromises to make this happen.
+
+<div class="imageContainer">
+  <img :src="'/xcblurry.jpg'"/>
+  <span class="titleImageCaption text--secondary">At best, Xenoblade's image quality is "soft", but inoffensive. At worst, the game has a serious legibility problem.</span>
+</div>
+
+Like most Switch games, [XC3 employs a technique called "dynamic resolution"](https://www.eurogamer.net/digitalfoundry-2022-xenoblade-chronicles-3-nintendo-switch-tech-review), which is designed to make intelligent resolution/framerate tradeoffs: when scenes are static, resolution is high, and when scenes are filled with characters and effects, resolution is sacrificed to keep framerates stable. In theory, this is best-of-both-worlds solution: image quality is good when it needs to be, and framerates are stable when they needs to be. The Splatoon series, for example, owes its rock-solid 60 frames-per-second to an aggresive dynamic resolution strategy. 
+
+But for XC3, however, this framerate/resolution trdaeoff is neither appealing or effective. Instead, Xenoblade 3 seems to buckle under the weight of its own ambitions: image quality is rarely crisp, and gets even *worse* during battles. I'm not typically a resolution snob, but in many instances during battle, the game's poor image quality made it difficult to make sense out of all of the characters, lines, circles, and effects.
+
+I'm not lying when I say that it would typically take me a few seconds to orient myself at the beginning of a battle or when switching characters due to how poor the game's image quality can be. Losing track of enemies and teammates, especially during multi-enemy fights, was a common occurance, and I can't help but wonder if battles would be more legible if image quality was improved.
+
+<div class="imageContainer imageUnderSection">
+  <img :src="'/xc3battle.jpg'"/>
+  <span class="titleImageCaption text--secondary">XC3's battle system has a legibility problem: XC3's poor image quality and low resolution makes it difficult to make sense of hectic battles. I learned to deal with it, but it never stopped being a frustrating. Switch Pro, when?</span>
+</div>
+
+Despite the hit to image quality, dynamic resolution doesn't seem to be enough to keep the framerate stable. Simply walking around some of the more-densely populated areas incurs a notable stutter. Ribbi Flats is one example of an area that *never* seemed to run smoothly for me, constantly hitching and stuttering. Worse still, XC3 actually *slows down* when the framerate drops, making it difficult to get the timing right on certain attacks.
+
+Again, these complaints aren't coming from a place of snobbery. Rather, Xenoblade's image and performance problems disrupt gameplay, which I consider to be one of the worst cardinal sins that a game developer can commit.
+
+One final note: it's apparent that the Switch couldn't handle rendering some of XC3's cutscenes in realtime, which forced Monolithsoft to <text-with-tooltip :tooltip="'In other words, record scenes on powerful development hardware so that framerates are stable, save it to a video file, and have the Switch simply play that video'">pre-render</text-with-tooltip> them. 
+
+Pre-rendered cutscenes aren't inherently bad, however. They allows the developers to think big in terms of scale, and when done well, the player won't even notice (i.e. Final Fantasy VII Remake).
+
+But frankly, some of the pre-rendered cutscenes in Xenoblade Chronicles 3 look absolutely **terrible**: it's as if Monolithsoft used badly-compressed, low-resolution Youtube videos in their own game! From the game's opening moments to its dramatic climax, most of this game's cinematic setpieces are riddled with [compression artifacts](https://en.wikipedia.org/wiki/Compression_artifact) and bizarre [color banding](https://en.wikipedia.org/wiki/Colour_banding).
+
+<div class="imageContainer">
+  <img :src="'/xcblur.png'"/>
+  <span class="titleImageCaption text--secondary">Again, take note of the artifacting and color banding in the white light. This is actually how it looks in-game.</span>
+</div>
+
+Rather than simple incompetence, I suspect that Monolilthsoft were stuck between a rock and a hard place: the Switch clearly can't handle some of the game's more-complex scenes, but at the same time, I'm sure that Monolithsoft had to aggressively compress these videos in order to fit all of them on a Switch cartridge. While I can sympathize with the difficulty of this problem, it doesn't change the fact that XC3's cutscenes can be distractingly ugly at times.
