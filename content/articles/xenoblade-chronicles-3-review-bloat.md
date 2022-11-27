@@ -130,6 +130,16 @@ And on one final note, the game doesn't *force* playes to deal with this complex
 
 In short, yes, the game's mechanics are initially bewildering. But I'd argue that there's nothing quite like spending a good 20 minutes finding the perfect combination of classes and Arts, and then *beating the absolute shit* out of a previously-troublesome boss. These moments can be exhilirating, and servce to vindicate any initial struggles a player may have with the game's battle system.
 
+### Miscellaneous Goodness
+While I want avoid making this review 100 pages, it wouldn't be fair for me to not mention the following:
+
+- As expected, Xenoblade Chronicles 3's soundtrack is phenomenal. It's unlike anything else I've heard in a videogame, with strong, memorable melodies that still evoke the fantastical and the surreal.
+- While not perfect (in particular, Mio's performance is pretty poor), the voice acting is *much* improved over its predecessor, sounding downright impressive at times. I'm incredibly thankful that the characters we hear the most have mostly solid performances
+- Loading screens are kept to an absolute minimum, only occuring when you travel to another zone. For example, fast-traveling within a zone incurs almost no loading.
+- In general, the game avoids a lot of the time-wasting nonsense that afflicts most other JRPGs. This includes auto-selling of items, the ability to re-spec or leave a failed boss battle, and a generous navigation system that avoids a lot of the guesswork when trying to figure out where to go next.
+
+<youtube-link :src-link="'https://www.youtube-nocookie.com/embed/4pPMp1qZ6lY'">Like the nighttime waters of Erythia Sea itself, this track is both haunting and beautifully serene.</youtube-link>
+
 ## Disappointing in Many Respects
 If you couldn't tell by now, there's is a *lot* to love about Xenoblade Chronicles 3. But just like the world of Aionios that pits two sides against each other in endless conflict, there is another side to Xenoblade Chronicles 3 that drags the entire experience down. That's not to say that the game is irredeemable, but there are some serious problems with this game. 
 
@@ -246,7 +256,16 @@ I could go on and on about how tedious this game becomes, but briefly:
 - Almost half of this game's quests, main quest or otherwise, are fetch quests, exacerbated by the points above. Much of the player's time will simply be spent walking between areas that you've already visited.
 - Much of the game is interrupted by its voiceless textbox cutscenes, which provide very little in terms of story or immersion.
 
-So, to sum things up: when the game isn't fun or rewarding to explore, and when the battles become something players eventually avoid, what's left in Xenoblade Chronicles 3's game loop? By the process of elimination, that would leave the game's narrative. But as explained above, it suffers from boring, unlikable characters and long, uneventful cutscenes.
+When the game isn't fun or rewarding to explore, and when the battles become something players eventually avoid, there's nothing compelling to move the player forward. In that sense, Xenoblade Chronicles 3's game loop is broken because, moment to moment, the game simply *isn't fun*.
+
+## Wrap up
+At this
+
+
+
+? By the process of elimination, that would leave the game's narrative. But as explained above, it suffers from lifeless, boring characters and long, uneventful cutscenes. 
+
+My question, then, becomes: what is this game trying to be? Its open worlds aren't nearly as dense or exciting as Zelda, its battle system isn't nearly as fun as other real-time battle systems, its cutscenes and characters pale in comparison to other RPGs
 
 
 
