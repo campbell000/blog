@@ -232,7 +232,7 @@ So, when everything is marked on the map, and 99% of what a player will find is 
 
 Take a look at the screenshot above. To reach the ship docked at the harbor, it literally takes about 4 minutes of non-stop running. And on the way, there is literally nothing of interest, aside from NPCs offering disposable dialog.
 
-And, really, when it comes down to it, it doesn't make much sense to explore because much of the game is literally locked off (as in, the game won't let you) until the 6th chapter (i.e. 40 hours). And any area that you DO happen to discover is usually conspicuously empty: it'll be used for an sidequest later in the story, which is little consolation when you've spent 10 minutes to find an empty room. The fact remains that Xenoblade Chronicles 3 rarely gives the player a worthwhile incentive to explore, and at times, it thawrts any attempt to do so.
+And, really, when it comes down to it, it doesn't make much sense to explore because much of the game is literally locked off (as in, the game won't let you) until the 6th chapter (i.e. 40 hours). And any area that you DO happen to discover is usually conspicuously empty: it'll be used for an sidequest later in the story, which is little consolation when you've spent 10 minutes to find an empty room. The fact remains that Xenoblade Chronicles 3 rarely gives the player a worthwhile incentive to explore, and at times, it thwarts any attempt to do so.
 
 Worse, however, than the game's empty hallways is its propensity to litter your path with hoardes of unavoidable enemies, which leads me to my next point: the game's battles can drag on for *way too long*. 
 
@@ -246,7 +246,9 @@ I could go on and on about how tedious this game becomes, but briefly:
 - Almost half of this game's quests, main quest or otherwise, are fetch quests, exacerbated by the points above. Much of the player's time will simply be spent walking between areas that you've already visited.
 - Much of the game is interrupted by its voiceless textbox cutscenes, which provide very little in terms of story or immersion.
 
-So, to sum things up: when the game isn't fun or rewarding to explore, and when the battles become something players eventually avoid, what's left?
+So, to sum things up: when the game isn't fun or rewarding to explore, and when the battles become something players eventually avoid, what's left in Xenoblade Chronicles 3's game loop? By the process of elimination, that would leave the game's narrative. But as explained above, it suffers from boring, unlikable characters and long, uneventful cutscenes.
+
+
 
 
  every single tough-to-find area of Aionios contains a measly item container that spews out useless rewards, such as gemstones or gold (which is completely useless in Xenoblade Chronicles 3).
