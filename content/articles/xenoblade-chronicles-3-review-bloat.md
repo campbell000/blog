@@ -258,8 +258,8 @@ I could go on and on about how tedious this game becomes, but briefly:
 
 When the game isn't fun or rewarding to explore, and when the battles become something players eventually avoid, there's nothing compelling to move the player forward. In that sense, Xenoblade Chronicles 3's game loop is broken because, moment to moment, the game simply *isn't fun*.
 
-## Wrap up
-At this
+### An Anti-Climatic Conclusion
+Spoiler territory
 
 
 
