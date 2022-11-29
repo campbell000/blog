@@ -134,16 +134,77 @@ In short, yes, the game's mechanics are initially bewildering. But I'd argue tha
 While I want avoid making this review 100 pages, it wouldn't be fair for me to not mention the following:
 
 - As expected, Xenoblade Chronicles 3's soundtrack is phenomenal. It's unlike anything else I've heard in a videogame, with strong, memorable melodies that still evoke the fantastical and the surreal.
-- While not perfect (in particular, Mio's performance is pretty poor), the voice acting is *much* improved over its predecessor, sounding downright impressive at times. I'm incredibly thankful that the characters we hear the most have mostly solid performances
-- Loading screens are kept to an absolute minimum, only occuring when you travel to another zone. For example, fast-traveling within a zone incurs almost no loading.
-- In general, the game avoids a lot of the time-wasting nonsense that afflicts most other JRPGs. This includes auto-selling of items, the ability to re-spec or leave a failed boss battle, and a generous navigation system that avoids a lot of the guesswork when trying to figure out where to go next.
+- While not perfect (in particular, Mio's performance is pretty poor), the voice acting from the main cast is *much* improved over its predecessor, sounding downright impressive at times.
+- Loading screens are kept to an absolute minimum, only occurring when you travel to another zone. For example, fast-traveling within a zone incurs almost no loading. Combined with a snappy menu, it's a joy to play a <text-with-tooltip :tooltip="'Many games, including this game\'s predecessor, contain laggy, unresponsive menus that making even the simplest management actions a chore to perform.'">game that can actually keep with the player's inputs</text-with-tooltip>.
+- In general, the game avoids a lot of the time-wasting nonsense that afflicts most other JRPGs, and contains many helpful quality-of-life features. This includes the auto-selling of items, the ability to immediately make changes and retry after a failed boss battle, and a generous navigation system that avoids a lot of the guesswork when trying to figure out where to go next.
 
 <youtube-link :src-link="'https://www.youtube-nocookie.com/embed/4pPMp1qZ6lY'">Like the nighttime waters of Erythia Sea itself, this track is both haunting and beautifully serene.</youtube-link>
 
 ## Disappointing in Many Respects
-If you couldn't tell by now, there's is a *lot* to love about Xenoblade Chronicles 3. But just like the world of Aionios that pits two sides against each other in endless conflict, there is another side to Xenoblade Chronicles 3 that drags the entire experience down. That's not to say that the game is irredeemable, but there are some serious problems with this game. 
+If you couldn't tell by now, there's is a *lot* to love about Xenoblade Chronicles 3. But just like the world of Aionios that pits two sides against each other in endless conflict, there is another side to Xenoblade Chronicles 3 that drags the entire experience down. That's not to say that the game is irredeemable, but there are some serious problems with this game.
 
 Just note that I don't derive pleasure from criticizing this game, and I'm not being contrarian for contrarian's sake. Rather, my hope is that this next section will start a discussion on some of the things that future Xenoblade games could improve.
+
+### A Conflicted Open-World Design
+As a series that is renowned for its massively explorable environments, I want to first take a look at Xenoblade Chroincles 3's open world. At first glance, it definitely seems as though lots of thought and care was put into its design: the terrain is varied, there are about a dozen different biomes, and there are tantalizing callbacks to previous games in the series.
+
+Why, then, is the game so **unwilling** to let players explore it?
+- Frequently and without warning, the game railroads you into follow a specific path towards your next objective. In its earlier chapters, the game will literally put up invisible walls to block attempts at exploration. 
+- Attempts to explore are often met with...absurdly high-leveled enemies. To be fair, I don't mind games using passive design to steer me in the right direction, but when players start to realize that there's a 50% chance that exploration will be rewarded with *nothing*, it certainly discourages future exploration.
+- When the player isn't thwarted by high-level enemies, some newly-discovered areas off the beaten path will actually be *completely empty*, only to be used as a set piece for a future quest that the player likely doesn't know about. The <text-with-tooltip :tooltip="'When I arrived at the hot spring, it was CLEARLY a special area, but there was absolutely no way to interact with it. I learned 20 hours later that it was part of an optional Hero quest.'">hot spring</text-with-tooltip> was a particularly galling example.
+- Bizarrely, Xenoblade Chronicles 3 introduces a new mechanic that blocks certain paths *completely* until the player learns a specific skill (i.e. the ability to....climb). This is neither rewarding or fun; it instead feels like a ploy to waste the player's time with additional backtracking.
+
+Does the above sound like design facets of an open world game? Of course not. In fact, it's as if the developers wanted kill and desire the player had to explore their meticulously-crafted world. "Look, don't touch", this game seems to say.
+
+The player is forced into this mockery of an open-world design until about <text-with-tooltip :tooltip="'My memory is hazy, so this may be the wrong chapter. Regardless, this point is FAR into the game.'">chapter 5</text-with-tooltip>, which is when the game finally lets its guard down. At that point, there's no more invisible walls, all of the requisite climbing skills have been learned, and levels are likely high enough to take on most overworld enemies. So, the game is just a slow burn, right? Or as anime fans like to proclaim, "bro, just complete the first few chapters, and then it gets good"?
+
+Well, not quite. It takes about **40 hours** to reach chapter 5. So until that point, players will be asked to walk back and forth (and back) between locations they've already been to, completing menial fetch quests and gathering useless materials, in order to chug the plot along for over **three dozen hours**. Chapter 5 is also when the game unveils its largest area: the Cadensia Region. Traversable only by high-speed boat, this area is by far the largest area in the entire Xenoblade series.
+
+But something happened when I reached chapter 5: the vast, seemingly endless minimap of the Cadensia Region didn't fill me with excitement and wonder. Instead, as I began to realize just how *long* it would take to travel between the region's different islands, I felt a sense of dread.
+
+This brings me to my next point.
+
+### A Boring, Unrewarding World
+Split up into about a dozen large zones connected by loading screens, the world of Aionios is certainly vast. The developers claim that Xenoblade Chronicles 3 is [5 times the size of Xenoblade Chronicles 2](https://screenrant.com/xenoblade-chronices-3-map-size-comparison-bigger-xbc2/#:~:text=On%20Switch%2C%20the%20first%20two,is%20listed%20at%20around%2015GB.), and while I think that's somewhat of an exaggeration, it definitely seems bigger than its predecessor.
+
+The problem is that, unlike games like Zelda, or even previous Xenoblade games, Xenoblade Chronicles 3's world is devoid of content. Sure, there are dozens of enemies wandering around the expansive environments, and the game's minimap is covered with icons, poking and prodding the player to explore the game's world. I guess I can't technically say that there's "nothing to do". But I *can* say that, once the novelty of a new Xenoblade game wears off, the world of Aionios became an absolute slog to traverse, and there's nothing interesting to discover.
+
+This is partially because, unlike past games, almost everything you can find in the world of Aionios is marked on the map (even if you haven't been there), removing the mystery and wonder of exploration. So, when the minimap is empty, players know that there's nothing else to find. Sure, one could argue that this is a time-saving mechanic, but I'd argue that by removing the mystery of exploration, the incentive to explore vanishes.
+
+The other reason is that, aside from a few extra colonies (which are absolutely unremarkable when compared to Xenoblade Chronicles 2's amazingly diverse citites) and Hero quests (which, again, are already marked and are usually time-wasting slogs), *there is nothing to find*. In the 100 hours that I spent with Xenoblade Chronicles 3, 99% of what I found when I trekked off the main path consisted of worthless "item containers". 
+
+These containers typically contain <text-with-tooltip :tooltip="'Because of course this game has a crafting component. Found in section A, subsection B of the US Constitution, all games must have crafting systems, regardless of whether the system is fun.'">crafting materials</text-with-tooltip>, gemstones, and gold, each one being completely useless in its own way:
+
+- the requirements for crafting are so random and arbitrary that the chances of actually getting something useful is incredibly slim.
+- The amount of gemstones that a player need is actually capped to the couple hundreds. I reached the max amount after about 30 hours, so every subsequent gemstone I found was unceremoniously auto-sold.
+- Gold is only used to buy accessories, and in my playthrough, the accessories on sale have *never* been better than what I currently had equipped. Gold is so useless that it makes me think that Monolithsoft left this particular system unfinished.
+
+I'm not exaggerating when I say that there was only a *single* time that I found something useful when exploring: a unique accessory. And sure enough, after some research, there's only [7 of these special containers in the entire game](https://xenoblade.fandom.com/wiki/Container). Most of the player's best accessories will be obtained by item drops from monsters, many of which are fought as part of the main quest.
+
+So, when everything is marked on the map, and 99% of what a player will find is disposable, there really isn't a compelling reason to spend time exploring Aionios, *especially* when parts of the game's world looks like this:
+
+<div class="imageContainer">
+  <img :src="'/xclong.jpg'"/>
+  <span class="text--secondary">This long hallway actually branches out into 3 seperate path.</span>
+</div>
+
+Take a look at the screenshot above. To reach the ship docked at the harbor, it literally takes about 4 minutes of straight, non-stop running. And on the way, there is literally nothing of interest, aside from NPCs offering disposable dialog.
+
+And, really, when it comes down to it, it doesn't make much sense to explore because much of the game is literally locked off (as in, the game won't let you) until the 6th chapter (i.e. 40 hours). And any area that you DO happen to discover is usually conspicuously empty: it'll be used for an sidequest later in the story, which is little consolation when you've spent 10 minutes to find an empty room. The fact remains that Xenoblade Chronicles 3 rarely gives the player a worthwhile incentive to explore, and at times, it thwarts any attempt to do so.
+
+Worse, however, than the game's empty hallways is its propensity to litter your path with hoardes of unavoidable enemies, which leads me to my next point: the game's battles can drag on for *way too long*. 
+
+I stand by my previous praise for the game's battle system, but unfortunately, the game's latter half is a test not of skill, but of *patience*. Boss battles can take upwards of 15-20 minutes, and at a certain point, Chain Attacks become the only way to deal any significant amount of damange. The problem with that is that Chain Attacks literally take about 3 minutes, and most bosses will require about 2-3 of them. This adds *another** 5-10 minutes to each battle.
+
+And when you'll often encounter 2-3 boss-type enemies while traversing from point A to point B, battles become something that I imagine most players will want to avoid after about 20-30 hours.
+
+I could go on and on about how tedious this game becomes, but briefly:
+- Activing sidequests require players to listen to NPCs chat. These special text bubbles appear randomly, making it time-consuming to actually *acquire* quests
+- Many sidequests span multiple zones, which means multiple minute-long loading sequences to finish a 10 minute quest.
+- Almost half of this game's quests, main quest or otherwise, are fetch quests, exacerbated by the points above. Much of the player's time will simply be spent walking between areas that you've already visited.
+- Much of the game is interrupted by its voiceless textbox cutscenes, which provide very little in terms of story or immersion.
+
+When the game isn't fun or rewarding to explore, and when the battles become something players eventually avoid, there's nothing compelling to move the player forward. In that sense, Xenoblade Chronicles 3's game loop is broken because, moment to moment, the game simply *isn't fun*.
 
 ### Lifeless Characters
 The first thing I want to discuss is this game's characters. Why would I want to discuss its characters first instead of its plot? Well, it's because **it's the characters, not the plot, that is typically the central element of a good story**. The most interesting premise in the world wouldn't be able to save a story with lifeless characters (i.e. the hundreds of Isekai anime). Inversely, some of the best games/shows of our generation have paper-thin plots, and are carried by their likeable characters and deep understanding of human behavior (i.e. the works of Shinchiro Watanabe). 
@@ -203,60 +264,6 @@ Also, take note that I haven't even touched on the "Hero" characters. This is be
 Before you don your pitchforks and prepare to roast me in the comments, *yes*, there are occasional sparks of life in Xenoblade Chronicles 3's characters, and those sparks sometimes shine *very* brightly. The "jail" cutscene, in particular, is one of the most heart-wrenching, masterfully-crafted cutscenes in the entire franchise. There's also a <text-with-tooltip :tooltip="'It\'s the scene where Taion notices that Eunie\'s hands are shaking'">touching scene</text-with-tooltip> between Taion and Eunie that lends an empathetic, humanly quality to these characters, if just for a brief moment. And finally, yes, Eunie can be a hoot.
 
 But when the player will likely spend 80-100 hours with these characters, an hour or two of interesting character-driven material isn't nearly enough to convince anyone that Noah, Mio, Eunie, Lanz, or Taion have any real depth, which brings me to my next point.
-
-### A Bloated, Uneventful Gameplay Loop
-It's tough out there for game developers: if a game's playtime is a reasonable length (i.e. 8-20 hours), there's a sizable portion of gamers out there that will screech that it's "not worth it", despite readily spending $60 on other, shorter activities (movies, going out to eat, lootboxes, etc).
-
-This is likely because of the success of bar-raising open-world masterpieces like Red Dead Redemption and Zelda: Breath of the Wild: packed with an extensive amount of compelling content, gamers have started to see these kinds of games as the rule, rather than the exception.
-
-But with shrinking budgets and an inadequate amount of time to create games, developers have been forced to get creative in order to comply with the loudest demands from the loudest minority of fans. Filled to the brim with meaningless fetch quests, unvoiced throwaway dialog, obtuse and complicated objectives, and intentional boss-difficulty spikes, games are definitely *longer*, but to the detriment of their quality. It's one of the worst <text-with-tooltip :tooltip="'Among other poxes like live-service games, microtransaction-driven progression systems, and the fruitless pursuit of photo-realism at the expense of fun.'"> plagues that have afflicted modern gaming </text-with-tooltip>, and the sooner that this trend dies, the better.
-
-<div class="imageContainer">
-  <img :src="'/zelda.jpeg'"/>
-  <span class="text--secondary">Xenoblade Chronicles 3 doesn't come close to matching the wonder and excitement of Zelda: Breath the Wild's open world.</span>
-</div>
-
-Unfortunately, I'm sad to report that Xenoblade Chronicles 3 has fallen victim to this game-development disease. It's game plays as if 20-30 hours of actual content was stretched out to reach 60-80 hours. Every element of Xenoblade Chronicles 3's gameplay loop takes about 2-3 times longer than it should, which destroys the pacing of the narrative and the characterization of the game's main cast.
-
-Let's start with the game's open-world. Split up into about a dozen large zones connected by loading screens, the world of Aionios is certainly vast. The developers claim that Xenoblade Chronicles 3 is [5 times the size of Xenoblade Chronicles 2](https://screenrant.com/xenoblade-chronices-3-map-size-comparison-bigger-xbc2/#:~:text=On%20Switch%2C%20the%20first%20two,is%20listed%20at%20around%2015GB.), and while I think that's somewhat of an exaggeration, it definitely seems bigger than its predecessor.
-
-The problem is that, unlike games like Zelda, or even previous Xenoblade games, Xenoblade Chronicles 3's world is devoid of content. Sure, the game's minimap is covered with icons, poking and prodding the player to explore the game's world, so I guess I can't technically say that there's "nothing to do". But I *can* say that, once the novelty of a new Xenoblade game wears off, the world of Aionios becomes an absolute slog to traverse.
-
-This is partially because, unlike past games, almost everything you can find in the world of Aionios is marked on the map (even if you haven't been there), removing the mystery and wonder of exploration. So, when the minimap is empty, players know that there's nothing else to find. Sure, one could argue that this is a time-saving mechanic, but I'd argue that by removing the need to explore, you remove a core component of the game's gameplay loop.
-
-The other reason is that, aside from Hero quests (which, again, are already marked and are usually time-wasting slogs), *there is nothing to find*. In the 100 hours that I spent with Xenoblade Chronicles 3, I think that 99% of what I found when I treked off the main path consisted of the game's worthless "item containers". 
-
-These containers typically contain <text-with-tooltip :tooltip="'Because of course this game has a crafting component. Introduced in 2015, found in section A, subsection B of the US Bill of Rights, all games must have crafting systems, regardless of whether the system is fun.'">crafting materials</text-with-tooltip>, gemstones, and gold, each one completely useless in its own way:
-- the requirements for crafting are so random and arbitrary that the chances of actually getting something useful is incredibly slim.
-- The amount of Gemstones that a player need is actually capped to the couple hundreds. I reached the max amount after about 30 hours, and auto-sold almost every single gemstone I got.
-- Gold is only used to buy accessories, and in my playthrough, the accessories on sale have *never* been better than what I currently had equipped. Gold is so useless that it makes me think that Monolithsoft left this particular system unfinished.
-
-I'm not exaggerating when I say that there was only a *single* time that I found something useful when exploring: a unique accessory. And sure enough, after some research, there's only [7 of these special containers in the entire game](https://xenoblade.fandom.com/wiki/Container).
-
-So, when everything is marked on the map, and 99% of what a player will find is disposable at best, there really isn't a compelling reason to spend the time exploring Aionios, *especially* when parts of the game's world looks like this:
-
-<div class="imageContainer">
-  <img :src="'/xclong.jpg'"/>
-  <span class="text--secondary">This long hallway actually branches out into 3 seperate path.</span>
-</div>
-
-Take a look at the screenshot above. To reach the ship docked at the harbor, it literally takes about 4 minutes of non-stop running. And on the way, there is literally nothing of interest, aside from NPCs offering disposable dialog.
-
-And, really, when it comes down to it, it doesn't make much sense to explore because much of the game is literally locked off (as in, the game won't let you) until the 6th chapter (i.e. 40 hours). And any area that you DO happen to discover is usually conspicuously empty: it'll be used for an sidequest later in the story, which is little consolation when you've spent 10 minutes to find an empty room. The fact remains that Xenoblade Chronicles 3 rarely gives the player a worthwhile incentive to explore, and at times, it thwarts any attempt to do so.
-
-Worse, however, than the game's empty hallways is its propensity to litter your path with hoardes of unavoidable enemies, which leads me to my next point: the game's battles can drag on for *way too long*. 
-
-I stand by my previous praise for the game's battle system, but unfortunately, the game's latter half is a test not of skill, but of *patience*. Boss battles can take upwards of 15-20 minutes, and at a certain point, Chain Attacks become the only way to deal any significant amount of damange. The problem with that is that Chain Attacks literally take about 3 minutes, and most bosses will require about 2-3 of them. This adds *another** 5-10 minutes to each battle.
-
-And when you'll often encounter 2-3 boss-type enemies while traversing from point A to point B, battles become something that I imagine most players will want to avoid after about 20-30 hours.
-
-I could go on and on about how tedious this game becomes, but briefly:
-- Activing sidequests require players to listen to NPCs chat. These special text bubbles appear randomly, making it time-consuming to actually *acquire* quests
-- Many sidequests span multiple zones, which means multiple minute-long loading sequences to finish a 10 minute quest.
-- Almost half of this game's quests, main quest or otherwise, are fetch quests, exacerbated by the points above. Much of the player's time will simply be spent walking between areas that you've already visited.
-- Much of the game is interrupted by its voiceless textbox cutscenes, which provide very little in terms of story or immersion.
-
-When the game isn't fun or rewarding to explore, and when the battles become something players eventually avoid, there's nothing compelling to move the player forward. In that sense, Xenoblade Chronicles 3's game loop is broken because, moment to moment, the game simply *isn't fun*.
 
 ### An Anti-Climatic Conclusion
 Spoiler territory
@@ -375,3 +382,16 @@ But frankly, some of the pre-rendered cutscenes in Xenoblade Chronicles 3 look a
 </div>
 
 Rather than simple incompetence, I suspect that Monolilthsoft were stuck between a rock and a hard place: the Switch clearly can't handle some of the game's more-complex scenes, but at the same time, I'm sure that Monolithsoft had to aggressively compress these videos in order to fit all of them on a Switch cartridge. While I can sympathize with the difficulty of this problem, it doesn't change the fact that XC3's cutscenes can be distractingly ugly at times.
+
+It's tough out there for game developers: if a game's playtime is a reasonable length (i.e. 8-20 hours), there's a sizable portion of gamers out there that will screech that it's "not worth it", despite readily spending $60 on other, shorter activities (movies, going out to eat, lootboxes, etc).
+
+This is likely because of the success of bar-raising open-world masterpieces like Red Dead Redemption and Zelda: Breath of the Wild: packed with an extensive amount of compelling content, gamers have started to see these kinds of games as the rule, rather than the exception.
+
+But with shrinking budgets and an inadequate amount of time to create games, developers have been forced to get creative in order to comply with the loudest demands from the loudest minority of fans. Filled to the brim with meaningless fetch quests, unvoiced throwaway dialog, obtuse and complicated objectives, and intentional boss-difficulty spikes, games are definitely *longer*, but to the detriment of their quality. It's one of the worst <text-with-tooltip :tooltip="'Among other poxes like live-service games, microtransaction-driven progression systems, and the fruitless pursuit of photo-realism at the expense of fun.'"> plagues that have afflicted modern gaming </text-with-tooltip>, and the sooner that this trend dies, the better.
+
+<div class="imageContainer">
+  <img :src="'/zelda.jpeg'"/>
+  <span class="text--secondary">Xenoblade Chronicles 3 doesn't come close to matching the wonder and excitement of Zelda: Breath the Wild's open world.</span>
+</div>
+
+Unfortunately, I'm sad to report that Xenoblade Chronicles 3 has fallen victim to this game-development disease. It's game plays as if 20-30 hours of actual content was stretched out to reach 60-80 hours. Every element of Xenoblade Chronicles 3's gameplay loop takes about 2-3 times longer than it should, which destroys the pacing of the narrative and the characterization of the game's main cast.
