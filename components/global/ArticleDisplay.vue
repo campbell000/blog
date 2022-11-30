@@ -173,6 +173,17 @@
     border-color:var(--v-infoBoxBorder-base) !important;
   }
 
+  .spoiler {
+    background-color: var(--v-textColor-base) !important;
+    color: var(--v-textColor-base);
+  }
+
+  .spoiler:hover {
+    color: var(--v-background-base) !important;
+  }
+
+
+
   .imageUnderSection {
     padding-top: 10px !important;
   }
