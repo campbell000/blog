@@ -137,7 +137,7 @@ export default {
 
 <style>
 
-html {
+html, body {
   background-color: var(--v-background-base);
 }
 
