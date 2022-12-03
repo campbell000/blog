@@ -1,5 +1,5 @@
 ---
-title: "<i>XC3</i> Critique: an Overweight Swan Song"
+title: "<i>Xenoblade Chronicles 3</i> Critique: an Overweight Swan Song"
 titleImage: /xchero.jpg
 summary: "The third game in this beloved series is packed with new features, landscapes, and stories to tell, but is ultimately weighed down by its lofty ambitions."
 titleImageCaptionHTML: "I'm the guy with the gall...to fairly critique this game."
@@ -16,7 +16,7 @@ tags:
 * Spoilers will be kept to a minimum and major ones will be hidden with spoiler tags (hover over them to reveal the text)
 * I completed the game and finished the many of the game's sidequests. This took me about 100 hours.
 
-## XC3 Punctuates Nintendo's Venerated Series
+## Xenoblade Chronicles 3 Punctuates Nintendo's Beloved Series
 Almost 5 years after the release of *Xenoblade Chronicles 2*, *Xenoblade Chronicles 3* (henceforth referred to as "XC3", since the full name takes way too long to type!) is finally here. As the third game the Xenoblade Chronicles series, its director [was quoted as saying](https://nintendoeverything.com/monolith-soft-shares-xenoblade-chronicles-3-message-another-tease-of-the-future/) that this game can be considered the end of the story that started with <text-with-tooltip :tooltip="'The events of Xenoblade 1 and 2 were kicked off by Klaus, a power-hungry scientist that activated a poorly-understood technological artifact that ended up splitting the universe in two.'">Klaus' experiment,</text-with-tooltip> but not the end of the *Xenoblade* series. In other words, "a stopping point". A resting place. A period in which the team and the fans can gather their thoughts, reflect on past experiences, and ponder where the series will go next. Xenoblade is not gone, but it's likely to go away for a while.
 
 So, as ~the conclusion~ a "stopping point" for this beloved JRPG series, how does Monolith Soft latest entry in the *Xenoblade Chronicles* series fare? 

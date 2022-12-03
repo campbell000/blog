@@ -206,6 +206,13 @@
     height: 43px;
   }
 
+  h2:before, h3:before {
+    content: "";
+    display: block;
+    height: 80px;
+    margin: -80px 0 0;
+  }
+
   .supportMe {
     margin-top: 10px;
   }

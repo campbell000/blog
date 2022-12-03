@@ -31,10 +31,10 @@
       <articleDisplay v-for="article of articles" :key="article.slug" :tags="articleTagMap[article.slug]" :article="article" :isOnFrontPage="true"/>
       <v-row>
         <v-col :lg="6" class="nextPrevLink next">
-          <NuxtLink :to="'/'+articles[0].slug+'#comments'" style="cursor: pointer" class="">Click for Post Comments</NuxtLink>
+          <NuxtLink :to="'/'+articles[0].slug+'#comments'" style="cursor: pointer" class="">Post Comments</NuxtLink>
         </v-col>
-        <v-col :lg="6" class="nextPrevLink previous">
-          <NuxtLink to="/posts" style="cursor: pointer" class="">Click to check out more posts</NuxtLink>
+        <v-col :lg="6" class="nextPrevLink previous" style="text-align: end !important">
+          <NuxtLink to="/posts" style="cursor: pointer;" class="">More Posts</NuxtLink>
         </v-col>
       </v-row>
   </div>
