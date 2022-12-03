@@ -26,6 +26,7 @@
   .tooltipText {
     text-decoration: var(--v-primary-base) dotted underline;
     text-decoration-thickness: 3px;
+    text-decoration-line: underline;
   }
 
   .tooltipText:hover {

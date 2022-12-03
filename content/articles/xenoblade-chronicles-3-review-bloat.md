@@ -101,7 +101,7 @@ At first, things are <text-with-tooltip :tooltip="'Well, relative to how complic
   <span class="titleImageCaption text--secondary">XC3's menus smartly hide much of the game's complexity in sub-menus, which gives players the option to either quickly scan the important stuff, or dive into the finer nuances of each characters abilities, stats, and equipment.</span>
 </div>
 
-Then, as players progress, the game introduces more mechanics: <text-with-tooltip :tooltip="'Abilities that you can learn from and borrow from other classes'">Master Arts and Master Skills</text-with-tooltip>, <text-with-tooltip :tooltip="'Performing two Arts at the same time, combining their effects'">Fusion Arts</text-with-tooltip>, <text-with-tooltip :tooltip="'Super-powered forms that characters can assume for a limited time'">Oroborous Forms</text-with-tooltip>, and <text-with-tooltip :tooltip="'Stops time and allows players to attack enemies repeatedly'">Chain Attacks</text-with-tooltip>. I'll admit that the game's constant use of made-up RPG jargon can get overwhelming, and despite the game offering an abundance of tutorials to ease players into these new mechanics, I'd often not fully grasp <text-with-tooltip :tooltip="'It took me several hours to realize that the the Ouroboros forms were effectively “Oh Shit! Don\'t Die!” buttons. '">the point of a mechanic</text-with-tooltip> until several hours later. And yes, Xenoblade Chronicles 2's constant tutorials, [famously memed on by Dunkey](https://www.youtube.com/watch?v=fiVZMxf4E2Q), are back to relentlessly pester players.
+Then, as players progress, the game introduces more mechanics: <text-with-tooltip :tooltip="'Abilities that you can learn from and borrow from other classes.'">Master Arts and Master Skills</text-with-tooltip>, <text-with-tooltip :tooltip="'Performing two Arts at the same time, combining their effects'">Fusion Arts</text-with-tooltip>, <text-with-tooltip :tooltip="'Super-powered forms that characters can assume for a limited time.'">Oroborous Forms</text-with-tooltip>, and <text-with-tooltip :tooltip="'Stops time and allows players to attack enemies repeatedly.'">Chain Attacks</text-with-tooltip>. I'll admit that the game's constant use of made-up RPG jargon can get overwhelming, and despite the game offering an abundance of tutorials to ease players into these new mechanics, I'd often not fully grasp <text-with-tooltip :tooltip="'It took me several hours to realize that the the Ouroboros forms were effectively “Oh Shit! Don\'t Die!” buttons. '">the point of a mechanic</text-with-tooltip> until several hours later. And yes, Xenoblade Chronicles 2's constant tutorials, [famously memed on by Dunkey](https://www.youtube.com/watch?v=fiVZMxf4E2Q), are back to relentlessly pester players.
 
 But during my playthrough, after about 25 hours, something awesome happened: the mental burden of XC3's numerous mechanics began to ease, and I started to view these mechanics as tools instead of as sources of confusion. 
 
@@ -118,14 +118,14 @@ XC3 explicitly tells players to change classes once a current class has reached 
 
 Another notable feature is what the game calls "Fusion Arts". This mechanic allows players to perform two arts at once, and when doing so, any secondary effects of these arts are combined and amplified. 
 
-For example, consider two arts: one that is an <text-with-tooltip :tooltip="'Area-Of-Effect. In other words, the attack hits all enemies in an area'">AOE</text-with-tooltip> art, and the other is an art that puts enemies to sleep. By "fusing" these two arts together, the resulting art would put all enemies in the surrounding area to sleep. 
+For example, consider two arts: one that is an <text-with-tooltip :tooltip="'Area-Of-Effect. In other words, the attack hits all enemies in an area.'">AOE</text-with-tooltip> art, and the other is an art that puts enemies to sleep. By "fusing" these two arts together, the resulting art would put all enemies in the surrounding area to sleep. 
 
 <div class="imageContainer">
   <img :src="'/xc3fusion.jpg'"/>
   <span class="titleImageCaption text--secondary">XC3's "Fusion Art" system opens the door for endless experimentation with each character's arts. While it can be a little overwhelming at first, it's incredibly satisfying to stumble on that perfect combination.</span>
 </div>
 
-The art fusions possibilities are endless. Want a fusion art that both <text-with-tooltip :tooltip="'RPG-speak for an attack that ignores any damage reduction incurred from an enemy\'s defenses'">pierces</text-with-tooltip> and lands critical hits? Or how about a fusion art that can buff your team and debuff an enemy at the same time? What about a fusion art that heals *twice*? All of these combinations are fair game in XC3.
+The art fusions possibilities are endless. Want a fusion art that both <text-with-tooltip :tooltip="'RPG-speak for an attack that ignores any damage reduction incurred from an enemy\'s defenses.'">pierces</text-with-tooltip> and lands critical hits? Or how about a fusion art that can buff your team and debuff an enemy at the same time? What about a fusion art that heals *twice*? All of these combinations are fair game in XC3.
 
 And on a final note, the game doesn't *force* players to deal with this complexity. When switching classes, the game helpfully sets some sensible defaults for arts, accessories, fusions, etc. In that sense, the game accommodates those that like to tinker and min-max their stats, but also those that don't want to sweat the small stuff and simply want to enjoy the ride.
 
@@ -151,7 +151,7 @@ As a series that is renowned for its massively explorable environments, I want t
 
 Why, then, is the game so **unwilling** to let players explore it? For some reason, XC3 constantly thwarts any attempt at exploration with the following:
 - Invisible walls blocking exploration until the current quest has been completed.
-- Absurdly high-leveled enemies <text-with-tooltip :tooltip="'I don\'t mind games using a passive approach to steer me in the right direction, but too often did my curiosity lead me to staring face to face with a level 80 Repentant Garzolg'">waiting to punish players with too much curiosity</text-with-tooltip>.
+- Absurdly high-leveled enemies <text-with-tooltip :tooltip="'I don\'t mind games using a passive approach to steer me in the right direction, but too often did my curiosity lead me to staring face to face with a Level 80 Repentant Garzolg.'">waiting to punish players with too much curiosity</text-with-tooltip>.
 - Dead ends. Only later will the player learn that this area will be used as a set piece for a future quest.
 - Hills, cliffs, and ropes that can only be traversed if the player has learned the requisite skill (i.e. the ability to climb vines). This is neither rewarding or fun; it instead feels like a ploy to waste the player's time by forcing them to constantly backtrack.
 
