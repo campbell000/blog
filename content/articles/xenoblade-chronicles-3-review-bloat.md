@@ -13,22 +13,22 @@ tags:
 ---
 
 ## Disclaimers
-* Spoilers will be kept to a minimum and major ones will be hidden with spoiler tags (hover over them to reveal the text)
+* Spoilers will be kept to a minimum, and major ones will be hidden with spoiler tags (hover over them to reveal them).
 * I completed the game and finished the many of the game's sidequests. This took me about 100 hours.
 
-## Xenoblade Chronicles 3 Punctuates Nintendo's Beloved Series
-Almost 5 years after the release of *Xenoblade Chronicles 2*, *Xenoblade Chronicles 3* (henceforth referred to as "XC3", since the full name takes way too long to type!) is finally here. As the third game the Xenoblade Chronicles series, its director [was quoted as saying](https://nintendoeverything.com/monolith-soft-shares-xenoblade-chronicles-3-message-another-tease-of-the-future/) that this game can be considered the end of the story that started with <text-with-tooltip :tooltip="'The events of Xenoblade 1 and 2 were kicked off by Klaus, a power-hungry scientist that activated a poorly-understood technological artifact that ended up splitting the universe in two.'">Klaus' experiment,</text-with-tooltip> but not the end of the *Xenoblade* series. In other words, "a stopping point". A resting place. A period in which the team and the fans can gather their thoughts, reflect on past experiences, and ponder where the series will go next. Xenoblade is not gone, but it's likely to go away for a while.
+## Introduction
+Almost 5 years after the release of *Xenoblade Chronicles 2*, *Xenoblade Chronicles 3* (henceforth referred to as "XC3", since the full name takes way too long to type!) is finally here. As the third game the Xenoblade Chronicles series, its director [was quoted as saying](https://nintendoeverything.com/monolith-soft-shares-xenoblade-chronicles-3-message-another-tease-of-the-future/) that this game can be considered the end of the story that started with <text-with-tooltip :tooltip="'As a latch ditch effort for humanity, Klaus activated the Conduit, kicking off Xenoblade 1 and 2.'">Klaus' experiment</text-with-tooltip>, but not the end of the *Xenoblade* series. In other words, "a stopping point". A resting place. A period in which the team and the fans can gather their thoughts, reflect on past experiences, and ponder where the series will go next. Xenoblade is not gone, but it's likely to go away for a while.
 
 So, as ~the conclusion~ a "stopping point" for this beloved JRPG series, how does Monolith Soft latest entry in the *Xenoblade Chronicles* series fare? 
 
-Given that XC3 takes a minimum of [62 hours to beat](https://howlongtobeat.com/game/103825), which doesn't include the 30-40 hours of additional content, there's no way that I'd be able to answer that question in a two-page essay. And since [game reviewers don't need to finish games anymore](https://twitter.com/raveofravendale/status/1496533451096440838?lang=en), I'd like to offer <text-with-tooltip :tooltip="'No, I don\'t think game reviewers need to sacrifice their health to review games by a tight deadline. But there\'s an obvious difference between not finishing, say, Call of Duty, and a massive story-driven game like Xenoblade.'">my perspective </text-with-tooltip> as someone who has spent a *lot* of time with this game, as well both of it predecessors.
+Given that XC3 takes a minimum of [62 hours to beat](https://howlongtobeat.com/game/103825), which doesn't include the 30-40 hours of additional content, there's no way that I'd be able to answer that question in a two-page essay. And since [game reviewers don't need to finish games anymore](https://twitter.com/raveofravendale/status/1496533451096440838?lang=en), I'd like to offer <text-with-tooltip :tooltip="'No, I don\'t think game reviewers need to sacrifice their health to review games. But I would think that seeing the end of a story would be important for reviewing a story-driven game.'">my perspective</text-with-tooltip> as someone who has spent a *lot* of time with this game, as well both of it predecessors.
 
 So, much like XC3 itself, I'm going to take *way too long* to explain to you what I think and how I feel. I suppose I could consider this long review as revenge for the time I spent/enjoyed/wasted on Xenoblde Chronicles 3. This game is certainly a ride, but it's not necessarily a fun one from start to finish.
 
 Let's get started.
 
 ## Outstanding in Many Respects
-It goes without saying that <text-with-tooltip :tooltip="'Monolith Soft was significantly involved in Zelda: Breath of the Wild. I theorize that they were tapped for their expertise in open-world games, showcased excellently in Xenoblade Chronicles on the Wii.'">Monolith Soft's work on Nintendo's consoles is unparalleled</text-with-tooltip>: the environments in Xenoblade Chronicles 1 pushed Nintendo's aging Wii console to its limits, and Xenoblade Chronicles 2 offered Nintendo Switch fans a glimpse into what Nintendo's new console was capable of, upping the ante from Xenoblade 1 in many respects.
+It goes without saying that Monolith Soft's work on Nintendo's consoles is <text-with-tooltip :tooltip="'Monolith Soft was significantly involved in Zelda: Breath of the Wild. I theorize that they were tapped for their expertise in open-world games.'">unparalleled</text-with-tooltip>: the environments in Xenoblade Chronicles 1 pushed Nintendo's aging Wii console to its limits, and Xenoblade Chronicles 2 offered Nintendo Switch fans a glimpse into what Nintendo's new console was capable of, upping the ante from Xenoblade 1 in many respects.
 
 It's no surprise, then, that XC3 continues that trend.
 
@@ -40,7 +40,7 @@ It's no surprise, then, that XC3 continues that trend.
 
 Both artistically and technically, this game is leaps and bounds ahead of anything else on the Switch. Simply compare the screenshot above to this screenshot of  <a target="_blank" href="/pokemon.jpg">Pokemon Scarlet and Violet</a>. That comparison should speak for itself.
 
-The landscapes are vast, the character models are detailed and expressive, <text-with-tooltip :tooltip="'Xenoblade Chronicles 2\'s lighting system gave characters an awful plastic-looking shine. Xenoblade 3\'s lighting system gives character models a much more realistic-looking glow.'">the lighting system is greatly improved</text-with-tooltip>, and there is a significant increase in the number of onscreen characters and enemies. More impressive is the fact that, despite all of these improvements, I noticed very little <text-with-tooltip :tooltip="'LOD (level-of-detail) culling involves using a lower-detailed version of that object when the object is far from the player\'s view. The idea is that the player won\'t notice, thereby conserving computing power for objects that the player can actually see.'">pop-in and LOD culling</text-with-tooltip> that many games nowadays tend to use and abuse.
+The landscapes are vast, the character models are detailed and expressive, the lighting system is <text-with-tooltip :tooltip="'Xenoblade Chronicles 2\'s lighting system gave characters an awful plastic-looking shine. XC3\'s lighting system gives character models a much more realistic-looking glow.'">greatly improved</text-with-tooltip>, and there is a significant increase in the number of onscreen characters and enemies. More impressive is the fact that, despite all of these improvements, I noticed very little pop-in and <text-with-tooltip :tooltip="'Level-Of-Detail culling involves using a lower-detailed version of an object when it is far from the player\'s view.'">LOD culling</text-with-tooltip> that many games nowadays tend to use and abuse.
 
 <div class="imageContainer">
   <img :src="'/xcneon.jpeg'"/>
@@ -57,7 +57,7 @@ This is important because exploration is a large part of XC3's appeal: much of t
   <span class="titleImageCaption text--secondary">XC3's dedication to its grim world and mature characters make the stakes feel real, rather than contrived.</span>
 </div>
 
-Let's talk about Xenoblade Chronicles 2, this game's predecessor, for a second. Xenoblade Chronicles 2's critical reception was divisive in many respects, but one common criticism was that the game was "too anime". Even though <text-with-tooltip :tooltip="'It implies that anime is inherently childish and silly. Yes, anime meant for children and teens can be silly and obnoxious, but anime exists for many demographics. There are hundreds of anime shows that are thoughtful, mature, and nuanced.'">I take issue with this phrase,</text-with-tooltip> I mostly agree with the sentiment: despite Xenoblade 2's attempts to establish a complex narrative that spans multiple universes, its efforts are undermined by the game's proclivity for [fanservice](https://gintendo-namer.squarespace.com/articles/2018/2/5/xenoblade-the-sjw-article), [penis jokes](https://www.youtube.com/watch?v=XMBRC1dHALY), [accidental boob touching](https://www.youtube.com/watch?v=kc-u936MOB4), and [ridiculous-looking outfits](https://static.wikia.nocookie.net/xenoblade/images/6/64/XC2_Pyra_artwork.png/revision/latest/scale-to-width-down/1000?cb=20171110014440). This is made worse by a shoddy North American localization and some <text-with-tooltip :tooltip="'Allegedly, the terrible performances are due to the voice actors and actresses being rushed, as well as being given little/no direction as to the appropriate tone for a scene. I can believe that.'">absolutely *terrible* voice acting performances</text-with-tooltip>, which ensures that any attempts at humor land with a thud.
+Let's talk about Xenoblade Chronicles 2, this game's predecessor, for a second. Xenoblade Chronicles 2's critical reception was divisive in many respects, but one common criticism was that the game was "too anime". Even though I take issue with <text-with-tooltip :tooltip="'It implies that anime is inherently childish and silly, which is simply not true.'">this phrase</text-with-tooltip>, I mostly agree with the sentiment: despite Xenoblade 2's attempts to establish a complex narrative that spans multiple universes, its efforts are undermined by the game's proclivity for [fanservice](https://gintendo-namer.squarespace.com/articles/2018/2/5/xenoblade-the-sjw-article), [penis jokes](https://www.youtube.com/watch?v=XMBRC1dHALY), [accidental boob touching](https://www.youtube.com/watch?v=kc-u936MOB4), and [ridiculous-looking outfits](https://static.wikia.nocookie.net/xenoblade/images/6/64/XC2_Pyra_artwork.png/revision/latest/scale-to-width-down/1000?cb=20171110014440). This is made worse by a shoddy North American localization and some <text-with-tooltip :tooltip="'Allegedly, the terrible performances are due to the voice actors being rushed, as well as being given little direction as to the appropriate tone for a scene.'">absolutely *terrible*</text-with-tooltip> voice acting performances, which ensures that any attempts at humor land with a thud.
 
 I'm not here to shame people for enjoying sexiness and silliness, but for a series like Xenoblade Chronicles, scenes like this are incongruous with the seriousness of the game's conflict. Is this an epic sci-fi novel, or a harem-style romantic comedy?
 
@@ -69,7 +69,7 @@ XC3, thankfully, swings the pendulum back towards Xenoblade 1's more-mature tone
 
 In other words, "Saito-san, please give the characters clothes this time."
 
-Look no further for proof of this darker tone than the game's opening cutscene: as battles between Agnus and Keves soldiers rage on, the player is forced to bear witness to the terrible consequences of war: rotting corpses and wounded soldiers litter the battlefield as soldiers celebrate a brief, temporary victory, only to be forced to fight again tomorrow. <text-with-tooltip :tooltip="'Well, as gruesome as it can possibly be for a T-rated game.'">It's a gruesome sight</text-with-tooltip>, reminding players that, in the world of Aionios, there are no winners. Instead, this pointless conflict ensures that everyone loses.
+Look no further for proof of this darker tone than the game's opening cutscene: as battles between Agnus and Keves soldiers rage on, the player is forced to bear witness to the terrible consequences of war: rotting corpses and wounded soldiers litter the battlefield as soldiers celebrate a brief, temporary victory, only to be forced to fight again tomorrow. It's a <text-with-tooltip :tooltip="'Well, as gruesome as it can possibly be for a T-rated game.'">gruesome</text-with-tooltip> sight, reminding players that in the world of Aionios, there are no winners. Instead, this pointless conflict ensures that everyone loses.
 
 This war-torn, dystopian world has clearly taken its toll on the game's main cast, who are afflicted with bouts of anxiety, despair, and hopelessness. Despite its fantasy setting, XC3's characters endure struggles that may be all-too-familiar to the player (feelings of inadequacy, a fear of death, etc), making their struggles feel real and, perhaps, personal.
 
@@ -94,14 +94,14 @@ I've dedicated most of this review so far to the game's environments and narrati
 
 XC3's battle system is complicated. Perhaps maybe a little *too* complicated. It builds off of Xenoblade 1 and 2's systems, so I can't speak to how intimidating and confusing it might be for a new player, but I *can* say that it's one of the most complicated battle systems in any game that I've played. In addition, the game introduces new wrinkles and features into the battle system as the player progresses. It's likely that players won't find a comfortable groove until about 20 hours into the game.
 
-At first, things are <text-with-tooltip :tooltip="'Well, relative to how complicated the battle system gets by the end of the game.'">relatively simple</text-with-tooltip>: the game teaches you how to auto-attack, how to use Arts (special moves that deal more damage), and other basic mechanics (swapping characters, equipping accessories, leveling up, etc). If you've played a JRPG before, the basics should click fairly quickly.
+First, the game introduces its core battle mechanics mechanics: auto-attacks, <text-with-tooltip :tooltip="'Special moves that deal extra damage and effects.'">Arts</text-with-tooltip>, character management (i.e. equipping accessories, leveling up, etc). If you've played a JRPG before, the basics should click fairly quickly.
 
 <div class="imageContainer">
   <img :src="'/xc3sena.jpg'"/>
   <span class="titleImageCaption text--secondary">XC3's menus smartly hide much of the game's complexity in sub-menus, which gives players the option to either quickly scan the important stuff, or dive into the finer nuances of each characters abilities, stats, and equipment.</span>
 </div>
 
-Then, as players progress, the game introduces more mechanics: <text-with-tooltip :tooltip="'Abilities that you can learn from and borrow from other classes.'">Master Arts and Master Skills</text-with-tooltip>, <text-with-tooltip :tooltip="'Performing two Arts at the same time, combining their effects'">Fusion Arts</text-with-tooltip>, <text-with-tooltip :tooltip="'Super-powered forms that characters can assume for a limited time.'">Oroborous Forms</text-with-tooltip>, and <text-with-tooltip :tooltip="'Stops time and allows players to attack enemies repeatedly.'">Chain Attacks</text-with-tooltip>. I'll admit that the game's constant use of made-up RPG jargon can get overwhelming, and despite the game offering an abundance of tutorials to ease players into these new mechanics, I'd often not fully grasp <text-with-tooltip :tooltip="'It took me several hours to realize that the the Ouroboros forms were effectively “Oh Shit! Don\'t Die!” buttons. '">the point of a mechanic</text-with-tooltip> until several hours later. And yes, Xenoblade Chronicles 2's constant tutorials, [famously memed on by Dunkey](https://www.youtube.com/watch?v=fiVZMxf4E2Q), are back to relentlessly pester players.
+Then, as players progress, the game introduces more mechanics: <text-with-tooltip :tooltip="'Abilities that you can learn from and borrow from other classes.'">Master Arts</text-with-tooltip>, <text-with-tooltip :tooltip="'Performing two Arts at the same time, combining their effects'">Fusion Arts</text-with-tooltip>, <text-with-tooltip :tooltip="'Super-powered forms that characters can assume for a limited time.'">Oroborous Forms</text-with-tooltip>, and <text-with-tooltip :tooltip="'Stops time and allows players to attack enemies repeatedly.'">Chain Attacks</text-with-tooltip>. I'll admit that the game's constant use of made-up RPG jargon can get overwhelming, and despite the game offering an abundance of tutorials to ease players into these new mechanics, I'd often not fully grasp <text-with-tooltip :tooltip="'It took me several hours to realize that the the Ouroboros forms were best used as “Oh Shit! Don\'t Die!” buttons. '">the point</text-with-tooltip> of a mechanic until several hours later. And yes, Xenoblade Chronicles 2's constant tutorials, [famously memed on by Dunkey](https://www.youtube.com/watch?v=fiVZMxf4E2Q), are back to relentlessly pester players.
 
 But during my playthrough, after about 25 hours, something awesome happened: the mental burden of XC3's numerous mechanics began to ease, and I started to view these mechanics as tools instead of as sources of confusion. 
 
@@ -136,8 +136,8 @@ While I want avoid making this review 100 pages, it wouldn't be fair for me to n
 
 - As expected, XC3's soundtrack is phenomenal. It's unlike anything else I've heard in a videogame. Its melodies are memorable and strong, but still manage to evoke the fantastical and the surreal.
 - While not perfect (in particular, Mio's performance is pretty poor), the voice acting from the main cast is *much* improved over its predecessor, sounding downright impressive at times.
-- Loading screens are kept to an absolute minimum, only occurring when you travel to another zone. For example, fast-traveling within a zone incurs almost no loading. Combined with a snappy menu, it's a joy to play a <text-with-tooltip :tooltip="'Many games, including this game\'s predecessor, contain laggy, unresponsive menus that making even the simplest management actions a chore to perform.'">game that can actually keep up with the player's inputs</text-with-tooltip>.
-- In general, the game avoids a lot of the time-wasting nonsense that afflicts most other JRPGs, and contains many helpful quality-of-life features. This includes the auto-selling of items, the ability to immediately make changes and retry after a failed boss battle, and a generous navigation system that avoids a lot of the guesswork when trying to figure out where to go next.
+- Loading screens are kept to an absolute minimum. Combined with a snappy menu, it's a joy to play a game that can actually <text-with-tooltip :tooltip="'Many games contain laggy, unresponsive menus that make even the simplest management actions a chore to perform.'">keep up</text-with-tooltip> with the player's inputs.
+- In general, the game avoids a lot of the time-wasting nonsense that afflicts most other JRPGs, and contains many helpful quality-of-life features.
 
 <youtube-link :src-link="'https://www.youtube-nocookie.com/embed/4pPMp1qZ6lY'">Like the nighttime waters of Erythia Sea itself, this track is both haunting and beautifully serene.</youtube-link>
 
@@ -162,7 +162,7 @@ Why, then, is the game so **unwilling** to let players explore it? For some reas
 
 Does this sound like an open-world game to you? Of course not.
 
-The player is forced to endure this mockery of an open-world until about <text-with-tooltip :tooltip="'My memory is hazy, so this may be the wrong chapter. Regardless, this point is FAR into the game.'">chapter 5</text-with-tooltip>, which is when the game finally lets its guard down. There's no more invisible walls, all of the requisite climbing skills have been learned, and levels are likely high enough to take on most overworld enemies. So, the game is just a slow burn, right? Or as anime fans like to proclaim, "bro, just complete the first few chapters, and then it gets good"?
+The player is forced to endure this mockery of an open-world until about <text-with-tooltip :tooltip="'My memory is hazy, so this may be the wrong chapter. Regardless, it takes a LONG time for the game to open up.'">Chapter 5</text-with-tooltip>, which is when the game finally lets its guard down. There's no more invisible walls, all of the requisite climbing skills have been learned, and levels are likely high enough to take on most overworld enemies. So, the game is just a slow burn, right? Or as anime fans like to proclaim, "bro, just complete the first few chapters, and then it gets good"?
 
 Well, not quite. The problem is that it will take most players about **40 hours** to reach chapter 5. Most players (like me) will likely be already burnt out from completing menial fetch quests, gathering useless materials, and mashing 'A' to skip uneventful, voiceless cutscenes.
 
@@ -188,7 +188,7 @@ The other reason is that, despite the myriad of icons on the minimap, there's re
 2. Item Containers
 3. Unique Overworld Monsters
 
-XC3's colony system is half-baked, being a terrible substitute for <text-with-tooltip :tooltip="'Remember Torigoth from Xenoblade Chronicles 2, or Colony 9 from Xenoblade 1? These massive, intricate cities were fun to explore, and helped establish a feeling that real people lived in these worlds. XC3\'s colonies feel absolutely desolate by comparison.'">the kinds of cities one would typically encounter in an RPG</text-with-tooltip>. This is because the game's colonies are practically identical. Other than having a different item shop, a different Hero, and a different backdrop, there's nothing to distinguish the colonies from each other; In fact, during my playthrough, I'd frequently get colonies confused, fast traveling to one when I meant to go to another. 
+XC3's colony system is half-baked, being a terrible substitute for the kinds of <text-with-tooltip :tooltip="'Remember Torigoth from Xenoblade Chronicles 2, or Colony 9 from Xenoblade 1? XC3\'s colonies feel desolate by comparison.'">cities</text-with-tooltip> traditionally featured in JRPGs. This is because the game's colonies are practically identical; other than having a different item shop, a different Hero, and a different backdrop, there's nothing to distinguish the colonies from each other; In fact, during my playthrough, I'd frequently get colonies confused, fast traveling to one when I meant to go to another. 
 
 The game initially makes a huge deal out of these colonies, urging players to maximize each colony's "affinity chart". But to me, there's no reason to care about it because, proportionally, the rewards are absolutely meager compared to the work required for them. Think "Increased Swimming Speed" is an adequate reward for completing several lengthy fetch quests? No, not even close. And the "relationships" built between each colony's citizens mostly consist of nothing more than a handful of unvoiced textboxes.
 
@@ -201,7 +201,7 @@ Worse, these colonies contain about [a dozen or so NPCs](https://xenoblade.fando
 
 So, since the colony system in XC3 is lackluster, what about these "Item Containers"? At least players are rewarded with sweet loot, right?
 
-Not exactly. These containers dispense <text-with-tooltip :tooltip="'I recently became aware that in section A, subsection B, article 12 of the Geneva Convention, all games must have crafting systems, regardless of whether the system is fun.'">crafting materials</text-with-tooltip>, gemstones, and gold, each one being completely useless in its own way:
+Not exactly. These containers dispense <text-with-tooltip :tooltip="'Ugh, why must every game have a crafting system. I suspect that it helps in padding a game\'s runtime.'">crafting materials</text-with-tooltip>, gemstones, and gold, each one being completely useless in its own way:
 
 - the requirements for crafting are so random and arbitrary that the chances of actually getting something useful is incredibly slim.
 - The amount of gemstones that a player need is actually capped to the couple hundreds. I reached the max amount after about 30 hours, so every subsequent gemstone I found was unceremoniously auto-sold.
@@ -280,13 +280,13 @@ In addition to lacking any sort of believable character development, XC3's chara
 
 But...shouldn't there be? If multiple universes were on the brink of total annihilation, and the world's citizens were forced into constant servitude, don't you think the game's protagonists might have different opinions on how to handle this? Don't you think that they'd get a little hot-headed at times? Don't you think that tensions would rise, feelings would get hurt, and emotional scars would be formed? 
 
-Or, more outrageously, don't you think learning about <span class="spoiler">babies and sex</span> would drastically alter the dynamics between 6 young adults?
+Most importantly, don't you think that being introduced to the concepts of <span class="spoiler">babies and sex</span> would drastically alter the dynamics between six young, close adults?
 
 Monolith Soft doesn't seem to think so. Instead, XC3 is content to *tell* us how this long journey has changed these characters, instead of demonstrating this to its players in any meaningful way.
 
-So, when XC3's players characters repeatedly chirp that they've "changed" by the game's conclusion, these proclamations ring hollow because the game hasn't given its audience any reason to believe it. In reality, they haven't changed one bit: they're the same logical, understanding people that they've always been. And this makes them feel like walking plot devices, rather than relatable human beings.
+So, when XC3's players characters repeatedly chirp that they've "changed" by the game's conclusion, these proclamations ring hollow because the game hasn't given its audience any reason to believe it. In reality, they haven't changed one bit: they're the same logical, cool-headed people that they've always been. This makes XC3's characters feel like walking plot devices, rather than relatable human beings.
 
-This is exacerbated by a wonky, uneven localization. At times, characters don't even properly respond to direct questions, and non-sequiturs are frequent throughout the game's script. It's almost as if the game's script was generated by an AI (or thrown through a Japanese-to-English translator program), rather than written by an actual person.
+This is exacerbated by a wonky, uneven localization. At times, characters don't even properly respond to direct questions, and non-sequiturs are frequent throughout the game's script. It's almost as if the game's script was generated by an AI (or thrown through a Japanese-to-English translator program), rather than written by an actual person. It's most apparent when the game tries to wax philosophical, using strange metaphors and clunky phrasing that elicit wincing, rather than pondering.
 
 <div class="imageContainer">
   <img :src="'/xcflute.jpg'"/>
@@ -304,7 +304,7 @@ Also, notice that I haven't even touched on the "Hero" characters. This is becau
   <span class="text--secondary">Isurd wins the award for least interesting character in the game. It doesn't help that his voice actor sounds as if he's just woken up from a naps.</span>
 </div>
 
-Before you angrily reach for your pitchfork, *yes*, there are occasional sparks of life in XC3's characters, and those sparks sometimes shine *very* brightly. The "jail" cutscene, in particular, is one of the most heart-wrenching, masterfully-crafted cutscenes in the entire Xenoblade franchise. There's also a <text-with-tooltip :tooltip="'It\'s the scene where Taion notices that Eunie\'s hands are shaking'">touching scene</text-with-tooltip> between Taion and Eunie that suggests that someone at Monolith Soft *might* understand the concept of "Show, don't tell". And finally, yes, Eunie can be a hoot.
+Before you angrily reach for your pitchfork, *yes*, there are occasional sparks of life in XC3's characters, and those sparks sometimes shine *very* brightly. The "jail" cutscene, in particular, is one of the most heart-wrenching, masterfully-crafted cutscenes in the entire Xenoblade franchise. There's also a <text-with-tooltip :tooltip="'It\'s the scene where Taion notices that Eunie\'s hands are shaking.'">touching scene</text-with-tooltip> between Taion and Eunie that suggests that someone at Monolith Soft *might* understand the concept of "Show, don't tell". And finally, yes, Eunie can be a hoot.
 
 But ultimately, these glimmers of humanity get absolutely crushed under this game's 60 hours of tactless, repetitive noise, making it impossible to truly connect with any of these characters. For a studio that obviously [spent a lot of time designing the ultra-likeable Shulk](https://www.nintendolife.com/news/2022/08/random-xenoblade-chronicles-shulk-cutscene-was-originally-a-little-creepy) from Xenoblade Chronicles, I was honestly shocked at how indifferent I was to Noah and Mio.
 
@@ -319,9 +319,8 @@ Instead, for some reason, XC3 feels compelled to thwart any kind of narrative mo
 
 <div class="imageContainer">
   <img :src="'/xc3text2.jpeg'"/>
-  <span class="titleImageCaption text--secondary">XC3 devotes a ton of time to side characters, all of who are barely-relevant to the game or its main characters. Some could call it "world-building", but given how uninteresting this kind of content is, I'd call it "filler".</span>
+  <span class="titleImageCaption text--secondary">XC3 devotes way too much time to its side characters. Some could call it "world-building", but given how uninteresting they are, I'd call it "filler".</span>
 </div>
-
 
 Part of the problem, I think, is that <span class="spoiler">most of the events integral to XC3's plot have *already happened* by the time the player picks up a controller. Noah has already impregnated Mio a bunch of times and succumbed to the dark side, Melia and Nia have already constructed Origin and left to take naps, and Consul Z as already set his plan in motion for "the endless now".</span>
 
@@ -333,12 +332,12 @@ I don't care how many sepia-toned flashbacks the game throws at me: telling an a
 
 This is why XC3's length is so baffling to me: it clearly has no problem asking the player to spend 60+ hours on it. But in return, the player has practically nothing to show for it, narratively speaking, at the game's conclusion. 
 
-I won't even get into the number of plot threads that the game's ending never addresses (i.e. *who*, exactly, is Riku?). I sincerely hope that this is due to a rushed development cycle, rather than a ploy to get players to buy additional DLC down the line.
+I won't even get into the number of plot threads that the game's ending never addresses (i.e. *who*, exactly, is Riku?). I sincerely hope that this is due to a rushed development process, rather than a ploy to get players to buy additional DLC down the line.
 
 ### An Anti-Climactic Conclusion
 On one final note, as a Xenoblade series fan, I can't help but mention how disappointing XC3's ending is. I'll admit that this criticism isn't relevant for those that haven't played Xenoblade Chronicles 1 or 2, but I think it deserves to be said.
 
-Xenoblade Chronicles 1 ended with a huge, earth-shattering twist that recontextualized its entire plot. Xenoblade 2 <span class="spoiler"> obscured its connection to the previous game until the very end, </span> greatly expanding on the series lore and providing major contextual twists of its own.
+Xenoblade Chronicles 1 ended with a huge, earth-shattering twist that <span class="spoiler">recontextualized</span> its entire plot. Similarly, Xenoblade 2 <span class="spoiler"> obscured its connection to its predecessor until the very end, </span> greatly expanding on the series' lore and providing major contextual twists of its own.
 
 <div class="imageContainer">
   <img :src="'/xc2.jpg'"/>
@@ -349,9 +348,9 @@ But unlike its predecessors, XC3 stumbles and sputters over the finish line. The
 
 Instead, the game simply wraps up its mostly self-contained storyline as unceremoniously as possible. In fact, it veers *dangerously close* to the <span class="spoiler">"It was all a dream! Or...was it?"</span> trope, although one could argue for [more nuanced interpretation](https://www.youtube.com/watch?v=OXQ7X7UMVMo). Still, in the context of its predecessors, it's shocking to me that <span class="spoiler">, almost literally, </span> almost nothing happens by the end of the game.
 
-I suppose that I'm probably coming across as an "entitled gamer", but I expected more from this series. Hell, the only reason I put 100 hours into this game was because of the faint hope that, like its predecessors, XC3's conclusion would rock my world.
+I suppose that I'm probably coming across as an "entitled gamer", but honestly, I expected more from this series. Hell, the only reason I put 100 hours into this game was because of a faint hope that, like its predecessors, XC3's conclusion would rock my world.
 
-The most noteworthy thing that came from the game's final cutscene was a contrived, totally unearned <span class="spoiler">kiss between Mio and Noah. I recognize that it's against the law to *not* have JRPG male and female protagonists fall for each other, but this particular romance felt especially inorganic and completely forced.</span>. 
+Don't even get me started on the game's contrived, totally-unearned <span class="spoiler">kiss between Mio and Noah. I recognize that it's against the law to *not* have JRPG male and female protagonists fall for each other, but this particular romance felt especially inorganic and completely forced.</span>. 
 
 Crap game, crap characters, crap ending.
 

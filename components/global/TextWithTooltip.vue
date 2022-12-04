@@ -24,12 +24,17 @@
 
 <style>
   .tooltipText {
-    text-decoration: var(--v-primary-base) dotted underline;
-    text-decoration-thickness: 3px;
-    text-decoration-line: underline;
+    border-bottom: 2px dashed var(--v-primary-base);
+    padding-bottom: 2px;
+    white-space: nowrap;
   }
 
   .tooltipText:hover {
     background-color: var(--v-tooltipTextHoverBackground-base);
+  }
+
+  .v-tooltip__content {
+    /* Fixes  tooltips not appearing in right spot on mobile */
+    max-width: 315px !important;
   }
 </style>
