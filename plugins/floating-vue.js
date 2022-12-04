@@ -1,4 +1,6 @@
 import Vue from 'vue'
+import FloatingVue from 'floating-vue'
+FloatingVue.options.themes.tooltip.triggers = ['hover', 'focus', 'touch', 'click'];
 import {
   // Directives
   VTooltip,
