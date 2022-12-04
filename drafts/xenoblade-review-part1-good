@@ -31,7 +31,12 @@ Let's get started.
 ## Outstanding in Many Respects
 It goes without saying that <text-with-tooltip :tooltip="'While it\'s difficult to determine their exact contribution, Monolithsoft had a significant hand in Zelda: Breath of the Wild. I theorize that they were tapped for their expertise in open-world games, showcased excellently in Xenoblade Chronicles on the Wii.'">Monolithsoft's work on Nintendo's consoles is unparalleled</text-with-tooltip>: the environments in Xenoblade Chronicles 1 pushed Nintendo's aging Wii console to its limits, and Xenoblade Chronicles 2 offered Nintendo Switch fans a glimpse into what Nintendo's new console was capable of, upping the ante from Xenoblade 1 in many respects.
 
-It's no surprise, then, that Xenoblade Chronicles 3 continues that trend.
+It's no surprise, then, that Xenoblade Chronicles 3 continues that trend.s
+<v-tooltipp>
+  <a>This is a local component</a>
+  <template #popper>Help me fund my Open Source work!</template>
+</v-tooltipp>
+</no-ssr>
 
 ### A Stunning Technical Achievement
 <div class="imageContainer imageUnderSection">

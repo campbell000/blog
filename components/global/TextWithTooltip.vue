@@ -1,4 +1,5 @@
 <script>
+import 'floating-vue/dist/style.css'
   export default {
     props: {
       text: {
@@ -14,27 +15,47 @@
 </script>
 
 <template>
-  <v-tooltip top>
-  <template v-slot:activator="{ on, attrs }">
-    <span class="tooltipText" v-bind="attrs" v-on="on"><slot></slot></span>
-  </template>
-  <span>{{tooltip}}</span>
-  </v-tooltip>
+<no-ssr>
+<v-tooltipp class="tooltipwrapper">
+  <span class="text"><slot></slot></span>
+  <template #popper>{{tooltip}}</template>
+</v-tooltipp>
+</no-ssr>
 </template>
 
 <style>
-  .tooltipText {
-    border-bottom: 2px dashed var(--v-primary-base);
+  .text {
+    border-bottom: 2.5px dotted var(--v-primary-base);
     padding-bottom: 2px;
     white-space: nowrap;
   }
 
-  .tooltipText:hover {
+  .text:hover {
     background-color: var(--v-tooltipTextHoverBackground-base);
   }
 
-  .v-tooltip__content {
-    /* Fixes  tooltips not appearing in right spot on mobile */
-    max-width: 315px !important;
+  .tooltipwrapper{
+    display: inline;
   }
+
+  .v-popper__popper {
+    font-family: Karla, sans-serif !important;
+    max-width: 400px;
+  }
+
+  .v-popper__inner {
+        background-color: var(--v-tooltipBackgroundColor-base) !important;
+    color: var(--v-textColor-base) !important;
+    line-height: 1.5em !important;
+        border: 1px solid var(--v-primary-base) !important;
+    font-size: 14px !important;
+  }
+
+  .v-popper__arrow-inner, .v-popper__arrow-outer {
+    background-color: var(--v-tooltipBackgroundColor-base) !important;
+    color: var(--v-textColor-base) !important;
+    border-color: var(--v-primary-base) !important;
+  }
+
+
 </style>

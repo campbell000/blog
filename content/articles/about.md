@@ -51,11 +51,4 @@ No. There are no ads, referral links, analytics trackers, or anything else that 
 The only thing you'll see on this site is a donation link at the top of each article, where you can make a one time or continuous donation, which will go to site costs (and maybe some toys for my dog). It also simply gives people a way to let me know that they support my content. 
 
 ## How Was This Site Created?
-This site was created with Nuxt.js, generated statically (using their "content" module) using nuxt-generate and hosted on GitHub pages. Miraculously, I managed to do it using the following tech stack:
-- Macbook running Bootcamp, running...
-- Windows with Windows Subsystem For Linux (WSL2) installed, running...
-- Ubuntu
-
-As for my feelings about Nuxt.js: it's a "convention-over-configuration" type of framework, which I'm not a huge fan of. I like my code explicit and verbose, rather than implicit and magical. And like all other modern web development stacks, when things don't work, *they fail spectacularly*. Obtuse error messages that read like an ancient foreign language, stack traces a million lines long, etc. That may not really a fault of Nuxt.js, but rather its underlying technologies (webpack, babel, etc). Still, debugging Nuxt.js is often an unpleasant experience.
-
-But when things work, *damn, do they work*. Nuxt.js got this blog up and running *very* quickly. In particular, its static site generation and content modules are *amazing*. And because it's statically generated, **it's fast as hell to load and use**. So overall, my opinion of Nuxt.js is positive, and I'm curious to see how it evolves over time.
+This site was created with Nuxt.js, generated statically (using their "content" module) using nuxt-generate and hosted on GitHub pages. Vuetify (which I woulnd't recommend, in retrospect) is used as the client-side style framework.
