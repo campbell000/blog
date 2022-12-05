@@ -19,7 +19,7 @@ tags:
 - Console games will likely not be rendered in true 4K/120hz for a *long* time, so keep your [FOMO](https://en.wikipedia.org/wiki/Fear_of_missing_out) in check.
 
 ## Disclaimers
-Firstly, I recognize that this article is low-hanging fruit: there's a million screeching Youtubers and media outlets (i.e. Vice, Polygon, IGN, etc) that are writing articles like this one. Their writeups are chock full of amazon referral links ($$$), and they rely on fear and ignorance of the audience to shill expensive and unnecessary upgrades.
+Firstly, I recognize that this article is low-hanging fruit: there's a million screeching Youtubers and media outlets (i.e. Vice, Polygon, IGN, etc) that are writing articles like this one. Their write-ups are chock full of amazon referral links ($$$), and they rely on fear and ignorance of the audience to shill expensive and unnecessary upgrades.
 
 So fear not: I'm not here to sell you anything. Instead, I will be giving you the tools you need to make informed decisions, and then give you short, concise recommendations based on specific use cases.
 
@@ -165,6 +165,6 @@ Then, when the Xbox One X and PS4 Pro came out, both companies were like, "OK No
 
 I understand that character models and textures keep increasing in complexity, which eats into the resolution and graphics budget. And I also understand that there's marketing pressure to increase image fidelity over image fluidity, as it's hard to convey 120FPS via static screenshots. 
 
-Regardless, overpromising and underdelivering is not a new trend in this space. I vaguely recall being promised 1080p/60FPS as far back as the 360/PS3 generation, so it's slightly hilarious, and a little frustrating, that both Microsoft and Sony are promising 4K/120FPS when they haven't been able to deliver anything NEAR that this generation.
+Regardless, over-promising and under-delivering is not a new trend in this space. I vaguely recall being promised 1080p/60FPS as far back as the 360/PS3 generation, so it's slightly hilarious, and a little frustrating, that both Microsoft and Sony are promising 4K/120FPS when they haven't been able to deliver anything NEAR that this generation.
 
 In short, keep your expectations low. Expect games to be rendered **up to** 4K/120hz, but for the majority of them to render far below that for the majority of the time, save for a few first-party, big-budget titles.
