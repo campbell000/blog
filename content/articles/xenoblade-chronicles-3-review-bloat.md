@@ -17,14 +17,13 @@ tags:
 * I completed the game and finished the many of the game's sidequests. This took me about 100 hours.
 
 ## Introduction
-Almost 5 years after the release of *Xenoblade Chronicles 2*, *Xenoblade Chronicles 3* (henceforth referred to as "XC3", since the full name takes way too long to type!) is finally here. As the third game the Xenoblade Chronicles series, its director [was quoted as saying](https://nintendoeverything.com/monolith-soft-shares-xenoblade-chronicles-3-message-another-tease-of-the-future/) that this game can be considered the end of the story that started with <text-with-tooltip :tooltip="'As a last-ditch effort against an invasion against earth, Klaus activated the Conduit, kicking off Xenoblade 1 and 2.'">Klaus' experiment</text-with-tooltip>, but not the end of the *Xenoblade* series. In other words, "a stopping point". A resting place. A period in which the team and the fans can gather their thoughts, reflect on past experiences, and ponder where the series will go next. Xenoblade is not gone, but it's likely to go away for a while.
+Almost 5 years after the release of *Xenoblade Chronicles 2*, *Xenoblade Chronicles 3* (henceforth referred to as "XC3") is finally here. It's not necessarily a *conclusion* to the beloved series, but can be considered a [the end of the main Xenoblade Chronicles story](https://nintendoeverything.com/monolith-soft-shares-xenoblade-chronicles-3-message-another-tease-of-the-future/). In other words, a stopping point. A resting place. A period in which the team and the fans can gather their thoughts, reflect on past experiences, and ponder where the series will go next. Xenoblade is not gone, but it's likely to go away for a while.
 
+So, as ~the conclusion~ a stopping point for this beloved JRPG series, how does Monolith Soft's latest entry in the *Xenoblade Chronicles* series fare? 
 
-So, as ~the conclusion~ a "stopping point" for this beloved JRPG series, how does Monolith Soft's latest entry in the *Xenoblade Chronicles* series fare? 
+Given that XC3 takes a minimum of [62 hours to beat](https://howlongtobeat.com/game/103825), which doesn't include the 30-40 hours of additional content, there's no way that I'd be able to answer that question in a two-page essay. And since [game reviewers don't need to finish games anymore](https://twitter.com/raveofravendale/status/1496533451096440838?lang=en), I'd like to offer <text-with-tooltip :tooltip="'No, I don\'t think game reviewers need to sacrifice their health to review games, but I would think that seeing the end of a story would be important for reviewing a story-driven game.'">my perspective</text-with-tooltip> as both a huge Xenoblade fan, and as someone who has spent a *lot* of time with this game.
 
-Given that XC3 takes a minimum of [62 hours to beat](https://howlongtobeat.com/game/103825), which doesn't include the 30-40 hours of additional content, there's no way that I'd be able to answer that question in a two-page essay. And since [game reviewers don't need to finish games anymore](https://twitter.com/raveofravendale/status/1496533451096440838?lang=en), I'd like to offer <text-with-tooltip :tooltip="'No, I don\'t think game reviewers need to sacrifice their health to review games, but I would think that seeing the end of a story would be important for reviewing a story-driven game.'">my perspective</text-with-tooltip> as someone who has spent a *lot* of time with this game, as well both of it predecessors.
-
-So, much like XC3 itself, I'm going to take *way too long* tell you what I think and how I feel. I suppose I could consider this long review as revenge for the time I spent/enjoyed/wasted on Xenoblde Chronicles 3. This game is certainly a ride, but it's not necessarily a fun one from start to finish.
+So, much like XC3 itself, I'm going to take *way too long* to tell you what I think and how I feel. I suppose I could consider this long review as revenge for the time I spent/enjoyed/wasted on Xenoblde Chronicles 3. This game is certainly a ride, but it's not necessarily a fun one from start to finish.
 
 Let's get started.
 
@@ -36,12 +35,12 @@ It's no surprise, then, that XC3 continues that trend.
 ### A Stunning Technical Achievement
 <div class="imageContainer imageUnderSection">
   <img :src="'/xc3gif.JPG'"/>
-  <span class="text--secondary">Occasionally, XC3 makes you forgot that you're playing a game on an underpowered mobile processor from 2017. This game's technical and artistic aspects are, at times, exceptional.</span>
+  <span class="text--secondary">Occasionally, XC3 makes you forget that you're playing a game on an underpowered mobile processor from 2017. This game's technical and artistic aspects are, at times, exceptional.</span>
 </div>
 
-Both artistically and technically, this game is leaps and bounds ahead of anything else on the Switch. Simply compare the screenshot above to this screenshot of  <a target="_blank" href="/pokemon.jpg">Pokemon Scarlet and Violet</a>. That comparison should speak for itself.
+Both artistically and technically, this game is leaps and bounds ahead of anything else on the Switch. Simply compare the screenshot above to <a target="_blank" href="/pokemon.jpg">this screenshot</a> of Pokemon Scarlet and Violet. That comparison should speak for itself.
 
-The landscapes are vast, the character models are detailed and expressive, the lighting system is <text-with-tooltip :tooltip="'Xenoblade Chronicles 2\'s lighting system gave characters an awful plastic-looking shine. XC3\'s lighting system gives character models a much more realistic-looking glow.'">greatly improved</text-with-tooltip>, and there is a significant increase in the number of onscreen characters and enemies. More impressive is the fact that, despite all of these improvements, I noticed very little pop-in and <text-with-tooltip :tooltip="'Level-Of-Detail culling involves using a lower-detailed version of an object when it is far from the player\'s view.'">LOD culling</text-with-tooltip> that many games nowadays tend to use and abuse.
+The landscapes are vast, the lighting system is <text-with-tooltip :tooltip="'Xenoblade Chronicles 2\'s lighting system gave characters an awful plastic-looking shine. XC3\'s lighting system gives character models a much more realistic-looking glow.'">greatly improved</text-with-tooltip>, and there is a significant increase in the number of onscreen characters and enemies. More impressive is the fact that, despite all of these improvements, I noticed very little pop-in and <text-with-tooltip :tooltip="'Level-Of-Detail culling involves using a lower-detailed version of an object when it is far from the player\'s view.'">LOD culling</text-with-tooltip> that many games nowadays tend to use and abuse.
 
 <div class="imageContainer">
   <img :src="'/xcneon.jpeg'"/>
@@ -70,7 +69,7 @@ XC3, thankfully, swings the pendulum back towards Xenoblade 1's more-mature tone
 
 In other words, "Saito-san, please give the characters clothes this time."
 
-Look no further for proof of this darker tone than the game's opening cutscene: as battles between Agnus and Keves soldiers rage on, the player is forced to bear witness to the terrible consequences of war: rotting corpses and wounded soldiers litter the battlefield as soldiers celebrate a brief, temporary victory, only to be forced to fight again tomorrow. It's a <text-with-tooltip :tooltip="'Well, as gruesome as it can possibly be for a T-rated game.'">gruesome</text-with-tooltip> sight, reminding players that in the world of Aionios, there are no winners. Instead, this pointless conflict ensures that everyone loses.
+The game's opening cutscene makes this tone shift immediately apparent. As battles between Agnus and Keves soldiers rage on, the player is forced to bear witness to the terrible consequences of this war. Wounded soldiers and rotting corpses litter the battlefield as Noah, the main protagonist, tells the audience of the terrible curse upon this world: they must fight to live, and they must live to fight. It's a <text-with-tooltip :tooltip="'Well, as gruesome as it can possibly be for a T-rated game.'">gruesome</text-with-tooltip> sight, reminding players that in the world of Aionios, there are no winners. Instead, this pointless conflict ensures that everyone loses.
 
 This war-torn, dystopian world has clearly taken its toll on the game's main cast, who are afflicted with bouts of anxiety, despair, and hopelessness. Despite its fantasy setting, XC3's characters endure struggles that may be all-too-familiar to the player (feelings of inadequacy, a fear of death, etc), making their struggles feel real and, perhaps, personal.
 
