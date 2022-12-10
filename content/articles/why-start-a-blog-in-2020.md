@@ -88,7 +88,7 @@ These tactics, plus many more, mean that groups and organizations with deep enou
 
 Does anyone think that this advertisement for pizza reached it's top spot organically? Do we really think 34,000 people saw this and thought to themselves that this post was so compelling, that they thought to upvote it over all other pictures they saw that day? Or is it possible that the company that owns this pizza chain employed one or more of the methods I mentioned above?
 
-Not only is seeing a pizza advertisement as reddit's top post *monumentally lame*, but it actively harms small content creators who would have otherwise had a opportunity for world-wide exposure. There were probably thousands of pictures from real people that were more deserving of that top spot, but the unfortunate reality is that these small-time creators didn't have the money or connections to exploit reddit like *\<redacted fast food company\>* did.
+Not only is seeing a pizza advertisement as reddit's top post *lame*, but it also actively harms small content creators who would have otherwise had a opportunity for world-wide exposure. There were probably thousands of pictures from real people that were more deserving of that top spot, but the unfortunate reality is that these small-time creators didn't have the money or connections to exploit reddit like *\<redacted fast food company\>* did.
 
 To drive this point home, here's another anecdote: I booted up [twitch.tv](twitch.tv) last night (a site where you can watch people play video games), which I generally think is pretty cool because its a pretty democratic platform. But I was shocked to see something featured prominently on the homepage, front-and-center over all other content. Was it:
 1. An independent streamer playing Fornite?
@@ -113,4 +113,4 @@ Therefore, instead of posting something to reddit, twitter, youtube, or facebook
 
 Like musicians taking their music off Spotify and selling their physical music directly to consumers, I am taking my content (as little and worthless as it may be) and putting it on my own platform. My hope is that, if people take their content away from big content aggregation platforms and decentralize it, the power shifts a little more fairly back into the hands of the content creators, where it belongs.
 
-**So, I'm starting a blog.** Ideally, it should be a video blogging platform, but that would take a ton of time to implement, and I'm not that smart. And as far as videos go, I'm not really funny or personable or creative with editing. And I stutter or stumble when I talk. So, a blog it is!
+**So, I'm starting a blog.** Ideally, it should be a video blogging platform, but that would take a ton of time to implement, and I'm not that smart. And as far as videos go, I'm not really funny, personable, or creative with editing. So, a blog it is!
