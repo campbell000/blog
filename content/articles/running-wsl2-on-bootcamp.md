@@ -11,12 +11,12 @@ tags:
 ---
 
 ## Brief Summary
-The brief TL;DR is:
-- Boot into MacOS
-- Run `sysctl -a | grep machdep.cpu.features` in the terminal to ensure your mac has virtualization.
-- Boot into Windows from System Preferences. **You MUST do it this way. You cannot power off and boot into Windows**.
-- Disable decompression on the folder that contains your linux distribution.
-- If windows ever restarts, make sure to repeat this whole process again if you get errors booting up your WSL environment
+The steps are:
+1. Boot into MacOS
+2. Run `sysctl -a | grep machdep.cpu.features` in the terminal to ensure your mac has virtualization.
+3. Boot into Windows from System Preferences. **You MUST do it this way. You cannot power off and boot into Windows**.
+4. Disable decompression on the folder that contains your linux distribution.
+5. If windows ever restarts, make sure first boot into Mac and repeat step 3.
 
 ## Step-by-Step Instructions
 ### Enabling Virtualization
@@ -32,7 +32,7 @@ Error: 0x80370102 The virtual machine could not be started because a required fe
 Press any key to continue...
 ```
 
-You'll get this error when you mac hardware doesn't support CPU virtualization, which is odd because most macs made in the past 7 years or so support it. It turns out that this feature needs to be enabled by the BIOS, and can only be enabled on the MacOS side. So you may run into this error, for example, if you've booted into windows from power-on.
+You'll get this error when you mac hardware doesn't support CPU virtualization, which is odd because most macs since 2010 certainly *do* support it. It turns out that this feature needs to be enabled by the BIOS, and can only be enabled on the MacOS side. So you may run into this error, for example, if you've booted into windows from power-on.
 
 To fix this, boot into MacOS, open a terminal, and run `sysctl -a | grep machdep.cpu.features`. Ensure that you get a response from that command (You should see "VMX" in the response. That is the hardware feature you need).
 

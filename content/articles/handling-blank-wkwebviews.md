@@ -35,9 +35,7 @@ Even if your iOS and HTML/JS code is [simple and clean](https://www.youtube.com/
 
 One important note: when I mention memory problems as being a cause for iOS to kill webviews, I don't necessarily mean memory leaks. It could simply mean that your web pages are requesting too much memory, too quickly. Again, Apple doesn't mention any of this in their documentation. This is simply from what I've read and debugged.
 
-**Sounds scary, right?** Webviews randomly dying poses a major problem if the primary interface for your app is a webview. Interestingly, there are many [Github issues for WKWebView-based frameworks](https://github.com/Telerik-Verified-Plugins/WKWebView/issues/41) that reference this particular issue, so it certainly seems like an issue that many are struggling with.
-
-These issue threads don't have clear solutions, but they all boil down to the same sentiment: "It's probably resource related. Manage your memory, both iOS and JS (if you control it), and be ready to handle failures as best as you can."
+**Sounds scary, right?** Webviews randomly dying poses a major problem if the primary interface for your app is a webview. In particular, this is a an issue if you use web-view-based frameworks, such as Cordova or Ionic.
 
 ## How WKWebViews Fail
 In general, I found that there were two ways that WKWebView could fail, manifesting as a blank white screen:
@@ -178,6 +176,6 @@ The end result of my solution is that, on the off chance that iOS kills my webvi
 This sucks, but honestly, users are used to this. As an iphone/safari user myself, pages randomly taking a long time to load is a daily occurrence for me. It's annoying and frustrating, and as a developer, you wish that there was a better alternative, but it is what it is.
 
 ## Summary
-This post isn't a dig at Apple (I'm sure it's the same, if not worse, for Android phones). It's just a reminder of how complicated these devices and their associated software can be, and the lengths that companies like Apple have gone to make programming for their devices as easy as possible. Want to display a web page in your app. Sure, it's three lines of code! Go crazy! It's commendable, but those abstractions, while appreciated, can be leaky at times. 
+This post isn't a dig at Apple (I'm sure it's the same, if not worse, for Android phones). It's just a reminder of how complicated these devices and their associated software can be, and the lengths that companies like Apple have gone to make programming for their devices as easy as possible. Want to display a web page in your app. Sure, it's three lines of code! Go crazy! It's commendable, but those abstractions can be leaky at times. 
 
 One final note: if anyone has any suggestions or improvements, *please* include them in the comments below. I'd love to hear about your experiences with WKWebView, and how you've dealt with these problems (or maybe you've *never* dealt with these problems, and I just write terrible code!)
