@@ -35,7 +35,7 @@ These four points creates a negative feedback loop: the less money that these sm
 
 Your response to all of this might be, "I work 8 hours a day and I hate my job, so I think musicians should get a real job and quit whining." That's a fair point. Not everyone is going to love their job. 
 
-**But wouldn't that be nice?** Wouldn't it be nice if it were possible for people to put their passion and talent into something, and be able to buy groceries without having to work a shitty, second job/ Wouldn't it be nice if you could quit the job that you hated to pursue something that you loved doing? Wouldn't it be cool if this was at least possible, albeit unlikely?
+**But wouldn't that be nice?** Wouldn't it be nice if it were possible for people to put their passion and talent into something, and be able to buy groceries without having to work a shitty, second job? Wouldn't it be nice if people could quit their horrible, meaningless jobs to pursue something that they loved? Wouldn't it be cool if this was at least possible, albeit unlikely?
 
 Personally, I think this would be a wonderful thing, and there's a few small-but-meaningful steps that we could all take to inch closer to that reality, where small, independent musicians actually have a fighting chance against the huge, soulless corporate machines. For example, we could make an effort to go to our favorite artists' local shows. We could also increase the artist's exposure by sharing their music with our family and friends. And, of course, we could buy a cassette tape or two. 
 
