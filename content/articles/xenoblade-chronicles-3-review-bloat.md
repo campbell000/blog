@@ -294,7 +294,7 @@ This is exacerbated by a wonky, uneven localization. At times, characters don't 
 
 <div class="imageContainer">
   <img :src="'/xcflute.jpg'"/>
-  <span class="text--secondary">*Xenoblade Chronicles 3* fumbles this moment with robotic dialog and lifeless character interactions.</span>
+  <span class="text--secondary">Xenoblade Chronicles 3 fumbles this moment with robotic dialog and lifeless character interactions.</span>
 </div>
 
 What, then, did I feel for the game's main cast as the end credits began to roll? Honestly, not much. I couldn't see myself, or anyone else for that matter, in Noah or Mio. So when they persevered, I felt nothing.  
