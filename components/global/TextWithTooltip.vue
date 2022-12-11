@@ -26,7 +26,7 @@ import 'floating-vue/dist/style.css'
 <style>
   .text {
     border-bottom: 2.5px dotted var(--v-primary-base);
-    padding-bottom: 2px;
+    padding-bottom: 1px;
     white-space: nowrap;
   }
 

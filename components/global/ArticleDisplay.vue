@@ -234,10 +234,10 @@
   }
 
   .nuxt-content h3 {
-    font-weight: 500;
-    text-decoration: underline;
+    font-weight: 600;
     font-style: italic;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
+    padding-top: 4px;
   }
   .nuxt-content p {
     margin-bottom: 20px;

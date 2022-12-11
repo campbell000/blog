@@ -23,7 +23,7 @@ In other words, *Xenoblade Chroincles 3* is a stopping point. A resting place. A
 
 So, as ~the conclusion~ a stopping point for this beloved JRPG series, how does Monolith Soft's latest entry in the *Xenoblade Chronicles* series fare? 
 
-Given that *Xenoblade Chronicles 3* takes a minimum of [62 hours to beat](https://howlongtobeat.com/game/103825), which doesn't include any <text-with-tooltip :tooltip="'*Xenoblade Chronicles 3*\'s extra content can easily add 30-40 hours to its runtime.'">optional content</text-with-tooltip> or sidequests, there's no way that I'd be able to answer that question in a two-page essay. And since [game reviewers don't need to finish games anymore](https://twitter.com/raveofravendale/status/1496533451096440838?lang=en), I'd like to offer <text-with-tooltip :tooltip="'No, I don\'t think game reviewers need to sacrifice their health to review games, but I would think that seeing the end of a story would be important for reviewing a story-driven game.'">my perspective</text-with-tooltip> as both a huge Xenoblade fan, and as someone who has spent a *lot* of time with this game.
+Given that *Xenoblade Chronicles 3* takes a minimum of [62 hours to beat](https://howlongtobeat.com/game/103825), which doesn't include any <text-with-tooltip :tooltip="'Xenoblade Chronicles 3\'s extra content can easily add 30-40 hours to its runtime.'">optional content</text-with-tooltip> or sidequests, there's no way that I'd be able to answer that question in a two-page essay. And since [game reviewers don't need to finish games anymore](https://twitter.com/raveofravendale/status/1496533451096440838?lang=en), I'd like to offer <text-with-tooltip :tooltip="'No, I don\'t think game reviewers need to sacrifice their health to review games, but I would think that seeing the end of a story would be important for reviewing a story-driven game.'">my perspective</text-with-tooltip> as both a huge Xenoblade fan, and as someone who has spent a *lot* of time with this game.
 
 So, much like *Xenoblade Chronicles 3* itself, I'm going to take *way too long* to tell you what I think and how I feel. I suppose I could consider this long review as revenge for the time I spent/enjoyed/wasted on Xenoblde Chronicles 3. This game is certainly a ride, but it's not necessarily a fun one from start to finish.
 
@@ -52,12 +52,12 @@ These improvements aren't simply for the pixel-counters and the framerate snobs,
 This is important because exploration is a large part of *Xenoblade Chronicles 3*'s appeal: much of the player's time will be spent traversing the game's varied, ethereal landscapes. Despite a lack of any real secrets to discover or treasures to find (which I'll get to later), I'll admit that simply being able to observe the <a target="_blank" href="/xc3vista.gif">sun setting behind a vast expanse of distant mountains</a> for the first time was a real treat.
 
 ### A Mature, Consistent Narrative
-<div class="imageContainer imageUnderSection">
-  <img :src="'/xcstory.jpg'"/>
-  <span class="titleImageCaption text--secondary">*Xenoblade Chronicles 3*'s dedication to its grim world and mature characters make the stakes feel real, rather than contrived.</span>
-</div>
-
 Let's talk about *Xenoblade Chronicles 2*, this game's predecessor, for a second. Its critical reception was divisive in many respects, but being "too anime" was a common refrain from its detractors. Even though I take issue with <text-with-tooltip :tooltip="'It implies that anime is inherently childish and silly, which is simply not true.'">this phrase</text-with-tooltip>, I mostly agree with its sentiment: despite Xenoblade 2's attempts to establish a complex narrative that spans multiple universes, its efforts are undermined by the game's proclivity for [fanservice](https://gintendo-namer.squarespace.com/articles/2018/2/5/xenoblade-the-sjw-article), [penis jokes](https://www.youtube.com/watch?v=XMBRC1dHALY), [accidental boob touching](https://www.youtube.com/watch?v=kc-u936MOB4), and [ridiculous-looking outfits](https://static.wikia.nocookie.net/xenoblade/images/6/64/XC2_Pyra_artwork.png/revision/latest/scale-to-width-down/1000?cb=20171110014440). This is made worse by a shoddy North American localization and some <text-with-tooltip :tooltip="'Allegedly, the voice actors and actresses were on an extremely tight schedule, made worse by the fact that they were often given little direction as to what the appropriate tone for a scene should be.'">absolutely *terrible*</text-with-tooltip> voice acting performances, which ensures that any attempts at humor land with a thud.
+
+<div class="imageContainer">
+  <img :src="'/xc2anime.jpeg'"/>
+  <span class="text--secondary">A Xenoblade Chronicles 2 scene in which Pyra and Rex have just been introduced to Tora's maid-outfit-wearing robot <span style="text-decoration: line-through;">slave</span> "companion". Silly and fun? Maybe. Something you'd want to share with your coworkers? Definitely not.</span>
+</div>
 
 I'm not here to shame people for enjoying sexiness and silliness, but for a series like *Xenoblade Chronicles*, scenes like this are incongruous with the seriousness of the game's conflict. Is this an epic sci-fi novel, or a harem-style romantic comedy?
 
@@ -85,32 +85,28 @@ Instead, these moments in *Xenoblade Chronicles 3* are a little more grounded an
 In that sense, it's refreshing to see Monolith Soft take its universe a little more seriously. And even though there are major problems with this game's narrative and its characters (I'll get to that below), I'd argue that *Xenoblade Chronicles 3*'s more-mature tone is a step in the right direction.
 
 ### An Unwieldy, But Incredibly Rewarding, Battle System
-<div class="imageContainer imageUnderSection">
-  <img :src="'/xc3battle.jpg'"/>
-  <span class="titleImageCaption text--secondary">This screenshot will probably look bewildering to those unfamiliar with Xenoblade. There's lots to learn about *Xenoblade Chronicles 3*'s battle system, but in my opinion, it's worth learning.</span>
-</div>
-
 There's no denying it: *Xenoblade Chronicles 3*'s battle system is complicated. Perhaps a little *too* complicated. On top of that, the game introduces new wrinkles into the battle system as the player progresses, making it hard to settle into a comfortable groove until late in the game.
 
-First, the game introduces its core battle mechanics: auto-attacks, <text-with-tooltip :tooltip="'Special moves that deal extra damage and effects.'">Arts</text-with-tooltip>, character management (i.e. equipping accessories, leveling up, etc). The basics should click fairly quickly for those that have played RPGs before.
-
-<div class="imageContainer">
-  <img :src="'/xc3sena.jpg'"/>
-  <span class="titleImageCaption text--secondary">Xenoblade Chronicles 3's menus smartly hide much of the game's complexity in sub-menus, which gives players the option to either quickly scan the important stuff, or dive into the finer nuances of each characters abilities, stats, and equipment.</span>
-</div>
+The game starts by introducing its core battle mechanics: auto-attacks, <text-with-tooltip :tooltip="'Special moves that deal extra damage and effects.'">Arts</text-with-tooltip>, character management (i.e. equipping accessories, leveling up, etc). The basics should click fairly quickly for those that have played RPGs before.
 
 Then, as players progress, the game introduces more mechanics: <text-with-tooltip :tooltip="'Abilities that you can learn from and borrow from other classes.'">Master Arts</text-with-tooltip>, <text-with-tooltip :tooltip="'Performing two Arts at the same time, combining their effects'">Fusion Arts</text-with-tooltip>, <text-with-tooltip :tooltip="'Super-powered forms that characters can assume for a limited time.'">Oroborous Forms</text-with-tooltip>, and <text-with-tooltip :tooltip="'Stops time and allows players to attack enemies repeatedly.'">Chain Attacks</text-with-tooltip>. I'll admit that the game's constant use of made-up RPG jargon was overwhelming at times, and despite the game's abundance of tutorials, I'd often not fully grasp <text-with-tooltip :tooltip="'It took me several hours to realize that the the Ouroboros forms were best used as “Oh Shit! Don\'t Die!” buttons. '">the point</text-with-tooltip> of a mechanic until several hours later. And yes, the sheer volume and relentlessness of *Xenoblade Chronicles 2's* tutorials, [famously memed on by Dunkey](https://www.youtube.com/watch?v=fiVZMxf4E2Q), are back to pester the player.
+
+<div class="imageContainer imageUnderSection">
+  <img :src="'/xc3battle.jpg'"/>
+  <span class="titleImageCaption text--secondary">This screenshot will probably look bewildering to those unfamiliar with Xenoblade. There's lots to learn about Xenoblade Chronicles 3's battle system, but in my opinion, it's worth learning.</span>
+</div>
 
 But during my playthrough, after about 25 hours, something awesome happened: the mental burden of *Xenoblade Chronicles 3*'s numerous mechanics began to ease, and I started to view these mechanics as tools instead of as sources of confusion. 
 
 What do I mean by this? To give you some examples: want to turn Eunie, one of the game's default healers, into a critical-hit landing powerhouse? How about a tank that is frail but impossible to hit? Or maybe you'd rather put her in a support role that has insane synergies with one of your other attackers?
+
+Unlike other RPGs that punish players for straying *too* far from conventional strategies, *Xenoblade Chronicles 3* actively *encourages* it. The game urges players to constantly change characters' classes, and by doing so, characters can permanently learn a variety of unique and useful skills from other classes. For example, changing Lanz, the game's <text-with-tooltip :tooltip="'A Tank is a term for a character in an RPG that is designed to pull enemies towards them, distracting them from attacking the group\'s weaker party members'">tank</text-with-tooltip>, into a healer will allow him to learn healing skills that he can carry with him *regardless* of his current class.
 
 <div class="imageContainer">
   <img :src="'/xc3class.jpeg'"/>
   <span class="text--secondary">Changing classes is a great way to alleviate some of the tedium of using the same skills and abilities over and over. Plus, it allows characters to learn skills that they wouldn't otherwise be able to use.</span>
 </div>
 
-Unlike other RPGs that punish players for straying *too* far from conventional strategies, *Xenoblade Chronicles 3* actively *encourages* it. The game urges players to constantly change characters' classes, and by doing so, characters can permanently learn a variety of unique and useful skills from other classes. For example, changing Lanz, the game's <text-with-tooltip :tooltip="'A Tank is a term for a character in an RPG that is designed to pull enemies towards them, distracting them from attacking the group\'s weaker party members'">tank</text-with-tooltip>, into a healer will allow him to learn healing skills that he can carry with him *regardles* of his current class.
 
 *Xenoblade Chronicles 3* explicitly tells players to change classes once a current class has reached its maximum level, and by doing so, most players will naturally realize how *fun and rewarding* it can be to experiment with the game's class system.
 
@@ -118,12 +114,12 @@ Another notable feature is what the game calls "Fusion Arts". This mechanic allo
 
 For example, consider the following two arts: one that is an <text-with-tooltip :tooltip="'Area-Of-Effect. In other words, the attack hits all enemies in an area.'">AOE</text-with-tooltip> art, and one that puts enemies to sleep. By "fusing" these two arts together, the result would put all enemies in the surrounding area to sleep. Pretty cool, right? 
 
+The art fusions possibilities are endless. Want a fusion art that both <text-with-tooltip :tooltip="'RPG-speak for an attack that ignores any damage reduction incurred from an enemy\'s defenses.'">pierces</text-with-tooltip> and lands critical hits? Or how about a fusion art that can buff your team and debuff an enemy at the same time? What about a fusion art that heals *twice*? All of these combinations are fair game in *Xenoblade Chronicles 3*, further proving my point that the only limit to the flexibility of this game's battle system is the player's own creativity.
+
 <div class="imageContainer">
   <img :src="'/xc3fusion.jpg'"/>
-  <span class="titleImageCaption text--secondary">*Xenoblade Chronicles 3*'s "Fusion Art" system opens the door for endless experimentation with each character's arts. While it can be a little overwhelming at first, it's incredibly satisfying to stumble on that perfect combination.</span>
+  <span class="titleImageCaption text--secondary">Xenoblade Chronicles 3's "Fusion Art" system opens the door for endless experimentations. While it can be a little overwhelming at first, it's incredibly satisfying to stumble on that perfect combination.</span>
 </div>
-
-The art fusions possibilities are endless. Want a fusion art that both <text-with-tooltip :tooltip="'RPG-speak for an attack that ignores any damage reduction incurred from an enemy\'s defenses.'">pierces</text-with-tooltip> and lands critical hits? Or how about a fusion art that can buff your team and debuff an enemy at the same time? What about a fusion art that heals *twice*? All of these combinations are fair game in *Xenoblade Chronicles 3*, further proving my point that the only limit to the flexibility of this game's battle system is the player's own creativity.
 
 And on a final note, the game doesn't *force* players to deal with this complexity. When switching classes, the game helpfully sets some sensible defaults for arts, accessories, fusions, etc. In that sense, the game accommodates both the tinkerers and the easy-riders.
 
@@ -176,12 +172,12 @@ So, I suppose that "nothing to discover" isn't technically accurate. But I *can*
 
 This is partially because, unlike past games, almost everything in the world of Aionios is marked on the game's map, removing the mystery and wonder of exploration. And once players have found an item or event, the corresponding map marker disappears. So, when there's no icons left on the minimap, that's a cue to players that there's nothing left to discover. 
 
-Sure, one could argue that this is a time-saving mechanic, but I'd argue that by removing the mystery of exploration, the incentive to explore vanishes. It certainly did for me, at least. Imagine if *Zelda: Breath of the Wild* conveniently marked every fairy fountain, shrine, and Korok seed on its minimap. It would totally change the experience, and arguably for the worse.
-
 <div class="imageContainer">
   <img :src="'/xc3minimap.jpeg'"/>
   <span class="text--secondary">The minimap is almost <i>too</i> helpful at times, removing the need for players to actually learn the game's topography.</span>
 </div>
+
+Sure, one could argue that this is a time-saving mechanic, but I'd argue that by removing the mystery of exploration, the incentive to explore vanishes. It certainly did for me, at least. Imagine if *Zelda: Breath of the Wild* conveniently marked every fairy fountain, shrine, and Korok seed on its minimap. It would totally change the experience, and arguably for the worse.
 
 The other reason is that, despite the myriad of icons on the minimap, there's really only three things that the player can find:
 
@@ -189,7 +185,7 @@ The other reason is that, despite the myriad of icons on the minimap, there's re
 2. Item Containers
 3. Unique Overworld Monsters
 
-*Xenoblade Chronicles 3*'s colony system is half-baked, being a terrible substitute for the kinds of <text-with-tooltip :tooltip="'Remember Torigoth from Xenoblade Chronicles 2, or Colony 9 from Xenoblade 1? *Xenoblade Chronicles 3*\'s colonies feel desolate by comparison.'">cities</text-with-tooltip> traditionally featured in RPGs. This is because the game's colonies are practically identical; other than having a different item shop, a different Hero, and a different backdrop, there's nothing to distinguish the colonies from each other. Sure, one colony might be in a cave, and another atop a snowy mountain, but functionally, they're identical. In fact, during my playthrough, I'd frequently get colonies confused, fast traveling to one when I meant to go to another. 
+*Xenoblade Chronicles 3*'s colony system is half-baked, being a terrible substitute for the kinds of <text-with-tooltip :tooltip="'Remember Torigoth from Xenoblade Chronicles 2, or Colony 9 from Xenoblade 1? Xenoblade Chronicles 3\'s colonies feel desolate by comparison.'">cities</text-with-tooltip> traditionally featured in RPGs. This is because the game's colonies are practically identical; other than having a different item shop, a different Hero, and a different backdrop, there's nothing to distinguish the colonies from each other. Sure, one colony might be in a cave, and another atop a snowy mountain, but functionally, they're identical. In fact, during my playthrough, I'd frequently get colonies confused, fast traveling to one when I meant to go to another. 
 
 The game initially makes a big deal out of these colonies, urging players to maximize each colony's "affinity chart". But to me, there's no reason to care about it because, proportionally, the rewards are absolutely meager compared to the work required for them. Think "Increased Swimming Speed" is an adequate reward for completing several lengthy fetch quests? No, not even close. And the "relationships" built between each colony's citizens mostly consist of nothing more than a handful of unvoiced text lines.
 
@@ -219,7 +215,7 @@ Despite *Xenoblade Chronicles 3* making an honest effort to respect the player's
 
 <div class="imageContainer">
   <img :src="'/xc3chain.jpeg'"/>
-  <span class="titleImageCaption text--secondary">Chain attacks are flashy, but become a chore to execute, especially when the 2-3 of them you'll need to finish off a boss tack on an extra 5 minutes to the battle.</span>
+  <span class="titleImageCaption text--secondary">Chain attacks are useful, party-saving maneuvers, but are a chore to execute. Worse, they take on an extra 5-10 minutes to each battle.</span>
 </div>
 
 Make no mistake: I stand by my previous praise for the game's battle system. It's a wonderfully complex system that rewards careful study and patience, but is also flexible enough to accommodate most playstyles. The game's first half can be thrilling at times because both the party *and* the enemy have relatively tiny reserves of HP, which makes battles are brisk and exciting. Witnessing a huge swath of enemy HP disappear after executing a powerful attack was always satisfying, making me feel like my battle-time decisions had an impact.
@@ -320,7 +316,7 @@ Instead, outside of the game's opening act, nothing really happens until players
 
 <div class="imageContainer">
   <img :src="'/xc3text2.jpeg'"/>
-  <span class="titleImageCaption text--secondary">*Xenoblade Chronicles 3* devotes way too much time to its side characters. Some could call it "world-building", but given how uninteresting they are, I'd call it "filler".</span>
+  <span class="titleImageCaption text--secondary">Xenoblade Chronicles 3 devotes way too much time to its side characters. Some could call it "world-building", but given how uninteresting they are, I'd call it "filler".</span>
 </div>
 
 Part of the problem, I think, is that <span class="spoiler">most of the events integral to *Xenoblade Chronicles 3*'s plot have *already happened* by the time the player picks up a controller. Noah has already impregnated Mio and succumbed to the dark side, Melia and Nia have already constructed Origin and left to take naps, and Consul Z has already set his plan in motion for "the endless now".</span>
@@ -342,7 +338,7 @@ Xenoblade Chronicles 1 ended with a huge, earth-shattering twist that <span clas
 
 <div class="imageContainer">
   <img :src="'/xc2.jpg'"/>
-  <span class="titleImageCaption text--secondary">For those that played Xenoblade Chronicles 2, I'm sad to report that there's no equivalent scene like this in *Xenoblade Chronicles 3*.</span>
+  <span class="titleImageCaption text--secondary">For those that played Xenoblade Chronicles 2, I'm sad to report that there's no equivalent scene like this in Xenoblade Chronicles 3.</span>
 </div>
 
 But unlike its predecessors, *Xenoblade Chronicles 3* stumbles and sputters over the finish line. There's hardly any lore revelations, and there aren't any major twists (that aren't painfully obvious). 

@@ -40,7 +40,7 @@
         <NuxtLink to="/posts" style="cursor: pointer" class="secondaryMenuClass"
             :class="[this.currentPath.startsWith('/posts') ? 'selected' : 'unselected',
               this.$vuetify.theme.dark ? 'isDark' : '']">
-        <v-toolbar-title v-text="'All Posts'" />
+        <v-toolbar-title v-text="'Articles'" />
       </NuxtLink>
       <NuxtLink to="/about" style="cursor: pointer" class="secondaryMenuClass"
             :class="[this.currentPath.startsWith('/about') ? 'selected' : 'unselected',
@@ -155,7 +155,7 @@ html, body {
 }
 
 .v-application {
-  line-height:1.8 !important;
+  line-height:1.68 !important;
 }
 
 .titleContentContainer {
