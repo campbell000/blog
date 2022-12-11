@@ -175,12 +175,12 @@
 
   .spoiler {
     background-color: var(--v-textColor-base) !important;
-    color: var(--v-textColor-base);
+    color: var(--v-textColor-base) !important;
   }
 
    .spoiler a {
     background-color: var(--v-textColor-base) !important;
-    color: var(--v-textColor-base);
+    color: var(--v-textColor-base) !important;
   }
 
   .spoiler:hover {
