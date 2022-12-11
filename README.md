@@ -1,6 +1,14 @@
 # Never Meant Source Code
 Hi. Here's the source code for my blog.
 
+## Running
+- Install yarn
+- `yarn dev` to run locally
+
+## Deploying
+- yarn generate
+- yarn deploy
+
 ## Todo
 - Add Comments
 - Improve styles, readability
