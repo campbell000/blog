@@ -51,7 +51,7 @@ The landscapes are vast, the lighting system is <text-with-tooltip :tooltip="'Xe
 
 <div class="imageContainer">
   <img :src="'/xcneon.jpeg'"/>
-  <span class="titleImageCaption text--secondary">In addition to the game's technical chops, *Xenoblade Chronicles 3* makes intelligent use of neon colors to make environments pop.</span>
+  <span class="titleImageCaption text--secondary">In addition to the game's technical chops, Xenoblade Chronicles 3 makes intelligent use of neon colors to make environments pop.</span>
 </div>
 
 These improvements aren't simply for the pixel-counters and the framerate snobs, though. Instead, I'd argue that these improvements help *Xenoblade Chronicles 3* feel like a *real, living universe*. Its biomes are teeming with personality and life, which helps evoke a nostalgic, childlike sense of adventure.
@@ -66,7 +66,7 @@ Let's talk about *Xenoblade Chronicles 2*, this game's predecessor, for a second
   <span class="text--secondary">A Xenoblade Chronicles 2 scene in which Pyra and Rex have just been introduced to Tora's maid-outfit-wearing robot <span style="text-decoration: line-through;">slave</span> "companion". Silly and fun? Maybe. Something you'd want to share with your coworkers? Definitely not.</span>
 </div>
 
-I'm not here to shame people for enjoying sexiness and silliness, but for a series like *Xenoblade Chronicles*, scenes like this are incongruous with the seriousness of the game's conflict. Is this an epic sci-fi novel, or a harem-style romantic comedy?
+I'm not here to shame people for enjoying sexiness and silliness, but for a series like *Xenoblade Chronicles*, scenes like this are incongruous with the seriousness of the game's conflict. Is this an epic sci-fi novel, or a harem-style romantic comedy? <span class="spoiler">As [this insanely-controversial](https://knowyourmeme.com/photos/2408708-xenoblade-chronicles-3) end-game scene suggests, maybe it *is* a harem-style comedy?</span>
 
 *Xenoblade Chronicles 3*, thankfully, swings the pendulum back towards *Xenoblade 1's* more-mature tone. The developers themselves have confirmed that this tone shift is intentional; regarding the character design process, they had this to say:
 
@@ -85,7 +85,7 @@ This war-torn, dystopian world has clearly taken its toll on the game's main cas
   <span class="titleImageCaption text--secondary">At its best, Xenoblade Chronicles 3 hits incredibly hard.</span>
 </div>
 
-That's not to say it's *all* doom and gloom, though. *Xenoblade Chronicles 3* smartly intersperses brief moments of levity in between its heavier moments, allowing players to catch their breath before diving back into it Aionios' harsh and desperate waters. But again, unlike *Xenoblde Chronicles 2*, these moments don't feel out of place in an epic sci-fi adventure, and don't resort to tired anime cliches in an attempt to connect with an audience.
+That's not to say it's *all* doom and gloom, though. *Xenoblade Chronicles 3* smartly intersperses brief moments of levity between its heavier moments, allowing players to catch their breath before diving back into Aionios' harsh and desperate waters. But again, unlike *Xenoblde Chronicles 2*, these moments don't feel out of place in an epic sci-fi adventure, and don't resort to tired anime cliches in an attempt to connect with an audience.
 
 Instead, these moments in *Xenoblade Chronicles 3* are a little more grounded and mature, a little more tender and thoughtful. They lend humanity to the game's characters, who are simply trying to make light of a terrible existence. 
 
@@ -164,11 +164,9 @@ Does this sound like an open-world game to you?
 
 The player is forced to endure this mockery of an open-world until about <text-with-tooltip :tooltip="'My memory is hazy, so this may be the wrong chapter. Regardless, it takes a LONG time for the game to open up.'">Chapter 5</text-with-tooltip>, which is when the game finally lets its guard down. There's no more invisible walls, all of the requisite climbing skills have been learned, and levels are likely high enough to take on most overworld enemies. So, the game is just a slow burn, right? Or as anime fans like to proclaim, "bro, just complete the first few chapters, and then it gets good"?
 
-Well, not quite. The problem is that it will take most players about **40 hours** to reach chapter 5. At this point, most players (like me) will already be burnt out from this game's lazy quest design, which mostly consists of <text-with-tooltip :tooltip="'In other words, a quest that simply requires the player to travel to a specific point, kill a bunch of monsters, and then return to the quest-giver. In RPG-land, this is the defining example of lazy quest design'">fetch quests</text-with-tooltip> and "go here, talk to Bob, fight monsters, and come back"-type quests.
+Well, not quite. The problem is that it will take most players about **40 hours** to reach chapter 5. At this point, most players (like me) will already be burnt out from this game's lazy quest design, which mostly consists of <text-with-tooltip :tooltip="'In other words, a quest that simply requires the player to travel to a specific point, kill a bunch of monsters, and then return to the quest-giver. In RPG-land, this is the defining example of lazy quest design'">fetch quests</text-with-tooltip> and "go here, talk to Bob, then Alice, then come back"-type quests.
 
-Without a doubt, most of the quests in this game are the worst of the worst in the RPG genre. Worse still is the fact that they don't take advantage of Xenoblade Chronicles 3's massive world, running the player through linear, uninteresting paths over and over again ad nauseam.
-
-So, when the game introduced me to its largest region, the Cadensia Region, I wasn't eager to explore its vast, endless sea. Instead, I was tempted to drop the game altogether.
+Worse still is the fact that most quests in *Xenoblade Chronicles 3* don't take advantage of its massive world, running the player through linear, uninteresting paths over and over again. *This* is why the introduction of the game's largest region, the Cadensia Region, didn't fill me with eagerness to explore its vast, endless sea. Instead, I was tempted to drop the game altogether.
 
 This brings me to my next point.
 
@@ -194,7 +192,7 @@ The other reason is that, despite the myriad of icons on the minimap, there's re
 
 *Xenoblade Chronicles 3*'s colony system is half-baked, being a terrible substitute for the kinds of <text-with-tooltip :tooltip="'Remember Torigoth from Xenoblade Chronicles 2, or Colony 9 from Xenoblade 1? Xenoblade Chronicles 3\'s colonies feel desolate by comparison.'">cities</text-with-tooltip> traditionally featured in RPGs. This is because the game's colonies are practically identical; other than having a different item shop, a different Hero, and a different backdrop, there's nothing to distinguish the colonies from each other. Sure, one colony might be in a cave, and another atop a snowy mountain, but functionally, they're identical. In fact, during my playthrough, I'd frequently get colonies confused, fast traveling to one when I meant to go to another. 
 
-The game initially makes a big deal out of these colonies, urging players to maximize each colony's "affinity chart". But to me, there's no reason to care about it because, proportionally, the rewards are absolutely meager compared to the work required for them. Think "Increased Swimming Speed" is an adequate reward for completing several lengthy fetch quests? No, not even close. And the "relationships" built between each colony's citizens mostly consist of nothing more than a handful of unvoiced text lines.
+The game initially makes a big deal out of these colonies, urging players to maximize each colony's "affinity chart". But to me, there's no reason to care about these charts because, proportionally, the rewards are absolutely meager compared to the work required for them. Think "Increased Swimming Speed" is an adequate reward for completing several lengthy fetch quests? No, not even close. And the "relationships" built between each colony's citizens mostly consist of nothing more than a handful of unvoiced text lines.
 
 Worse, these colonies contain about [a dozen or so NPCs](https://xenoblade.fandom.com/wiki/Colony_Iota), making the world of Aionios feel positively tiny. To me, it felt as if there were no more than 100 people, total, living in Aionis. I don't care if the sparseness of the colonies is "story-relevant"; it's a direct contradiction to the "wide open world" image that the game desperately tries to convey. 
 
@@ -222,7 +220,7 @@ Despite *Xenoblade Chronicles 3* making an honest effort to respect the player's
 
 <div class="imageContainer">
   <img :src="'/xc3chain.jpeg'"/>
-  <span class="titleImageCaption text--secondary">Chain attacks are useful, party-saving maneuvers, but are a chore to execute. Worse, they take on an extra 5-10 minutes to each battle.</span>
+  <span class="titleImageCaption text--secondary">Chain attacks are useful, party-saving maneuvers, but are a chore to execute. Worse, they tack on an extra 5-10 minutes to each battle.</span>
 </div>
 
 Make no mistake: I stand by my previous praise for the game's battle system. It's a wonderfully complex system that rewards careful study and patience, but is also flexible enough to accommodate most playstyles. The game's first half can be thrilling at times because both the party *and* the enemy have relatively tiny reserves of HP, which makes battles are brisk and exciting. Witnessing a huge swath of enemy HP disappear after executing a powerful attack was always satisfying, making me feel like my battle-time decisions had an impact.
@@ -271,11 +269,13 @@ In that sense, *Xenoblade Chronicles 3* certainly plants the seeds for compellin
   <span class="text--secondary">Xenoblade Chronicles 3 spends a lot of time telling us that Sena's psyche is overly-reliant on praise and validation from others, but this is completely irrelevant to her part in the game's story.</span>
 </div>
 
-For example, the characters *tell us* that Mio is troubled about her impending 10-year death, but we never see that fear play out (in fact, the game's diary motif is randomly used, and never in a compelling way). The characters *tell us* about Taion's guilt, but it never factors into his decision making (aside from some minor events in an entirely-optional side quest). The characters *tell us* that Lanz is torn up over a betrayal from one of his long-time friends, but this never affects his behavior or his attitude towards his other friends.
+For example, the characters *tell us* that Mio is troubled about her impending 10-year death, but we never see that fear play out (in fact, the game's diary motif is randomly used, and never in a compelling way). The characters *tell us* about Taion's guilt, but it never factors into his decision making (aside from some minor events in an entirely-optional side quest). The characters *tell us* that Lanz is torn up over a betrayal from one of his long-time friends, but this never affects his behavior or his attitude towards his other friends. 
 
-In short, these characters claim to be "broken", despite not acting like it. Instead, each character is intelligent, rational, trusting, and kind, but the game tries to tell players something to the contrary. Repeatedly and endlessly. It *tells* us, but never *shows* us.
+These characters claim to be "broken", despite not acting like it. Instead, each character is intelligent, rational, trusting, and kind, but the game tries to tell players something to the contrary. Repeatedly and endlessly. It *tells* us, but never *shows* us.
 
-In addition to lacking any sort of believable character development, *Xenoblade Chronicles 3*'s characters don't *behave* like humans, either: they never debate, and they never disagree. They always assume the best intentions, and they never hold grudges. Aside from one bizarre moment where Mio unexplainably gets angry at Noah (and then quickly forgives him), there's no tension or drama between them to speak of. 
+In addition to lacking any sort of believable character development, *Xenoblade Chronicles 3*'s characters don't *behave* like humans, either: they never debate, and they never disagree. They always assume the best intentions, and they never hold grudges. 
+
+Despite having 6 characters with which to create interesting group dynamics, the game plays things as safely and as boring as possible. Aside from one bizarre moment where Mio unexplainably gets angry at Noah (and then quickly forgives him), there's no tension or drama between them to speak of.
 
 <div class="imageContainer">
   <img :src="'/xcconvo.jpg'"/>
@@ -350,7 +350,7 @@ Xenoblade Chronicles 1 ended with a huge, earth-shattering twist that <span clas
 
 But unlike its predecessors, *Xenoblade Chronicles 3* stumbles and sputters over the finish line. There's hardly any lore revelations, and there aren't any major twists (that aren't painfully obvious). 
 
-Instead, the game simply wraps itself up as timidly and as conservatively as possible. In fact, I'd argue that the ending veers *dangerously close* to the <span class="spoiler">"It was all a dream! Or...was it?"</span> trope. I suppose that one could argue for [more nuanced interpretation](https://www.youtube.com/watch?v=OXQ7X7UMVMo). 
+Instead, the game simply wraps itself up as timidly and as conservatively as possible. In fact, I'd argue that the ending veers *dangerously close* to the <span class="spoiler">"It was all a dream! Or...was it?"</span> trope, although I suppose that one could argue for [more nuanced interpretation](https://www.youtube.com/watch?v=OXQ7X7UMVMo). 
 
 Still, in the context of its predecessors, it's shocking to me that <span class="spoiler">, almost literally, </span> almost nothing happens by the end of the game. I understand that the developers wanted to keep this game somewhat self-contained rather than assume players have played previous games in the series, but they went completely overboard in this regard. 
 

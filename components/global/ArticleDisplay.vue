@@ -178,9 +178,19 @@
     color: var(--v-textColor-base);
   }
 
+   .spoiler a {
+    background-color: var(--v-textColor-base) !important;
+    color: var(--v-textColor-base);
+  }
+
   .spoiler:hover {
     color: var(--v-background-base) !important;
   }
+
+  .spoiler:hover a {
+    color: var(--v-background-base) !important;
+  }
+
 
 
 
