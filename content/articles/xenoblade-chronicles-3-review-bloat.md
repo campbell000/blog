@@ -369,7 +369,7 @@ Maybe I've taken things too far. Maybe a game like *Xenoblade Chronicles 3* does
 
 <div class="imageContainer">
   <img :src="'/xc3end.jpeg'"/>
-  <span class="titleImageCaption text--secondary">If nothing else, *Xenoblade Chronicles 3* succeeds it sets high expectations for Xenoblade Chronicles 4.</span>
+  <span class="titleImageCaption text--secondary">If nothing else, Xenoblade Chronicles 3 succeeds it sets high expectations for Xenoblade Chronicles 4.</span>
 </div>
 
 That's certainly a valid viewpoint; I would never take that away from someone, since that's how I feel about *Xenoblade Chronicles 2*. I would never call that game a "perfect game", but it *is* one of my favorites. Unfortunately, I can't say the same thing about *Xenoblade Chronicles 3*, but maybe others *can*.
