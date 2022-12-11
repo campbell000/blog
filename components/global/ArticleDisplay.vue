@@ -347,7 +347,7 @@
   }
 
   .nuxt-content li {
-    margin-bottom: 4px;
+    margin-bottom: 8px;
   }
 
   li > ul {

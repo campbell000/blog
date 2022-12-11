@@ -90,7 +90,7 @@ export default {
           to: '/'
         },
         {
-          title: 'All Posts',
+          title: 'Articles',
           to: '/posts'
         },
         {

@@ -2,7 +2,7 @@
 title: "Game Companies: Stop Treating your Customers Like Crap"
 summary: "Game companies consistently make the mistake of taking their customers' passion and dedication for granted, and it often ends in disaster. This post examines a recent example, Cyberpunk 2077, and posits a theory as to WHY companies keep making this same mistake."
 titleImage: /cb2077.jpg
-titleImageCaption: "Zelda: Ocarina of Time ran at a rock-solid 20 FPS. So...that 17 looks mighty low in 2020. Credits to digitalfoundary.net for the image"
+titleImageCaption: "To put that 17 FPS metric in perspective, Zelda: Ocarina of Time ran at a rock-solid 20 FPS. Credits to digitalfoundary.net for the image"
 shouldShowTableOfContents: true
 shouldShowUpdatedAt: false
 createdAt: "2020-12-16T00:00:00.140Z"

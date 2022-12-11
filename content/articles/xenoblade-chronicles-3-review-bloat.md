@@ -23,7 +23,14 @@ In other words, *Xenoblade Chroincles 3* is a stopping point. A resting place. A
 
 So, as ~the conclusion~ a stopping point for this beloved JRPG series, how does Monolith Soft's latest entry in the *Xenoblade Chronicles* series fare? 
 
+<div class="imageContainer">
+  <img :src="'/xcmio.jpg'"/>
+  <span class="text--secondary">It's been fun...at times...to analyze what went right, and what went wrong, with Xenoblade Chronicles 3.</span>
+</div>
+
+
 Given that *Xenoblade Chronicles 3* takes a minimum of [62 hours to beat](https://howlongtobeat.com/game/103825), which doesn't include any <text-with-tooltip :tooltip="'Xenoblade Chronicles 3\'s extra content can easily add 30-40 hours to its runtime.'">optional content</text-with-tooltip> or sidequests, there's no way that I'd be able to answer that question in a two-page essay. And since [game reviewers don't need to finish games anymore](https://twitter.com/raveofravendale/status/1496533451096440838?lang=en), I'd like to offer <text-with-tooltip :tooltip="'No, I don\'t think game reviewers need to sacrifice their health to review games, but I would think that seeing the end of a story would be important for reviewing a story-driven game.'">my perspective</text-with-tooltip> as both a huge Xenoblade fan, and as someone who has spent a *lot* of time with this game.
+
 
 So, much like *Xenoblade Chronicles 3* itself, I'm going to take *way too long* to tell you what I think and how I feel. I suppose I could consider this long review as revenge for the time I spent/enjoyed/wasted on Xenoblde Chronicles 3. This game is certainly a ride, but it's not necessarily a fun one from start to finish.
 
