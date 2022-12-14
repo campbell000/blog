@@ -17,7 +17,7 @@ tags:
 * I completed the game and finished the many of the game's sidequests. This took me about 100 hours.
 
 ## Introduction
-Almost 5 years after the release of *Xenoblade Chronicles 2*, *Xenoblade Chronicles 3* (henceforth referred to as *Xenoblade Chronicles 3*) is finally here. It's not necessarily a *conclusion* to the beloved series, but can be considered a [the end of the main story](https://nintendoeverything.com/monolith-soft-shares-xenoblade-chronicles-3-message-another-tease-of-the-future/) that started with *Xenoblade Chronicles* on the wii. 
+Almost 5 years after the release of *Xenoblade Chronicles 2*, *Xenoblade Chronicles 3* (henceforth referred to as *Xenoblade Chronicles 3*) is finally here. It's not necessarily a *conclusion* to the beloved series, but can be considered [the end of the main story](https://nintendoeverything.com/monolith-soft-shares-xenoblade-chronicles-3-message-another-tease-of-the-future/) that started with *Xenoblade Chronicles* on the wii. 
 
 In other words, *Xenoblade Chroincles 3* is a stopping point. A resting place. A period in which the team and the fans can gather their thoughts, reflect on past experiences, and ponder where the series will go next. Xenoblade is not gone, but it's likely to go away for a while.
 
@@ -32,7 +32,7 @@ So, as ~the conclusion~ a stopping point for this beloved JRPG series, how does 
 Given that *Xenoblade Chronicles 3* takes a minimum of [62 hours to beat](https://howlongtobeat.com/game/103825), which doesn't include any <text-with-tooltip :tooltip="'Xenoblade Chronicles 3\'s extra content can easily add 30-40 hours to its runtime.'">optional content</text-with-tooltip> or sidequests, there's no way that I'd be able to answer that question in a two-page essay. And since [game reviewers don't need to finish games anymore](https://twitter.com/raveofravendale/status/1496533451096440838?lang=en), I'd like to offer <text-with-tooltip :tooltip="'No, I don\'t think game reviewers need to sacrifice their health to review games, but I would think that seeing the end of a story would be important for reviewing a story-driven game.'">my perspective</text-with-tooltip> as both a huge Xenoblade fan, and as someone who has spent a *lot* of time with this game.
 
 
-So, much like *Xenoblade Chronicles 3* itself, I'm going to take *way too long* to tell you what I think and how I feel. I suppose I could consider this long review as revenge for the time I spent/enjoyed/wasted on Xenoblde Chronicles 3. This game is certainly a ride, but it's not necessarily a fun one from start to finish.
+So, much like *Xenoblade Chronicles 3* itself, I'm going to take *way too long* to tell you what I think and how I feel. I suppose I could consider this long review as revenge for the time I spent/enjoyed/wasted on *Xenoblde Chronicles 3*. This game is certainly a ride, but it's not necessarily a fun one from start to finish.
 
 Let's get started.
 
@@ -151,7 +151,7 @@ As a series that is renowned for its massively explorable environments, I want t
 
 Why, then, is the game so **unwilling** to let players explore it? For some reason, *Xenoblade Chronicles 3* constantly thwarts any attempt at exploration with the following:
 - Invisible walls blocking exploration until the current quest has been completed.
-- Absurdly high-leveled enemies <text-with-tooltip :tooltip="'I don\'t mind games using a passive approach to steer me in the right direction, but too often did my curiosity lead me to staring face to face with a Level 87 Repentant Gonzalez.'">waiting to punish players with too much curiosity</text-with-tooltip>.
+- Absurdly high-leveled enemies waiting to <text-with-tooltip :tooltip="'I don\'t mind games using a passive approach to steer me in the right direction, but too often did my curiosity lead me to staring face to face with a Level 87 Repentant Gonzalez.'">punish players</text-with-tooltip> with too much curiosity.
 - Dead ends and empty rooms. Only later will the player learn that this area will be used as a set piece for a future quest.
 - Hills, cliffs, and ropes that can only be traversed if the player has learned the requisite skill (i.e. the ability to climb vines). This is neither rewarding or fun; it instead feels like a ploy to waste the player's time by forcing them to constantly backtrack.
 
