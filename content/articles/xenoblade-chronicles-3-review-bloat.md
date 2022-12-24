@@ -17,7 +17,7 @@ tags:
 * I completed the game and finished the many of the game's sidequests. This took me about 100 hours.
 
 ## Introduction
-Almost 5 years after the release of *Xenoblade Chronicles 2*, *Xenoblade Chronicles 3* (henceforth referred to as *Xenoblade Chronicles 3*) is finally here. It's not necessarily a *conclusion* to the beloved series, but can be considered [the end of the main story](https://nintendoeverything.com/monolith-soft-shares-xenoblade-chronicles-3-message-another-tease-of-the-future/) that started with *Xenoblade Chronicles* on the wii. 
+Almost 5 years after the release of *Xenoblade Chronicles 2*, *Xenoblade Chronicles 3* is finally here. It's not necessarily a *conclusion* to the beloved series, but can be considered [the end of the main story](https://nintendoeverything.com/monolith-soft-shares-xenoblade-chronicles-3-message-another-tease-of-the-future/) that started with *Xenoblade Chronicles* on the wii. 
 
 In other words, *Xenoblade Chroincles 3* is a stopping point. A resting place. A period in which the team and the fans can gather their thoughts, reflect on past experiences, and ponder where the series will go next. Xenoblade is not gone, but it's likely to go away for a while.
 
