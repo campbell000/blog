@@ -27,7 +27,7 @@
       </div>
     </div>
 
-    <div v-if="article.titleImage != null" class="imageContainer titleImageContainer">
+    <div v-if="article.titleImage != null" class="imageContainer titleImageContainer" :class="article.containImage ? 'contain' : ''">
       <img  class="titleImage" :class="article.isSmallTitleImage ? 'small' : (article.isMediumTitleImage ? 'medium' : '')" :src="article.titleImage" :alt="article.titleImageAlt" />
       <span v-if='article.titleImageCaption != null' class="titleImageCaption text--secondary" v-text="article.titleImageCaption"></span>
       <span v-if='article.titleImageCaptionHTML != null' class="titleImageCaption text--secondary" v-html="article.titleImageCaptionHTML"></span>
@@ -189,6 +189,17 @@
 
   .spoiler:hover a {
     color: var(--v-background-base) !important;
+  }
+
+  .contain {
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .contain .titleImage {
+    width: 100%;
+    object-fit: contain;
+    height: 350px;
   }
 
 
