@@ -3,7 +3,7 @@ title: "Croppi: A Safari Extension for Easily Cropping Images"
 titleImage: /crop.png
 containImage: true
 summary: "An overview of the Safari Extension I created, which allows users to easily crop images and save them, without leaving Safari."
-shouldShowTableOfContents: false
+shouldShowTableOfContents: true
 shouldShowUpdatedAt: false
 createdAt: "2022-12-29T23:41:34.140Z"
 tags: 
@@ -32,7 +32,7 @@ As with most things in life, there are unfortunately some limitations that users
 ## Privacy
 The plugin works INSIDE the web page that you're viewing, so it needs permissions to read/access the page that you're on.
 
-**But rest assured:** this plugin does not save, store, or transmit any data to me, apple, or any third party companies. Instead, all webpage and image data stays *directly* on your phone, where it belongs.
+**But rest assured:** this plugin does not save, store, or transmit any webpage data to me, Apple, or any third party companies. All webpage and image data stays *directly* on your phone, where it belongs.
 
 ## Closing Remarks
 Overall, it was a little more time consuming than I expected (roughly 2 weeks' worth of my after-hours free time), but this was a fun little app to create. While some of iOS16's new features make this app somewhat obsolete (before iOS16, one could not take a screenshot and NOT save it to Camera Roll!), I still think that it's a nifty little extension that should save users some time and frustration when taking screenshots in Safari!
