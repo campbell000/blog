@@ -5,6 +5,7 @@ containImage: true
 summary: "An overview of the Safari Extension I created, which allows users to easily crop images and save them, without leaving Safari."
 shouldShowTableOfContents: true
 shouldShowUpdatedAt: false
+shouldHideDonate: true
 createdAt: "2022-12-29T23:41:34.140Z"
 tags: 
   - Programming
@@ -21,7 +22,7 @@ Not only that, but after the process, I'm left with hundreds of soon-to-be usele
   <span class="text--secondary">Croppi in Action!</span>
 </div>
 
-So, I created an extension reduces the friction of taking and cropping screenshots, without having to actually store the images. Instead, Croppi can save cropped images directly to the clipboard!
+So, I created an extension that reduces the friction of taking and cropping screenshots, without having to actually store the images. Instead, Croppi can save cropped images directly to the clipboard!
 
 ## Limitations
 As with most things in life, there are unfortunately some limitations that users should be aware of.
