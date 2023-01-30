@@ -37,7 +37,7 @@ So, much like *Xenoblade Chronicles 3* itself, I'm going to take *way too long* 
 Let's get started.
 
 ## Outstanding in Many Respects
-In case it wasn't clear, Monolith Soft's work on Nintendo's consoles has always been exceptional. The environments in *Xenoblade Chronicles 1* pushed Nintendo's aging Wii console to its limits, and *Xenoblade Chronicles 2* on the Nintendo Switch upped the ante in almost every regard. It's no surprise, then, that *Xenoblade Chronicles 3* continues that trend.
+In case it wasn't clear, Monolith Soft's work on Nintendo's consoles has always been exceptional. The environments in *Xenoblade Chronicles 1* pushed Nintendo's aging Wii console to its limits, and *Xenoblade Chronicles 2* on the Nintendo Switch upped the ante in many respects. It's no surprise, then, that *Xenoblade Chronicles 3* continues that trend.
 
 ### A Stunning Technical Achievement
 <div class="imageContainer imageUnderSection">
@@ -47,14 +47,14 @@ In case it wasn't clear, Monolith Soft's work on Nintendo's consoles has always 
 
 Both artistically and technically, this game is leaps and bounds ahead of anything else on the Switch. A quick comparison to <a target="_blank" href="/pokemon.jpg">this screenshot</a> of Pokemon Scarlet and Violet, another first-party Nintendo game, should speak for itself.
 
-The landscapes are vast, the lighting system is <text-with-tooltip :tooltip="'Xenoblade Chronicles 2\'s lighting system gave its characters an awful plastic-looking shine. In contrast, the lighting system in Xenoblade Chronicles 3 gives its characters a much more realistic-looking glow.'">greatly improved</text-with-tooltip>, and there is a significant increase in the number of onscreen characters and enemies. More impressive is the fact that, despite all of these improvements, I noticed very little pop-in and <text-with-tooltip :tooltip="'Level-Of-Detail culling involves using a lower-detailed version of an object when it is far from the player\'s view.'">LOD culling</text-with-tooltip> that many games nowadays tend to use and abuse.
+The landscapes are vast, the lighting system is <text-with-tooltip :tooltip="'Xenoblade Chronicles 2\'s lighting system gave its characters an awful plastic-looking shine. In contrast, the lighting system in Xenoblade Chronicles 3 gives its characters a much more realistic-looking glow.'">greatly improved</text-with-tooltip>, and there is a significant increase in the number of onscreen characters and enemies. More impressive is the fact that, despite all of these improvements, there's very little pop-in and <text-with-tooltip :tooltip="'Level-Of-Detail culling involves using a lower-detailed version of an object when it is far from the player\'s view.'">LOD culling</text-with-tooltip> that many games nowadays tend to (ab)use.
 
 <div class="imageContainer">
   <img :src="'/xcneon.jpeg'"/>
   <span class="titleImageCaption text--secondary">In addition to the game's technical chops, Xenoblade Chronicles 3 makes intelligent use of neon colors to make environments pop.</span>
 </div>
 
-These improvements aren't simply for the pixel-counters and the framerate snobs, though. Instead, I'd argue that these improvements help *Xenoblade Chronicles 3* feel like a *real, living universe*. Its biomes are teeming with personality and life, which helps evoke a nostalgic, childlike sense of adventure.
+These improvements aren't simply for the pixel-counters and the framerate snobs, though. Instead, I'd argue that these improvements help *Xenoblade Chronicles 3* feel like a *real, living universe*. Its biomes are teeming with personality and life, which helps evoke a nostalgic, childlike sense of adventure as players explore Aionios
 
 This is important because exploration is a large part of *Xenoblade Chronicles 3*'s appeal: much of the player's time will be spent traversing the game's varied, ethereal landscapes. Despite a lack of any real secrets to discover or treasures to find (which I'll get to later), I'll admit that simply being able to observe the <a target="_blank" href="/xc3vista.gif">sun setting behind a vast expanse of distant mountains</a> for the first time was a real treat.
 
@@ -66,7 +66,7 @@ Let's talk about *Xenoblade Chronicles 2*, this game's predecessor, for a second
   <span class="text--secondary">A Xenoblade Chronicles 2 scene in which Pyra and Rex have just been introduced to Tora's maid-outfit-wearing robot <span style="text-decoration: line-through;">slave</span> "companion". Silly and fun? Maybe. Something you'd want to share with your coworkers? Definitely not.</span>
 </div>
 
-I'm not here to shame people for enjoying sexiness and silliness, but for a series like *Xenoblade Chronicles*, scenes like this are incongruous with the seriousness of the game's conflict. Is this an epic sci-fi novel, or a harem-style romantic comedy? <span class="spoiler">As [this insanely-controversial](https://knowyourmeme.com/photos/2408708-xenoblade-chronicles-3) end-game scene suggests, maybe it *is* a harem-style comedy?</span>
+I'm not here to shame people for enjoying sexiness and silliness, but for a series like *Xenoblade Chronicles*, scenes like this are incongruous with the seriousness of the game's conflict. Is this an epic sci-fi novel, or a harem-style romantic comedy? <span class="spoiler">As [this insanely-controversial](https://knowyourmeme.com/photos/2408708-xenoblade-chronicles-3) end-game scene suggests, maybe it *is* the latter?</span>
 
 *Xenoblade Chronicles 3*, thankfully, swings the pendulum back towards *Xenoblade 1's* more-mature tone. The developers themselves have confirmed that this tone shift is intentional; regarding the character design process, they had this to say:
 
@@ -76,9 +76,9 @@ I'm not here to shame people for enjoying sexiness and silliness, but for a seri
 
 In other words, "Saito-san, please give the characters clothes this time."
 
-The game's opening cutscene makes this tone shift immediately apparent. As battles between Agnus and Keves soldiers rage on, the player is forced to bear witness to the terrible consequences of this war. Wounded soldiers and rotting corpses litter the battlefield as Noah, the main protagonist, tells the audience of Aionios' terrible curse: they must fight to live, and they must live to fight. It's a <text-with-tooltip :tooltip="'Well, as gruesome as it can possibly be for a T-rated game.'">gruesome</text-with-tooltip> scene, reminding players that in the cruel world of Aionios, nobody wins and everybody loses.
+The game's opening cutscene makes this tone shift immediately apparent. As battles between Agnus and Keves soldiers rage on, the player is forced to bear witness to the terrible consequences of war. Wounded soldiers and rotting corpses litter the battlefield as Noah, the main protagonist, tells the audience of Aionios' terrible curse: they must fight to live, and they must live to fight. It's a <text-with-tooltip :tooltip="'Well, as gruesome as it can possibly be for a T-rated game.'">gruesome</text-with-tooltip> scene, reminding players that in the cruel world of Aionios, nobody wins and everybody loses.
 
-This war-torn, dystopian world has clearly taken its toll on the game's main cast, who are afflicted with bouts of anxiety, despair, and hopelessness. Despite its fantasy setting, *Xenoblade Chronicles 3*'s characters endure struggles that may be all-too-familiar to the player, making these struggles feel real and, perhaps, personal. I'd be willing to bet that most of us have grappled with feelings of inadequacy, or a fear of death.
+This war-torn, dystopian life has clearly taken its toll on the game's main cast, who are afflicted with bouts of anxiety, despair, and hopelessness. Despite its fantasy setting, *Xenoblade Chronicles 3*'s characters endure struggles that may be all-too-familiar to the player, making these struggles feel real and, perhaps, personal. I'd be willing to bet that most of us have grappled with feelings of inadequacy, or a fear of death.
 
 <div class="imageContainer">
   <img :src="'/xc3sad.jpeg'"/>
@@ -87,7 +87,7 @@ This war-torn, dystopian world has clearly taken its toll on the game's main cas
 
 That's not to say it's *all* doom and gloom, though. *Xenoblade Chronicles 3* smartly intersperses brief moments of levity between its heavier moments, allowing players to catch their breath before diving back into Aionios' harsh and desperate waters. But again, unlike *Xenoblde Chronicles 2*, these moments don't feel out of place in an epic sci-fi adventure, and don't resort to tired anime cliches in an attempt to connect with an audience.
 
-Instead, these moments in *Xenoblade Chronicles 3* are a little more grounded and mature, a little more tender and thoughtful. They lend humanity to the game's characters, who are simply trying to make light of a terrible existence. 
+Instead, these moments in *Xenoblade Chronicles 3* are a little more grounded and mature, a little more tender and thoughtful. They lend humanity to the game's characters, who are simply trying to make light of their terrible existence. 
 
 In that sense, it's refreshing to see Monolith Soft take its universe a little more seriously. And even though there are major problems with this game's narrative and its characters (I'll get to that below), I'd argue that *Xenoblade Chronicles 3*'s more-mature tone is a step in the right direction.
 
@@ -147,7 +147,7 @@ If you couldn't tell by now, there's a *lot* to love about *Xenoblade Chronicles
 Allow me, then, to argue my points.
 
 ### A Conflicted Open-World Design
-As a series that is renowned for its massively explorable environments, I want to first take a look at *Xenoblade Chronicles 3*'s open world. At first glance, it definitely seems like lots of thought and care was put into its design: the terrain is varied, there are about a dozen different biomes, and there are plenty of callbacks to previous games in the series. With boatloads of icons to find on the game's minimap, the game certainly *presents* its world as "open".
+As a series that is renowned for its massively explorable environments, I want to first take a look at *Xenoblade Chronicles 3*'s open world. At first glance, it definitely seems like lots of thought and care was put into its design: the terrain is varied, there are about a dozen different biomes, and there are plenty of callbacks to previous games in the series. With boatloads of icons to find on the game's minimap, the game certainly *presents* its world as "open", with a multitude of things to collect and discover.
 
 Why, then, is the game so **unwilling** to let players explore it? For some reason, *Xenoblade Chronicles 3* constantly thwarts any attempt at exploration with the following:
 - Invisible walls blocking exploration until the current quest has been completed.
@@ -164,14 +164,14 @@ Does this sound like an open-world game to you?
 
 The player is forced to endure this mockery of an open-world until about <text-with-tooltip :tooltip="'My memory is hazy, so this may be the wrong chapter. Regardless, it takes a LONG time for the game to open up.'">Chapter 5</text-with-tooltip>, which is when the game finally lets its guard down. There's no more invisible walls, all of the requisite climbing skills have been learned, and levels are likely high enough to take on most overworld enemies. So, the game is just a slow burn, right? Or as anime fans like to proclaim, "bro, just complete the first few chapters, and then it gets good"?
 
-Well, not quite. The problem is that it will take most players about **40 hours** to reach chapter 5. At this point, most players (like me) will already be burnt out from this game's lazy quest design, which mostly consists of <text-with-tooltip :tooltip="'In other words, a quest that simply requires the player to travel to a specific point, kill a bunch of monsters, and then return to the quest-giver. In RPG-land, this is the defining example of lazy quest design'">fetch quests</text-with-tooltip> and "go here, talk to Bob, then Alice, then come back"-type quests.
+Well, not quite. The problem is that it will take most players about **40 hours** to reach chapter 5. At this point, most players (like me) will already be burnt out from this game's lazy quest design, which mostly consists of <text-with-tooltip :tooltip="'In other words, a quest that simply requires the player to travel to a specific point, kill a bunch of monsters, and then return to the quest-giver. In RPG-land, this is the defining example of lazy quest design'">fetch quests</text-with-tooltip>.
 
 Worse still is the fact that most quests in *Xenoblade Chronicles 3* don't take advantage of its massive world, running the player through linear, uninteresting paths over and over again. *This* is why the introduction of the game's largest region, the Cadensia Region, didn't fill me with eagerness to explore its vast, endless sea. Instead, I was tempted to drop the game altogether.
 
 This brings me to my next point.
 
 ### An Empty, Unrewarding World
-Once the game *does* open up, players will discover that there's not really much to discover in Aionios. Sure, there are dozens of enemies wandering around the game's open areas, and the player's minimap is often covered with icons, suggesting a litany of people and things to discover.
+Once the game *does* open up, players will quickly learn that there's not really much to discover in Aionios. Sure, there are dozens of enemies wandering around the game's open areas, and the player's minimap is often covered with icons, suggesting a litany of people and things to find.
 
 So, I suppose that "nothing to discover" isn't technically accurate. But I *can* say that there's nothing *useful* or *interesting* to find.
 
@@ -209,7 +209,7 @@ Not exactly. These containers dispense <text-with-tooltip :tooltip="'Ugh, why mu
 - The amount of gemstones that a player need is actually capped to the couple hundreds. I reached the max amount after about 30 hours, so every subsequent gemstone I found was unceremoniously auto-sold.
 - Gold is only used to buy accessories, and in my playthrough, the accessories on sale were *never* better than what I currently had equipped. Gold is so useless that it makes me think that Monolith Soft simply forgot about it during development.
 
-I'm not exaggerating when I say that there was only a *single* time that I managed to find something useful in one of these containers: a unique accessory. And sure enough, after some research, I found that there's only [7 of these special containers in the entire game](https://xenoblade.fandom.com/wiki/Container). Given that there's hundreds of these containers in *Xenoblade Chronicles 3*, the chances of the player finding anything worthwhile is slim.
+I'm not exaggerating when I say that there was only a *single* time that I managed to find something useful in one of these containers: a unique accessory. And sure enough, after some research, I found that there's only [7 of these special containers in the entire game](https://xenoblade.fandom.com/wiki/Container). Given that there's hundreds of these containers in *Xenoblade Chronicles 3*, the chances of the player finding anything worthwhile in these containers is incredibly tiny.
 
 So, when everything is marked on the map, and 99% of what a player will find is disposable or uninteresting, there really isn't a compelling reason for the player to spend any time exploring Aionios. *This* is why Cadensia Region's grand reveal was dread-inducing instead of exciting. I wasn't thinking, "Yay! I get to explore!", but rather, "Oh god, let's get this over with".
 
