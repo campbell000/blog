@@ -255,7 +255,7 @@ In that sense, the way that characters behave and develop is critically importan
 
 <div class="imageContainer">
   <img :src="'/xcboring.jpg'"/>
-  <span class="titleImageCaption text--secondary">Like many JRPGs, *Xenoblade Chronicles 3* doesn't seem to understand the concept of <a href="https://self-publishingschool.com/show-dont-tell-writing/">Show, Don't Tell</a></span>
+  <span class="titleImageCaption text--secondary">Like many JRPGs, Xenoblade Chronicles 3 doesn't seem to understand the concept of <a href="https://self-publishingschool.com/show-dont-tell-writing/">Show, Don't Tell</a></span>
 </div>
 
 This is not, however, immediately apparent in the opening hours of *Xenoblade Chronicles 3*: the game's first 5-10 hours contain several charming, nuanced cutscenes that show off the colorful sides of the game's main cast. I'll admit that, similar to *Tales of Arise*, <NuxtLink to="/tales-arise-review-flawed" target="_blank">another JRPG that I've reviewed</NuxtLink>, I was fooled into thinking that I was getting myself into a gripping, character-driven narrative.

@@ -34,7 +34,7 @@
     </div>
     
     <nav class="contentsContainer" v-if="article.shouldShowTableOfContents">
-      <h2 class="contentsLabel">Contents</h2>
+      <h2 class="contentsLabel">Contents:</h2>
       <ul>
         <li v-for="link of article.toc" :key="link.id" :class="link.depth == 2 ? 'tocLink' : 'tocInnerLink'">
           <NuxtLink :to="`#${link.id}`">{{ link.text }}</NuxtLink>
