@@ -26,10 +26,10 @@ Additionally, the artist will actually make a couple bucks off of your purchase,
 I'm not delusional enough to think that this sudden, drop-in-the-bucket interest in physical media will make any difference to Spotify's bottom line. I *do* hope, however, that it represents a slow shift in how consumers think about their music-consuming habits, and how their choices affects their favorite artists. 
 
 Because, if you don't know this already, the shift towards music aggregation services like Spotify has *totally screwed* all but the biggest artists. Across the board, as more and more people stream their music instead of purchase their music directly from the artist, things get worse for musicians. This is because:
-1. **There's more middlemen in the music industry than ever before:** social media managers, streaming service agreements, venues, and record companies all have their fingers in the revenue that musicians bring in
-2. **Exposure is controlled by a handful of companies:** if you aren't on Spotify, you don't exist.
-3. **These companies pick and choose which artists succeed:** they get to choose which artists are recommended and displayed prominently on the front page.
-4. **Music aggregation services have too much content:** most people only listen to what these companies recommend to them, which are usually the super profitable, big name, big brand artists.
+
+1. **Streaming adds even more middlemen to the industry:** add giant tech companies to the list of fingers in the music revenue pie.
+2. **Exposure is now controlled by just a handful of companies:** if you aren't on Spotify, you don't exist.
+3. **These companies pick and choose which artists succeed:** they get to choose which artists are recommended and displayed prominently on the front page. Most people only listen to what these companies recommend to them, which are usually the super profitable, big name, big brand artists.
 
 These four points creates a negative feedback loop: the less money that these small musicians make, the less time they can dedicate to making music. The less time they can dedicate to making music, then the less chance they have in standing with the big players, making them less money. In the streaming service model, where only the big names stand out, small musicians have no chance.
 
@@ -46,17 +46,14 @@ How does this relate to starting a blog in 2020? Well, In the past few years, mu
 
 In a way, a blog is kind of like a cassette tape: both are mediums for content with very limited appeal in today's technological landscape. Most people would rather get their content served to them as a curated list, rather than do the work of discovering content on their own.
 
-**But that sucks**. Much like how music aggregation services harm artists, content aggregation services harm content creators for all the same reasons: content creators live or die by the hands of these huge, powerful tech companies, and only the big players at the top (which aren't even content creators, but rather just companies that own them) have any real chance at getting their content noticed. This is because big corporations are the only ones with enough money to employ tactics like:
+**But that sucks**. Much like how music aggregation services harm artists, content aggregation services harm content creators for all the same reasons: content creators live or die by the hands of these huge, powerful tech companies, and only the big players at the top have any real chance at getting their content noticed. This is because big corporations are the only ones with enough money to employ tactics like:
 
 <ul>
   <li>
    <b>Paying for Preferential Treatment</b>
     <ul>
       <li>
-      Google, Facebook, Twitter, and other content aggregators allow people to pay to get their content seen by a wider group of people
-      </li>
-      <li>
-      Reddit <b>claims</b> that they don't accept payments in exchange for your content to appear on the front page, but...c'mon.
+      Google, Facebook, Twitter, Reddit, and other content aggregators allow people to pay to get their content seen by a wider group of people.
       </li>
     </ul>
   </li>
@@ -64,7 +61,7 @@ In a way, a blog is kind of like a cassette tape: both are mediums for content w
     <b>Paying for Advertising and Sponsorships</b>
     <ul>
       <li>
-      Advertising sucks, but it works. Small content creators can't afford to spend money on advertising, but the big brands can spend millions on it
+      Advertising sucks, but it works. Small content creators can't afford to spend money on advertising, but the big brands can spend millions on it.
       </li>
     </ul>
   </li>
@@ -73,7 +70,7 @@ In a way, a blog is kind of like a cassette tape: both are mediums for content w
     <b><a href="https://en.wikipedia.org/wiki/Astroturfing" target="_blank">Astroturfing</a></b>
     <ul>
       <li>
-      It's criminally easy to pay a few hundred people to post reviews about your content, acting as real, unbiased customers, and have it appear like the general population is genuinely interested in your product. <b>Companies exploit websites like reddit and twitter using this technique all the time</b>
+      It's criminally easy to pay a few hundred people to post reviews about your content, acting as real, unbiased customers, and have it appear like the general population is genuinely interested in your product. Companies exploit websites like reddit and twitter to manufacture a positive consensus about a product <i>all the time</i>.
       </li>
     </ul>
   </li>
@@ -83,7 +80,7 @@ These tactics, plus many more, mean that groups and organizations with deep enou
 
 <div class="imageContainer">
   <img :src="'/ad.PNG'" />
-    <span class="titleImageCaption text--secondary">I blocked out the actual company so you wouldn't have to be subjected to the actual advertisement. I use reddit's "old" theme, so it may look different than "your" reddit</a></span>
+    <span class="titleImageCaption text--secondary">I blocked out the actual company so you wouldn't have to be subjected to the actual advertisement.</span>
 </div>
 
 Does anyone think that this advertisement for pizza reached it's top spot organically? Do we really think 34,000 people saw this and thought to themselves that this post was so compelling, that they thought to upvote it over all other pictures they saw that day? Or is it possible that the company that owns this pizza chain employed one or more of the methods I mentioned above?
@@ -97,7 +94,7 @@ To drive this point home, here's another anecdote: I booted up [twitch.tv](twitc
 
 All good guesses, but no. **It was an NFL game**. 
 
-If I'm small, independent content creator on twitch, then *how the hell* am I supposed to get any visibility when Twitch has the *freaking NFL* on their homepage? Do we honestly believe that the NFL started a normal account and earnestly worked their way to popularity like the rest of us? Or, is it possible that money exchanged hands to ensure that the NFL account was given prime real estate on the site at the expense of smaller accounts that don't have that kind of money?
+If I'm small, independent content creator on twitch, then *how the hell* am I supposed to get any visibility when Twitch has the *freaking NFL* on their homepage?
 
 When a handful of companies control how content and information get consumed for the majority of the population, then the playing field becomes ripe for exploitation and manipulation by the biggest voices. The end result is that the biggest brands get seen and heard, while the smaller, independent voices get silenced and buried.
 
