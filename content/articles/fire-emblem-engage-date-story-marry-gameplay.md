@@ -38,15 +38,15 @@ So, after managing to bring all of my units safely to the finish line (despite b
   <span class="text--secondary">Say what you want about the character designs, but there's no denying that <i>Engage's</i> art style can be striking at times. <a src="https://serenesforest.net/2022/11/29/fire-emblem-engage-emblem-celica-analysis/">Image Credit: Serenes Forest</a></span>
 </div>
 
-Listen: I hate silly anime designs as much as the next guy. When screenshots of this game first came out, fans of the series starting disaffectionately referring to the main character as "[Toothpaste-chan](https://knowyourmeme.com/memes/alear-toothpaste-chan)", and I can't say that I disagree; his/her design *is* ridiculous (and the female version's tie-between-the-boobs look is just...so...stupid).
+Listen: I hate silly anime designs as much as the next guy. When screenshots of this game first came out, fans of the series starting disaffectionately referring to the main character as "[Toothpaste-chan](https://knowyourmeme.com/memes/alear-toothpaste-chan)", and I can't say that I disagree; his/her design *is* ridiculous (doubly so for the female version's accentuating-tie-between-the-boobs look).
 
-But despite this, I'll admit that I *really* like *Engage's* art style. It brings a brightness and energy that helps keeps things visually appealing, which is important since some players (like myself) may find themselves starting at the screen for minutes at a time, pondering their next move.
+But despite this, I'll admit that I *really* like *Engage's* vibrant art style. It lends a brightness and energy to the experience that helps keeps things visually fresh, which is important since some players (like myself) may find themselves staring at the screen for minutes at a time while they ponder their next move.
 
-I'd argue that Engage doesn't use bright colors randomly; for as chaotic as *Engage* can be, there is a consistency to its design and color use. It's use of neon blue blends contrasts excellently with the various pinks, greens, and yellows (and of course, matches the [hair color](https://www.youtube.com/watch?v=8KqF9G_DQls) of almost every character in the game), and despite being few in number, its pre-rendered cutscenes can be a joy to look at.
+This also serves a functional purpose: compared to <a target="_blank" href="/3houses.jpeg">its predecessor</a>, which often looked no better than an early PS3-era mess of grays and brown, *Engage's* vibrancy makes units "pop" against the background. This makes it *much* easier to get answer questions like, "where are my positional weak points?", or "where should I begin my assault". As Fire Emblem fans may know, overall unit positioning is critically important for success.
 
 And, as expected from any mainline Nintendo game, *Engage's* music is simply phenomenal (excluding its <text-with-tooltip :tooltip="'Attention anime/videogame composers: instrumental melodies are NOT interchangeable with lyrical melodies! A melody that sounds great when played on a guitar will NOT NECESSARILY sound great when sung!'">terrible opening theme</text-with-tooltip>). Again, this serves not only an aesthetic purpose, but a functional one: I couldn't help but move and groove during my calculations on the battlefield, which helps alleviate the occasional tedium while waiting for enemies to move, or battle animations to finish.
 
-<youtube-link :src-link="'https://www.youtube-nocookie.com/embed/j3UmYT3fSic?si=nlIE8Kv2wvKbqcLs'">This song's use of <i>Fire Emblem's</i> main theme is simply to <i>die</i> for. And that theremin! Such an odd, yet unique, choice.</youtube-link>
+<youtube-link :src-link="'https://www.youtube-nocookie.com/embed/j3UmYT3fSic?si=nlIE8Kv2wvKbqcLs'">This song's use of <i>Fire Emblem's</i> main theme is simply to <i>die</i> for. And that <a href="https://en.wikipedia.org/wiki/Theremin">theremin!</a> Such an unexpected, yet interesting, choice of instrumentation.</youtube-link>
 
 I also have to mention that (again, aside from a few stinkers like the main male protagonist) there are some *steller* voice acting performances in this game. Goldmary, Ivy, and Yunaka stand out as a joy to listen to.
 
@@ -55,16 +55,16 @@ Put simply, this is *by far* the best looking and best sounding *Fire Emblem* ga
 ### Gameplay
 Yes, I said that I was going to touch on aspects that *weren't* talked about to death, but it bears repeating that the moment-to-moment gameplay during battles is peak *Fire Emblem*. For those that aren't familiar with *Fire Emblem*, the gameplay premise is pretty simple: players must use their "chess pieces", each with their own abilities, strengths, and weaknesses, to defeat opponents on a grid-like board. 
 
-<div class="imageContainer">
-  <img :src="'/fegameplay.jpg'"/>
-  <span class="text--secondary">Thinking several moves ahead (again, like Chess) will prove vital in ensuring that all of a player's units survive. <a src="https://www.eurogamer.net/fire-emblem-engage-is-a-proud-celebration-of-all-that-came-before-it">Image Credit: Eurogamer</a></span>
-</div>
-
 In my opinion, *Fire Emblem* is at its best when it feels like you're playing *chess*, rather than a typical RPG. Sure, stats, EXP, and character progression can be compelling features that encourage player freedom and choice, but they can also disrupt a game's balance. Being overleveled (either on purpose or by accident) tends to trivialize the strategy experience, while being *under*leveled tends to force players to waste time by grinding and/or engaging in silly minigames solely to boost stats. 
 
 Put another way, I'd rather win a battle of *wits*, rather than a battle of *patience and time*.
 
 In this sense, I'm happy to report that *Engage* gives me what I was looking for: despite playing on Hard mode, I was able to complete the game without any grinding or abuse of its systems whatsoever, with it still providing a decent challenge. Sure, the options to overlevel one's units are there for players that are looking for an easier or simpler experience, but if one is paying attention, *Engage* gives players everything they need to exceed *without* demanding that they waste their precious time <text-with-tooltip :tooltip="'Some people online have complained that Engage doesn\'t give you enough crafting materials or gold, but I think they\'re missing the point: the game is fun precisely BECAUSE you have to make hard decisions about resource allocation.'">grinding for experience or items</text-with-tooltip>.
+
+<div class="imageContainer">
+  <img :src="'/fegameplay.jpg'"/>
+  <span class="text--secondary">Thinking several moves ahead (again, like Chess) will prove vital in ensuring that all of a player's units survive. <a src="https://www.eurogamer.net/fire-emblem-engage-is-a-proud-celebration-of-all-that-came-before-it">Image Credit: Eurogamer</a></span>
+</div>
 
 I think *Engage's* strategic gameplay excels partly because of the re-introduction (with a subtle twist) of the series' classic <text-with-tooltip :tooltip="'Swords beat axes, axes beat lances, and lances Beat swords. Oh, and mages\' weakness is PUNCHING.'">"weapon triangle"</text-with-tooltip>. Sorely missing from *Three Houses*, the weapon triangle gives each unit a clear role to nestle into: archers are great for keeping flying enemies at bay, mages obliterate otherwise-formidable armored units, and good ole' fists can be used to punch mages in their stupid, conceited faces. Rather than simply picking one's highest-level units, the weapon triangle forces players to survey the battlefield before deploying to determine which units might work best for the situation at hand.
 
@@ -76,9 +76,9 @@ While initially overwhelming, this system smartly encourages player experimentat
 
 Even *more* interesting is that enemies can use these emblems and their abilities, too. I'll admit that the Emblems seemed a little *too* overpowered in *Engage's* first half, but proved to be absolutely essential in the second half in order to contend with enemies using these same tools against you.
 
-One final note on the game's <text-with-tooltip :tooltip="'For each battle, the game gives you 10 opportunities to revert the game\'s state back to an earlier point in time.'">"rewind system"</text-with-tooltip>: some people online seem to absolutely *detest* its inclusion in modern *Fire Emblem* games, but I think most of their arguments boil down to "you're not a real gamer". Fortunately for me, I value my time far greater than what people on the internet that I've never met think of me, and I'd imagine that most well-adjusted players will feel the same. I *suppose* you could make an argument that the absence of a safety net makes battles more tense and dramatic, but no one is forcing a gun to anyone's head to use the feature. Overall, I welcomed the feature.
+I also want to briefly discuss the game's <text-with-tooltip :tooltip="'For each battle, the game gives you 10 opportunities to revert the game\'s state back to an earlier point in time.'">"rewind system"</text-with-tooltip>: some people online seem to absolutely *detest* its inclusion in modern *Fire Emblem* games, but I think most of their arguments boil down to "you're not a real gamer". Fortunately for me, my time is far more valuable than the opinions of people on the internet that I've never met, and I'd imagine that most well-adjusted players will feel the same. I *suppose* you could make an argument that the absence of a safety net would make battles more tense and dramatic, but no one is forcing a gun to anyone's head to use it. Overall, I welcomed the feature.
 
-In summary: *Engage* is a strategy game, first and foremost. Past the anime cringe, threadbare story, and sleep-inducing downtime between battles (all of which I'll get to below), the game is a masterclass in addictive, thoughtful, and flexible strategy game design. For that reason alone, I'd recommend it both to newcomers to the genre *and* fans of the series.
+In summary:  above all else, *Engage* is a strategy game. Past the anime cringe, threadbare story, and sleep-inducing downtime between battles (all of which I'll get to below), the game is a masterclass in addictive, thoughtful, and flexible strategy game design. For that reason alone, I'd recommend it both to newcomers to the genre *and* fans of the series.
 
 ## The Bad Stuff
 Unfortunately, despite my praise, there are a number of issues with this game that keep it from being truly sublime. I'd wager that most of them won't be deal beakers for most people, so instead of spending paragraphs on each one, I'll briefly touch on each point:
@@ -86,7 +86,7 @@ Unfortunately, despite my praise, there are a number of issues with this game th
 * The characters with the most lines of dialog in this game are unfortunately coupled with the worst voice acting performances. This includes </span><text-with-tooltip :tooltip="'I can\'t speak for female Alear since I picked the male version.'">male</text-with-tooltip> Alear, Sombron, all of the Emblems, and <span class="spoiler">Baby-talk Veyle (though she sounds surprisingly competent when in her "Evil" form)</span>. I cannot overstate how robotic and stilted male Alear sounds in almost every cutscene.
 
 
-* Support conversations with Emblems (called "Bonds") are literally consist of 2-4 lines of dialog about trite, meaningless rhetoric (i.e. "When facing adversity, hold strong and believe in your friends to turn the tide of battle"). It would have been nice to actually form connections with characters from past *Fire Emblem* games.
+* Support conversations with Emblems (called "Bonds") literally consist of 1-2 lines of dialog about trite, meaningless rhetoric (i.e. "When facing adversity, hold strong and believe in your friends to turn the tide of battle"). It would have been nice to actually converse with past *Fire Emblem* characters, rather than with motivational posters masquarading as people.
 
 * Map variety is on the thinner side, with about 75% of the missions tasking players to simply defeat all of the opponents units. <text-with-tooltip :tooltip="'Moving all of your units in one blob at a time, sticking out a single high-defense unit to lure enemies in.'">"Turtling"</text-with-tooltip> is a viable strategy for almost every map (unlike *Conquest*, which would heavily punish you for it), which makes things a little stale.
 
@@ -104,7 +104,7 @@ Unfortunately, despite my praise, there are a number of issues with this game th
 ### Information Management and Discovery
 As I said above: the issues above are annoyances, and depending on kind of player you are, some may be more egregious than others.
 
-But one major issue with *Engage* that doesn't seem to be present in online discourse is how *poor* the game's information management is. For a game where players need to know as much about the current battle as possible in order to win, I'm honestly shocked how much *Engage* regresses in this area.
+But one major issue with *Engage* that doesn't seem to be present in online discourse is how *poor* the game's information management is. For a game where players need to know as much about the current battle as possible, I'm honestly shocked by how much *Engage* regresses in this area.
 
 For comparison's sake, let's start by taking a look at *Fire Emblem: Awakening*, a game released in 2012 on the 3DS.
 
@@ -146,39 +146,39 @@ Let's play a different game: in the screenshot below, which unit hasn't yet been
 
 The answer is: the unit left of the selected unit (Timerra). But how long did it take you to find him? If you're like me, then the answer is "way too long".
 
-This highlights another issue: why do character models (especially when grayed-out) look so *similar* to each other?. By comparison, *Awakening's* 2D sprites are *much* more distinct. 
+This highlights another issue: why do character models (especially when grayed-out) look so *similar* to each other? As I mentioned earlier, *Engage* is, thankfully, much more visually clear than *Three houses*, but both pale in comparison to *Awakening's* incredibly distinct 2D sprites.
 
-And to be clear, this is not merely an aesthetic complaint: during my time with *Engage*, I would often misidentify my flying units, thinking I was moving one with high resistance when I was actually a unit with *low* resistance (i.e. Hortensia vs Rosado). This inevitably would lead to cheap, frustrating, and ultimately avoidable deaths.
+And to be clear, this is not merely an aesthetic complaint: during my time with *Engage*, I would often misidentify my flying units, thinking I was moving one with high resistance when I was actually moving a unit with *low* resistance (i.e. Hortensia vs Rosado). This would often lead to cheap, frustrating, and ultimately avoidable deaths.
 
-There are countless other complaints I could levy about this game's interface. For example, the game's minimap display, which used to occupy a bottom screen in previous games, now has three options: hidden, uselessly ant-sized, or gigantically-obtrusive. Couldn't they have picked some middle ground, or allowed players to fiddle with its opacity? And why does it not gray out units that have already moved? Coupled with a camera that is also either way too zoomed in or way too zoomed out, the uselessness of *Engage's* minimap makes it far too difficult to get a sense of overall unit positioning.
+There are countless other complaints I could levy about this game's interface. For example, the game's minimap display, which used to occupy a bottom screen in previous games, now has three options: hidden, uselessly ant-sized, or gigantically-obtrusive. Couldn't they have picked some middle ground, or allowed players to fiddle with its opacity? And why does the minimap not differentiate between moved and unmoved units? Coupled with a camera that is either way too zoomed in or way too zoomed out, the *Engage's* minimap is practically useless.
 
 <div class="imageContainer imageUnderSection">
   <img :src="'/stats2.jpeg'"/>
   <span class="text--secondary">Why does Alear have a +2 speed modifier? It will cost you 11 button presses to figure out that valuable piece of information.</span>
 </div>
 
-In case it's not clear, for a game that requires players to have a keen sense on where units are, which abilities and weapons they're equipped with, and what their strengths and weaknesses are, these UI/UX issues are *unacceptable*. For a series that has traditionally *nailed* this, I'm awestruck as to how unhelpful the game's interface is. Sure, previous games in the series sometimes had two screens to work with, but surely they could have thought of *something* better than what was implemented. 
+In case it's not clear, for a game that requires players to have a keen sense on where units are, which abilities and weapons they're equipped with, and what their strengths and weaknesses are, these UI/UX issues are *unacceptable*. Sure, previous games in the series had two screens to work with, but surely they could have thought of *something* better than what was implemented. 
 
-In summary, for a game on a console with *far* more many pixels than a 3DS, DS, or even a GBA, this game struggles far too much to give players the data that they need, and I sincerely hope that these issues will be addressed in future installments.  
+In summary, for a game on a console with *far* more pixels than a 3DS, DS, or even a GBA, this game has far too many issues with its UI, and I hope that these issues will be addressed in future installments.  
 
 ### The Story
 My final major gripe with this game is its narrative. Or more specifically, its lack of one.
 
 Let me start with an example. Very minor spoilers below:
 
-Picture all of your units, along with their Emblems, <span class="spoiler">pledging to you their lives to fight one final battle. Some have been undyingly loyal from day one, while others have acquiesced to fate, recognizing that differences must be set aside in order to save the world. Even if we win, things won't go back to how they once were. We'll have to rebuild, compromise, and persevere, and not all of us will make it to the other side.</span>
+Picture all of your units, along with their Emblems, <span class="spoiler">pledging their lives to fight one final battle. Some have been undyingly loyal from day one, while others have acquiesced to fate, recognizing that differences must be set aside in order to save the world. The fate of the world rests upon this moment, and no one is taking it lightly.</span>
 
-<span class="spoiler">Cringe-inducing anime rhetoric aside, it really *does* feel like the world hinges on this final battle. The music swells in intensity while the main villain snarls one final vicious, yet despondent, insult, as if your very existence is nothing but a hinderance.</span>
+<span class="spoiler">As your units stand steadfast, the music swells in intensity while the main villain snarls one final vicious, yet despondent, insult, as if your very existence is nothing but a hinderance.</span>
 
-Finally, as the battle starts, the music below cuts through the melodrama to kick the action into high-gear, giving your pondering and strategizing a sense of urgency, but also purpose and meaning.
+Finally, as the battle starts, the game's main theme cuts through the melodrama to kick the action into high-gear, giving your pondering and strategizing a sense of urgency, but also purpose and meaning.
 
 <youtube-link :src-link="'https://www.youtube-nocookie.com/embed/MNJqgyNgCYA?si=k9Rnx5R07acBrGW0&amp;start=59'">Without lyrics, the game's main theme is actually really cool.</youtube-link>
 
-This was such a cool moment for me; it actually gave weight to the decisions that I had made up to that point and beyond, and is what most strategy games should aspire to achieve.
+I ain't gonna lie: this was a badass moment. It was the highest point in my entire playthrough, and is a shining example of what games in this genre should aspire to.
 
 So, how does this square with my complaint about *Engage's* narrative? Well, it's because the moment that I described above happens at the *very last battle of the entire game*, and it's the one and only time that *Engage* had elicited those feelings from me.
 
-In other words, it takes roughly 40-60 hours for *Engage* to give the player any sense of purpose. And by that point, most players will have already completely checked out. I, myself, had started to skip cutscenes and support conversations by that point.
+In other words, it takes roughly 40-60 hours for *Engage* to give the player any sense of purpose, which is far too long. Most players (like myself) will have already checked out, skipping cutscenes and support conversations.
 
 <div class="imageContainer imageUnderSection">
   <img :src="'/cutscene.jpeg'"/>
@@ -189,7 +189,7 @@ This is because the majority of the game's narrative follows a dreadfully-predic
 
 I hate it when <text-with-tooltip :tooltip="'Both Zelda games on the Switch are prime examples of this: nothing of interest happens in either game until all four guardians are recruited.'">games</text-with-tooltip> telegraph this "recruitment" based narrative structure because it makes it *very* clear to the player that absolutely nothing of significance will happen until all X characters/crystals/whatever are collected. And sure enough, as soon as I landed in Firene and saw that there were 3 more countries on the map, I knew exactly how things were going to go.
 
-Some games, however, manage to get away with these recruitment-based stories without feeling formulaic. Recruitment stories don't *have* to be bland and predictable if each character's smaller, more-personal conflicts are engaging. Mass effect, for example, handles this by dedicating a *lot* of time to these new characters' localized conflicts, which often have knock-on effects on the main story in interesting and unexpected ways (i.e. the Wrex and the "Genophage").
+These recruitment stories aren't always a death sentence for player engagement: some games manage to get away with it by giving each recruit their own localized, personal conflicts. Mass effect, for example, handles this by dedicating a *lot* of time to these new characters' smaller conflicts, and then smartly integrates them into the story at large in exciting and unexpected ways (i.e. Wrex and the "Genophage" in Mass Effect 2).
 
 Unfortunately, *Engage* spectacularly fails at generating any interest at all in these new recruits. As units join the player's army, they're given about 5 minutes of screen time until they're whisked away to permanently live in the game's menus, never to be heard from again aside from the occasional anime chirp (i.e. "Divine Dragon, please believe in yourself!"). Sure, they're happy to chatter away during support conversations, but aside from a <text-with-tooltip :tooltip="'For some reason, the game reserves intrigue and nuance exclusively for it villain characters, such as Zephia, Ivy, and Hortensia. They are far more complex and interesting than anyone else, including the main character. Yuanaka is also endearingly oddball-ish'">few exceptions</text-with-tooltip>, these optional cutscenes do little more than establishing that "this one likes to exercise", or "this one wants to be cute".
 
@@ -198,7 +198,7 @@ Unfortunately, *Engage* spectacularly fails at generating any interest at all in
   <span class="text--secondary">I wonder what the chef-looking character that loves to cook will talk to me about?</span>
 </div>
 
-I can somewhat sympathize with *Engage's* writers: how do you weave characters into a game's plot when almost each and every one of them <text-with-tooltip :tooltip="'The Fire Emblem series is somewhat famous for its "perma-death" design: when characters are defeated on the battlefield, they\'re typically gone for good.'">can be killed</text-with-tooltip>? How do you lend depth to a character that never really faces any struggles or challenges since the game's design prevents them from being involved?
+I can somewhat sympathize with *Engage's* writers: how do you weave characters into a game's plot when almost each and every one of them <text-with-tooltip :tooltip="'The Fire Emblem series is somewhat famous for its permadeath design: when characters are defeated on the battlefield, they\'re typically gone for good.'">can be killed</text-with-tooltip>? How do you give depth to a character when the game's design basically prevents it?
 
 If the series wants to cling to its perma-death design, then I don't think that this is a problem that can be solved. The only thing that I can think of is to potentially decrease the number of recruitable units so that the game can spend more time with the ones that already exist. 
 
@@ -210,14 +210,14 @@ But unfortunately, none of these questions are <text-with-tooltip :tooltip="'It\
 
 Nevertheless, this is precisely *why* I wanted to begin this section with that single example of a time where *Engage's* narrative was thrilling and tense; it suggests that it's possible for a *Fire Emblem* game to be both mechanically *and* narratively complex.
 
-But unfortunately, that lone example highlights instead serves to emphasize how disappointing the rest of the game is. *Engage's* narrative could have been great, but it's perhaps one of the blandest, uninteresting stories in the entire series (and I've played *Fates*, which is routinely mocked for its terrible story).
+But unfortunately, that example only serves to highlight how disappointing the rest of the game's story is. *Engage's* narrative could have been great, but it's perhaps one of the blandest, uninteresting stories in the entire series (and I've played *Fates*, which is routinely mocked for its terrible story).
 
 ## Conclusion
 <div class="imageContainer imageUnderSection">
   <img :src="'/engage.jpeg'"/>
   <span class="text--secondary">The main character, Alear, pondering a world where Fire Emblem games can be fun AND have great stories. <a src="https://www.gameinformer.com/preview/2023/01/05/consider-me-engaged">Image Credit: Game Informer</a></span>
 </div>
-With all of that said (goddamnit, why am I so bad at keeping these reviews succinct?), I can confidently state that absolutely nobody plays *Fire Emblem* games for their stories. Indeed, not a single person on this planet has ever uttered the words, "I'm incredibly excited for the next Fire Emblem game's story!" Rather, these games stories are complimentary to what is almost always a deep and addicting experience.
+With all of that said (goddamnit, why am I so bad at keeping these reviews succinct?), I can confidently state that absolutely nobody plays *Fire Emblem* games for their stories. Indeed, not a single person on this planet has ever uttered the words, "I'm incredibly excited for the next Fire Emblem game's story!" Rather, their stories are often complimentary to what is already a deep and addicting experience.
 
 Nevertheless, it would have been nice for *Engage* to have a dramatic story to sink one's teeth into. Maybe I *do* need to play *Three Houses*...
 
