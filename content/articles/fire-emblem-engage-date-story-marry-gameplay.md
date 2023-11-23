@@ -231,7 +231,7 @@ Hardly. As new units join the player's army, they're given about 5 minutes of sc
 
 I can somewhat sympathize with *Engage's* writers: how do you weave new characters into a game's plot when almost each and every one of them <text-with-tooltip :tooltip="'The Fire Emblem series is somewhat famous for its permadeath design: when characters are defeated on the battlefield, they\'re typically gone for good.'">can be killed</text-with-tooltip>? How do you give depth to a character when the game's design basically prevents it?
 
-If the series wants to cling to its perma-death design, then I don't think that this is a problem that can be solved. The only thing that I can think of is to potentially decrease the number of recruitable units so that the game can spend more time with the ones that already exist. 
+If the series wants to cling to its perma-death design, then I don't think that this is a problem that can be solved. The only solution that I can think of is for future games to decrease the number of recruitable units so that more time can be spent with each one.
 
 But regardless of why, the end result is that *Engage's* narrative loses steam *very* quickly because its character roster is ocean-wide and puddle-deep. And I've said this before: without compelling characters, there is no *story*. There's just things that happen.
 
