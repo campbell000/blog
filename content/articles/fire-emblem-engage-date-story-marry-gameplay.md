@@ -233,7 +233,7 @@ I can somewhat sympathize with *Engage's* writers: how do you weave new characte
 
 If the series wants to cling to its perma-death design, then I don't think that this is a problem that can be solved. The only thing that I can think of is to potentially decrease the number of recruitable units so that the game can spend more time with the ones that already exist. 
 
-But regardless of why, the end result is that *Engage's* narrative loses steam *very* quickly because its characters fail to generate any sort of interest or intrigue. And I've said this before: without compelling characters, there is no *story*. There's just things that happen.
+But regardless of why, the end result is that *Engage's* narrative loses steam *very* quickly because its character roster is ocean-wide and puddle-deep. And I've said this before: without compelling characters, there is no *story*. There's just things that happen.
 
 To its credit, *Engage* does hint at something deeper with its characters: <span class="spoiler">What exactly happened during the war 1000 years ago? What series of events concerning the "Foundational Emblem" led to Sombron's campaign of destruction? Why is Zephia so desperate for a family, and what led to the formation of the Four Hounds?</span>.
 
