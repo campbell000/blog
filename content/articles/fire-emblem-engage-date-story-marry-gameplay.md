@@ -216,7 +216,7 @@ As I processed this, I came to a dreadful realization.
 
 "Oh no", I thought. "It's one of *those* games"
 
-I absolutely *hate it* when a games's narrative is based around recruitment and collection because it telegraphs to the player the *exact* path that the story will take them through. The story becomes less of an organic human experience, and more like a grocery list to make tomorrow night's dinner. Marth? Check. Lyn? Check. Roy? Check.
+I absolutely *hate it* when a games's narrative is based around recruitment and collection because it telegraphs to the player the *exact* path that the story will take them through. The story becomes less of an organic human experience, and more like a grocery list to make tomorrow night's dinner. Firene? Check. Brodia? Check. Solm? Check. Elusia? Check.
 
 And I don't think I need to explain how a painfully predictable story can sap any and all intrigue out of the experience. Inevitably, this means that *Engage's* story has absolutely no momentum until the last handful of chapters in the game, when all of the rings had finally been collected. To say that *Engage's* pacing is terrible understates how much of a slog 80% of the game's story is.
 
