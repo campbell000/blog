@@ -235,7 +235,7 @@ If the series wants to cling to its perma-death design, then I don't think that 
 
 But regardless of why, the end result is that *Engage's* narrative loses steam *very* quickly because its character roster is ocean-wide and puddle-deep. And I've said this before: without compelling characters, there is no *story*. There's just things that happen.
 
-To its credit, *Engage* does hint at something deeper with its characters: <span class="spoiler">What exactly happened during the war 1000 years ago? What series of events concerning the "Foundational Emblem" led to Sombron's campaign of destruction? Why is Zephia so desperate for a family, and what led to the formation of the Four Hounds?</span>.
+To its credit, *Engage* does hint at something deeper with its characters: <span class="spoiler">What exactly was Sombon's deal, and who was the Foundational Emblem? Why is Zephia so desperate for a family, and what led to the formation of the Four Hounds? What were Alear and Veyle like before the war 1000 years ago?</span>.
 
 But unfortunately, none of these questions are <text-with-tooltip :tooltip="'It\'s possible that the DLC delves into this, but a $60 game shouldn\'t require additional purchases in order to make a narrative whole.'">ever answered</text-with-tooltip>, and we're left with *implications* of a larger, more expansive narrative without it ever being delivered. Instead, *Engage* is content with telling (rather than showing) us about all these supposedly important events that happened 1000's of years ago, foolishly believing that a bit of exposition is enough to get players invested in it's story. Obviously, it's not.
 
