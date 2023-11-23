@@ -210,19 +210,19 @@ In other words, it takes roughly 40-60 hours for *Engage* to give the player any
   <span class="text--secondary">The pre-rendered cutscenes are nice, but are very few and far between. <a src="https://www.thumbculture.co.uk/fire-emblem-engage-switch-review">Image Credit: Thumb Culture</a></span>
 </div>
 
-I think the main problem with *Engage's* story is that it follows an awfully-predictable formula based on collecting things:  *Engage* tasks players with collecting all of the Emblem rings in order to defeat the ultimate evil. And as soon as I saw that there were 5 different countries on *Engage's* map, I came to a dreadful realization.
+I think the main problem with *Engage's* story is that it follows an awfully-predictable formula based on collecting things: as soon as I landed in Firene and saw that there were 4 more countries on the map, I knew exactly how the story would play out: visiting each kingdom to find their pact rings, encountering *some* kind of snag in the process, but ultimately leaving with new rings (and new party members) in tow. And sure enough, that's exactly how it went.
+
+As I processed this, I came to a dreadful realization.
 
 "Oh no", I thought. "It's one of *those* games"
 
 I absolutely *hate it* when a games's</text-with-tooltip> narrative is based around recruitment and collection because it telegraphs to the player the *exact* path that the story will take them through. The story becomes less of an organic human experience, and more like a grocery list to make tomorrow night's dinner. 
 
-In *Engage's* case, as soon as I landed in Firene and saw that there were 3 more countries on the map, I knew exactly how the story would play out: visiting each kingdom to find their pact rings, encountering *some* kind of snag in the process, but ultimately prevailing in both retrieving a ring and recruiting new party members along the way. And sure enough, that's exactly how it went.
-
-And I don't think I need to explain how being able to predic the *exact* path the story will take saps any and all intrigue out of the experience. This leads to a story that has absolutely no momentum until the last handful of chapters in the game, when all of the rings had finally been collected.
+And I don't think I need to explain how a painfully predictable story can sap any and all intrigue out of the experience. Inevitably, this means that *Engage's* story has absolutely no momentum until the last handful of chapters in the game, when all of the rings had finally been collected. But again, by then, it's far too late.
 
 But what about the characters that join the crew along the way? Surely they add some interesting dynamics to an otherwise dull story?
 
-Unfortunately, *Engage* spectacularly fails at this. As new units join the player's army, they're given about 5 minutes of screen time until they're whisked away to permanently live in the game's menus, never to be heard from again aside from the occasional anime chirp (i.e. "Divine Dragon, please believe in yourself!"). Sure, they're happy to chatter away during support conversations, but aside from a <text-with-tooltip :tooltip="'For some reason, the game reserves intrigue and nuance exclusively for it villain-esque characters, such as Zephia, Ivy, and Hortensia. As a result, they (along with oddball Yunaka) are far more interesting than the rest of the cast.'">few exceptions</text-with-tooltip>, these optional cutscenes do little more than establishing that "this one likes to exercise", or "this one wants to be cute".
+Hardly. As new units join the player's army, they're given about 5 minutes of screen time until they're whisked away to permanently live in the game's menus, never to be heard from again aside from the occasional anime chirp (i.e. "Divine Dragon, please believe in yourself!"). Sure, they're happy to chatter away during support conversations, but aside from a <text-with-tooltip :tooltip="'For some reason, the game reserves intrigue and nuance exclusively for it villain-esque characters, such as Zephia, Ivy, and Hortensia. As a result, they (along with oddball Yunaka) are far more interesting than the rest of the cast.'">few exceptions</text-with-tooltip>, these optional cutscenes do little more than establishing that "this one likes to exercise", or "this one wants to be cute".
 
 <div class="imageContainer imageUnderSection">
   <img :src="'/supports.webp'"/>
