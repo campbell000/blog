@@ -249,7 +249,7 @@ But unfortunately, this example also highlights how disappointing the rest of th
   <span class="text--secondary">The main character, Alear, pondering a world where Fire Emblem games can be fun AND have great stories. <a src="https://www.gameinformer.com/preview/2023/01/05/consider-me-engaged">Image Credit: Game Informer</a></span>
 </div>
 
-With all of that said (goddamnit, why am I so bad at keeping these reviews succinct?), I can confidently state that absolutely nobody plays *Fire Emblem* games for their stories. Indeed, not a single person on this planet has ever uttered the words, "I'm incredibly excited for the next Fire Emblem game's story!" Rather, their stories are often complimentary to what is already a deep and addicting experience.
+With all of that said (goddamnit, why am I so bad at keeping these reviews succinct?), I can confidently state that absolutely nobody plays *Fire Emblem* games for their stories. Indeed, not a single person on this planet has ever uttered the words, "I'm incredibly excited for the next Fire Emblem game's story!" Rather, their stories are often complimentary to what is already a deep and addicting experience. I'd much prefer the way that *Engage* turned out over the inverse (i.e. a story-heavy game with weaker gameplay).
 
 In conclusion, I suppose this review *can* be summed up as:
 
@@ -260,7 +260,5 @@ The story and characters suck, but the gameplay is amazing. Three House's social
 In all seriousness, I hope this review has either nudged prospective players of *Engage* closer to a decision, or provided some interesting points to consider for those that have already played this game.
 
 (One final note: not a single *Engage* pun can be found in this review. I'm incredibly proud of myself for that.)
-
-(Another final note: maybe I *should* play *Three Houses*...)
 
 **Verdict: 4 Critical Hits out of 5**
