@@ -49,11 +49,11 @@ This carries over to the game's character design; yes, the game still borrows he
   <span class="text--secondary">Say what you want about the character designs, but there's no denying that <i>Engage's</i> art style can be striking at times. <a src="https://serenesforest.net/2022/11/29/fire-emblem-engage-emblem-celica-analysis/">Image Credit: Serenes Forest</a></span>
 </div>
 
-And, as a game that primarily tasks players with answering questions likes "where are my positional weak points?", or "where should I begin my assault?", or "who is going to die next turn unless I intervene?", this stylistic change-up is much appreciated. While not perfect (I'll get to that in a later section), *Engage* greatly improves upon <text-with-tooltip :tooltip="'Watching my wife play Three House, it\'s clear that the game\'s muddy, brown look actively hinders players\' ability to accurately survey the battlefield.'">its predecessor</text-with-tooltip> in regards to visual clarity. 
+More importantly, *Engage* greatly improves upon <text-with-tooltip :tooltip="'Three Houses\' muddy visual design actively hindered my wife\'s ability to get an accurate read on the battlefield.'">its predecessor</text-with-tooltip> in regards to visual clarity. While not perfect (more on that later), the game's bright colors make units stand out a bit better against the background. For a game that primarily tasks players with answering questions likes "where are my positional weak points?", or "where should I begin my assault?", or "who is going to die next turn unless I intervene?", this stylistic change-up is much appreciated.
 
 And, as expected from any mainline Nintendo game, *Engage's* music is simply phenomenal (excluding its <text-with-tooltip :tooltip="'Attention anime/videogame composers: instrumental melodies are NOT interchangeable with lyrical melodies! A melody that sounds great when played on a guitar will NOT NECESSARILY sound great when sung!'">terrible opening theme</text-with-tooltip>). I'm not sure how else to the describe it, but it's absolutely criminal that this game's soundtrack didn't win every video game music award, ever.
 
-But it's not just the quality of the soundtrack that is sublime; the game also has an excellent sense of awareness: it knows when to deploy something soft and sweet, and it knows when to ramp up the tempo. Most importantly (and I can't stress this enough), it knows when to get out of the way; most of *Engage's* mid-battle music is catchy, but not obtrusive or attention-grabbing, giving players plenty of mental space to think. Far too often do games (anime games in particular) get carried away with complicated melodies during moments that deserve attention elsewhere, and thankfully, *Engage* is acutely aware of this.
+The game's excellent soundtrack is complemented by an excellent sense of audio awareness: *Engage* knows when to deploy something soft and sweet, and it also knows when to ramp up the tempo. Most importantly (and I can't stress this enough), it knows when to get out of the way; most of *Engage's* mid-battle music is catchy, but not obtrusive or attention-grabbing, giving players plenty of mental space to think. Far too often do games (anime games in particular) get carried away with complicated melodies during moments that deserve attention elsewhere, and thankfully, *Engage* is acutely aware of this.
 
 <youtube-link :src-link="'https://www.youtube-nocookie.com/embed/j3UmYT3fSic?si=nlIE8Kv2wvKbqcLs'">This song's use of <i>Fire Emblem's</i> main theme is simply to <i>die</i> for. And that <a href="https://en.wikipedia.org/wiki/Theremin">theremin!</a> Such an unexpected, yet interesting, choice of instrumentation.</youtube-link>
 
@@ -81,7 +81,7 @@ That I was able to complete the game in the way I wanted to is a testament to ho
 
 For some examples: up against a lot of armored foes? Then it'd be wise to deploy lots of magic users. Surrounded by flying units? Bring a couple of archers to snipe them down. The map is crawling with mages? Deploy your speedy swordsmen to pierce through their delicate robes.
 
-*Engage* also adds an excellent twist to the formula: by attacking a unit with what they're weak against (i.e. hitting an axe wielder with a sword), the opponent becomes "broken", meaning that they cannot counter attack for the next few turns. Again, it's another tool that players can use to add extra-utility to low-damage units, or added life insurance for low-defense units.
+*Engage* also adds an excellent twist to the formula: by attacking a unit with what they're weak against (i.e. hitting an axe wielder with a sword), the opponent becomes "broken", meaning that they cannot counter attack for the next few turns. Again, it's another tool that players can use to add extra utility to low-damage units, or added life insurance for low-defense units.
 
 <div class="imageContainer imageUnderSection">
   <img :src="'/break.jpeg'"/>
@@ -103,7 +103,7 @@ Even *more* interesting is that enemies can use these emblems and their abilitie
   <span class="text--secondary">Enemies can use Emblems, too. For example, Lyn's "Astra Storm", which fires a barrage of arrows from a million miles away, can be particularly disruptive to an otherwise ironclad strategy. <a src="https://serenesforest.net/2022/11/29/fire-emblem-engage-emblem-celica-analysis/">Image Credit: Tech Raptor</a></span>
 </div>
 
-And if the complexity of this sounds scary to you, then fear not: almost every Emblem comes with a default pairing that is more than adequately strong. For example, Marth is naturally paired with Alear, Timmera is naturally paired with Ike, etc. So, if you'd rather have this process streamlined, *Engage* is willing to help.
+And if the complexity of this sounds scary to you, then fear not: almost every Emblem comes with a default pairing that is more than adequately strong. For example, Marth is naturally paired with Alear, Timerra is naturally paired with Ike, etc. So, if you'd rather have this process streamlined, *Engage* is willing to help.
 
 I also want to briefly discuss the game's <text-with-tooltip :tooltip="'For each battle, the game gives you 10 opportunities to revert the game\'s state back to an earlier point in time.'">"rewind system"</text-with-tooltip>: some people online seem to absolutely *detest* its inclusion in modern *Fire Emblem* games, but I think most of their arguments boil down to "you're not a real gamer". Fortunately for me, my time is far more valuable than the opinions of people on the internet that I've never met, and I'd imagine that most well-adjusted players will feel the same. I *suppose* you could make an argument that the absence of a safety net could make battles more tense, but no one is forcing a gun to anyone's head to use it. Overall, I welcomed the feature.
 
@@ -112,7 +112,7 @@ In summary:  above all else, *Engage* excels as a strategy game. Past the anime 
 ## The Meh
 Unfortunately, despite my praise, *Engage* has plenty of issues. I wouldn't call any of them a "deal breaker", so instead of spending paragraphs on each issue, I'll briefly touch on each one:
 
-* I cannot overstate how robotic and stilted the main (male) character's performance is. Almost every time the Alear spoke, I couldn't help but think, "this is a terrible approximation of how humans talk". I'm no voice actor, but I *think* this is due to how cleanly-enunciated his lines are. The actor seems far too concerned with making every syllable crystal clear, which gives his performance an alien-like quality.
+* I cannot overstate how robotic and stilted the main (male) character's performance is. Almost every time Alear spoke, I couldn't help but think, "this is a terrible approximation of how humans talk". I'm not a voice actor, but I *think* this is due to how cleanly-enunciated his lines are. The actor seems far too concerned with making every syllable crystal clear, which gives his performance an alien-like quality.
 
 * Support conversations with Emblems consist of two characters blurting out meaningless rhetoric at each other ("When facing adversity, hold strong and believe in our friendship to turn the tide of battle"). It would have been nice to converse with past *Fire Emblem* characters, rather than with motivational posters.
 
@@ -120,7 +120,7 @@ Unfortunately, despite my praise, *Engage* has plenty of issues. I wouldn't call
 
 * As mentioned above, don't both with any of the activities at <text-with-tooltip :tooltip="'The game\s hubworld. Players return to it after every battle.'">the Somniel</text-with-tooltip>. They're anti-fun time sinks that don't offer any meaningful rewards. For example, I completely ignored the little cat thing since every interaction triggered an unskippable 15-second cutscene.
 
-* As mentioned above, while most of the game's character designs are simply silly (I actually *like* [Timerra's design!](https://fireemblem.fandom.com/wiki/Timerra)), some designs border on ridiculous. Why is [Ivy](https://fireemblem.fandom.com/wiki/Ivy) wearing a *cage* on her face? Was [Celine](https://fireemblem.fandom.com/wiki/C%C3%A9line) modeled after a cupcake? Why does [Panette](https://fireemblem.fandom.com/wiki/Panette) look like [Jack Skellington](https://en.wikipedia.org/wiki/Jack_Skellington)?
+* While most of the game's character designs are simply silly (I actually *like* [Timerra's design!](https://fireemblem.fandom.com/wiki/Timerra)), some designs border on ridiculous. Why is [Ivy](https://fireemblem.fandom.com/wiki/Ivy) wearing a *cage* on her face? Was [Celine](https://fireemblem.fandom.com/wiki/C%C3%A9line) modeled after a cupcake? Why does [Panette](https://fireemblem.fandom.com/wiki/Panette) look like [Jack Skellington](https://en.wikipedia.org/wiki/Jack_Skellington)?
 
 <div class="imageContainer">
   <img :src="'/goldmar.jpg'"/>
@@ -222,7 +222,7 @@ And I don't think I need to explain how a painfully predictable story can sap an
 
 But what about the characters that join the crew along the way? Surely they add some interesting dynamics to an otherwise dull story?
 
-Hardly. As new units join the player's army, they're given about 5 minutes of screen time until they're whisked away to permanently live in the game's menus, never to be heard from again aside from the occasional anime chirp (i.e. "Divine Dragon, please believe in yourself!"). Sure, they're happy to chatter away during support conversations, but aside from a <text-with-tooltip :tooltip="'For some reason, the game reserves intrigue and nuance exclusively for it villain-esque characters, such as Zephia, Ivy, and Hortensia. As a result, they (along with oddball Yunaka) are far more interesting than the rest of the cast.'">few exceptions</text-with-tooltip>, these optional cutscenes do little more than establishing that "this one likes to exercise", or "this one wants to be cute".
+Hardly. As new units join the player's army, they're given about 5 minutes of screen time until they're whisked away to permanently live in the game's menus, never to be heard from again. Sure, they're happy to chatter away during support conversations, but aside from a <text-with-tooltip :tooltip="'For some reason, the game reserves intrigue and nuance exclusively for it villain-esque characters, such as Zephia, Ivy, and Hortensia. As a result, they (along with oddball Yunaka) are far more interesting than the rest of the cast.'">few exceptions</text-with-tooltip>, these optional cutscenes do little more than establishing that "this one likes to exercise", or "this one wants to be cute".
 
 <div class="imageContainer imageUnderSection">
   <img :src="'/supports.webp'"/>
@@ -257,7 +257,7 @@ In conclusion, I suppose this review *can* be summed up as:
 The story and characters suck, but the gameplay is amazing. Three House's social elements were a waste of time, so less of that is also good. 8/10.
 </info-box>
 
-In all seriousness, I hope this review has either nudged prospective players of *Engage* closer to a decision, or provided some interesting points to consider for those that have already played this game.
+In all seriousness, I hope this review was helpful for those that haven't played *Engage*, or provided some interesting points to consider for those that have.
 
 (One final note: not a single *Engage* pun can be found in this review. I'm incredibly proud of myself for that.)
 
