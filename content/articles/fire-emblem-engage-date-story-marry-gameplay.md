@@ -23,9 +23,9 @@ The story and characters suck, but the gameplay is amazing. Three House's social
 
 Given that this is, pretty much, the universally-held opinion of *Fire Emblem: Engage*, why write a review almost a year after the game's release date? Hasn't everything that one could possible say about this game already been said?
 
-While not necessarily inaccurate (I'll get to that in a bit), I don't think that this opinion gives *Engage* the credit it deserves. The game does a lot of stuff right, and and an equal amount of stuff wrong. Both, in my opinion, warrant further discussion instead of blithely dismissing *Engage* as a "pretty good *Fire Emblem* game".
+While not necessarily inaccurate (I'll get to that in a bit), I don't think it's entirely fair to *Engage*. In my opinion, the game deserves more than just "It's a pretty good *Fire Emblem*" game. Rather, there's a lot of things that the game gets right (and wrong) that warrant further discussion.
 
-I've been a fan of the series since *Fire Emblem: Awakening* (I can hear "LynLover86" physically cringing), but I've played many *Fire Emblem* titles since then. In order of preference, I've also played *Conquest* and its DLC campaign (3DS), *Echoes: Shadows of Valentia* (3DS, remake of an NES game), and *Sacred Stones* (GBA). But starting with *Awakening*, I immediately fell in love with the series' unforgiving, calculated gameplay. There's nothing else quite like it.
+I've been a fan of the series since *Fire Emblem: Awakening* (I can hear "LynLover86" yelling in the background), but I've played many *Fire Emblem* titles since then: *Conquest* (3DS), *Echoes: Shadows of Valentia* (3DS), and *Sacred Stones* (GBA). But starting with *Awakening*, I immediately fell in love with the series' unforgiving, calculated gameplay. There's nothing else quite like it.
 
 I passed on *Three Houses* (*Engage's* predecessor) due to how heavily it appeared to lean on its <text-with-tooltip :tooltip="'Seeing my wife spend her precious time organizing tea parties with the game\'s NPCs didn\'t exactly pique my interest...'">social sim elements</text-with-tooltip>, and since *Engage's* reviews seemed to imply that these elements had been significantly pared back, I figured that *Engage* would be a great time for me to jump back into the series.
 
