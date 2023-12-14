@@ -3,7 +3,7 @@
     async asyncData({ $content, params }) {
       const articles = await $content('articles', params.slug)
         .sortBy('createdAt', 'desc')
-        .limit(1)
+        .limit(5)
         .fetch()
       
       const articleTagMap = {};
@@ -28,12 +28,9 @@
 
 <template>
   <div>
-      <articleDisplay v-for="article of articles" :key="article.slug" :tags="articleTagMap[article.slug]" :article="article" :isOnFrontPage="true"/>
+      <articlePreview v-for="article of articles" :article="article"/>
       <v-row>
-        <v-col :lg="6" class="nextPrevLink next">
-          <NuxtLink :to="'/'+articles[0].slug+'#comments'" style="cursor: pointer" class="">Post Comments</NuxtLink>
-        </v-col>
-        <v-col :lg="6" class="nextPrevLink previous" style="text-align: end !important">
+        <v-col :lg="12" class="nextPrevLink next">
           <NuxtLink to="/posts" style="cursor: pointer;" class="">More Posts</NuxtLink>
         </v-col>
       </v-row>

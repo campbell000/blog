@@ -1,6 +1,6 @@
 ---
 title: "<i>Fire Emblem: Engage</i> Review: Date the Story, S-Support the Gameplay"
-summary: "Released for the Nintendo Switch in 2023, Fire Emblem: Engage is a good, but not great, entry in the venerable Fire Emblem series."
+summary: "Released for the Nintendo Switch in 2023, Fire Emblem: Engage is a mostly thought"
 titleImage: /fetitle.avif
 titleImageCaptionHTML: "<a src=\"https://www.nintendo.com/us/store/products/fire-emblem-engage-switch/\">Image Credit: Nintendo</a>"
 shouldShowTableOfContents: true
