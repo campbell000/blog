@@ -114,6 +114,9 @@ export default {
     line-height: 1.4em;
     font-size: 0.9rem !important;
   }
+  .image {
+    margin-top: 4px;
+  }
 
 }
 
