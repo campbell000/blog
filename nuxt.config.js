@@ -96,6 +96,7 @@ export default {
           infoBoxBorder: "#7fc3b0",
           tooltipBackgroundColor: "#333",
           tooltipTextHoverBackground: "#383838",
+          morePostsHoverBackground: "#333"
         },
         light: {
           background: "#FFF",
@@ -112,6 +113,7 @@ export default {
           infoBoxText: "#262626",
           tooltipBackgroundColor: "#FFF",
           tooltipTextHoverBackground: "#EEE",
+          morePostsHoverBackground: "#333"
         }        
       }
     }

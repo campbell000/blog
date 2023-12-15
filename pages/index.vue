@@ -3,7 +3,7 @@
     async asyncData({ $content, params }) {
       const articles = await $content('articles', params.slug)
         .sortBy('createdAt', 'desc')
-        .limit(5)
+        .limit(6)
         .fetch()
       
       const articleTagMap = {};
@@ -31,7 +31,7 @@
       <articlePreview v-for="article of articles" :article="article"/>
       <v-row>
         <v-col :lg="12" class="nextPrevLink next">
-          <NuxtLink to="/posts" style="cursor: pointer;" class="">More Posts</NuxtLink>
+          <NuxtLink to="/posts" style="cursor: pointer;" class="morePosts" tag="button">More Posts</NuxtLink>
         </v-col>
       </v-row>
   </div>
@@ -40,5 +40,17 @@
 <style scoped>
   article::after {
     margin-bottom: 50px;
+  }
+
+  .morePosts {
+    cursor: pointer;
+    border: 1px solid var(--v-anchor-base);
+    padding: 8px;
+    width: 100%;
+  }
+
+  .morePosts:hover {
+    background-color: var(--v-anchor-base);
+    opacity: 0.8;
   }
 </style>

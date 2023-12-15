@@ -6,7 +6,7 @@
           <img class="image" :src="article.titleImage" />
         </div>
         <div class="titleTagContainer">
-          <div class="title" v-html="article.title"></div>
+          <div class="title previewTitle" v-html="article.title"></div>
           <div class="postListDate">{{ formatDate(article.createdAt) }}</div>
           <div class="tags">
             {{ article.tags.join(", ") }}
@@ -45,7 +45,6 @@ export default {
   },
 
   mounted() {
-    console.log(this.article);
     if (this.article.isPasswordProtected) {
       var pass = prompt("Enter the password yo");
       this.passwordIsSatisfied = pass == "bigbuttsowhat";
@@ -68,6 +67,11 @@ export default {
   text-decoration: none;
 }
 
+.postListDate {
+  font-style: italic;
+    font-weight: lighter;
+}
+
 .image {
   max-width: 250px;
   max-height: 140.625px;
@@ -75,8 +79,8 @@ export default {
   border: 1px solid var(--v-anchor-base);
   flex-grow: 0;
   flex-shrink: 0;
+  aspect-ratio: 16 / 9;
   width: 100%;
-    height: 100%;
     margin-top: 7px;
     float: right;
 }
@@ -97,6 +101,20 @@ export default {
 .titleTagContainer {
   margin-left: 16px;
   width: 70%;
+}
+
+@media(max-width: 600px) {
+  .titleTagContainer {
+    width: 70%;
+    line-height: 1.5em;
+    font-size: 0.9rem;
+  }
+
+  .title.previewTitle {
+    line-height: 1.4em;
+    font-size: 0.9rem !important;
+  }
+
 }
 
 
