@@ -16,7 +16,8 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'viewport-fit=cover, width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Never Meant. Contains blog posts, reviews, technical guides, and other short-form essays.' },
-      { hid: 'author', name: 'author', content: 'Alex Campbell' }
+      { hid: 'author', name: 'author', content: 'Alex Campbell' },
+      { 'http-equiv': 'Content-Security-Policy', content: "default-src * data: mediastream: blob: filesystem: about: ws: wss: 'unsafe-eval' 'wasm-unsafe-eval' 'unsafe-inline'; script-src * data: blob: 'unsafe-inline' 'unsafe-eval'; script-src-elem * data: blob: 'unsafe-inline' 'unsafe-eval';connect-src * data: blob: 'unsafe-inline';img-src * data: blob: 'unsafe-inline'; media-src * data: blob: 'unsafe-inline'; frame-src * data: blob: ; style-src * data: blob: 'unsafe-inline'font-src * data: blob: 'unsafe-inline';frame-ancestors * data: blob:;"}
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -40,7 +41,7 @@ export default {
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
     { src: '~/plugins/vuetify.js', ssr: false },
-    { src: '~/plugins/floating-vue.js', ssr: false}
+    { src: '~/plugins/floating-vue.js', ssr: false }
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
@@ -119,7 +120,7 @@ export default {
           tooltipBackgroundColor: "#FFF",
           tooltipTextHoverBackground: "#EEE",
           morePostsHoverBackground: "#333"
-        }        
+        }
       }
     }
   },

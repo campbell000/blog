@@ -1,6 +1,11 @@
 # Never Meant Source Code
 Hi. Here's the source code for my blog.
 
+# Using Docker:
+- Install a node image
+- Create a container: `docker run -dit -p 3000:3000 --name personal_node_debian -v /Users/alex/workspace/:/shared/:z <image id>`
+- Start it again with "docker container start <container id> "
+
 ## Running
 - Install yarn
 - `yarn dev` to run locally
