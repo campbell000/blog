@@ -9,7 +9,7 @@ Hi. Here's the source code for my blog.
 ## Running
 - Install yarn
 - `yarn dev` to run locally
-
+- Do an npm i
 
 ## Deploying
 - yarn generate
