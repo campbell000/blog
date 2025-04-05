@@ -64,7 +64,9 @@ export default {
   ],
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
-  axios: {},
+  axios: {
+    proxy: true
+  },
 
   // Content module configuration (https://go.nuxtjs.dev/config-content)
   content: {},

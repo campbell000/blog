@@ -41,11 +41,11 @@
     methods:{
       getMedalColor(index) {
         if (index == 0) {
-            return "yellow";
+            return "yellow darken-2";
         } else if (index == 1) {
             return "silver";
         } else if (index == 2) {
-            return "orange";
+            return "orange darken-4";
         }
         else {
             return "transparent"; 
@@ -100,7 +100,7 @@
             <tbody>
                 <tr v-for="(datum, index) in getDataToShow() " :key="datum.name">
                 <td class="gamerCell">    
-                    <v-icon :color="getMedalColor(index)">mdi-circle-medium</v-icon>
+                    <v-icon :color="getMedalColor(index)" class="medal">mdi-circle-medium</v-icon>
                     <img class="banner" :src="profileData[datum.name]"/>
                 </td>
 
@@ -124,6 +124,7 @@
     .gamerCell {
       height: 41px !important; 
       display: flex;
+      padding-left: 8px !important;
     }
 
     .expandLink {
@@ -133,6 +134,10 @@
         padding-right: 24px;
         display: block;
         font-size: 12px;
+    }
+
+    .medal {
+        margin-right: 8px;
     }
 
     .banner {
