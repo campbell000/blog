@@ -24,11 +24,6 @@
       copyToClipboard(e) {
         e.preventDefault();
         e.stopPropagation();
-        /*
-          <HaloDataTable v-for="(catKey) in Object.keys(catKeys)"  :data="haloData['weekly']['data'][catKey]" 
-            :title="catKeys[catKey]['title']" :scoreName="catKeys[catKey]['scoreName']" :description="catKeys[catKey]['description']"
-            :profileData="profileData" :auxData="haloData['lastSeen']"></HaloDataTable>
-        */
         let copiedString = "########### Halo Stats for"+ this.haloData["weekly"]["week"]+" ###########\n\n";
         for (let i = 0; i < Object.keys(this.catKeys).length; i++) {
           const catKey = Object.keys(this.catKeys)[i];
@@ -97,7 +92,7 @@
         tab: null,
         catKeys: {
           "kdDestroyer": {
-            title: "KD Destroyer",
+            title: "The Grim Reapers",
             description: "Average Kill/Death Ratio per Game",
             scoreName: "K/D"
           },
@@ -107,37 +102,37 @@
             scoreName: "Score"
           },
           "luckyCharm": {
-            title: "Lucky Charm",
+            title: "Lucky Charms",
             description: "Average Number of Wins per Game",
             scoreName: "Luck"
           },
           "badOmen": {
-            title: "Bad Omen",
+            title: "Bad Omens",
             description: "Average Number of Losses per Game",
             scoreName: "Curse Strength"
           },
           "watchYourStep": {
             title: "Watch Your Step",
             description: "Average Number of Deaths per Game",
-            scoreName: "# Banana Peels Slipped on"
+            scoreName: "# Slipped Banana Peels"
           },
           "looseCannon": {
-            title: "Loose Cannon (Who Doesn't Play by the Rules)",
+            title: "Loose Cannons (Who Don't Play by the Rules)",
             description: "Average number of kills AND deaths per game",
             scoreName: "Chaos Factor"
           },
           "killingMachine": {
-            title: "Killing Machine",
+            title: "Killing Machines",
             description: "Average Number of Kills per Game",
             scoreName: "Kills per Game"
           },
           "sharpshooter": {
-            title: "Sharpshooter",
+            title: "Sharpshooters",
             description: "Average Number of Headshots per Game",
             scoreName: "Headshots"
           },
           "perfectAttendance": {
-            title: "Perfect Attendance Award",
+            title: "Perfect Attendance Nerds",
             description: "Most games played during Halo Night (tm)",
             scoreName: "Games Played"
           },
@@ -153,33 +148,56 @@
 </script>
 
 <template>
-  <div>
+  <div class="haloTabs">
     <v-card v-if="haloData != null">
-      <v-tabs v-model="tab">
+      <v-tabs v-model="tab" fixed-tabs>
         <v-tab key="month">Past Month</v-tab>
         <v-tab key="recent">
-          Most Recent ({{ haloData["weekly"]["week"]}})
-          <v-icon class="copyButton"
-          color="primary"
-          @click="copyToClipboard($event)">
-          mdi-content-copy
-        </v-icon>
-        
+          Most Recent<!--()--> 
         </v-tab>
       </v-tabs>
 
 
-      <v-tabs-items v-model="tab">
+      <v-tabs-items v-model="tab" class="haloTabs">
         <v-tab-item key="month">
           <HaloDataTable v-for="(catKey) in Object.keys(catKeys)"  :data="haloData['monthly'][catKey]" 
             :title="catKeys[catKey]['title']" :scoreName="catKeys[catKey]['scoreName']" :description="catKeys[catKey]['description']"
             :profileData="profileData" :auxData="haloData['lastSeen']"></HaloDataTable>
         </v-tab-item>
         <v-tab-item key="recent">
+          <div class="recentWeek">Week of {{ haloData["weekly"]["week"]}}
+            <v-tooltip top>
+              <template v-slot:activator="{ on, attrs }">
+                <v-btn
+                  class="mx-2"
+                  fab
+                  dark
+                  small
+                  outlined
+                  v-bind="attrs"
+                  v-on="on"
+                  color="primary"
+                  @click="copyToClipboard($event)"
+                  >
+                  <v-icon dark color="primary">
+                    mdi-content-copy
+                  </v-icon>
+                </v-btn>
+              </template>
+              <span>Copy Results to Clipboard</span>
+            </v-tooltip>
+
+            
+            
+          </div>
           <HaloDataTable v-for="(catKey) in Object.keys(catKeys)"  :data="haloData['weekly']['data'][catKey]" 
             :title="catKeys[catKey]['title']" :scoreName="catKeys[catKey]['scoreName']" :description="catKeys[catKey]['description']"
             :profileData="profileData" :auxData="haloData['lastSeen']"></HaloDataTable>
         </v-tab-item>
+        <v-icon
+          color="primary">
+          mdi-information-outline
+        </v-icon>
       </v-tabs-items>
     </v-card> 
     <h3 style="margin-top: 16px">😫😫 Players with Missing Data: 😫😫</h3>
@@ -189,9 +207,18 @@
   </div>
 </template>
 
-<style scoped>
+<style>
   .copyButton {
     margin-left: 16px;
+  }
+
+  .haloTabs .v-slide-group__prev {
+    display: none !important;
+  }
+
+  .recentWeek {
+    margin-top: 16px;
+  margin-left: 16px;
   }
 
 </style>

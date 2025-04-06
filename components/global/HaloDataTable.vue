@@ -101,10 +101,10 @@
                 <tr v-for="(datum, index) in getDataToShow() " :key="datum.name">
                 <td class="gamerCell">    
                     <v-icon :color="getMedalColor(index)" class="medal">mdi-circle-medium</v-icon>
-                    <img class="banner" :src="profileData[datum.name]"/>
+                    <img :class="['banner', {smallBanner: $vuetify.breakpoint.name == 'xs'}]" :src="profileData[datum.name]"/>
                 </td>
 
-                <td>{{ auxData != null && title == "We Miss You" ? auxData[datum.name] : datum.value }}</td>
+                <td class="gamerScore">{{ auxData != null && title == "We Miss You" ? auxData[datum.name] : datum.value }}</td>
                 </tr>
             </tbody>
             
@@ -118,13 +118,21 @@
     .tableTitle {
         font-style: normal !important;
         margin-left: 16px;
-        margin-top: 24px;
+        margin-top: 16px;
     }
 
     .gamerCell {
       height: 41px !important; 
       display: flex;
-      padding-left: 8px !important;
+      padding-left: 2px !important;
+      margin-right: 0px;
+  padding-right: 0px !important;
+  align-items: center;
+    }
+
+    .gamerScore {
+        margin-right: 0px;
+        padding-right: 0px !important;
     }
 
     .expandLink {
@@ -137,10 +145,16 @@
     }
 
     .medal {
-        margin-right: 8px;
+        margin-right: 2px;
     }
 
     .banner {
         height: 39px;
     }
+
+    .banner.smallBanner {
+        height: 30px;
+    }
+
+
 </style>
