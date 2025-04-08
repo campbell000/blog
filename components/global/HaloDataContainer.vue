@@ -24,7 +24,7 @@
       copyToClipboard(e) {
         e.preventDefault();
         e.stopPropagation();
-        let copiedString = "########### Halo Stats for"+ this.haloData["weekly"]["week"]+" ###########\n\n";
+        let copiedString = "###### Halo Stats for "+ this.haloData["weekly"]["week"]+" ######\n";
         for (let i = 0; i < Object.keys(this.catKeys).length; i++) {
           const catKey = Object.keys(this.catKeys)[i];
           copiedString += "===== "+this.catKeys[catKey]['title']+" =====\n"
@@ -34,8 +34,13 @@
           } 
           copiedString += "\n";
         }
+
+        copiedString += "===== Best Boodies =====\n";
+        for (let i = 0; i < this.pairwiseDataWeek.length; i++) {
+          copiedString += this.pairwiseDataWeek[i].name+": "+this.pairwiseDataWeek[i].value+"\n";
+        }
         navigator.clipboard.writeText(copiedString); 
-      }
+      } 
     },
 
     mounted() {
@@ -43,7 +48,6 @@
         this.haloData = response.data;
         Object.keys(this.haloData['profiles']).forEach((gamertag) => {
           if (this.haloData['profiles'][gamertag]) {
-            console.log(gamertag);
             this.profileData[gamertag] = this.convertb64ToBlobUrl(this.haloData['profiles'][gamertag], 'image/png');
           }
         });
@@ -79,12 +83,36 @@
             }
           });
         });
+
+        let keys = Object.keys(this.haloData["pairData"]);
+        let sortedKeys = keys.sort((a, b) => this.haloData["pairData"][b].value - this.haloData["pairData"][a].value);
+        this.pairwiseData = []
+        sortedKeys.forEach(key => {
+          var datum = {
+            "name" : key,
+            "value" : this.haloData["pairData"][key].name + ' ('+this.haloData["pairData"][key].value+' wins)'
+          };
+          this.pairwiseData.push(datum);
+        });
+
+        keys = Object.keys(this.haloData["pairDataWeek"]);
+        sortedKeys = keys.sort((a, b) => this.haloData["pairDataWeek"][b].value - this.haloData["pairDataWeek"][a].value);
+        this.pairwiseDataWeek = []
+        sortedKeys.forEach(key => {
+          var datum = {
+            "name" : key,
+            "value" : this.haloData["pairDataWeek"][key].name + ' ('+this.haloData["pairDataWeek"][key].value+' wins)'
+          };
+          this.pairwiseDataWeek.push(datum);
+        });
       });
     },
     data() {
       return {
         haloData: null,
         profileData: {},
+        pairwiseData: {},
+        pairwiseDataWeek: {},
         medalists: {
           weekly: {},
           monthly: {}
@@ -106,26 +134,26 @@
             description: "Average Number of Wins per Game",
             scoreName: "Luck"
           },
-          "badOmen": {
-            title: "Bad Omens",
-            description: "Average Number of Losses per Game",
-            scoreName: "Curse Strength"
-          },
+          //"badOmen": {
+          //  title: "Bad Omens",
+          //  description: "Average Number of Losses per Game",
+          //  scoreName: "Curse Strength"
+          //},
           "watchYourStep": {
             title: "Watch Your Step",
             description: "Average Number of Deaths per Game",
             scoreName: "# Slipped Banana Peels"
           },
-          "looseCannon": {
-            title: "Loose Cannons (Who Don't Play by the Rules)",
-            description: "Average number of kills AND deaths per game",
-            scoreName: "Chaos Factor"
-          },
-          "killingMachine": {
-            title: "Killing Machines",
-            description: "Average Number of Kills per Game",
-            scoreName: "Kills per Game"
-          },
+          //"looseCannon": {
+          //  title: "Loose Cannons (Who Don't Play by the Rules)",
+          //  description: "Average number of kills AND deaths per game",
+          //  scoreName: "Chaos Factor"
+          //},
+          //"killingMachine": {
+          //  title: "Killing Machines",
+          //  description: "Average Number of Kills per Game",
+          //  scoreName: "Kills per Game"
+          ///},
           "sharpshooter": {
             title: "Sharpshooters",
             description: "Average Number of Headshots per Game",
@@ -160,6 +188,8 @@
 
       <v-tabs-items v-model="tab" class="haloTabs">
         <v-tab-item key="month">
+          <HaloDataTable v-if="pairwiseData" :data="pairwiseData" :title="'Best Boodies'" :scoreName="'Boody'"
+          :description="'Pairs of players with the most wins'"  :profileData="profileData"></HaloDataTable>
           <HaloDataTable v-for="(catKey) in Object.keys(catKeys)"  :data="haloData['monthly'][catKey]" 
             :title="catKeys[catKey]['title']" :scoreName="catKeys[catKey]['scoreName']" :description="catKeys[catKey]['description']"
             :profileData="profileData" :auxData="haloData['lastSeen']"></HaloDataTable>
@@ -186,18 +216,14 @@
               </template>
               <span>Copy Results to Clipboard</span>
             </v-tooltip>
-
-            
-            
           </div>
+          <HaloDataTable v-if="pairwiseDataWeek" :data="pairwiseDataWeek" :title="'Best Boodies'" :scoreName="'Boody'"
+          :description="'Pairs of players with the most wins'"  :profileData="profileData"></HaloDataTable>
           <HaloDataTable v-for="(catKey) in Object.keys(catKeys)"  :data="haloData['weekly']['data'][catKey]" 
             :title="catKeys[catKey]['title']" :scoreName="catKeys[catKey]['scoreName']" :description="catKeys[catKey]['description']"
             :profileData="profileData" :auxData="haloData['lastSeen']"></HaloDataTable>
+
         </v-tab-item>
-        <v-icon
-          color="primary">
-          mdi-information-outline
-        </v-icon>
       </v-tabs-items>
     </v-card> 
     <h3 style="margin-top: 16px">😫😫 Players with Missing Data: 😫😫</h3>

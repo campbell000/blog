@@ -30,7 +30,6 @@
             this.data.sort(function(a, b) {
                 const gamerTagA = a.name;
                 const gamerTagB = b.name;
-                console.log(thizz.auxData[gamerTagA]);
                 if (thizz.auxData[gamerTagA] < thizz.auxData[gamerTagB]) return -1;
                 if (thizz.auxData[gamerTagA] > thizz.auxData[gamerTagB]) return 1;
                 return 0;
@@ -92,7 +91,7 @@
                 <th class="tableHeader">
                     Gamer
                 </th>
-                <th class="tableHeader">
+                <th class="tableHeader gamerScore">
                     {{scoreName}} 
                 </th>
                 </tr>
@@ -111,6 +110,7 @@
         </template>
     </v-simple-table>
     <a v-if="!expanded" class="expandLink" @click="expanded = true">+ Show All Results</a>
+    <a v-if="expanded" class="expandLink" @click="expanded = false">- Collapse Results</a>
   </div>
 </template>
 
@@ -132,7 +132,8 @@
 
     .gamerScore {
         margin-right: 0px;
-        padding-right: 0px !important;
+        padding-right: 12px !important;
+        text-align: right !important; 
     }
 
     .expandLink {

@@ -14,10 +14,13 @@ tags:
 
 ## FAQs
 ### Such slander! Where did you get this data?
-Directly from 343's half-functioning, busted, stripped-of-its-funding API. If you have an issue with the data, following this link: https://support.halowaypoint.com/hc/en-us. I'm sure they'll get back to you!
+Directly from 343's half-functioning, busted, stripped-of-its-funding API. Complain to Microsoft, not to me.
 
 ### When does this get updated?
-Every Wednesday night or thursday morning. The entire process is automated (i.e. gathering of data, posting to this site)
+An automated script runs every Wednesday night to update this page.
+
+### Do "off-cycle" games count towards the stats (i.e. socials, weekends, etc)?
+NOOOOOOOOOOOOOO. Only games played during regulation Halo Night count towards these stats.
 
 ### What do the categories mean?
 Hover over the "i" button for each category for an explanation
