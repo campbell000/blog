@@ -41,6 +41,7 @@
         }
         navigator.clipboard.writeText(copiedString); 
       } 
+      
     },
 
     mounted() {
@@ -188,11 +189,11 @@
 
       <v-tabs-items v-model="tab" class="haloTabs">
         <v-tab-item key="month">
-          <HaloDataTable v-if="pairwiseData" :data="pairwiseData" :title="'Best Boodies'" :scoreName="'Boody'"
-          :description="'Pairs of players with the most wins'"  :profileData="profileData"></HaloDataTable>
           <HaloDataTable v-for="(catKey) in Object.keys(catKeys)"  :data="haloData['monthly'][catKey]" 
             :title="catKeys[catKey]['title']" :scoreName="catKeys[catKey]['scoreName']" :description="catKeys[catKey]['description']"
             :profileData="profileData" :auxData="haloData['lastSeen']"></HaloDataTable>
+          <HaloDataTable v-if="pairwiseData" :data="pairwiseData" :title="'Best Boodies'" :scoreName="'Boody'"
+          :description="'Pairs of players with the most wins'"  :profileData="profileData"></HaloDataTable>
         </v-tab-item>
         <v-tab-item key="recent">
           <div class="recentWeek">Week of {{ haloData["weekly"]["week"]}}
@@ -217,11 +218,11 @@
               <span>Copy Results to Clipboard</span>
             </v-tooltip>
           </div>
-          <HaloDataTable v-if="pairwiseDataWeek" :data="pairwiseDataWeek" :title="'Best Boodies'" :scoreName="'Boody'"
-          :description="'Pairs of players with the most wins'"  :profileData="profileData"></HaloDataTable>
           <HaloDataTable v-for="(catKey) in Object.keys(catKeys)"  :data="haloData['weekly']['data'][catKey]" 
             :title="catKeys[catKey]['title']" :scoreName="catKeys[catKey]['scoreName']" :description="catKeys[catKey]['description']"
             :profileData="profileData" :auxData="haloData['lastSeen']"></HaloDataTable>
+          <HaloDataTable v-if="pairwiseDataWeek" :data="pairwiseDataWeek" :title="'Best Boodies'" :scoreName="'Boody'"
+            :description="'Pairs of players with the most wins'"  :profileData="profileData"></HaloDataTable>
 
         </v-tab-item>
       </v-tabs-items>

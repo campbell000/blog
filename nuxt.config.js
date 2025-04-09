@@ -92,6 +92,7 @@ export default {
         dark: {
           background: "#262626",
           textColor: '#ddd',
+          headerColor: "#fff",
           primary: "#7fc3b0",
           accent: colors.grey.darken3,
           secondary: "#ac8d9d",
@@ -108,6 +109,7 @@ export default {
         },
         light: {
           background: "#FFF",
+          headerColor: "#000",
           primary: '#46797b',
           textColor: '#262626',
           secondary: '#523a47',

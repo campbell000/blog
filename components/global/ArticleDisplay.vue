@@ -243,6 +243,10 @@
     margin-right: 1px;
   }
 
+  .nuxt-content h1, .nuxt-content h2, .nuxt-content h3 {
+    color: var(--v-headerColor-base) !important;
+  }
+
   h1 {
     font-weight: bold;
     font-size: 36px;
