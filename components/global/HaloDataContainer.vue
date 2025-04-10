@@ -136,11 +136,11 @@
             description: "Average Number of Wins per Game",
             scoreName: "Luck"
           },
-          //"badOmen": {
-          //  title: "Bad Omens",
-          //  description: "Average Number of Losses per Game",
-          //  scoreName: "Curse Strength"
-          //},
+          "badOmen": {
+            title: "Bad Omens",
+            description: "Average Number of Losses per Game",
+            scoreName: "Curse Strength"
+          },
           "watchYourStep": {
             title: "Watch Your Step",
             description: "Average Number of Deaths per Game",
