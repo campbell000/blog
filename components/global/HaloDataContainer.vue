@@ -39,9 +39,10 @@
         for (let i = 0; i < this.pairwiseDataWeek.length; i++) {
           copiedString += this.pairwiseDataWeek[i].name+": "+this.pairwiseDataWeek[i].value+"\n";
         }
+        copiedString += "\n\nSource: https://nevermeant.dev/halo-tracker"
         navigator.clipboard.writeText(copiedString); 
       } 
-      
+
     },
 
     mounted() {
