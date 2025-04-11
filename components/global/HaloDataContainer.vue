@@ -146,11 +146,11 @@
             description: "Average Number of Deaths per Game",
             scoreName: "# Slipped Banana Peels"
           },
-          //"looseCannon": {
-          //  title: "Loose Cannons (Who Don't Play by the Rules)",
-          //  description: "Average number of kills AND deaths per game",
-          //  scoreName: "Chaos Factor"
-          //},
+          "looseCannon": {
+            title: "Loose Cannons (Who Don't Play by the Rules)",
+            description: "Average number of kills AND deaths per game",
+            scoreName: "Chaos Factor"
+          },
           //"killingMachine": {
           //  title: "Killing Machines",
           //  description: "Average Number of Kills per Game",
@@ -161,11 +161,11 @@
             description: "Average Number of Headshots per Game",
             scoreName: "Headshots"
           },
-          "perfectAttendance": {
-            title: "Perfect Attendance Nerds",
-            description: "Most games played during Halo Night (tm)",
-            scoreName: "Games Played"
-          },
+          //"perfectAttendance": {
+          //  title: "Perfect Attendance Nerds",
+          //  description: "Most games played during Halo Night (tm)",
+          //  scoreName: "Games Played"
+          //},
           "weMissYou": {
             title: "We Miss You",
             description: "Please Play Halo Again",
