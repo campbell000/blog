@@ -24,20 +24,30 @@
       copyToClipboard(e) {
         e.preventDefault();
         e.stopPropagation();
-        let copiedString = "###### Halo Stats for "+ this.haloData["weekly"]["week"]+" ######\n";
+        let copiedString = "### Halo Stats for "+ this.haloData["weekly"]["week"]+"\n";
         for (let i = 0; i < Object.keys(this.catKeys).length; i++) {
           const catKey = Object.keys(this.catKeys)[i];
-          copiedString += "===== "+this.catKeys[catKey]['title']+" =====\n"
+          copiedString += "== "+this.catKeys[catKey]['title']+"\n"
+          let count = 0;
           for (let j = 0; j < this.haloData['weekly']['data'][catKey].length; j++) {
             const datum = this.haloData['weekly']['data'][catKey][j];
             copiedString += datum.name+": "+datum.value+"\n";
+            count += 1;
+            if (count >= 3) {
+              break;
+            }
           } 
           copiedString += "\n";
         }
 
-        copiedString += "===== Best Boodies =====\n";
+        copiedString += "== Best Boodies\n";
+        let count = 0;
         for (let i = 0; i < this.pairwiseDataWeek.length; i++) {
           copiedString += this.pairwiseDataWeek[i].name+": "+this.pairwiseDataWeek[i].value+"\n";
+          count += 1;
+          if (count >= 3) {
+              break;
+            }
         }
         copiedString += "\n\nSource: https://nevermeant.dev/halo-tracker"
         navigator.clipboard.writeText(copiedString); 

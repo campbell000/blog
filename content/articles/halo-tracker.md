@@ -1,7 +1,7 @@
 ---
 title: "Wednesday Night Halo Crew Stats"
 shouldShowTableOfContents: true
-shouldShowUpdatedAt: false
+shouldShowUpdatedAt: true
 shouldHideDonate: true
 summary: "A FUN and LIGHTHEARTED stat tracker for the Halo Night Boodies"
 titleImage: /halotracker.jpg
