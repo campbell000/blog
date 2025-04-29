@@ -15,7 +15,7 @@ tags:
 
 ## FAQs
 ### Such slander! Where did you get this data?
-Directly from 343's half-functioning, busted, stripped-of-its-funding API. Complain to Microsoft, not to me.
+Directly from 343's half-functioning, busted API. Complain to Microsoft, not to me.
 
 ### When does this get updated?
 An automated process runs every Wednesday night to update this page.
