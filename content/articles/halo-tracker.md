@@ -3,7 +3,7 @@ title: "Wednesday Night Halo Crew Stats"
 shouldShowTableOfContents: true
 shouldShowUpdatedAt: true
 shouldHideDonate: true
-summary: "A FUN and LIGHTHEARTED stat tracker for the Halo Night Boodies"
+summary: "A FUN and LIGHT-HEARTED stat tracker for the Halo Night Boodies"
 titleImage: /halotracker.jpg
 createdAt: "2025-03-30T00:00:00.140Z"
 tags: 
